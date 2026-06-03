@@ -51,7 +51,7 @@ def load_script(path: Path) -> str:
     text = re.split(r"\n#+\s*SOURCES", text, flags=re.I)[0]
     # Strip markdown headings/inline tags that shouldn't be spoken.
     text = re.sub(r"^\s*#.*$", "", text, flags=re.M)        # headings
-    text = re.sub(r"\[HUMAN LAYER\]", "", text)              # inline marker
+    text = re.sub(r"\[[^\]]*\]", "", text)                   # strip all bracketed stage directions
     text = re.sub(r"\*\*|\*|`", "", text)                    # md emphasis
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     return text
