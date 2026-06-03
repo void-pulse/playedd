@@ -35,5 +35,5 @@ Tuned for natural, non-robotic narration:
 ## Voice ID registry (fill in after you pick)
 | Label | Voice name | Voice ID | Used for |
 |---|---|---|---|
-| NARRATOR_A | | | Follow The Money, The Scam Explained |
-| NARRATOR_B | | | The Psychology Trick, Who Owns This |
+| NARRATOR_A | Keanan - Natural, Teacher | 2fe8mwpfJcqvj9RGBsC1 | Follow The Money, The Scam Explained |
+| NARRATOR_B | Jason Jordan | RCvfNaeRVixdBMcmd2Wl | The Psychology Trick, Who Owns This |

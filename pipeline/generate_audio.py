@@ -32,8 +32,8 @@ load_dotenv()
 
 # Fill these in after you audition voices (brand/VOICE.md). Raw ElevenLabs voice IDs.
 VOICE_IDS = {
-    "NARRATOR_A": "",  # e.g. Declassified / Cover Story narrator
-    "NARRATOR_B": "",  # e.g. They Built It First / Wait That's Real narrator
+    "NARRATOR_A": "2fe8mwpfJcqvj9RGBsC1",  # Keanan - Natural, Teacher
+    "NARRATOR_B": "RCvfNaeRVixdBMcmd2Wl",  # Jason Jordan
 }
 
 # Channel-tuned, natural-narration settings (see brand/VOICE.md).
