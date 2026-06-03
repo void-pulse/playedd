@@ -1,0 +1,29 @@
+# Secrets
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated media (keep these out of git; archive separately)
+episodes/**/audio/*.mp3
+episodes/**/audio/*.wav
+episodes/**/images/*.png
+episodes/**/images/*.jpg
+episodes/**/*.srt
+episodes/**/*.vtt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Keep the template's empty folders tracked
+!episodes/_template/audio/.gitkeep
+!episodes/_template/images/.gitkeep
