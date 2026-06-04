@@ -1,1 +1,500 @@
-placeholder - parse_timestamps.py overwrites this
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.19,
+    "text": "When you buy a movie ticket, the theatre barely keeps any of"
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 2.89,
+    "text": "it. On a big opening weekend, almost all of that money goes straight"
+  },
+  {
+    "index": 3,
+    "timestamp": "0:07",
+    "seconds": 7.11,
+    "text": "back to the studio. The theatre is lucky to keep a few cents on the dollar."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:13",
+    "seconds": 12.67,
+    "text": "So here's the real question."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:15",
+    "seconds": 14.65,
+    "text": "If they make almost nothing on the movie, how is the theatre"
+  },
+  {
+    "index": 6,
+    "timestamp": "0:18",
+    "seconds": 17.91,
+    "text": "still open?"
+  },
+  {
+    "index": 7,
+    "timestamp": "0:20",
+    "seconds": 19.55,
+    "text": "The answer is sitting in your lap."
+  },
+  {
+    "index": 8,
+    "timestamp": "0:22",
+    "seconds": 21.95,
+    "text": "It's the popcorn."
+  },
+  {
+    "index": 9,
+    "timestamp": "0:24",
+    "seconds": 23.67,
+    "text": "Start with the ticket because it's worse than you think."
+  },
+  {
+    "index": 10,
+    "timestamp": "0:27",
+    "seconds": 27.24,
+    "text": "When a new blockbuster opens, the studio sets the terms and the"
+  },
+  {
+    "index": 11,
+    "timestamp": "0:31",
+    "seconds": 31.21,
+    "text": "terms are brutal."
+  },
+  {
+    "index": 12,
+    "timestamp": "0:33",
+    "seconds": 32.81,
+    "text": "For the first couple of weeks, the studio can take most of"
+  },
+  {
+    "index": 13,
+    "timestamp": "0:35",
+    "seconds": 35.43,
+    "text": "the money from every ticket sold."
+  },
+  {
+    "index": 14,
+    "timestamp": "0:38",
+    "seconds": 37.59,
+    "text": "The theatre's slice only grows the longer the film sticks around, which"
+  },
+  {
+    "index": 15,
+    "timestamp": "0:42",
+    "seconds": 42.03,
+    "text": "is exactly why Some Movie You Forgot existed, is still quietly playing"
+  },
+  {
+    "index": 16,
+    "timestamp": "0:47",
+    "seconds": 46.69,
+    "text": "on screen nine in week six."
+  },
+  {
+    "index": 17,
+    "timestamp": "0:49",
+    "seconds": 48.83,
+    "text": "That's not leftover scheduling, that's the theatre finally getting paid."
+  },
+  {
+    "index": 18,
+    "timestamp": "0:52",
+    "seconds": 52.33,
+    "text": "And raising ticket prices barely helps, because about 70 cents of every"
+  },
+  {
+    "index": 19,
+    "timestamp": "0:58",
+    "seconds": 57.75,
+    "text": "extra dollar gets handed right back to the studio too."
+  },
+  {
+    "index": 20,
+    "timestamp": "1:01",
+    "seconds": 61.29,
+    "text": "So after rent, staff, air conditioning for a giant dark room, and"
+  },
+  {
+    "index": 21,
+    "timestamp": "1:06",
+    "seconds": 65.63,
+    "text": "a projector that costs more than a house, the average theatre runs"
+  },
+  {
+    "index": 22,
+    "timestamp": "1:09",
+    "seconds": 69.45,
+    "text": "on a profit margin of around 4%."
+  },
+  {
+    "index": 23,
+    "timestamp": "1:13",
+    "seconds": 72.71,
+    "text": "A vending machine in a hospital does better than that, so they"
+  },
+  {
+    "index": 24,
+    "timestamp": "1:16",
+    "seconds": 76.45,
+    "text": "went hunting for the one thing studios don't get a cut of."
+  },
+  {
+    "index": 25,
+    "timestamp": "1:21",
+    "seconds": 80.63,
+    "text": "Snacks. A serving of popcorn costs the theatre under 50 cents to make."
+  },
+  {
+    "index": 26,
+    "timestamp": "1:26",
+    "seconds": 86.17,
+    "text": "Kernels are dirt cheap, they puff up to 20 times their size,"
+  },
+  {
+    "index": 27,
+    "timestamp": "1:30",
+    "seconds": 89.63,
+    "text": "and a squirt of fake butter finishes the job."
+  },
+  {
+    "index": 28,
+    "timestamp": "1:32",
+    "seconds": 92.43,
+    "text": "Then they sell it to you for $9."
+  },
+  {
+    "index": 29,
+    "timestamp": "1:35",
+    "seconds": 94.57,
+    "text": "That is a markup of nearly 1300%."
+  },
+  {
+    "index": 30,
+    "timestamp": "1:38",
+    "seconds": 98.29,
+    "text": "And you'll pay it because where exactly are you going to go?"
+  },
+  {
+    "index": 31,
+    "timestamp": "1:43",
+    "seconds": 102.69,
+    "text": "You're sealed in a dark box for two hours, with one snack"
+  },
+  {
+    "index": 32,
+    "timestamp": "1:46",
+    "seconds": 105.85,
+    "text": "counter and a strict no outside food rule."
+  },
+  {
+    "index": 33,
+    "timestamp": "1:49",
+    "seconds": 108.81,
+    "text": "That's not hospitality."
+  },
+  {
+    "index": 34,
+    "timestamp": "1:51",
+    "seconds": 110.79,
+    "text": "That's a monopoly the size of a lobby."
+  },
+  {
+    "index": 35,
+    "timestamp": "1:54",
+    "seconds": 114.01,
+    "text": "The margin on that popcorn sits around 85%."
+  },
+  {
+    "index": 36,
+    "timestamp": "1:58",
+    "seconds": 118.17,
+    "text": "We don't have to guess at that."
+  },
+  {
+    "index": 37,
+    "timestamp": "2:00",
+    "seconds": 120.25,
+    "text": "AMC's own financial filings showed more than $800 million in food and"
+  },
+  {
+    "index": 38,
+    "timestamp": "2:05",
+    "seconds": 125.31,
+    "text": "drink sales against about $150 million in cost."
+  },
+  {
+    "index": 39,
+    "timestamp": "2:10",
+    "seconds": 129.55,
+    "text": "An 81% margin straight off the books of the biggest chain"
+  },
+  {
+    "index": 40,
+    "timestamp": "2:13",
+    "seconds": 133.39,
+    "text": "in the country."
+  },
+  {
+    "index": 41,
+    "timestamp": "2:15",
+    "seconds": 134.95,
+    "text": "Here's the line that flips the whole thing."
+  },
+  {
+    "index": 42,
+    "timestamp": "2:18",
+    "seconds": 137.95,
+    "text": "Concessions are only about a fifth of what a theatre takes in,"
+  },
+  {
+    "index": 43,
+    "timestamp": "2:22",
+    "seconds": 141.51,
+    "text": "but they're nearly half of its actual profit."
+  },
+  {
+    "index": 44,
+    "timestamp": "2:24",
+    "seconds": 144.47,
+    "text": "The movie fills the seats, the popcorn pays the rent."
+  },
+  {
+    "index": 45,
+    "timestamp": "2:29",
+    "seconds": 148.63,
+    "text": "As one theatre owner whose family had been in the business since"
+  },
+  {
+    "index": 46,
+    "timestamp": "2:33",
+    "seconds": 152.51,
+    "text": "1908 put it, we left the movie business, we're now in the"
+  },
+  {
+    "index": 47,
+    "timestamp": "2:36",
+    "seconds": 156.19,
+    "text": "popcorn business."
+  },
+  {
+    "index": 48,
+    "timestamp": "2:38",
+    "seconds": 157.91,
+    "text": "And now the part almost nobody knows."
+  },
+  {
+    "index": 49,
+    "timestamp": "2:42",
+    "seconds": 161.63,
+    "text": "The thing keeping theatres alive today is the exact thing they once"
+  },
+  {
+    "index": 50,
+    "timestamp": "2:46",
+    "seconds": 165.93,
+    "text": "tried to ban. 100 years ago, popcorn was forbidden inside movie theatres."
+  },
+  {
+    "index": 51,
+    "timestamp": "2:52",
+    "seconds": 171.61,
+    "text": "Owners wanted to feel like grand opera houses, plush carpets, chandeliers, a"
+  },
+  {
+    "index": 52,
+    "timestamp": "2:57",
+    "seconds": 176.69,
+    "text": "certain kind of crowd."
+  },
+  {
+    "index": 53,
+    "timestamp": "2:58",
+    "seconds": 178.29,
+    "text": "Popcorn was loud, messy and smelled like the street."
+  },
+  {
+    "index": 54,
+    "timestamp": "3:02",
+    "seconds": 182.37,
+    "text": "So they banned it outright."
+  },
+  {
+    "index": 55,
+    "timestamp": "3:04",
+    "seconds": 184.47,
+    "text": "Vendors set up carts on the sidewalk and some theatres made you"
+  },
+  {
+    "index": 56,
+    "timestamp": "3:09",
+    "seconds": 188.99,
+    "text": "check your popcorn at the coke counter like a jacket."
+  },
+  {
+    "index": 57,
+    "timestamp": "3:12",
+    "seconds": 192.33,
+    "text": "Then the Great Depression hit, money disappeared and a movie ticket became"
+  },
+  {
+    "index": 58,
+    "timestamp": "3:17",
+    "seconds": 197.25,
+    "text": "one of the only escapes people could still afford."
+  },
+  {
+    "index": 59,
+    "timestamp": "3:21",
+    "seconds": 201.21,
+    "text": "A bag of popcorn cost a nickel, that much they could afford."
+  },
+  {
+    "index": 60,
+    "timestamp": "3:25",
+    "seconds": 205.49,
+    "text": "And the theatres that swallowed their pride and started selling it survived."
+  },
+  {
+    "index": 61,
+    "timestamp": "3:30",
+    "seconds": 210.35,
+    "text": "The ones too proud to sell it died."
+  },
+  {
+    "index": 62,
+    "timestamp": "3:33",
+    "seconds": 213.05,
+    "text": "One of the first to really crack it was Julia Braden, a"
+  },
+  {
+    "index": 63,
+    "timestamp": "3:37",
+    "seconds": 216.93,
+    "text": "widow in Kansas City who talked her way into a theatre lobby"
+  },
+  {
+    "index": 64,
+    "timestamp": "3:40",
+    "seconds": 220.19,
+    "text": "and built a popcorn empire while fancier theatres around her went broke."
+  },
+  {
+    "index": 65,
+    "timestamp": "3:46",
+    "seconds": 226.43,
+    "text": "There was even a Dallas chain that put popcorn machines in 80"
+  },
+  {
+    "index": 66,
+    "timestamp": "3:50",
+    "seconds": 230.45,
+    "text": "of its theatres but refused to put them in its five fanciest"
+  },
+  {
+    "index": 67,
+    "timestamp": "3:55",
+    "seconds": 234.91,
+    "text": "locations because those were too classy for popcorn."
+  },
+  {
+    "index": 68,
+    "timestamp": "4:00",
+    "seconds": 239.69,
+    "text": "Within two years, the 80 were thriving."
+  },
+  {
+    "index": 69,
+    "timestamp": "4:03",
+    "seconds": 242.55,
+    "text": "The five holdouts were bleeding money."
+  },
+  {
+    "index": 70,
+    "timestamp": "4:05",
+    "seconds": 245.33,
+    "text": "Then World War II rationed sugar, which gutted candy and soda."
+  },
+  {
+    "index": 71,
+    "timestamp": "4:10",
+    "seconds": 250.21,
+    "text": "Popcorn needed no sugar, so it walked in and took the throne."
+  },
+  {
+    "index": 72,
+    "timestamp": "4:15",
+    "seconds": 254.65,
+    "text": "By 1945, more than half the popcorn eaten in America was eaten"
+  },
+  {
+    "index": 73,
+    "timestamp": "4:19",
+    "seconds": 258.65,
+    "text": "inside a movie theatre."
+  },
+  {
+    "index": 74,
+    "timestamp": "4:21",
+    "seconds": 260.71,
+    "text": "So here's the real shape of the business."
+  },
+  {
+    "index": 75,
+    "timestamp": "4:23",
+    "seconds": 262.63,
+    "text": "The movie is the bait, the popcorn is the trap."
+  },
+  {
+    "index": 76,
+    "timestamp": "4:26",
+    "seconds": 265.71,
+    "text": "The whole building, the lobby, the buttery smell pumped into the air,"
+  },
+  {
+    "index": 77,
+    "timestamp": "4:30",
+    "seconds": 270.35,
+    "text": "the path that funnels you right past the counter, all of it"
+  },
+  {
+    "index": 78,
+    "timestamp": "4:34",
+    "seconds": 273.51,
+    "text": "is engineered to sell you the snack."
+  },
+  {
+    "index": 79,
+    "timestamp": "4:37",
+    "seconds": 276.79,
+    "text": "The film is just the reason you walked in the door."
+  },
+  {
+    "index": 80,
+    "timestamp": "4:40",
+    "seconds": 279.59,
+    "text": "So next time you grumble about a $9 popcorn, here's the truth."
+  },
+  {
+    "index": 81,
+    "timestamp": "4:44",
+    "seconds": 283.83,
+    "text": "You're not overpaying for a snack."
+  },
+  {
+    "index": 82,
+    "timestamp": "4:47",
+    "seconds": 287.09,
+    "text": "You're paying the theatre's rent."
+  },
+  {
+    "index": 83,
+    "timestamp": "4:50",
+    "seconds": 289.97,
+    "text": "The ticket was never the point. You got played."
+  }
+]

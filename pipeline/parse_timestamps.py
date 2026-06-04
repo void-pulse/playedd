@@ -22,6 +22,20 @@ import re
 import sys
 from pathlib import Path
 
+# TurboScribe injects a promo line into free-tier exports. Strip it so it never
+# becomes narration text or an image prompt. Case-insensitive, tolerant of spacing.
+WATERMARK_RE = re.compile(
+    r"\(\s*Transcribed by TurboScribe\.\s*Go Unlimited to remove this message\.\s*\)",
+    re.IGNORECASE,
+)
+
+
+def strip_watermark(text: str) -> str:
+    """Remove the TurboScribe watermark parenthetical and any whitespace it leaves behind."""
+    cleaned = WATERMARK_RE.sub("", text)
+    cleaned = re.sub(r"\s{2,}", " ", cleaned)  # collapse a gap left mid-line
+    return cleaned.strip()
+
 
 def hms_to_seconds(ts: str) -> float:
     """Accepts HH:MM:SS,mmm / HH:MM:SS.mmm / MM:SS / M:SS."""
@@ -72,6 +86,7 @@ def parse_srt_or_vtt(text: str):
         start = hms_to_seconds(m.group(1))
         caption = " ".join(lines[1:]).strip()
         caption = re.sub(r"<[^>]+>", "", caption)  # strip vtt tags
+        caption = strip_watermark(caption)
         if caption:
             out.append((start, caption))
     return out
@@ -87,7 +102,9 @@ def parse_plain_txt(text: str):
     for line in text.splitlines():
         m = line_re.match(line)
         if m:
-            out.append((hms_to_seconds(m.group(1)), m.group(2)))
+            caption = strip_watermark(m.group(2))
+            if caption:
+                out.append((hms_to_seconds(m.group(1)), caption))
     return out
 
 
