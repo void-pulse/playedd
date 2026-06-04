@@ -26,6 +26,7 @@ import tempfile
 from pathlib import Path
 
 MIN_DUR = 0.40  # floor so a tiny segment doesn't flash by
+SYNC_OFFSET_SEC = 0.25  # shift every image LATER by this much (images were appearing early)
 
 
 def audio_duration(path: Path) -> float:
@@ -67,11 +68,18 @@ def main():
     n = len(segments)
     audio_len = audio_duration(audio_path)
 
+    # Shift every image's start LATER by SYNC_OFFSET_SEC, but pin the first image to
+    # 0.0 (no blank gap at the top) and let the last image run to the end of audio.
+    # Net effect: image 1 holds SYNC_OFFSET_SEC longer, the last image is that much
+    # shorter, and every cut in between lands SYNC_OFFSET_SEC later.
+    starts = [0.0 if i == 0 else float(seg["seconds"]) + SYNC_OFFSET_SEC
+              for i, seg in enumerate(segments)]
+
     # Duration of each image = gap to the next image's start; last holds to end of audio.
     items = []
     for i, seg in enumerate(segments):
-        start = float(seg["seconds"])
-        end = float(segments[i + 1]["seconds"]) if i + 1 < n else audio_len
+        start = starts[i]
+        end = starts[i + 1] if i + 1 < n else audio_len
         dur = max(MIN_DUR, round(end - start, 3))
         items.append((find_image(images_dir, seg["index"]), dur))
 
