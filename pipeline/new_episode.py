@@ -17,6 +17,17 @@ ROOT = Path(__file__).resolve().parents[1]
 EP_DIR = ROOT / "episodes"
 TEMPLATE = EP_DIR / "_template"
 
+# YouTube upload metadata. Brand tags (see brand/TAGS.md) are reused on every
+# episode; video-specific tags get prepended before them on the TAGS line.
+UPLOAD_TEMPLATE = (
+    "TITLE:\n"
+    "CATEGORY: Education\n"
+    "TAGS: Playedd, how the world plays you, hidden business models\n"
+    "DESCRIPTION:\n"
+    "\n"
+    "(video-specific tags get prepended before the brand tags on the TAGS line)\n"
+)
+
 
 def slugify(s: str) -> str:
     s = s.lower().strip()
@@ -50,6 +61,10 @@ def main():
                                             .replace("{{TITLE}}", slug.replace("-", " ").title()),
             encoding="utf-8",
         )
+    upload = dest / "upload.md"
+    if not upload.exists():
+        upload.write_text(UPLOAD_TEMPLATE, encoding="utf-8")
+
     print(f"Created {dest}")
     print("Workflow: see docs/WORKFLOW.md")
 
