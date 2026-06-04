@@ -73,9 +73,9 @@ def image_args(model: str, prompt: str) -> dict:
     if "gpt-image" in model:
         return {
             "prompt": prompt,
-            "image_size": "1536x1024",   # 16:9-ish landscape
+            "image_size": "landscape_16_9",  # fal enum; accepts dict or one of the named sizes
             "num_images": 1,
-            "quality": "medium",         # medium is the cost/quality sweet spot
+            "quality": "medium",             # medium is the cost/quality sweet spot
         }
     # flux fallback
     return {
