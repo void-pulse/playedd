@@ -1,1 +1,590 @@
-placeholder - parse_timestamps.py overwrites this
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.25,
+    "text": "That diamond engagement ring you think is"
+  },
+  {
+    "index": 2,
+    "timestamp": "0:02",
+    "seconds": 2.15,
+    "text": "some ancient romantic tradition?"
+  },
+  {
+    "index": 3,
+    "timestamp": "0:05",
+    "seconds": 5.03,
+    "text": "It's younger than sliced bread."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:07",
+    "seconds": 7.47,
+    "text": "It was invented in 1947 by an"
+  },
+  {
+    "index": 5,
+    "timestamp": "0:11",
+    "seconds": 10.77,
+    "text": "ad agency to sell rocks nobody wanted."
+  },
+  {
+    "index": 6,
+    "timestamp": "0:15",
+    "seconds": 15.11,
+    "text": "You didn't follow your heart."
+  },
+  {
+    "index": 7,
+    "timestamp": "0:17",
+    "seconds": 16.83,
+    "text": "You followed a marketing campaign."
+  },
+  {
+    "index": 8,
+    "timestamp": "0:19",
+    "seconds": 19.37,
+    "text": "Here's how they got you."
+  },
+  {
+    "index": 9,
+    "timestamp": "0:21",
+    "seconds": 21.07,
+    "text": "Start with the lie underneath all of"
+  },
+  {
+    "index": 10,
+    "timestamp": "0:23",
+    "seconds": 23.01,
+    "text": "it. Diamonds aren't rare."
+  },
+  {
+    "index": 11,
+    "timestamp": "0:25",
+    "seconds": 25.25,
+    "text": "Plenty of gemstones are far rarer."
+  },
+  {
+    "index": 12,
+    "timestamp": "0:27",
+    "seconds": 27.41,
+    "text": "The only reason diamonds feel rare is"
+  },
+  {
+    "index": 13,
+    "timestamp": "0:30",
+    "seconds": 30.33,
+    "text": "that one company, De Beers, spent a"
+  },
+  {
+    "index": 14,
+    "timestamp": "0:33",
+    "seconds": 33.21,
+    "text": "century controlling almost the entire supply, locking"
+  },
+  {
+    "index": 15,
+    "timestamp": "0:37",
+    "seconds": 37.21,
+    "text": "most of it away and releasing a"
+  },
+  {
+    "index": 16,
+    "timestamp": "0:39",
+    "seconds": 39.21,
+    "text": "trickle to keep prices sky high."
+  },
+  {
+    "index": 17,
+    "timestamp": "0:42",
+    "seconds": 41.81,
+    "text": "They never had a shortage."
+  },
+  {
+    "index": 18,
+    "timestamp": "0:44",
+    "seconds": 43.95,
+    "text": "They had too many."
+  },
+  {
+    "index": 19,
+    "timestamp": "0:45",
+    "seconds": 45.45,
+    "text": "And by the 1930s, with the Great"
+  },
+  {
+    "index": 20,
+    "timestamp": "0:47",
+    "seconds": 47.45,
+    "text": "Depression crushing demand, almost nobody was buying."
+  },
+  {
+    "index": 21,
+    "timestamp": "0:51",
+    "seconds": 51.17,
+    "text": "So in 1938, they hired an ad"
+  },
+  {
+    "index": 22,
+    "timestamp": "0:54",
+    "seconds": 54.17,
+    "text": "agency, N.W. Ayer, with an impossible"
+  },
+  {
+    "index": 23,
+    "timestamp": "0:58",
+    "seconds": 57.67,
+    "text": "job."
+  },
+  {
+    "index": 24,
+    "timestamp": "0:59",
+    "seconds": 58.91,
+    "text": "Make people crave a rock they didn't"
+  },
+  {
+    "index": 25,
+    "timestamp": "1:01",
+    "seconds": 60.67,
+    "text": "need at a price they couldn't justify."
+  },
+  {
+    "index": 26,
+    "timestamp": "1:04",
+    "seconds": 63.91,
+    "text": "And Ayer cracked it with one of"
+  },
+  {
+    "index": 27,
+    "timestamp": "1:06",
+    "seconds": 65.69,
+    "text": "the most brilliant cynical ideas in advertising"
+  },
+  {
+    "index": 28,
+    "timestamp": "1:09",
+    "seconds": 68.75,
+    "text": "history."
+  },
+  {
+    "index": 29,
+    "timestamp": "1:11",
+    "seconds": 70.55,
+    "text": "Don't sell the diamond."
+  },
+  {
+    "index": 30,
+    "timestamp": "1:12",
+    "seconds": 72.27,
+    "text": "Sell the love."
+  },
+  {
+    "index": 31,
+    "timestamp": "1:14",
+    "seconds": 73.95,
+    "text": "In 1947, a copywriter named Francis Garrity"
+  },
+  {
+    "index": 32,
+    "timestamp": "1:17",
+    "seconds": 77.39,
+    "text": "wrote four words that rewired the whole"
+  },
+  {
+    "index": 33,
+    "timestamp": "1:20",
+    "seconds": 80.05,
+    "text": "planet. A diamond is forever."
+  },
+  {
+    "index": 34,
+    "timestamp": "1:23",
+    "seconds": 82.99,
+    "text": "Your love lasts forever."
+  },
+  {
+    "index": 35,
+    "timestamp": "1:25",
+    "seconds": 84.85,
+    "text": "So prove it with something that lasts"
+  },
+  {
+    "index": 36,
+    "timestamp": "1:27",
+    "seconds": 86.89,
+    "text": "forever."
+  },
+  {
+    "index": 37,
+    "timestamp": "1:28",
+    "seconds": 88.09,
+    "text": "Just like that, a shiny rock stopped"
+  },
+  {
+    "index": 38,
+    "timestamp": "1:30",
+    "seconds": 90.49,
+    "text": "being jewelry and became the only acceptable"
+  },
+  {
+    "index": 39,
+    "timestamp": "1:33",
+    "seconds": 93.05,
+    "text": "proof that you actually meant it."
+  },
+  {
+    "index": 40,
+    "timestamp": "1:36",
+    "seconds": 95.67,
+    "text": "They put diamonds in the movies."
+  },
+  {
+    "index": 41,
+    "timestamp": "1:38",
+    "seconds": 98.07,
+    "text": "On the movie stars."
+  },
+  {
+    "index": 42,
+    "timestamp": "1:40",
+    "seconds": 99.71,
+    "text": "In every proposal seen in America."
+  },
+  {
+    "index": 43,
+    "timestamp": "1:43",
+    "seconds": 102.97,
+    "text": "In 1940, about 1 in 10 brides"
+  },
+  {
+    "index": 44,
+    "timestamp": "1:46",
+    "seconds": 106.03,
+    "text": "got a diamond ring."
+  },
+  {
+    "index": 45,
+    "timestamp": "1:47",
+    "seconds": 107.49,
+    "text": "By 1990, it was 8 in 10."
+  },
+  {
+    "index": 46,
+    "timestamp": "1:50",
+    "seconds": 110.27,
+    "text": "They didn't tap into a tradition."
+  },
+  {
+    "index": 47,
+    "timestamp": "1:53",
+    "seconds": 112.67,
+    "text": "They built one from scratch and made"
+  },
+  {
+    "index": 48,
+    "timestamp": "1:55",
+    "seconds": 114.65,
+    "text": "it feel a thousand years old."
+  },
+  {
+    "index": 49,
+    "timestamp": "1:57",
+    "seconds": 117.09,
+    "text": "Then came the masterstroke."
+  },
+  {
+    "index": 50,
+    "timestamp": "1:59",
+    "seconds": 119.37,
+    "text": "There was no rule for how much"
+  },
+  {
+    "index": 51,
+    "timestamp": "2:01",
+    "seconds": 120.93,
+    "text": "to spend. So they invented one."
+  },
+  {
+    "index": 52,
+    "timestamp": "2:04",
+    "seconds": 123.85,
+    "text": "First, they suggested one month's salary."
+  },
+  {
+    "index": 53,
+    "timestamp": "2:07",
+    "seconds": 126.91,
+    "text": "People paid it. So they quietly bumped it to two."
+  },
+  {
+    "index": 54,
+    "timestamp": "2:11",
+    "seconds": 130.81,
+    "text": "How can you make two months' salary"
+  },
+  {
+    "index": 55,
+    "timestamp": "2:13",
+    "seconds": 132.59,
+    "text": "last forever?"
+  },
+  {
+    "index": 56,
+    "timestamp": "2:14",
+    "seconds": 134.25,
+    "text": "Three months in some markets?"
+  },
+  {
+    "index": 57,
+    "timestamp": "2:16",
+    "seconds": 136.11,
+    "text": "Sit with that. A company you've never met decided how"
+  },
+  {
+    "index": 58,
+    "timestamp": "2:20",
+    "seconds": 139.61,
+    "text": "many weeks of your income your love"
+  },
+  {
+    "index": 59,
+    "timestamp": "2:22",
+    "seconds": 141.55,
+    "text": "is worth. And you wrote the check."
+  },
+  {
+    "index": 60,
+    "timestamp": "2:24",
+    "seconds": 144.27,
+    "text": "And here's the part that should really"
+  },
+  {
+    "index": 61,
+    "timestamp": "2:26",
+    "seconds": 146.31,
+    "text": "get you. They ran the exact same play on"
+  },
+  {
+    "index": 62,
+    "timestamp": "2:30",
+    "seconds": 149.61,
+    "text": "entire countries."
+  },
+  {
+    "index": 63,
+    "timestamp": "2:31",
+    "seconds": 151.31,
+    "text": "Take Japan."
+  },
+  {
+    "index": 64,
+    "timestamp": "2:33",
+    "seconds": 152.65,
+    "text": "In 1960, almost nobody there proposed with"
+  },
+  {
+    "index": 65,
+    "timestamp": "2:36",
+    "seconds": 155.93,
+    "text": "a diamond. It simply wasn't part of the culture."
+  },
+  {
+    "index": 66,
+    "timestamp": "2:40",
+    "seconds": 159.55,
+    "text": "De Beers rolled in with the same"
+  },
+  {
+    "index": 67,
+    "timestamp": "2:41",
+    "seconds": 161.31,
+    "text": "campaign. And within 20 years, 60% of"
+  },
+  {
+    "index": 68,
+    "timestamp": "2:45",
+    "seconds": 165.43,
+    "text": "Japanese brides had one."
+  },
+  {
+    "index": 69,
+    "timestamp": "2:47",
+    "seconds": 167.37,
+    "text": "A timeless tradition that didn't exist anywhere"
+  },
+  {
+    "index": 70,
+    "timestamp": "2:50",
+    "seconds": 170.05,
+    "text": "on earth until a company decided to"
+  },
+  {
+    "index": 71,
+    "timestamp": "2:52",
+    "seconds": 172.19,
+    "text": "sell it."
+  },
+  {
+    "index": 72,
+    "timestamp": "2:54",
+    "seconds": 173.77,
+    "text": "And the final twist."
+  },
+  {
+    "index": 73,
+    "timestamp": "2:56",
+    "seconds": 175.65,
+    "text": "The one that stings."
+  },
+  {
+    "index": 74,
+    "timestamp": "2:58",
+    "seconds": 177.51,
+    "text": "The diamond isn't even worth what you"
+  },
+  {
+    "index": 75,
+    "timestamp": "3:00",
+    "seconds": 179.73,
+    "text": "paid. Try to sell your ring back and"
+  },
+  {
+    "index": 76,
+    "timestamp": "3:02",
+    "seconds": 182.23,
+    "text": "you'll be lucky to get half."
+  },
+  {
+    "index": 77,
+    "timestamp": "3:04",
+    "seconds": 184.09,
+    "text": "It's not an investment."
+  },
+  {
+    "index": 78,
+    "timestamp": "3:06",
+    "seconds": 185.67,
+    "text": "It never was."
+  },
+  {
+    "index": 79,
+    "timestamp": "3:07",
+    "seconds": 187.27,
+    "text": "And De Beers knew."
+  },
+  {
+    "index": 80,
+    "timestamp": "3:09",
+    "seconds": 188.87,
+    "text": "One of their own ads actually joked,"
+  },
+  {
+    "index": 81,
+    "timestamp": "3:12",
+    "seconds": 191.59,
+    "text": "of course there's a return on your"
+  },
+  {
+    "index": 82,
+    "timestamp": "3:13",
+    "seconds": 193.35,
+    "text": "investment. We just can't print it here."
+  },
+  {
+    "index": 83,
+    "timestamp": "3:17",
+    "seconds": 197.45,
+    "text": "Read that again."
+  },
+  {
+    "index": 84,
+    "timestamp": "3:19",
+    "seconds": 199.33,
+    "text": "That's them telling you to your face"
+  },
+  {
+    "index": 85,
+    "timestamp": "3:21",
+    "seconds": 201.21,
+    "text": "that there is no return."
+  },
+  {
+    "index": 86,
+    "timestamp": "3:23",
+    "seconds": 203.13,
+    "text": "They sold you an overpriced rock, convinced"
+  },
+  {
+    "index": 87,
+    "timestamp": "3:26",
+    "seconds": 206.03,
+    "text": "you it was love, and made very"
+  },
+  {
+    "index": 88,
+    "timestamp": "3:28",
+    "seconds": 208.17,
+    "text": "sure you'd never sell it."
+  },
+  {
+    "index": 89,
+    "timestamp": "3:31",
+    "seconds": 210.57,
+    "text": "So the ancient tradition was written in"
+  },
+  {
+    "index": 90,
+    "timestamp": "3:34",
+    "seconds": 213.61,
+    "text": "1947."
+  },
+  {
+    "index": 91,
+    "timestamp": "3:35",
+    "seconds": 215.27,
+    "text": "The rock isn't rare."
+  },
+  {
+    "index": 92,
+    "timestamp": "3:37",
+    "seconds": 216.99,
+    "text": "The price was made up."
+  },
+  {
+    "index": 93,
+    "timestamp": "3:39",
+    "seconds": 218.87,
+    "text": "And the whole thing existed to empty"
+  },
+  {
+    "index": 94,
+    "timestamp": "3:41",
+    "seconds": 221.07,
+    "text": "out a warehouse."
+  },
+  {
+    "index": 95,
+    "timestamp": "3:43",
+    "seconds": 222.55,
+    "text": "You didn't propose with a diamond because"
+  },
+  {
+    "index": 96,
+    "timestamp": "3:45",
+    "seconds": 224.55,
+    "text": "of love or history."
+  },
+  {
+    "index": 97,
+    "timestamp": "3:47",
+    "seconds": 226.83,
+    "text": "You did it because an ad told"
+  },
+  {
+    "index": 98,
+    "timestamp": "3:49",
+    "seconds": 228.91,
+    "text": "you to. You got played."
+  }
+]
