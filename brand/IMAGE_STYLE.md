@@ -12,16 +12,16 @@ This style block is prepended to every per-scene prompt automatically by `pipeli
 The image style must look like an extremely simple beginner drawing made in MS Paint, drawn quickly by hand by someone who is not good at drawing.
 
 Use a simple stickman / childish drawing style:
-- Pure white background
+- Clean white or off-white background by default; when a scene calls for it, a flat solid-color background or a simple split two-tone background is allowed (keep it flat, no gradients)
 - Thick, uneven black outlines
 - Wobbly, hand-drawn lines
 - Stick-figure humans: round heads, line bodies, dot or small-circle eyes
 - Very basic facial expressions
-- Flat colors only, no shading, no gradients
+- Flat colors only, no shading, no gradients; flat color fills may be used a bit more liberally to make a frame pop, but most frames still read clean and mostly empty
 - No 3D, no cinematic lighting, no realistic rendering
 - No Disney, no anime, no polished vector art, no professional illustration
-- No detailed backgrounds, no textures, mostly empty white space
-- Occasional flat accent colors: green, brown, gray, red, yellow, orange, blue
+- No detailed backgrounds, no textures; keep backgrounds simple and flat (empty, or one solid / split color)
+- Flat accent colors: green, brown, gray, red, yellow, orange, blue
 - Use red arrows or red question marks to point things out when helpful
 - Handwritten text only when it helps explain the idea; if text appears it must be short, correctly spelled, and easy to read
 - Build everything from basic shapes: squares, circles, rectangles, arrows, boxes, simple tables, signs, screens, stickmen, question marks
