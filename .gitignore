@@ -16,6 +16,7 @@ episodes/**/images/*.jpg
 episodes/**/*.srt
 episodes/**/*.vtt
 episodes/**/*.mp4
+episodes/**/thumbnail*.png
 
 # OS
 .DS_Store
