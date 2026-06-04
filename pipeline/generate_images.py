@@ -73,7 +73,7 @@ def image_args(model: str, prompt: str) -> dict:
     if "gpt-image" in model:
         return {
             "prompt": prompt,
-            "image_size": "landscape_16_9",  # fal enum; accepts dict or one of the named sizes
+            "image_size": {"width": 1920, "height": 1080},  # native 1080p test; fal also accepts named enums
             "num_images": 1,
             "quality": "medium",             # medium is the cost/quality sweet spot
         }
