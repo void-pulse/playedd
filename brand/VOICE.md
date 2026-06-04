@@ -37,3 +37,4 @@ Tuned for natural, non-robotic narration:
 |---|---|---|---|
 | NARRATOR_A | Keanan - Natural, Teacher | 2fe8mwpfJcqvj9RGBsC1 | Follow The Money, The Scam Explained |
 | NARRATOR_B | Jason Jordan | RCvfNaeRVixdBMcmd2Wl | The Psychology Trick, Who Owns This |
+| NARRATOR_C | Tyler Kurk | raMcNf2S8wCmuaBcyI6E | audition (ep 2) |

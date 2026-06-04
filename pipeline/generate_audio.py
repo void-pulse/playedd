@@ -34,6 +34,7 @@ load_dotenv()
 VOICE_IDS = {
     "NARRATOR_A": "2fe8mwpfJcqvj9RGBsC1",  # Keanan - Natural, Teacher
     "NARRATOR_B": "RCvfNaeRVixdBMcmd2Wl",  # Jason Jordan
+    "NARRATOR_C": "raMcNf2S8wCmuaBcyI6E",  # Tyler Kurk - Smooth, Pleasant and Clear
 }
 
 # Channel-tuned, natural-narration settings (see brand/VOICE.md).
