@@ -34,13 +34,13 @@ That loyalty card you slot in for "points" isn't a rewards program, it's surveil
 Anthropologist Natasha Dow Schull spent fifteen years on this and documented the part that should chill you. Casinos pinpoint your pain point. The moment a losing streak is about to lift you out of your seat and aim you at the door. And right then, just before you quit, someone appears. <break time="0.3s" /> A smiling host. A free dinner. Rough night? Let me comp you a steak. That's not kindness. That's timing. They caught you at the exact second you'd decided to leave, and pulled you back. They knew you were leaving before you did. <break time="0.6s" />
 
 [THE BUILDING]
-The games are rigged in your head. <break time="0.4s" /> So is the building. <break time="0.6s" />
+The games are rigged in your head. So is the building. <break time="0.6s" />
 
 For decades the bible of casino design was written by Bill Friedman, a former gambling addict turned professor who studied dozens of casinos to crack the code. His conclusion was simple. Nothing matters except how many people gamble and how many come back. Everything else is decoration. <break time="0.6s" />
 
 So he built a trap. Low ceilings. No windows. No clocks. Slots at the entrance, so the offer is the first thing you see. A maze of a floor with no straight path out, so every time you tried to leave you'd pass a thousand more chances to stay. <break time="0.4s" /> Even the carpet might be in on it. The theory goes those famously hideous, swirling casino carpets are loud on purpose, so your eyes lift off the floor and back onto the machines. <break time="0.6s" />
 
-Then the twist nobody expects. The maze isn't even the winning move anymore. A designer named Roger Thomas, working with Steve Wynn on the buh-LAH-jee-oh, tossed Friedman's rulebook. His insight. People don't bet freely when they feel trapped and anxious. They bet freely when they feel rich and safe. So he built the opposite. High ceilings, sunlight, art, luxury. The "playground." Make people feel like high rollers and they gamble like high rollers. It worked even better. The most effective cage is the one that feels like a palace. <break time="0.7s" />
+Then the twist nobody expects. The maze isn't even the winning move anymore. A designer named Roger Thomas, working with Steve Wynn on his Las Vegas resorts, tossed Friedman's rulebook. His insight. People don't bet freely when they feel trapped and anxious. They bet freely when they feel rich and safe. So he built the opposite. High ceilings, sunlight, art, luxury. The "playground." Make people feel like high rollers and they gamble like high rollers. It worked even better. The most effective cage is the one that feels like a palace. <break time="0.7s" />
 
 [THE SENSES]
 Quick myth check. Casinos pump in oxygen to keep you awake. <break time="0.3s" /> They don't. That came from a novel, and it'd actually be a felony. <break time="0.6s" />
