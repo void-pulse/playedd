@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "beat": "cold_open",
+    "start_sec": 0.0,
+    "duration_sec": 49.087,
+    "file": "01_cold_open.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: curious and slightly tense, a question hanging in the air"
+  },
+  {
+    "n": 2,
+    "beat": "setup",
+    "start_sec": 49.087,
+    "duration_sec": 87.075,
+    "file": "02_setup.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: steady and methodical, a quiet ticking pulse, matter-of-fact"
+  },
+  {
+    "n": 3,
+    "beat": "the_turn",
+    "start_sec": 136.162,
+    "duration_sec": 58.05,
+    "file": "03_the_turn.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: something dawning, slightly off-kilter, the floor tilting"
+  },
+  {
+    "n": 4,
+    "beat": "the_science",
+    "start_sec": 194.212,
+    "duration_sec": 29.118,
+    "file": "04_the_science.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: clinical and mechanical, precise, cold lab curiosity"
+  },
+  {
+    "n": 5,
+    "beat": "the_tracking",
+    "start_sec": 223.33,
+    "duration_sec": 51.595,
+    "file": "05_the_tracking.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: cold and watchful, quietly menacing, surveillance unease"
+  },
+  {
+    "n": 6,
+    "beat": "the_building",
+    "start_sec": 274.924,
+    "duration_sec": 89.397,
+    "file": "06_the_building.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: starts low and claustrophobic, opens into spacious and grand"
+  },
+  {
+    "n": 7,
+    "beat": "the_senses",
+    "start_sec": 364.321,
+    "duration_sec": 46.347,
+    "file": "07_the_senses.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: hazy and seductive, slightly woozy, perfumed with an undertow"
+  },
+  {
+    "n": 8,
+    "beat": "human_layer",
+    "start_sec": 410.668,
+    "duration_sec": 34.598,
+    "file": "08_human_layer.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: melancholy and hollow, the world going quiet, weightless"
+  },
+  {
+    "n": 9,
+    "beat": "payoff",
+    "start_sec": 445.266,
+    "duration_sec": 21.78,
+    "file": "09_payoff.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: resolving with a sad clarity, the truth settling"
+  },
+  {
+    "n": 10,
+    "beat": "button",
+    "start_sec": 467.046,
+    "duration_sec": 26.378,
+    "file": "10_button.mp3",
+    "prompt": "Instrumental background score for a wry investigative explainer video. Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: wry and knowing, a small final sting"
+  }
+]
