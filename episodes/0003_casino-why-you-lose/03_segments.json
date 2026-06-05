@@ -1,1 +1,1472 @@
-placeholder - parse_timestamps.py overwrites this
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.27,
+    "text": "Can you actually beat the casino?"
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 2.73,
+    "text": "Technically, yes."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:04",
+    "seconds": 4.25,
+    "text": "A handful of people have."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:06",
+    "seconds": 6.21,
+    "text": "Counting cards. Catching a sloppy table."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:09",
+    "seconds": 8.77,
+    "text": "You know what happens to them."
+  },
+  {
+    "index": 6,
+    "timestamp": "0:10",
+    "seconds": 10.19,
+    "text": "A tap on the shoulder and"
+  },
+  {
+    "index": 7,
+    "timestamp": "0:12",
+    "seconds": 11.65,
+    "text": "they're thrown out. Banned for life."
+  },
+  {
+    "index": 8,
+    "timestamp": "0:14",
+    "seconds": 13.91,
+    "text": "Which tells you everything you need"
+  },
+  {
+    "index": 9,
+    "timestamp": "0:16",
+    "seconds": 15.51,
+    "text": "to know. The casino will happily let you"
+  },
+  {
+    "index": 10,
+    "timestamp": "0:18",
+    "seconds": 17.81,
+    "text": "play any game in the building"
+  },
+  {
+    "index": 11,
+    "timestamp": "0:19",
+    "seconds": 19.05,
+    "text": "right up until the moment you"
+  },
+  {
+    "index": 12,
+    "timestamp": "0:20",
+    "seconds": 20.27,
+    "text": "might actually win."
+  },
+  {
+    "index": 13,
+    "timestamp": "0:22",
+    "seconds": 21.65,
+    "text": "The house doesn't fear bad luck."
+  },
+  {
+    "index": 14,
+    "timestamp": "0:23",
+    "seconds": 23.49,
+    "text": "It fears skill."
+  },
+  {
+    "index": 15,
+    "timestamp": "0:25",
+    "seconds": 25.25,
+    "text": "So for the rest of us, the ones not running blackjack math"
+  },
+  {
+    "index": 16,
+    "timestamp": "0:28",
+    "seconds": 28.21,
+    "text": "in our heads, the answer is simpler."
+  },
+  {
+    "index": 17,
+    "timestamp": "0:30",
+    "seconds": 29.99,
+    "text": "No, you will not beat the"
+  },
+  {
+    "index": 18,
+    "timestamp": "0:32",
+    "seconds": 31.89,
+    "text": "casino. You already know that."
+  },
+  {
+    "index": 19,
+    "timestamp": "0:34",
+    "seconds": 33.97,
+    "text": "The odds are practically printed on"
+  },
+  {
+    "index": 20,
+    "timestamp": "0:36",
+    "seconds": 35.67,
+    "text": "the wall, and you go anyway."
+  },
+  {
+    "index": 21,
+    "timestamp": "0:37",
+    "seconds": 37.41,
+    "text": "Millions of people go anyway."
+  },
+  {
+    "index": 22,
+    "timestamp": "0:40",
+    "seconds": 40.25,
+    "text": "So here's the real question, the"
+  },
+  {
+    "index": 23,
+    "timestamp": "0:42",
+    "seconds": 41.71,
+    "text": "one the casino is praying you"
+  },
+  {
+    "index": 24,
+    "timestamp": "0:43",
+    "seconds": 43.25,
+    "text": "never ask out loud."
+  },
+  {
+    "index": 25,
+    "timestamp": "0:45",
+    "seconds": 44.89,
+    "text": "If you know you'll lose, why"
+  },
+  {
+    "index": 26,
+    "timestamp": "0:47",
+    "seconds": 46.73,
+    "text": "do you keep coming back?"
+  },
+  {
+    "index": 27,
+    "timestamp": "0:49",
+    "seconds": 48.93,
+    "text": "First, the part you already know."
+  },
+  {
+    "index": 28,
+    "timestamp": "0:51",
+    "seconds": 50.51,
+    "text": "It's just the foundation, so we'll"
+  },
+  {
+    "index": 29,
+    "timestamp": "0:52",
+    "seconds": 51.97,
+    "text": "be quick. Every game on that floor is"
+  },
+  {
+    "index": 30,
+    "timestamp": "0:54",
+    "seconds": 54.25,
+    "text": "tilted a few percent toward the"
+  },
+  {
+    "index": 31,
+    "timestamp": "0:56",
+    "seconds": 55.83,
+    "text": "house. Roulette's the cleanest example."
+  },
+  {
+    "index": 32,
+    "timestamp": "0:59",
+    "seconds": 58.55,
+    "text": "A bet on red looks like"
+  },
+  {
+    "index": 33,
+    "timestamp": "1:00",
+    "seconds": 60.31,
+    "text": "a coin flip."
+  },
+  {
+    "index": 34,
+    "timestamp": "1:02",
+    "seconds": 61.61,
+    "text": "It isn't. There's a green zero on the"
+  },
+  {
+    "index": 35,
+    "timestamp": "1:04",
+    "seconds": 64.09,
+    "text": "wheel, a slot that's neither red"
+  },
+  {
+    "index": 36,
+    "timestamp": "1:06",
+    "seconds": 65.83,
+    "text": "nor black. And the American wheel has two"
+  },
+  {
+    "index": 37,
+    "timestamp": "1:08",
+    "seconds": 68.47,
+    "text": "of them. That little green sliver is the"
+  },
+  {
+    "index": 38,
+    "timestamp": "1:11",
+    "seconds": 70.97,
+    "text": "entire business model."
+  },
+  {
+    "index": 39,
+    "timestamp": "1:13",
+    "seconds": 72.53,
+    "text": "It quietly turns even money into"
+  },
+  {
+    "index": 40,
+    "timestamp": "1:15",
+    "seconds": 74.79,
+    "text": "a slow loser every spin, forever."
+  },
+  {
+    "index": 41,
+    "timestamp": "1:18",
+    "seconds": 78.07,
+    "text": "And here's the only math that"
+  },
+  {
+    "index": 42,
+    "timestamp": "1:20",
+    "seconds": 80.37,
+    "text": "matters. A tiny edge, repeated enough times,"
+  },
+  {
+    "index": 43,
+    "timestamp": "1:24",
+    "seconds": 83.77,
+    "text": "becomes a certainty."
+  },
+  {
+    "index": 44,
+    "timestamp": "1:25",
+    "seconds": 85.15,
+    "text": "The casino doesn't need to beat"
+  },
+  {
+    "index": 45,
+    "timestamp": "1:27",
+    "seconds": 86.71,
+    "text": "you on any single bet."
+  },
+  {
+    "index": 46,
+    "timestamp": "1:28",
+    "seconds": 87.93,
+    "text": "It needs you to make a"
+  },
+  {
+    "index": 47,
+    "timestamp": "1:30",
+    "seconds": 89.51,
+    "text": "lot of bets. Over enough spins, the law of"
+  },
+  {
+    "index": 48,
+    "timestamp": "1:33",
+    "seconds": 92.53,
+    "text": "averages pays the house its cut"
+  },
+  {
+    "index": 49,
+    "timestamp": "1:34",
+    "seconds": 94.29,
+    "text": "like clockwork. The edge is basically gravity."
+  },
+  {
+    "index": 50,
+    "timestamp": "1:37",
+    "seconds": 97.41,
+    "text": "Slow, quiet, constant."
+  },
+  {
+    "index": 51,
+    "timestamp": "1:40",
+    "seconds": 99.85,
+    "text": "But gravity only wins if you"
+  },
+  {
+    "index": 52,
+    "timestamp": "1:42",
+    "seconds": 101.67,
+    "text": "stay in the air. So the real question isn't why"
+  },
+  {
+    "index": 53,
+    "timestamp": "1:44",
+    "seconds": 104.23,
+    "text": "the odds favor the casino."
+  },
+  {
+    "index": 54,
+    "timestamp": "1:46",
+    "seconds": 105.89,
+    "text": "Everybody knows the odds favor the"
+  },
+  {
+    "index": 55,
+    "timestamp": "1:48",
+    "seconds": 107.63,
+    "text": "casino. The question is why you sit"
+  },
+  {
+    "index": 56,
+    "timestamp": "1:50",
+    "seconds": 109.69,
+    "text": "there long enough to let those"
+  },
+  {
+    "index": 57,
+    "timestamp": "1:51",
+    "seconds": 110.97,
+    "text": "odds do their work. And that is what the entire"
+  },
+  {
+    "index": 58,
+    "timestamp": "1:53",
+    "seconds": 113.45,
+    "text": "building is engineered to solve."
+  },
+  {
+    "index": 59,
+    "timestamp": "1:55",
+    "seconds": 114.99,
+    "text": "It's one giant machine, tuned to"
+  },
+  {
+    "index": 60,
+    "timestamp": "1:58",
+    "seconds": 117.59,
+    "text": "a single number the industry literally"
+  },
+  {
+    "index": 61,
+    "timestamp": "2:00",
+    "seconds": 119.83,
+    "text": "has a name for. They call it Time On Device."
+  },
+  {
+    "index": 62,
+    "timestamp": "2:03",
+    "seconds": 122.87,
+    "text": "And the device they care about"
+  },
+  {
+    "index": 63,
+    "timestamp": "2:04",
+    "seconds": 124.27,
+    "text": "most isn't the card table."
+  },
+  {
+    "index": 64,
+    "timestamp": "2:06",
+    "seconds": 126.37,
+    "text": "It's the slot machine."
+  },
+  {
+    "index": 65,
+    "timestamp": "2:08",
+    "seconds": 127.99,
+    "text": "The casino's quiet biggest moneymaker."
+  },
+  {
+    "index": 66,
+    "timestamp": "2:11",
+    "seconds": 130.69,
+    "text": "And almost everything clever in the"
+  },
+  {
+    "index": 67,
+    "timestamp": "2:12",
+    "seconds": 132.49,
+    "text": "building exists to keep you glued"
+  },
+  {
+    "index": 68,
+    "timestamp": "2:15",
+    "seconds": 134.79,
+    "text": "to one."
+  },
+  {
+    "index": 69,
+    "timestamp": "2:16",
+    "seconds": 136.25,
+    "text": "The slickest trick on the floor,"
+  },
+  {
+    "index": 70,
+    "timestamp": "2:18",
+    "seconds": 138.11,
+    "text": "and you've personally fallen for it."
+  },
+  {
+    "index": 71,
+    "timestamp": "2:21",
+    "seconds": 140.67,
+    "text": "It's called a loss disguised as"
+  },
+  {
+    "index": 72,
+    "timestamp": "2:23",
+    "seconds": 143.35,
+    "text": "a win. Researchers at the University of Waterloo"
+  },
+  {
+    "index": 73,
+    "timestamp": "2:26",
+    "seconds": 146.49,
+    "text": "named it, and once you hear"
+  },
+  {
+    "index": 74,
+    "timestamp": "2:28",
+    "seconds": 147.85,
+    "text": "it, you can't unhear it."
+  },
+  {
+    "index": 75,
+    "timestamp": "2:30",
+    "seconds": 149.99,
+    "text": "Modern slots let you bet on"
+  },
+  {
+    "index": 76,
+    "timestamp": "2:32",
+    "seconds": 151.73,
+    "text": "many lines at once. Put a dollar across 20 lines,"
+  },
+  {
+    "index": 77,
+    "timestamp": "2:35",
+    "seconds": 155.07,
+    "text": "win on 3, get back 40"
+  },
+  {
+    "index": 78,
+    "timestamp": "2:37",
+    "seconds": 156.61,
+    "text": "cents. You are down 60."
+  },
+  {
+    "index": 79,
+    "timestamp": "2:39",
+    "seconds": 158.61,
+    "text": "That's a loss. A kindergartner could tell you that's"
+  },
+  {
+    "index": 80,
+    "timestamp": "2:42",
+    "seconds": 161.67,
+    "text": "a loss."
+  },
+  {
+    "index": 81,
+    "timestamp": "2:43",
+    "seconds": 162.95,
+    "text": "The machine disagrees."
+  },
+  {
+    "index": 82,
+    "timestamp": "2:44",
+    "seconds": 164.37,
+    "text": "It lights up. It sings."
+  },
+  {
+    "index": 83,
+    "timestamp": "2:46",
+    "seconds": 166.03,
+    "text": "It throws the exact same party"
+  },
+  {
+    "index": 84,
+    "timestamp": "2:48",
+    "seconds": 168.31,
+    "text": "it throws for a real win."
+  },
+  {
+    "index": 85,
+    "timestamp": "2:50",
+    "seconds": 170.11,
+    "text": "And here's the unsettling part the"
+  },
+  {
+    "index": 86,
+    "timestamp": "2:52",
+    "seconds": 171.85,
+    "text": "researchers measured. Your body can't tell the difference."
+  },
+  {
+    "index": 87,
+    "timestamp": "2:56",
+    "seconds": 175.51,
+    "text": "Heart rate, skin, brain all react"
+  },
+  {
+    "index": 88,
+    "timestamp": "2:58",
+    "seconds": 178.05,
+    "text": "to that net loss the same"
+  },
+  {
+    "index": 89,
+    "timestamp": "3:00",
+    "seconds": 179.95,
+    "text": "way they react to actually winning."
+  },
+  {
+    "index": 90,
+    "timestamp": "3:03",
+    "seconds": 183.01,
+    "text": "You leave convinced you won way"
+  },
+  {
+    "index": 91,
+    "timestamp": "3:04",
+    "seconds": 184.49,
+    "text": "more often than you did, because"
+  },
+  {
+    "index": 92,
+    "timestamp": "3:06",
+    "seconds": 186.25,
+    "text": "the machine trained you to feel"
+  },
+  {
+    "index": 93,
+    "timestamp": "3:08",
+    "seconds": 187.65,
+    "text": "like a winner while it emptied"
+  },
+  {
+    "index": 94,
+    "timestamp": "3:09",
+    "seconds": 189.07,
+    "text": "your wallet."
+  },
+  {
+    "index": 95,
+    "timestamp": "3:10",
+    "seconds": 190.45,
+    "text": "It's losing with a soundtrack."
+  },
+  {
+    "index": 96,
+    "timestamp": "3:12",
+    "seconds": 192.39,
+    "text": "And you clap along."
+  },
+  {
+    "index": 97,
+    "timestamp": "3:14",
+    "seconds": 194.09,
+    "text": "None of this is accident."
+  },
+  {
+    "index": 98,
+    "timestamp": "3:16",
+    "seconds": 196.11,
+    "text": "It's recipe."
+  },
+  {
+    "index": 99,
+    "timestamp": "3:17",
+    "seconds": 197.33,
+    "text": "Slots run on the same reinforcement"
+  },
+  {
+    "index": 100,
+    "timestamp": "3:19",
+    "seconds": 199.45,
+    "text": "schedule that makes a lab pigeon"
+  },
+  {
+    "index": 101,
+    "timestamp": "3:21",
+    "seconds": 201.17,
+    "text": "hammer a lever until it drops."
+  },
+  {
+    "index": 102,
+    "timestamp": "3:24",
+    "seconds": 203.55,
+    "text": "Unpredictable rewards."
+  },
+  {
+    "index": 103,
+    "timestamp": "3:25",
+    "seconds": 205.05,
+    "text": "Doled out just often enough to"
+  },
+  {
+    "index": 104,
+    "timestamp": "3:27",
+    "seconds": 206.51,
+    "text": "keep you going. Add the near miss."
+  },
+  {
+    "index": 105,
+    "timestamp": "3:29",
+    "seconds": 208.51,
+    "text": "Two jackpot symbols on the line."
+  },
+  {
+    "index": 106,
+    "timestamp": "3:30",
+    "seconds": 210.39,
+    "text": "The third landing one cruel notch"
+  },
+  {
+    "index": 107,
+    "timestamp": "3:33",
+    "seconds": 212.59,
+    "text": "above it. So close."
+  },
+  {
+    "index": 108,
+    "timestamp": "3:35",
+    "seconds": 214.67,
+    "text": "Your brain reads almost and almost"
+  },
+  {
+    "index": 109,
+    "timestamp": "3:37",
+    "seconds": 216.85,
+    "text": "feels like progress."
+  },
+  {
+    "index": 110,
+    "timestamp": "3:38",
+    "seconds": 218.05,
+    "text": "It isn't. The reels have no memory."
+  },
+  {
+    "index": 111,
+    "timestamp": "3:40",
+    "seconds": 220.29,
+    "text": "But that feeling keeps your thumb"
+  },
+  {
+    "index": 112,
+    "timestamp": "3:42",
+    "seconds": 221.79,
+    "text": "on the button."
+  },
+  {
+    "index": 113,
+    "timestamp": "3:43",
+    "seconds": 223.33,
+    "text": "Now it gets personal."
+  },
+  {
+    "index": 114,
+    "timestamp": "3:45",
+    "seconds": 224.77,
+    "text": "Literally."
+  },
+  {
+    "index": 115,
+    "timestamp": "3:46",
+    "seconds": 226.09,
+    "text": "That loyalty card you slot in"
+  },
+  {
+    "index": 116,
+    "timestamp": "3:48",
+    "seconds": 228.29,
+    "text": "for points isn't a rewards program."
+  },
+  {
+    "index": 117,
+    "timestamp": "3:51",
+    "seconds": 231.19,
+    "text": "It's surveillance."
+  },
+  {
+    "index": 118,
+    "timestamp": "3:53",
+    "seconds": 232.75,
+    "text": "The casino logs every bet."
+  },
+  {
+    "index": 119,
+    "timestamp": "3:55",
+    "seconds": 234.83,
+    "text": "Every spin. Every pause."
+  },
+  {
+    "index": 120,
+    "timestamp": "3:57",
+    "seconds": 236.99,
+    "text": "Learning exactly how you play."
+  },
+  {
+    "index": 121,
+    "timestamp": "3:59",
+    "seconds": 238.87,
+    "text": "And, more importantly, exactly when you're"
+  },
+  {
+    "index": 122,
+    "timestamp": "4:01",
+    "seconds": 241.27,
+    "text": "about to crack."
+  },
+  {
+    "index": 123,
+    "timestamp": "4:03",
+    "seconds": 243.13,
+    "text": "Anthropologist Natasha Dow Shule spent 15"
+  },
+  {
+    "index": 124,
+    "timestamp": "4:06",
+    "seconds": 246.25,
+    "text": "years on this and documented the"
+  },
+  {
+    "index": 125,
+    "timestamp": "4:08",
+    "seconds": 248.17,
+    "text": "part that should chill you."
+  },
+  {
+    "index": 126,
+    "timestamp": "4:10",
+    "seconds": 249.75,
+    "text": "Casinos pinpoint your pain point."
+  },
+  {
+    "index": 127,
+    "timestamp": "4:12",
+    "seconds": 251.69,
+    "text": "The moment a losing streak is"
+  },
+  {
+    "index": 128,
+    "timestamp": "4:14",
+    "seconds": 253.53,
+    "text": "about to lift you out of your seat and aim you at"
+  },
+  {
+    "index": 129,
+    "timestamp": "4:16",
+    "seconds": 256.07,
+    "text": "the door. And right then, just before you"
+  },
+  {
+    "index": 130,
+    "timestamp": "4:18",
+    "seconds": 258.15,
+    "text": "quit, someone appears."
+  },
+  {
+    "index": 131,
+    "timestamp": "4:20",
+    "seconds": 260.21,
+    "text": "A smiling host. A free dinner."
+  },
+  {
+    "index": 132,
+    "timestamp": "4:22",
+    "seconds": 262.23,
+    "text": "Rough night. Let me comp you a steak."
+  },
+  {
+    "index": 133,
+    "timestamp": "4:24",
+    "seconds": 264.37,
+    "text": "That's not kindness."
+  },
+  {
+    "index": 134,
+    "timestamp": "4:26",
+    "seconds": 265.89,
+    "text": "That's timing."
+  },
+  {
+    "index": 135,
+    "timestamp": "4:27",
+    "seconds": 267.13,
+    "text": "They caught you at the exact second you decided to leave and"
+  },
+  {
+    "index": 136,
+    "timestamp": "4:30",
+    "seconds": 270.13,
+    "text": "pulled you back. They knew you were leaving before"
+  },
+  {
+    "index": 137,
+    "timestamp": "4:33",
+    "seconds": 272.71,
+    "text": "you did."
+  },
+  {
+    "index": 138,
+    "timestamp": "4:35",
+    "seconds": 274.81,
+    "text": "The games are rigged in your"
+  },
+  {
+    "index": 139,
+    "timestamp": "4:37",
+    "seconds": 276.63,
+    "text": "head. So is the building."
+  },
+  {
+    "index": 140,
+    "timestamp": "4:39",
+    "seconds": 279.01,
+    "text": "For decades, the Bible of casino"
+  },
+  {
+    "index": 141,
+    "timestamp": "4:41",
+    "seconds": 281.19,
+    "text": "design was written by Bill Friedman,"
+  },
+  {
+    "index": 142,
+    "timestamp": "4:43",
+    "seconds": 283.45,
+    "text": "a former gambling addict turned professor"
+  },
+  {
+    "index": 143,
+    "timestamp": "4:46",
+    "seconds": 285.97,
+    "text": "who studied dozens of casinos to"
+  },
+  {
+    "index": 144,
+    "timestamp": "4:48",
+    "seconds": 288.17,
+    "text": "crack the code."
+  },
+  {
+    "index": 145,
+    "timestamp": "4:49",
+    "seconds": 289.45,
+    "text": "His conclusion was simple."
+  },
+  {
+    "index": 146,
+    "timestamp": "4:51",
+    "seconds": 291.27,
+    "text": "Nothing matters except how many people"
+  },
+  {
+    "index": 147,
+    "timestamp": "4:53",
+    "seconds": 293.43,
+    "text": "gamble and how many come back."
+  },
+  {
+    "index": 148,
+    "timestamp": "4:56",
+    "seconds": 295.71,
+    "text": "Everything else is decoration."
+  },
+  {
+    "index": 149,
+    "timestamp": "4:58",
+    "seconds": 298.19,
+    "text": "So he built a trap."
+  },
+  {
+    "index": 150,
+    "timestamp": "5:00",
+    "seconds": 299.81,
+    "text": "Low ceilings. No windows."
+  },
+  {
+    "index": 151,
+    "timestamp": "5:02",
+    "seconds": 301.57,
+    "text": "No clocks. Slots at the entrance so the"
+  },
+  {
+    "index": 152,
+    "timestamp": "5:04",
+    "seconds": 304.13,
+    "text": "offer is the first thing you"
+  },
+  {
+    "index": 153,
+    "timestamp": "5:06",
+    "seconds": 305.51,
+    "text": "see. A maze of a floor with"
+  },
+  {
+    "index": 154,
+    "timestamp": "5:08",
+    "seconds": 307.61,
+    "text": "no straight path out so every"
+  },
+  {
+    "index": 155,
+    "timestamp": "5:09",
+    "seconds": 309.39,
+    "text": "time you tried to leave, you'd"
+  },
+  {
+    "index": 156,
+    "timestamp": "5:11",
+    "seconds": 311.03,
+    "text": "pass a thousand more chances to"
+  },
+  {
+    "index": 157,
+    "timestamp": "5:13",
+    "seconds": 312.95,
+    "text": "stay. Even the carpet might be in"
+  },
+  {
+    "index": 158,
+    "timestamp": "5:15",
+    "seconds": 315.19,
+    "text": "on it. The theory goes, those famously hideous"
+  },
+  {
+    "index": 159,
+    "timestamp": "5:19",
+    "seconds": 318.85,
+    "text": "swirling casino carpets are loud on"
+  },
+  {
+    "index": 160,
+    "timestamp": "5:22",
+    "seconds": 321.87,
+    "text": "purpose so your eyes lift off"
+  },
+  {
+    "index": 161,
+    "timestamp": "5:24",
+    "seconds": 323.99,
+    "text": "the floor and back onto the"
+  },
+  {
+    "index": 162,
+    "timestamp": "5:25",
+    "seconds": 325.37,
+    "text": "machines."
+  },
+  {
+    "index": 163,
+    "timestamp": "5:27",
+    "seconds": 326.77,
+    "text": "Then the twist nobody expects."
+  },
+  {
+    "index": 164,
+    "timestamp": "5:29",
+    "seconds": 328.95,
+    "text": "The maze isn't even the winning"
+  },
+  {
+    "index": 165,
+    "timestamp": "5:31",
+    "seconds": 330.59,
+    "text": "move anymore. A designer named Roger Thomas, working"
+  },
+  {
+    "index": 166,
+    "timestamp": "5:34",
+    "seconds": 334.49,
+    "text": "with Steve Wynn on his Las"
+  },
+  {
+    "index": 167,
+    "timestamp": "5:36",
+    "seconds": 336.39,
+    "text": "Vegas resorts, tossed Friedman's rulebook."
+  },
+  {
+    "index": 168,
+    "timestamp": "5:40",
+    "seconds": 339.73,
+    "text": "His insight."
+  },
+  {
+    "index": 169,
+    "timestamp": "5:41",
+    "seconds": 341.27,
+    "text": "People don't bet freely when they"
+  },
+  {
+    "index": 170,
+    "timestamp": "5:43",
+    "seconds": 343.07,
+    "text": "feel trapped and anxious."
+  },
+  {
+    "index": 171,
+    "timestamp": "5:45",
+    "seconds": 344.79,
+    "text": "They bet freely when they feel"
+  },
+  {
+    "index": 172,
+    "timestamp": "5:46",
+    "seconds": 346.23,
+    "text": "rich and safe."
+  },
+  {
+    "index": 173,
+    "timestamp": "5:48",
+    "seconds": 347.51,
+    "text": "So he built the opposite."
+  },
+  {
+    "index": 174,
+    "timestamp": "5:49",
+    "seconds": 349.25,
+    "text": "High ceilings."
+  },
+  {
+    "index": 175,
+    "timestamp": "5:50",
+    "seconds": 350.49,
+    "text": "Sunlight. Art."
+  },
+  {
+    "index": 176,
+    "timestamp": "5:52",
+    "seconds": 351.91,
+    "text": "Luxury. The playground."
+  },
+  {
+    "index": 177,
+    "timestamp": "5:54",
+    "seconds": 354.15,
+    "text": "Make people feel like high rollers"
+  },
+  {
+    "index": 178,
+    "timestamp": "5:56",
+    "seconds": 355.91,
+    "text": "and they gamble like high rollers."
+  },
+  {
+    "index": 179,
+    "timestamp": "5:58",
+    "seconds": 358.03,
+    "text": "It worked even better."
+  },
+  {
+    "index": 180,
+    "timestamp": "5:59",
+    "seconds": 359.35,
+    "text": "The most effective cage is the"
+  },
+  {
+    "index": 181,
+    "timestamp": "6:02",
+    "seconds": 361.65,
+    "text": "one that feels like a palace."
+  },
+  {
+    "index": 182,
+    "timestamp": "6:05",
+    "seconds": 364.67,
+    "text": "Quick myth check."
+  },
+  {
+    "index": 183,
+    "timestamp": "6:06",
+    "seconds": 366.27,
+    "text": "Casinos pump in oxygen to keep"
+  },
+  {
+    "index": 184,
+    "timestamp": "6:08",
+    "seconds": 368.47,
+    "text": "you awake. They don't."
+  },
+  {
+    "index": 185,
+    "timestamp": "6:11",
+    "seconds": 370.63,
+    "text": "That came from a novel."
+  },
+  {
+    "index": 186,
+    "timestamp": "6:12",
+    "seconds": 372.17,
+    "text": "And it'd actually be a felony."
+  },
+  {
+    "index": 187,
+    "timestamp": "6:15",
+    "seconds": 374.75,
+    "text": "The real version is worse."
+  },
+  {
+    "index": 188,
+    "timestamp": "6:17",
+    "seconds": 376.95,
+    "text": "They pump in scent."
+  },
+  {
+    "index": 189,
+    "timestamp": "6:19",
+    "seconds": 378.55,
+    "text": "One study piped a pleasant smell"
+  },
+  {
+    "index": 190,
+    "timestamp": "6:21",
+    "seconds": 380.67,
+    "text": "into a single slot area of"
+  },
+  {
+    "index": 191,
+    "timestamp": "6:23",
+    "seconds": 382.63,
+    "text": "a Vegas casino and the money"
+  },
+  {
+    "index": 192,
+    "timestamp": "6:24",
+    "seconds": 384.43,
+    "text": "gambled there jumped about 45%."
+  },
+  {
+    "index": 193,
+    "timestamp": "6:27",
+    "seconds": 387.19,
+    "text": "Same machines. Same odds."
+  },
+  {
+    "index": 194,
+    "timestamp": "6:29",
+    "seconds": 389.35,
+    "text": "Just a smell. That's the rental price of your"
+  },
+  {
+    "index": 195,
+    "timestamp": "6:32",
+    "seconds": 391.87,
+    "text": "judgment."
+  },
+  {
+    "index": 196,
+    "timestamp": "6:33",
+    "seconds": 393.19,
+    "text": "Stack the rest."
+  },
+  {
+    "index": 197,
+    "timestamp": "6:35",
+    "seconds": 394.53,
+    "text": "Chips and digital credits instead of"
+  },
+  {
+    "index": 198,
+    "timestamp": "6:36",
+    "seconds": 396.49,
+    "text": "cash. Because a plastic disc doesn't feel"
+  },
+  {
+    "index": 199,
+    "timestamp": "6:39",
+    "seconds": 399.23,
+    "text": "like money. Free drinks because nothing sharpens a"
+  },
+  {
+    "index": 200,
+    "timestamp": "6:42",
+    "seconds": 402.19,
+    "text": "financial decision. Like alcohol."
+  },
+  {
+    "index": 201,
+    "timestamp": "6:44",
+    "seconds": 404.41,
+    "text": "ATMs right there on the floor"
+  },
+  {
+    "index": 202,
+    "timestamp": "6:46",
+    "seconds": 406.21,
+    "text": "for when the chips run dry."
+  },
+  {
+    "index": 203,
+    "timestamp": "6:48",
+    "seconds": 408.31,
+    "text": "All of it aimed at the"
+  },
+  {
+    "index": 204,
+    "timestamp": "6:50",
+    "seconds": 409.57,
+    "text": "chair. And here's the answer to the"
+  },
+  {
+    "index": 205,
+    "timestamp": "6:52",
+    "seconds": 412.37,
+    "text": "question we opened with. Here's where it stops being funny."
+  },
+  {
+    "index": 206,
+    "timestamp": "6:56",
+    "seconds": 416.43,
+    "text": "Shull found the deepest players eventually"
+  },
+  {
+    "index": 207,
+    "timestamp": "6:59",
+    "seconds": 419.07,
+    "text": "stop playing to win it all."
+  },
+  {
+    "index": 208,
+    "timestamp": "7:01",
+    "seconds": 421.23,
+    "text": "They reach a state she calls"
+  },
+  {
+    "index": 209,
+    "timestamp": "7:03",
+    "seconds": 422.65,
+    "text": "the machine zone, where the world"
+  },
+  {
+    "index": 210,
+    "timestamp": "7:05",
+    "seconds": 424.95,
+    "text": "goes quiet, time disappears, and the"
+  },
+  {
+    "index": 211,
+    "timestamp": "7:08",
+    "seconds": 427.77,
+    "text": "jackpot stops being the point."
+  },
+  {
+    "index": 212,
+    "timestamp": "7:10",
+    "seconds": 430.09,
+    "text": "They're not chasing money."
+  },
+  {
+    "index": 213,
+    "timestamp": "7:11",
+    "seconds": 431.47,
+    "text": "They're chasing the feeling of vanishing,"
+  },
+  {
+    "index": 214,
+    "timestamp": "7:14",
+    "seconds": 433.75,
+    "text": "and the machine is built exactly"
+  },
+  {
+    "index": 215,
+    "timestamp": "7:16",
+    "seconds": 435.89,
+    "text": "to let them disappear into it"
+  },
+  {
+    "index": 216,
+    "timestamp": "7:18",
+    "seconds": 437.83,
+    "text": "for as long as the bank"
+  },
+  {
+    "index": 217,
+    "timestamp": "7:19",
+    "seconds": 439.29,
+    "text": "account holds out."
+  },
+  {
+    "index": 218,
+    "timestamp": "7:21",
+    "seconds": 440.75,
+    "text": "That's the real product."
+  },
+  {
+    "index": 219,
+    "timestamp": "7:22",
+    "seconds": 442.35,
+    "text": "Not gambling. Oh, disappearance."
+  },
+  {
+    "index": 220,
+    "timestamp": "7:25",
+    "seconds": 445.23,
+    "text": "So that's why you keep going"
+  },
+  {
+    "index": 221,
+    "timestamp": "7:27",
+    "seconds": 447.07,
+    "text": "back even though you know you'll"
+  },
+  {
+    "index": 222,
+    "timestamp": "7:29",
+    "seconds": 448.89,
+    "text": "lose. You were never really there for"
+  },
+  {
+    "index": 223,
+    "timestamp": "7:31",
+    "seconds": 450.95,
+    "text": "the money. You were there for the almost"
+  },
+  {
+    "index": 224,
+    "timestamp": "7:33",
+    "seconds": 452.73,
+    "text": "the party, the quiet, the disappearing."
+  },
+  {
+    "index": 225,
+    "timestamp": "7:35",
+    "seconds": 455.37,
+    "text": "Knowing the odds was never going"
+  },
+  {
+    "index": 226,
+    "timestamp": "7:37",
+    "seconds": 457.11,
+    "text": "to save you because the odds"
+  },
+  {
+    "index": 227,
+    "timestamp": "7:38",
+    "seconds": 458.49,
+    "text": "were never the thing keeping you"
+  },
+  {
+    "index": 228,
+    "timestamp": "7:40",
+    "seconds": 460.13,
+    "text": "in the chair. The casino isn't fighting your math."
+  },
+  {
+    "index": 229,
+    "timestamp": "7:43",
+    "seconds": 463.15,
+    "text": "It's feeding your feelings."
+  },
+  {
+    "index": 230,
+    "timestamp": "7:45",
+    "seconds": 464.67,
+    "text": "And it's very, very good at"
+  },
+  {
+    "index": 231,
+    "timestamp": "7:46",
+    "seconds": 466.33,
+    "text": "it. And if you're feeling smug because"
+  },
+  {
+    "index": 232,
+    "timestamp": "7:49",
+    "seconds": 468.83,
+    "text": "you don't gamble, check your screen"
+  },
+  {
+    "index": 233,
+    "timestamp": "7:51",
+    "seconds": 470.87,
+    "text": "time. Remember Friedman's maze."
+  },
+  {
+    "index": 234,
+    "timestamp": "7:53",
+    "seconds": 473.23,
+    "text": "The floor with no exit."
+  },
+  {
+    "index": 235,
+    "timestamp": "7:55",
+    "seconds": 475.29,
+    "text": "Built to keep you drifting past"
+  },
+  {
+    "index": 236,
+    "timestamp": "7:57",
+    "seconds": 476.63,
+    "text": "one more machine."
+  },
+  {
+    "index": 237,
+    "timestamp": "7:58",
+    "seconds": 478.19,
+    "text": "Same logic as the infinite scroll"
+  },
+  {
+    "index": 238,
+    "timestamp": "8:00",
+    "seconds": 480.33,
+    "text": "in your hand right now."
+  },
+  {
+    "index": 239,
+    "timestamp": "8:02",
+    "seconds": 481.63,
+    "text": "No clock. No bottom."
+  },
+  {
+    "index": 240,
+    "timestamp": "8:03",
+    "seconds": 483.13,
+    "text": "No natural place to stop."
+  },
+  {
+    "index": 241,
+    "timestamp": "8:05",
+    "seconds": 484.77,
+    "text": "You know it's eating your life."
+  },
+  {
+    "index": 242,
+    "timestamp": "8:06",
+    "seconds": 486.35,
+    "text": "You open it anyway."
+  },
+  {
+    "index": 243,
+    "timestamp": "8:08",
+    "seconds": 487.95,
+    "text": "The casino figured it out first."
+  },
+  {
+    "index": 244,
+    "timestamp": "8:10",
+    "seconds": 490.13,
+    "text": "Now you carry one in your pocket."
+  },
+  {
+    "index": 245,
+    "timestamp": "8:12",
+    "seconds": 492.09,
+    "text": "You're being played."
+  }
+]
