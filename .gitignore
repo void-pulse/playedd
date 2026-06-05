@@ -18,6 +18,8 @@ episodes/**/*.vtt
 episodes/**/*.mp4
 episodes/**/thumbnail*.png
 episodes/**/chunks/
+episodes/**/music/*.mp3
+assets/sfx/*.mp3
 
 # OS
 .DS_Store
