@@ -1,5 +1,5 @@
 [COLD OPEN]
-Can you actually beat the casino? <break time="0.5s" /> Technically, yes. <break time="0.3s" /> A handful of people have. Counting cards, catching a sloppy table. You know what happens to them? A tap on the shoulder, and they're thrown out. Banned for life. Which tells you everything you need to know. The casino will happily let you play any game in the building, right up until the moment you might actually win. The house doesn't fear bad luck. It fears skill. <break time="0.6s" />
+Can you actually beat the casino? <break time="0.5s" /> Technically, yes. A handful of people have. Counting cards, catching a sloppy table. You know what happens to them? A tap on the shoulder, and they're thrown out. Banned for life. Which tells you everything you need to know. The casino will happily let you play any game in the building, right up until the moment you might actually win. The house doesn't fear bad luck. It fears skill. <break time="0.6s" />
 
 So for the rest of us, the ones not running blackjack math in our heads, the answer's simpler. No. You will not beat the casino. You already know that. The odds are practically printed on the wall. And you go anyway. Millions of people go anyway. <break time="0.6s" />
 
