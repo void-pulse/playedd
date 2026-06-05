@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "beat": "cold_open",
+    "timestamp": "0:00",
+    "seconds": 0.27,
+    "text": "Can you actually beat the casino?",
+    "scene": "The Player, a small hunched round-headed everyman with worried dot eyes, stands looking up at The Slot Machine: a tall boxy machine with a big sly grinning face, three reel windows for a mouth, and a lever like a cocked eyebrow. The Player is tiny beside it. A red question mark hovers over the Player's head, establishing the matchup. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 37,
+    "beat": "setup",
+    "timestamp": "1:08",
+    "seconds": 68.47,
+    "text": "of them. That little green sliver is the",
+    "scene": "A simple flat roulette wheel drawn as a circle of slots. Most slots are plain, but one thin slot is filled flat green and drawn slightly oversized and glowing, a small red arrow pointing at it and a short handwritten label reading GREEN ZERO. This green sliver is the recurring house-edge motif. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 95,
+    "beat": "the_turn",
+    "timestamp": "3:10",
+    "seconds": 190.45,
+    "text": "It's losing with a soundtrack.",
+    "scene": "The Slot Machine erupting in full celebration: flashing bulbs around its frame, music notes flying out, little confetti bits, its grinning face beaming. The Player sits clapping with a delighted open mouth, but his small coin pile on the counter is visibly shrinking with a red down arrow over it. The celebration is drawn the exact same exuberant way a real jackpot would be. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 106,
+    "beat": "the_science",
+    "timestamp": "3:30",
+    "seconds": 210.39,
+    "text": "The third landing one cruel notch",
+    "scene": "Close-up of the Slot Machine's three reel windows on the payline. Two reels show the same simple gold bell symbol sitting on the line; the third reel shows a matching bell stopped one notch ABOVE the line, just missing. A red arrow marks the near-miss gap and a short handwritten label reads SO CLOSE. The Player's hand hovers tensely on the lever. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 132,
+    "beat": "the_tracking",
+    "timestamp": "4:22",
+    "seconds": 262.23,
+    "text": "Rough night. Let me comp you a steak.",
+    "scene": "The Host, a smarmy suited figure with a too-wide grin and slicked hair, leans in beside the slumped frowning Player at the slot machine, holding out a plate with a single steak on it. A small speech bubble from the Host reads ON THE HOUSE. The Player looks drained. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 153,
+    "beat": "the_building",
+    "timestamp": "5:06",
+    "seconds": 305.51,
+    "text": "see. A maze of a floor with",
+    "scene": "Friedman, a doodle professor with round glasses and a small mustache, holds up a large blueprint. The blueprint shows a casino floor as a tangled maze of walls lined with slot-machine boxes and no clear exit; a red dashed line wanders through it and dead-ends. A tiny Player figure is lost inside the maze. This maze pattern is the recurring motif. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 188,
+    "beat": "the_senses",
+    "timestamp": "6:17",
+    "seconds": 376.95,
+    "text": "They pump in scent.",
+    "scene": "A ceiling vent puffs out wavy curling scent lines dotted with tiny flowers, drifting down over the Player who sits at a slot machine with dreamy half-closed eyes and a small contented smile, leaning toward the smell. A soft flat-color haze tints the air around the vent. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 209,
+    "beat": "human_layer",
+    "timestamp": "7:03",
+    "seconds": 422.65,
+    "text": "the machine zone, where the world",
+    "scene": "The Player sits alone at the Slot Machine inside a calm rounded bubble; everything outside the bubble is erased to empty white, silent and weightless. A nearby wall clock has melted, its hands drooping. The Player's face is blank and far away, neither happy nor sad. Muted, hollow mood. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 229,
+    "beat": "payoff",
+    "timestamp": "7:43",
+    "seconds": 463.15,
+    "text": "It's feeding your feelings.",
+    "scene": "The Slot Machine villain, grinning gently, leans down and spoon-feeds a small glowing red heart into the chest of the slumped, calm-but-sad Player instead of paying out coins. On the floor lies a crumpled worksheet covered in scribbled equations, tossed aside. Quiet, resigned mood. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 244,
+    "beat": "button",
+    "timestamp": "8:10",
+    "seconds": 490.13,
+    "text": "Now you carry one in your pocket.",
+    "scene": "The Player holds up a smartphone. The phone screen shows the exact same tangled no-exit maze pattern from the casino blueprint earlier, now as an endless feed with a scroll bar that has no bottom. The Slot Machine's sly grin is faintly reflected in the phone, and a small red arrow loops endlessly down the screen. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  }
+]
