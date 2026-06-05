@@ -47,6 +47,7 @@ MOODS = {
 
 TAIL_MS = 2000           # crossfade tail added to each cue
 MIN_MS, MAX_MS = 10_000, 300_000   # ElevenLabs Music length bounds
+CROSSFADE_S = 1.5        # acrossfade overlap at each cue boundary (tail covers it)
 
 
 def ffdur(path: Path) -> float:
@@ -67,6 +68,60 @@ def credit_count(client):
         return None
 
 
+def build_acrossfade_filter(n: int, crossfade_s: float) -> str:
+    """filter_complex chaining n audio inputs with acrossfade, then apad on the tail.
+    apad lets a later `-t <target>` both trim (if longer) and pad-with-silence (if
+    shorter) to an exact duration. Final output label is [out]."""
+    if n < 1:
+        raise ValueError("need at least one input")
+    if n == 1:
+        return "[0:a]apad[out]"
+    parts = []
+    prev = "[0:a]"
+    for i in range(1, n):
+        if i == n - 1:
+            parts.append(f"{prev}[{i}:a]acrossfade=d={crossfade_s},apad[out]")
+        else:
+            parts.append(f"{prev}[{i}:a]acrossfade=d={crossfade_s}[a{i}]")
+            prev = f"[a{i}]"
+    return ";".join(parts)
+
+
+def stitch_full_score(music_dir: Path, narration_mp3: Path, cues: list) -> Path:
+    """Crossfade the cue files (script order) into full_score.mp3, trimmed/padded to
+    EXACTLY narration_mp3's duration. Atomic temp -> rename."""
+    cue_files = [music_dir / c["file"] for c in cues]
+    missing = [f.name for f in cue_files if not (f.exists() and f.stat().st_size > 0)]
+    if missing:
+        sys.exit("Cannot stitch full score — missing/empty cues: " + ", ".join(missing))
+    if not narration_mp3.exists():
+        sys.exit(f"Need {narration_mp3} to align the full score to the narration length.")
+
+    target = ffdur(narration_mp3)
+    out = music_dir / "full_score.mp3"
+    tmp = out.with_suffix(".mp3.tmp")
+
+    cmd = ["ffmpeg", "-y"]
+    for f in cue_files:
+        cmd += ["-i", str(f)]
+    cmd += [
+        "-filter_complex", build_acrossfade_filter(len(cue_files), CROSSFADE_S),
+        "-map", "[out]",
+        "-t", f"{target:.3f}",
+        "-c:a", "libmp3lame", "-b:a", "192k",
+        "-f", "mp3",          # .tmp extension hides the muxer; specify it
+        str(tmp),
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        tmp.unlink(missing_ok=True)
+        sys.exit(f"ffmpeg full-score stitch failed:\n{result.stderr[-1500:]}")
+    os.replace(tmp, out)
+    print(f"Full score -> {out}  (aligned to narration: {target:.1f}s, "
+          f"{CROSSFADE_S}s crossfades)")
+    return out
+
+
 def write_manifest(music_dir: Path, cues: list) -> Path:
     out = music_dir / "cues.json"
     tmp = out.with_suffix(".json.tmp")
@@ -79,9 +134,25 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("episode", help="episode folder, e.g. episodes/0003_casino-why-you-lose")
     ap.add_argument("--model", default="music_v1")
+    ap.add_argument("--stitch", action="store_true",
+                    help="stitch already-generated cues into full_score.mp3 (no API calls)")
     args = ap.parse_args()
 
     ep = Path(args.episode)
+    music_dir = ep / "music"
+    narration_mp3 = ep / "audio" / "narration.mp3"
+
+    # --stitch: no generation, no API. Stitch existing cues per music/cues.json.
+    if args.stitch:
+        manifest_path = music_dir / "cues.json"
+        if not manifest_path.exists():
+            sys.exit(f"No {manifest_path}. Generate the cues first.")
+        cues = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if not cues:
+            sys.exit(f"{manifest_path} is empty. Generate the cues first.")
+        stitch_full_score(music_dir, narration_mp3, cues)
+        return
+
     chunks_dir = ep / "chunks"
     chunk_files = sorted(chunks_dir.glob("*.mp3"))
     if not chunk_files:
@@ -91,7 +162,6 @@ def main():
     if not api_key:
         sys.exit("ELEVENLABS_API_KEY not set. Add it to .env")
 
-    music_dir = ep / "music"
     music_dir.mkdir(exist_ok=True)
 
     from elevenlabs.client import ElevenLabs
@@ -151,6 +221,13 @@ def main():
         print(f"Credits used (character_count delta): {used}")
     else:
         print("Credits used: unavailable (subscription endpoint did not report a count)")
+
+    # Auto-stitch the cohesive full score (free, no API). Re-runnable via --stitch.
+    if narration_mp3.exists():
+        stitch_full_score(music_dir, narration_mp3, cues)
+    else:
+        print(f"{narration_mp3} not found; skipping full_score stitch. "
+              f"Run with --stitch once narration.mp3 exists.")
 
 
 if __name__ == "__main__":
