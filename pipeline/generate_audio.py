@@ -48,8 +48,15 @@ VOICE_SETTINGS = {
 
 def load_script(path: Path) -> str:
     text = path.read_text(encoding="utf-8")
-    # Drop a trailing SOURCES section so it doesn't get narrated.
-    text = re.split(r"\n#+\s*SOURCES", text, flags=re.I)[0]
+    # Drop a trailing SOURCES section so it never gets narrated. Handle both a
+    # markdown heading (## SOURCES) and a dashed-divider block (---- / SOURCES / ----).
+    # Cut from the first SOURCES marker line through end of file.
+    text = re.split(
+        r"^[ \t]*(?:#+[ \t]*SOURCES\b|-*[ \t]*SOURCES[ \t]*-*)[ \t]*$",
+        text, maxsplit=1, flags=re.I | re.M,
+    )[0]
+    # If a dashed divider opened the block, it now dangles at the end; trim it.
+    text = re.sub(r"\n[ \t]*-{3,}[ \t]*$", "", text.rstrip())
     # Strip markdown headings/inline tags that shouldn't be spoken.
     text = re.sub(r"^\s*#.*$", "", text, flags=re.M)        # headings
     text = re.sub(r"\[[^\]]*\]", "", text)                   # strip all bracketed stage directions
