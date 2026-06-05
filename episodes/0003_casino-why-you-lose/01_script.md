@@ -19,19 +19,19 @@ It's called a "loss disguised as a win." Researchers at the University of Waterl
 
 Modern slots let you bet on many lines at once. Put a dollar across twenty lines, "win" on three, get back forty cents. You are down sixty. That's a loss. A kindergartner could tell you that's a loss. <break time="0.6s" />
 
-The machine disagrees. It lights up, it sings, it throws the exact same party it throws for a real win. And here's the unsettling part the researchers measured. <break time="0.1s" /> Your body can't tell the difference. Heart rate, skin, brain, all react to that net loss the same way they react to actually winning. You leave convinced you won way more often than you did, because the machine trained you to feel like a winner while it emptied your wallet. <break time="0.5s" />
+The machine disagrees. It lights up, it sings, it throws the exact same party it throws for a real win. And here's the unsettling part the researchers measured. <break time="0.3s" /> Your body can't tell the difference. Heart rate, skin, brain, all react to that net loss the same way they react to actually winning. You leave convinced you won way more often than you did, because the machine trained you to feel like a winner while it emptied your wallet. <break time="0.5s" />
 
 It's losing, with a soundtrack. And you clap along. <break time="0.6s" />
 
 [THE SCIENCE]
-None of this is accident, it's recipe. Slots run on the same reinforcement schedule that makes a lab pigeon hammer a lever until it drops. Unpredictable rewards, doled out just often enough to keep you going. Add the near miss, two jackpot symbols on the line, the third landing one cruel notch above it. <break time="0.3s" /> So close. Your brain reads "almost," and almost feels like progress. It isn't. The reels have no memory. But that feeling keeps your thumb on the button. <break time="0.6s" />
+None of this is accident, it's recipe. Slots run on the same reinforcement schedule that makes a lab pigeon hammer a lever until it drops. Unpredictable rewards, doled out just often enough to keep you going. Add the near miss. Two jackpot symbols on the line. The third landing one cruel notch above it. <break time="0.3s" /> So close. Your brain reads "almost," and almost feels like progress. It isn't. The reels have no memory. But that feeling keeps your thumb on the button. <break time="0.6s" />
 
 [THE TRACKING]
 Now it gets personal. Literally. <break time="0.6s" />
 
 That loyalty card you slot in for "points" isn't a rewards program, it's surveillance. The casino logs every bet, every spin, every pause, learning exactly how you play and, more importantly, exactly when you're about to crack. <break time="0.6s" />
 
-Anthropologist Natasha Dow Schull spent fifteen years on this and documented the part that should chill you. Casinos pinpoint your pain point, the moment a losing streak is about to lift you out of your seat and aim you at the door. And right then, just before you quit, someone appears. <break time="0.1s" /> A smiling host. A free dinner. Rough night? Let me comp you a steak. That's not kindness. That's timing. They caught you at the exact second you'd decided to leave, and pulled you back. They knew you were leaving before you did. <break time="0.6s" />
+Anthropologist Natasha Dow Schull spent fifteen years on this and documented the part that should chill you. Casinos pinpoint your pain point. The moment a losing streak is about to lift you out of your seat and aim you at the door. And right then, just before you quit, someone appears. <break time="0.3s" /> A smiling host. A free dinner. Rough night? Let me comp you a steak. That's not kindness. That's timing. They caught you at the exact second you'd decided to leave, and pulled you back. They knew you were leaving before you did. <break time="0.6s" />
 
 [THE BUILDING]
 The games are rigged in your head. <break time="0.3s" /> So is the building. <break time="0.6s" />
@@ -40,10 +40,10 @@ For decades the bible of casino design was written by Bill Friedman, a former ga
 
 So he built a trap. Low ceilings. No windows. No clocks. Slots at the entrance, so the offer is the first thing you see. A maze of a floor with no straight path out, so every time you tried to leave you'd pass a thousand more chances to stay. Even the carpet might be in on it. The theory goes those famously hideous, swirling casino carpets are loud on purpose, so your eyes lift off the floor and back onto the machines. <break time="0.6s" />
 
-Then the twist nobody expects. The maze isn't even the winning move anymore. A designer named Roger Thomas, working with Steve Wynn on the Bellagio, tossed Friedman's rulebook. His insight. People don't bet freely when they feel trapped and anxious. They bet freely when they feel rich and safe. So he built the opposite. High ceilings, sunlight, art, luxury. The "playground." Make people feel like high rollers and they gamble like high rollers. It worked even better. The most effective cage is the one that feels like a palace. <break time="0.7s" />
+Then the twist nobody expects. The maze isn't even the winning move anymore. A designer named Roger Thomas, working with Steve Wynn on the Bella-jee-oh, tossed Friedman's rulebook. His insight. People don't bet freely when they feel trapped and anxious. They bet freely when they feel rich and safe. So he built the opposite. High ceilings, sunlight, art, luxury. The "playground." Make people feel like high rollers and they gamble like high rollers. It worked even better. The most effective cage is the one that feels like a palace. <break time="0.7s" />
 
 [THE SENSES]
-Quick myth check. Casinos pump in oxygen to keep you awake. <break time="0.3s" /> They don't. That came from a novel, and it'd actually be a felony. <break time="0.7s" />
+Quick myth check. Casinos pump in oxygen to keep you awake. <break time="0.3s" /> They don't. That came from a novel, and it'd actually be a felony. <break time="0.6s" />
 
 The real version is worse. They pump in scent. One study piped a pleasant smell into a single slot area of a Vegas casino and the money gambled there jumped about forty-five percent. Same machines, same odds, just a smell. That's the rental price of your judgment. <break time="0.6s" />
 
@@ -60,7 +60,7 @@ That's the real product. Not gambling. <break time="0.3s" /> Disappearance. <bre
 So that's why you keep going back even though you know you'll lose. You were never really there for the money. You were there for the almost, the party, the quiet, the disappearing. Knowing the odds was never going to save you, because the odds were never the thing keeping you in the chair. The casino isn't fighting your math. It's feeding your feelings, and it's very, very good at it. <break time="0.6s" />
 
 [BUTTON]
-And if you're feeling smug because you don't gamble, check your screen time. Remember Friedman's maze, the floor with no exit, built to keep you drifting past one more machine? Same logic as the infinite scroll in your hand right now. <break time="0.3s" /> No clock. No bottom. No natural place to stop. You know it's eating your life. You open it anyway. <break time="0.6s" />
+And if you're feeling smug because you don't gamble, check your screen time. Remember Friedman's maze. The floor with no exit. Built to keep you drifting past one more machine? Same logic as the infinite scroll in your hand right now. <break time="0.3s" /> No clock. No bottom. No natural place to stop. You know it's eating your life. You open it anyway. <break time="0.6s" />
 
 The casino figured it out first. Now you carry one in your pocket. <break time="0.5s" />
 
