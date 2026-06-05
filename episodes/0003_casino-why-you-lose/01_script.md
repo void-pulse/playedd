@@ -57,10 +57,10 @@ Schull found the deepest players eventually stop playing to win at all. They rea
 That's the real product. Not gambling. <break time="0.3s" /> Disappearance. <break time="0.7s" />
 
 [PAYOFF]
-So that's why you keep going back even though you know you'll lose. You were never really there for the money. You were there for the almost, the party, the quiet, the disappearing. Knowing the odds was never going to save you, because the odds were never the thing keeping you in the chair. The casino isn't fighting your math. It's feeding your feelings, and it's very, very good at it. <break time="0.6s" />
+So that's why you keep going back even though you know you'll lose. You were never really there for the money. You were there for the "almost", the party, the quiet, the disappearing. Knowing the odds was never going to save you, because the odds were never the thing keeping you in the chair. The casino isn't fighting your math. It's feeding your feelings, and it's very, very good at it. <break time="0.6s" />
 
 [BUTTON]
-And if you're feeling smug because you don't gamble, check your screen time. Remember Friedman's maze. The floor with no exit. Built to keep you drifting past one more machine? Same logic as the infinite scroll in your hand right now. <break time="0.3s" /> No clock. No bottom. No natural place to stop. You know it's eating your life. You open it anyway. <break time="0.6s" />
+And if you're feeling smug because you don't gamble, check your screen time. Remember Friedman's maze. The floor with no exit. Built to keep you drifting past one more machine? Same logic as the infinite scroll in your hand right now. No clock. No bottom. No natural place to stop. You know it's eating your life. You open it anyway. <break time="0.6s" />
 
 The casino figured it out first. Now you carry one in your pocket. <break time="0.5s" />
 
