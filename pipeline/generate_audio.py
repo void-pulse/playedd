@@ -93,6 +93,13 @@ def main():
     out_dir.mkdir(exist_ok=True)
     out_mp3 = out_dir / "narration.mp3"
 
+    # Human-readable follow-along copy: the exact TTS text minus <break/> tags.
+    # Plain text, tracked in git (not media). Regenerated on every audio run.
+    followalong = re.sub(r"<break[^>]*>", "", text)         # drop break tags
+    followalong = re.sub(r"[ \t]{2,}", " ", followalong)    # collapse gaps a tag left behind
+    followalong = re.sub(r"[ \t]+\n", "\n", followalong).strip() + "\n"
+    (script_path.parent / "narration.txt").write_text(followalong, encoding="utf-8")
+
     from elevenlabs.client import ElevenLabs
     client = ElevenLabs(api_key=api_key)
 
