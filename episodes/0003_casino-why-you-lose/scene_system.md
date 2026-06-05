@@ -53,6 +53,9 @@ contrast/emphasis beats; most frames stay clean white.
   a year, and never as a floating number/percentage. Use words, not digits.
 - **No ambiguous flags, symbols, or insignia.** No national/political/military
   marks of any kind.
+- **No weapons, guns, or depictions of violence.** Render "target/pinpoint/aim"
+  metaphors as surveillance (cameras, a watching eye, a reticle) with NO weapon
+  present.
 - **Describe exactly what is drawn** — concrete objects and actions only, no
   abstractions for the model to invent.
 - Each scene prompt ends with the clause:
