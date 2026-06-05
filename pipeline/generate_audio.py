@@ -155,8 +155,9 @@ def concat_to(narration_mp3: Path, chunk_files: list[Path]) -> None:
             f.write(f"file '{cf.resolve()}'\n")
         list_path = f.name
     tmp = narration_mp3.with_suffix(narration_mp3.suffix + ".tmp")
+    # -f mp3 is required: ffmpeg can't infer the muxer from the ".tmp" extension.
     cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_path,
-           "-c", "copy", str(tmp)]
+           "-c", "copy", "-f", "mp3", str(tmp)]
     try:
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode != 0:
