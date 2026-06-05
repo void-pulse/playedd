@@ -5,7 +5,7 @@ The read is dry, smart, and a little irreverent. Humor and wit are core, not opt
 
 - **POV:** "you're being played, here's how." Confident and knowing, never lecturing or preachy. You're letting the viewer in on something, not teaching a class.
 - **Writing rule:** minimize em dashes. Overuse is an AI tell. Prefer periods, commas, or a restructured sentence.
-- **Lead voice:** still being A/B'd (Keanan vs Tyler). This tone standard applies no matter which voice wins; the words carry the wit, the voice just has to stay out of the way.
+- **Lead voice:** LOCKED to Drew (NARRATOR_D). This tone standard applies regardless; the words carry the wit, the voice just has to stay out of the way.
 
 ## The honest take on "ElevenLabs gets you demonetized"
 It doesn't. AI voice alone is fine and stays monetizable. What gets flagged is recycling the *exact same* preset over identical templated videos with no added value. The fix isn't avoiding ElevenLabs, it's (a) not using the one voice every AI channel uses, (b) varying delivery, (c) adding real substance. See FORMATS.md.
@@ -45,3 +45,4 @@ Tuned for natural, non-robotic narration:
 | NARRATOR_A | Keanan - Natural, Teacher | 2fe8mwpfJcqvj9RGBsC1 | Follow The Money, The Scam Explained |
 | NARRATOR_B | Jason Jordan | RCvfNaeRVixdBMcmd2Wl | The Psychology Trick, Who Owns This |
 | NARRATOR_C | Tyler Kurk | raMcNf2S8wCmuaBcyI6E | audition (ep 2) |
+| NARRATOR_D | Drew | q0IMILNRPxOgtBTS4taI | **LOCKED channel lead voice** |
