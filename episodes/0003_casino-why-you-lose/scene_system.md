@@ -33,6 +33,14 @@ only the SCENE content (plus the SAFETY clause below).
 - **(c) The green zero** — a single flat-green roulette slot, drawn slightly
   oversized as a glowing sliver, recurs as a motif for the house's hidden edge.
 
+## Real people = generic archetypes only (no likeness)
+Friedman, Roger Thomas, Natasha Dow Schull, Steve Wynn, the Waterloo
+researchers, and ANY real person named in the narration are drawn ONLY as
+generic doodle archetypes (a professor with round glasses, a luxe designer with
+a champagne glass, an anthropologist with a notebook, a researcher in a lab
+coat). Never a likeness of the actual person, and never a name label in the
+image. The narration says the name; the picture just shows the archetype.
+
 ## Color
 Doodle-on-white by default. Selective pop color only: casino red (signage,
 arrows, alarm), coin gold-green (money), roulette green (the zero sliver),

@@ -1,1 +1,1717 @@
-placeholder - written by Claude Code from prompts/03
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.27,
+    "text": "Can you actually beat the casino?",
+    "scene": "The Player, a small hunched round-headed everyman with worried dot eyes, stands looking up at The Slot Machine: a tall boxy machine with a big sly grinning face, three reel windows for a mouth, and a lever like a cocked eyebrow. The Player is tiny beside it. A red question mark hovers over the Player's head. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 2.73,
+    "text": "Technically, yes.",
+    "scene": "A lone clever stickman at a blackjack table holds his cards close to his chest with a sly look, a tiny lightbulb glowing over his head. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:04",
+    "seconds": 4.25,
+    "text": "A handful of people have.",
+    "scene": "A small group of stickmen around a card table; one of them quietly stacks a modest pile of chips while the others watch. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:06",
+    "seconds": 6.21,
+    "text": "Counting cards. Catching a sloppy table.",
+    "scene": "Close on the card-counter's eyes darting side to side over the cards on the felt, small check marks floating near his head to show silent counting. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:09",
+    "seconds": 8.77,
+    "text": "You know what happens to them.",
+    "scene": "A burly bouncer stickman in a dark suit stands with arms folded, looming and eyeing the card-counter. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 6,
+    "timestamp": "0:10",
+    "seconds": 10.19,
+    "text": "A tap on the shoulder and",
+    "scene": "The bouncer's big hand taps the startled card-counter on the shoulder; the counter's face goes wide-eyed. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 7,
+    "timestamp": "0:12",
+    "seconds": 11.65,
+    "text": "they're thrown out. Banned for life.",
+    "scene": "The bouncer hurls the card-counter out a door by the collar; a card pinned to the door carries a red BANNED stamp. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 8,
+    "timestamp": "0:14",
+    "seconds": 13.91,
+    "text": "Which tells you everything you need",
+    "scene": "The grinning Slot Machine gives a sly side-eye, a small red arrow pointing back at the tossed-out player. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 9,
+    "timestamp": "0:16",
+    "seconds": 15.51,
+    "text": "to know. The casino will happily let you",
+    "scene": "The Slot Machine and a card table spread their arms in a welcoming open-armed gesture, inviting. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 10,
+    "timestamp": "0:18",
+    "seconds": 17.81,
+    "text": "play any game in the building",
+    "scene": "A row of casino games lined up, each with a friendly little face: a card table, a roulette wheel with one green slot, and the grinning Slot Machine. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 11,
+    "timestamp": "0:19",
+    "seconds": 19.05,
+    "text": "right up until the moment you",
+    "scene": "A stickman at a table about to win, grinning wide as chips slide toward him. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 12,
+    "timestamp": "0:20",
+    "seconds": 20.27,
+    "text": "might actually win.",
+    "scene": "The same stickman's grin drops as the bouncer's big shadow falls over his winning chips. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 13,
+    "timestamp": "0:22",
+    "seconds": 21.65,
+    "text": "The house doesn't fear bad luck.",
+    "scene": "The Slot Machine yawns, bored, at a tiny rain cloud and a snapped horseshoe representing bad luck. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 14,
+    "timestamp": "0:23",
+    "seconds": 23.49,
+    "text": "It fears skill.",
+    "scene": "The Slot Machine recoils and sweats, pointing nervously at a glowing brain. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 15,
+    "timestamp": "0:25",
+    "seconds": 25.25,
+    "text": "So for the rest of us, the ones not running blackjack math",
+    "scene": "An ordinary Player shrugs at a chalkboard covered in scribbled equations he clearly does not understand, question marks around him. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 16,
+    "timestamp": "0:28",
+    "seconds": 28.21,
+    "text": "in our heads, the answer is simpler.",
+    "scene": "The Player shrugs with palms up, simple head-shake motion lines beside him. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 17,
+    "timestamp": "0:30",
+    "seconds": 29.99,
+    "text": "No, you will not beat the",
+    "scene": "The Player shakes his head firmly; a red X is drawn over a tiny trophy. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 18,
+    "timestamp": "0:32",
+    "seconds": 31.89,
+    "text": "casino. You already know that.",
+    "scene": "The Player nods glumly at the grinning Slot Machine, resigned. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 19,
+    "timestamp": "0:34",
+    "seconds": 33.97,
+    "text": "The odds are practically printed on",
+    "scene": "A casino wall covered in scribbled payout charts; the Player glances at it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 20,
+    "timestamp": "0:36",
+    "seconds": 35.67,
+    "text": "the wall, and you go anyway.",
+    "scene": "The Player walks past the chart wall toward glowing slot machines, drawn in like a moth to light. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 21,
+    "timestamp": "0:37",
+    "seconds": 37.41,
+    "text": "Millions of people go anyway.",
+    "scene": "A big crowd of small identical Players streams through casino doors toward the glow. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 22,
+    "timestamp": "0:40",
+    "seconds": 40.25,
+    "text": "So here's the real question, the",
+    "scene": "The Player pauses; a thought bubble forms with a question mark inside. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 23,
+    "timestamp": "0:42",
+    "seconds": 41.71,
+    "text": "one the casino is praying you",
+    "scene": "The grinning Slot Machine clasps its lever-arms like praying hands, sweating a little. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 24,
+    "timestamp": "0:43",
+    "seconds": 43.25,
+    "text": "never ask out loud.",
+    "scene": "The Slot Machine presses a finger to its mouth in a nervous shush. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 25,
+    "timestamp": "0:45",
+    "seconds": 44.89,
+    "text": "If you know you'll lose, why",
+    "scene": "The Player scratches his head under a big red question mark while coins drain from his pocket. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 26,
+    "timestamp": "0:47",
+    "seconds": 46.73,
+    "text": "do you keep coming back?",
+    "scene": "The Player trudges back toward the Slot Machine along a looping circular arrow. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 27,
+    "timestamp": "0:49",
+    "seconds": 48.93,
+    "text": "First, the part you already know.",
+    "scene": "The Player holds up one finger, matter-of-fact, beginning a small checklist. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 28,
+    "timestamp": "0:51",
+    "seconds": 50.51,
+    "text": "It's just the foundation, so we'll",
+    "scene": "A simple drawn foundation block with a brick pattern; the Player taps it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 29,
+    "timestamp": "0:52",
+    "seconds": 51.97,
+    "text": "be quick. Every game on that floor is",
+    "scene": "An overhead casino floor where each game leans slightly, all tilting the same direction. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 30,
+    "timestamp": "0:54",
+    "seconds": 54.25,
+    "text": "tilted a few percent toward the",
+    "scene": "The whole floor drawn as a tilted plane; every game slides toward a small house icon on the low side. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 31,
+    "timestamp": "0:56",
+    "seconds": 55.83,
+    "text": "house. Roulette's the cleanest example.",
+    "scene": "A clean simple roulette wheel front and center. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 32,
+    "timestamp": "0:59",
+    "seconds": 58.55,
+    "text": "A bet on red looks like",
+    "scene": "A hand places a chip on a red square beside a red-and-black split shown like a coin face. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 33,
+    "timestamp": "1:00",
+    "seconds": 60.31,
+    "text": "a coin flip.",
+    "scene": "A coin caught mid-flip, one face red, the other black. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 34,
+    "timestamp": "1:02",
+    "seconds": 61.61,
+    "text": "It isn't. There's a green zero on the",
+    "scene": "The roulette wheel with a single slot filled flat green, drawn oversized and glowing, a red arrow pointing at it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 35,
+    "timestamp": "1:04",
+    "seconds": 64.09,
+    "text": "wheel, a slot that's neither red",
+    "scene": "Close on the green slot sitting between a red slot and a black slot, clearly the odd one out. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 36,
+    "timestamp": "1:06",
+    "seconds": 65.83,
+    "text": "nor black. And the American wheel has two",
+    "scene": "The wheel showing a pair of green slots, the two green slivers emphasized. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 37,
+    "timestamp": "1:08",
+    "seconds": 68.47,
+    "text": "of them. That little green sliver is the",
+    "scene": "A simple flat roulette wheel drawn as a circle of slots. Most slots are plain, but one thin slot is filled flat green and drawn slightly oversized and glowing, a small red arrow pointing at it and a short handwritten label reading GREEN ZERO. This green sliver is the recurring house-edge motif. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 38,
+    "timestamp": "1:11",
+    "seconds": 70.97,
+    "text": "entire business model.",
+    "scene": "The green sliver morphs into a tiny money-printing house with coins spilling out. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 39,
+    "timestamp": "1:13",
+    "seconds": 72.53,
+    "text": "It quietly turns even money into",
+    "scene": "A balanced scale labeled even; the green sliver nudges one side down so coins slide toward the house. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 40,
+    "timestamp": "1:15",
+    "seconds": 74.79,
+    "text": "a slow loser every spin, forever.",
+    "scene": "A spinning wheel with a small downward arrow looping endlessly while the Player's chip pile slowly shrinks, an infinity loop beside it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 41,
+    "timestamp": "1:18",
+    "seconds": 78.07,
+    "text": "And here's the only math that",
+    "scene": "The Player at a chalkboard with one simple equation circled. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 42,
+    "timestamp": "1:20",
+    "seconds": 80.37,
+    "text": "matters. A tiny edge, repeated enough times,",
+    "scene": "A single tiny sliver repeated into a long stacking row of slivers. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 43,
+    "timestamp": "1:24",
+    "seconds": 83.77,
+    "text": "becomes a certainty.",
+    "scene": "The stacked slivers form a solid wall, a check mark beside it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 44,
+    "timestamp": "1:25",
+    "seconds": 85.15,
+    "text": "The casino doesn't need to beat",
+    "scene": "The grinning Slot Machine shrugs in a relaxed no-rush posture. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 45,
+    "timestamp": "1:27",
+    "seconds": 86.71,
+    "text": "you on any single bet.",
+    "scene": "A single die and one chip; the Slot Machine looks away, bored. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 46,
+    "timestamp": "1:28",
+    "seconds": 87.93,
+    "text": "It needs you to make a",
+    "scene": "The Slot Machine beckons with a lever-arm, gesturing for more. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 47,
+    "timestamp": "1:30",
+    "seconds": 89.51,
+    "text": "lot of bets. Over enough spins, the law of",
+    "scene": "A huge pile of chips being fed into the machine, many spin arrows swirling. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 48,
+    "timestamp": "1:33",
+    "seconds": 92.53,
+    "text": "averages pays the house its cut",
+    "scene": "Coins flow from the machine into a small house piggy bank in a steady stream. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 49,
+    "timestamp": "1:34",
+    "seconds": 94.29,
+    "text": "like clockwork. The edge is basically gravity.",
+    "scene": "A clock face beside chips falling like dropped objects, pulled down toward the house. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 50,
+    "timestamp": "1:37",
+    "seconds": 97.41,
+    "text": "Slow, quiet, constant.",
+    "scene": "A slow dripping faucet of coins into a house bucket, steady drips. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 51,
+    "timestamp": "1:40",
+    "seconds": 99.85,
+    "text": "But gravity only wins if you",
+    "scene": "A single coin floating in the air, held up like a feather. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 52,
+    "timestamp": "1:42",
+    "seconds": 101.67,
+    "text": "stay in the air. So the real question isn't why",
+    "scene": "The Player suspended in mid-air above the machine, the instant before falling. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 53,
+    "timestamp": "1:44",
+    "seconds": 104.23,
+    "text": "the odds favor the casino.",
+    "scene": "A grinning house holds down the clearly heavier side of a scale, obvious. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 54,
+    "timestamp": "1:46",
+    "seconds": 105.89,
+    "text": "Everybody knows the odds favor the",
+    "scene": "A crowd of Players all nod knowingly at the tilted scale. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 55,
+    "timestamp": "1:48",
+    "seconds": 107.63,
+    "text": "casino. The question is why you sit",
+    "scene": "The Player plops down into a chair bolted in front of the Slot Machine. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 56,
+    "timestamp": "1:50",
+    "seconds": 109.69,
+    "text": "there long enough to let those",
+    "scene": "A clock spins fast while the Player stays glued to the chair. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 57,
+    "timestamp": "1:51",
+    "seconds": 110.97,
+    "text": "odds do their work. And that is what the entire",
+    "scene": "The whole casino building drawn as one big machine full of gears. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 58,
+    "timestamp": "1:53",
+    "seconds": 113.45,
+    "text": "building is engineered to solve.",
+    "scene": "A cutaway of the building showing gears all arranged to keep the Player in the chair. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 59,
+    "timestamp": "1:55",
+    "seconds": 114.99,
+    "text": "It's one giant machine, tuned to",
+    "scene": "The casino building with a big tuning dial on its side. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 60,
+    "timestamp": "1:58",
+    "seconds": 117.59,
+    "text": "a single number the industry literally",
+    "scene": "The dial points to a single glowing notch marked with a small clock icon. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 61,
+    "timestamp": "2:00",
+    "seconds": 119.83,
+    "text": "has a name for. They call it Time On Device.",
+    "scene": "A stopwatch fused into the body of a slot machine, the Player glued to the seat. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 62,
+    "timestamp": "2:03",
+    "seconds": 122.87,
+    "text": "And the device they care about",
+    "scene": "The Slot Machine points proudly at itself. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 63,
+    "timestamp": "2:04",
+    "seconds": 124.27,
+    "text": "most isn't the card table.",
+    "scene": "A card table drawn small and dim, pushed off to the side. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 64,
+    "timestamp": "2:06",
+    "seconds": 126.37,
+    "text": "It's the slot machine.",
+    "scene": "The Slot Machine spotlighted center stage, grinning, the clear villain. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 65,
+    "timestamp": "2:08",
+    "seconds": 127.99,
+    "text": "The casino's quiet biggest moneymaker.",
+    "scene": "The Slot Machine sits smugly on a fat pile of money. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 66,
+    "timestamp": "2:11",
+    "seconds": 130.69,
+    "text": "And almost everything clever in the",
+    "scene": "The building's gears all turn into arrows converging on the Slot Machine. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 67,
+    "timestamp": "2:12",
+    "seconds": 132.49,
+    "text": "building exists to keep you glued",
+    "scene": "The Player stuck to the slot-machine seat with sticky glue lines. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 68,
+    "timestamp": "2:15",
+    "seconds": 134.79,
+    "text": "to one.",
+    "scene": "Close on the Player fused to a single Slot Machine, one finger on the button. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 69,
+    "timestamp": "2:16",
+    "seconds": 136.25,
+    "text": "The slickest trick on the floor,",
+    "scene": "The Slot Machine with a sly magician's flourish, wearing a little top hat and cape. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 70,
+    "timestamp": "2:18",
+    "seconds": 138.11,
+    "text": "and you've personally fallen for it.",
+    "scene": "A red arrow points straight out at the viewer; the Player is caught wide-eyed. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 71,
+    "timestamp": "2:21",
+    "seconds": 140.67,
+    "text": "It's called a loss disguised as",
+    "scene": "A sad frowning coin wearing a cheerful party mask, a disguise. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 72,
+    "timestamp": "2:23",
+    "seconds": 143.35,
+    "text": "a win. Researchers at the University of Waterloo",
+    "scene": "Two generic lab-coat researcher archetypes with clipboards observe a slot machine. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 73,
+    "timestamp": "2:26",
+    "seconds": 146.49,
+    "text": "named it, and once you hear",
+    "scene": "A researcher writes a small tag onto the disguised frowning coin. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 74,
+    "timestamp": "2:28",
+    "seconds": 147.85,
+    "text": "it, you can't unhear it.",
+    "scene": "A Player clamps his hands over his ears while the masked-coin idea buzzes around his head. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 75,
+    "timestamp": "2:30",
+    "seconds": 149.99,
+    "text": "Modern slots let you bet on",
+    "scene": "A modern slot machine whose screen shows many crossing paylines. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 76,
+    "timestamp": "2:32",
+    "seconds": 151.73,
+    "text": "many lines at once. Put a dollar across 20 lines,",
+    "scene": "A single dollar coin splits into many small bets spread across the crossing lines. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 77,
+    "timestamp": "2:35",
+    "seconds": 155.07,
+    "text": "win on 3, get back 40",
+    "scene": "The machine lights up on a few lines while only a tiny handful of coins trickles back. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 78,
+    "timestamp": "2:37",
+    "seconds": 156.61,
+    "text": "cents. You are down 60.",
+    "scene": "The Player's wallet shows far more coins leaving than returning, a clear net down red arrow. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 79,
+    "timestamp": "2:39",
+    "seconds": 158.61,
+    "text": "That's a loss. A kindergartner could tell you that's",
+    "scene": "A tiny child stickman points at the shrinking coin pile, frowning, thumb down. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 80,
+    "timestamp": "2:42",
+    "seconds": 161.67,
+    "text": "a loss.",
+    "scene": "A big red downward arrow over the coin pile, plain and stark. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 81,
+    "timestamp": "2:43",
+    "seconds": 162.95,
+    "text": "The machine disagrees.",
+    "scene": "The Slot Machine shakes its head no, grinning and wagging a lever-finger. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 82,
+    "timestamp": "2:44",
+    "seconds": 164.37,
+    "text": "It lights up. It sings.",
+    "scene": "The Slot Machine bursts with light bulbs and music notes, a celebration beginning. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 83,
+    "timestamp": "2:46",
+    "seconds": 166.03,
+    "text": "It throws the exact same party",
+    "scene": "The Slot Machine in full celebration: flashing bulbs, flying music notes, confetti, beaming face. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 84,
+    "timestamp": "2:48",
+    "seconds": 168.31,
+    "text": "it throws for a real win.",
+    "scene": "Split frame. Left: the Slot Machine's full celebration over a big coin jackpot, a real win. Right: the exact same celebration over a shrinking coin pile, a loss. The celebration is drawn identically on both sides. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 85,
+    "timestamp": "2:50",
+    "seconds": 170.11,
+    "text": "And here's the unsettling part the",
+    "scene": "The two researcher archetypes lean in, concerned, pointing at a readout. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 86,
+    "timestamp": "2:52",
+    "seconds": 171.85,
+    "text": "researchers measured. Your body can't tell the difference.",
+    "scene": "A Player wired to simple sensors and a heartbeat line; the line spikes the same for a win and a loss. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 87,
+    "timestamp": "2:56",
+    "seconds": 175.51,
+    "text": "Heart rate, skin, brain all react",
+    "scene": "A heart, a hand, and a brain icon all light up red together. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 88,
+    "timestamp": "2:58",
+    "seconds": 178.05,
+    "text": "to that net loss the same",
+    "scene": "The heartbeat line spikes high even as a red down arrow marks the loss. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 89,
+    "timestamp": "3:00",
+    "seconds": 179.95,
+    "text": "way they react to actually winning.",
+    "scene": "The same high spike shown next to a trophy, an identical reading. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 90,
+    "timestamp": "3:03",
+    "seconds": 183.01,
+    "text": "You leave convinced you won way",
+    "scene": "The Player walks away grinning, a trophy floating in his thought bubble. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 91,
+    "timestamp": "3:04",
+    "seconds": 184.49,
+    "text": "more often than you did, because",
+    "scene": "The thought-bubble trophy contrasted against the real shrunken wallet, a red arrow marking the mismatch. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 92,
+    "timestamp": "3:06",
+    "seconds": 186.25,
+    "text": "the machine trained you to feel",
+    "scene": "The Slot Machine acts like an animal trainer with a whistle; the Player is a happy trained pet. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 93,
+    "timestamp": "3:08",
+    "seconds": 187.65,
+    "text": "like a winner while it emptied",
+    "scene": "The Player beams while the machine quietly vacuums coins out of his pocket. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 94,
+    "timestamp": "3:09",
+    "seconds": 189.07,
+    "text": "your wallet.",
+    "scene": "An empty wallet held open with moths flying out; the Player still smiles, clueless. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 95,
+    "timestamp": "3:10",
+    "seconds": 190.45,
+    "text": "It's losing with a soundtrack.",
+    "scene": "The Slot Machine erupting in full celebration: flashing bulbs around its frame, music notes flying out, little confetti bits, its grinning face beaming. The Player sits clapping with a delighted open mouth, but his small coin pile on the counter is visibly shrinking with a red down arrow over it. The celebration is drawn the exact same exuberant way a real jackpot would be. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 96,
+    "timestamp": "3:12",
+    "seconds": 192.39,
+    "text": "And you clap along.",
+    "scene": "The Player claps enthusiastically at the celebrating machine, oblivious. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 97,
+    "timestamp": "3:14",
+    "seconds": 194.09,
+    "text": "None of this is accident.",
+    "scene": "The Slot Machine pulls back a curtain to reveal gears and blueprints behind it, all deliberate. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 98,
+    "timestamp": "3:16",
+    "seconds": 196.11,
+    "text": "It's recipe.",
+    "scene": "An open recipe card stamped with a slot symbol, ingredients drawn as little icons. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 99,
+    "timestamp": "3:17",
+    "seconds": 197.33,
+    "text": "Slots run on the same reinforcement",
+    "scene": "A clinical lab setting with a lever and a reward chute, cold and precise. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 100,
+    "timestamp": "3:19",
+    "seconds": 199.45,
+    "text": "schedule that makes a lab pigeon",
+    "scene": "A doodle pigeon inside a plain lab box. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 101,
+    "timestamp": "3:21",
+    "seconds": 201.17,
+    "text": "hammer a lever until it drops.",
+    "scene": "The pigeon frantically pecks a lever, motion lines around it, looking exhausted. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 102,
+    "timestamp": "3:24",
+    "seconds": 203.55,
+    "text": "Unpredictable rewards.",
+    "scene": "A reward chute drops a treat at random intervals, question marks around the timing. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 103,
+    "timestamp": "3:25",
+    "seconds": 205.05,
+    "text": "Doled out just often enough to",
+    "scene": "The pigeon gets an occasional pellet that keeps it hooked, a carrot dangling ahead. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 104,
+    "timestamp": "3:27",
+    "seconds": 206.51,
+    "text": "keep you going. Add the near miss.",
+    "scene": "Cut to the slot reels mid-spin, full of anticipation. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 105,
+    "timestamp": "3:29",
+    "seconds": 208.51,
+    "text": "Two jackpot symbols on the line.",
+    "scene": "Two matching gold bells sit on the payline of the slot reels. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 106,
+    "timestamp": "3:30",
+    "seconds": 210.39,
+    "text": "The third landing one cruel notch",
+    "scene": "Close-up of the Slot Machine's three reel windows on the payline. Two reels show the same simple gold bell symbol sitting on the line; the third reel shows a matching bell stopped one notch ABOVE the line, just missing. A red arrow marks the near-miss gap and a short handwritten label reads SO CLOSE. The Player's hand hovers tensely on the lever. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 107,
+    "timestamp": "3:33",
+    "seconds": 212.59,
+    "text": "above it. So close.",
+    "scene": "The Player's face inches from the reels, agonized, a sweat drop, a so-close expression. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 108,
+    "timestamp": "3:35",
+    "seconds": 214.67,
+    "text": "Your brain reads almost and almost",
+    "scene": "A brain with a little spark lighting up as if it nearly won. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 109,
+    "timestamp": "3:37",
+    "seconds": 216.85,
+    "text": "feels like progress.",
+    "scene": "A progress bar drawn nearly full but actually stuck, the brain fooled into feeling progress. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 110,
+    "timestamp": "3:38",
+    "seconds": 218.05,
+    "text": "It isn't. The reels have no memory.",
+    "scene": "The slot reels with a blank empty thought bubble, shrugging, no memory. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 111,
+    "timestamp": "3:40",
+    "seconds": 220.29,
+    "text": "But that feeling keeps your thumb",
+    "scene": "Close on the Player's thumb hovering eagerly over the spin button. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 112,
+    "timestamp": "3:42",
+    "seconds": 221.79,
+    "text": "on the button.",
+    "scene": "The thumb presses the glowing spin button again, compelled. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 113,
+    "timestamp": "3:43",
+    "seconds": 223.33,
+    "text": "Now it gets personal.",
+    "scene": "The grinning Slot Machine leans in uncomfortably close to the Player. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 114,
+    "timestamp": "3:45",
+    "seconds": 224.77,
+    "text": "Literally.",
+    "scene": "The machine sprouts a single watching eye fixed on the Player. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 115,
+    "timestamp": "3:46",
+    "seconds": 226.09,
+    "text": "That loyalty card you slot in",
+    "scene": "A hand slides a loyalty card into the machine's card slot. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 116,
+    "timestamp": "3:48",
+    "seconds": 228.29,
+    "text": "for points isn't a rewards program.",
+    "scene": "The loyalty card with a friendly star, a thin disguise. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 117,
+    "timestamp": "3:51",
+    "seconds": 231.19,
+    "text": "It's surveillance.",
+    "scene": "The card peels back to reveal a watching red eye; the friendly mask slips. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 118,
+    "timestamp": "3:53",
+    "seconds": 232.75,
+    "text": "The casino logs every bet.",
+    "scene": "A ledger topped with an eye writes down each bet as a long column of tally marks. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 119,
+    "timestamp": "3:55",
+    "seconds": 234.83,
+    "text": "Every spin. Every pause.",
+    "scene": "The eye watches the reels spin and watches the Player hesitate, shown in two small panels. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 120,
+    "timestamp": "3:57",
+    "seconds": 236.99,
+    "text": "Learning exactly how you play.",
+    "scene": "A mechanical hand fills in a profile sheet of the Player covered in little charts. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 121,
+    "timestamp": "3:59",
+    "seconds": 238.87,
+    "text": "And, more importantly, exactly when you're",
+    "scene": "A gauge with a face that shifts from calm to cracking, the needle rising. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 122,
+    "timestamp": "4:01",
+    "seconds": 241.27,
+    "text": "about to crack.",
+    "scene": "The gauge needle in the red crack zone; the Player's face strains, a crack line on his forehead. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 123,
+    "timestamp": "4:03",
+    "seconds": 243.13,
+    "text": "Anthropologist Natasha Dow Shule spent 15",
+    "scene": "A generic anthropologist archetype with glasses and a notebook studies the slot floor. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 124,
+    "timestamp": "4:06",
+    "seconds": 246.25,
+    "text": "years on this and documented the",
+    "scene": "The anthropologist's thick stack of field notes. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 125,
+    "timestamp": "4:08",
+    "seconds": 248.17,
+    "text": "part that should chill you.",
+    "scene": "The anthropologist looks alarmed at her own notes, shiver lines around her. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 126,
+    "timestamp": "4:10",
+    "seconds": 249.75,
+    "text": "Casinos pinpoint your pain point.",
+    "scene": "A red crosshair settles over the Player slumping in despair. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 127,
+    "timestamp": "4:12",
+    "seconds": 251.69,
+    "text": "The moment a losing streak is",
+    "scene": "A downward losing-streak line while the Player sags. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 128,
+    "timestamp": "4:14",
+    "seconds": 253.53,
+    "text": "about to lift you out of your seat and aim you at",
+    "scene": "The Player half-stands and turns toward the exit. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 129,
+    "timestamp": "4:16",
+    "seconds": 256.07,
+    "text": "the door. And right then, just before you",
+    "scene": "The Player one step from the exit door, hand reaching for the handle. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 130,
+    "timestamp": "4:18",
+    "seconds": 258.15,
+    "text": "quit, someone appears.",
+    "scene": "A suited figure steps in to intercept the Player right at the door. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 131,
+    "timestamp": "4:20",
+    "seconds": 260.21,
+    "text": "A smiling host. A free dinner.",
+    "scene": "The Host, a smarmy suited figure with a too-wide grin, appears presenting a covered dish. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 132,
+    "timestamp": "4:22",
+    "seconds": 262.23,
+    "text": "Rough night. Let me comp you a steak.",
+    "scene": "The Host, a smarmy suited figure with a too-wide grin and slicked hair, leans in beside the slumped frowning Player at the slot machine, holding out a plate with a single steak on it and a small FREE tag. The Player looks drained. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 133,
+    "timestamp": "4:24",
+    "seconds": 264.37,
+    "text": "That's not kindness.",
+    "scene": "The Host's friendly mask cracks to show a calculating look, a price tag hidden behind the steak. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 134,
+    "timestamp": "4:26",
+    "seconds": 265.89,
+    "text": "That's timing.",
+    "scene": "The Host holds a stopwatch, having arrived at the precise moment. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 135,
+    "timestamp": "4:27",
+    "seconds": 267.13,
+    "text": "They caught you at the exact second you decided to leave and",
+    "scene": "The Host's arm pulls the Player back by the shoulder just as he reaches the door. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 136,
+    "timestamp": "4:30",
+    "seconds": 270.13,
+    "text": "pulled you back. They knew you were leaving before",
+    "scene": "The Slot Machine's eye and the Host trade a knowing look, a thought bubble predicting the Player's move. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 137,
+    "timestamp": "4:33",
+    "seconds": 272.71,
+    "text": "you did.",
+    "scene": "The Player back in the chair, surprised, the Host smiling behind him. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 138,
+    "timestamp": "4:35",
+    "seconds": 274.81,
+    "text": "The games are rigged in your",
+    "scene": "A brain with tiny slot reels turning inside it, gears meshing. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 139,
+    "timestamp": "4:37",
+    "seconds": 276.63,
+    "text": "head. So is the building.",
+    "scene": "Split frame: a brain on the left and the casino building on the right, both filled with the same gears. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 140,
+    "timestamp": "4:39",
+    "seconds": 279.01,
+    "text": "For decades, the Bible of casino",
+    "scene": "An old thick dusty book stamped with a slot symbol, an old-timey feel. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 141,
+    "timestamp": "4:41",
+    "seconds": 281.19,
+    "text": "design was written by Bill Friedman,",
+    "scene": "A generic doodle professor archetype with round glasses and a small mustache holds the thick book. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 142,
+    "timestamp": "4:43",
+    "seconds": 283.45,
+    "text": "a former gambling addict turned professor",
+    "scene": "A small before-and-after: a slumped gambler becoming an upright professor archetype holding a pointer. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 143,
+    "timestamp": "4:46",
+    "seconds": 285.97,
+    "text": "who studied dozens of casinos to",
+    "scene": "The professor archetype examines many tiny casino floor maps with a magnifying glass. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 144,
+    "timestamp": "4:48",
+    "seconds": 288.17,
+    "text": "crack the code.",
+    "scene": "The professor archetype cracks open a safe stamped with a slot symbol, a eureka spark. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 145,
+    "timestamp": "4:49",
+    "seconds": 289.45,
+    "text": "His conclusion was simple.",
+    "scene": "The professor archetype holds up one finger beside a single simple note. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 146,
+    "timestamp": "4:51",
+    "seconds": 291.27,
+    "text": "Nothing matters except how many people",
+    "scene": "A turnstile clicks as people enter, counting the crowd. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 147,
+    "timestamp": "4:53",
+    "seconds": 293.43,
+    "text": "gamble and how many come back.",
+    "scene": "A revolving door with people leaving and returning in a loop. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 148,
+    "timestamp": "4:56",
+    "seconds": 295.71,
+    "text": "Everything else is decoration.",
+    "scene": "Fancy chandeliers and plants drawn as flimsy stage props being waved away. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 149,
+    "timestamp": "4:58",
+    "seconds": 298.19,
+    "text": "So he built a trap.",
+    "scene": "The professor archetype sketches a box trap on his blueprint. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 150,
+    "timestamp": "5:00",
+    "seconds": 299.81,
+    "text": "Low ceilings. No windows.",
+    "scene": "A cramped low-ceiling windowless room, claustrophobic, the Player hunched inside. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 151,
+    "timestamp": "5:02",
+    "seconds": 301.57,
+    "text": "No clocks. Slots at the entrance so the",
+    "scene": "A wall with a crossed-out clock; slot machines crowd right at the entry doors. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 152,
+    "timestamp": "5:04",
+    "seconds": 304.13,
+    "text": "offer is the first thing you",
+    "scene": "A Player steps in and comes face to face with a grinning slot machine immediately. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 153,
+    "timestamp": "5:06",
+    "seconds": 305.51,
+    "text": "see. A maze of a floor with",
+    "scene": "A generic doodle professor archetype with round glasses and a small mustache holds up a large blueprint. The blueprint shows a casino floor as a tangled maze of walls lined with slot-machine boxes and no clear exit; a red dashed line wanders through it and dead-ends. A tiny Player figure is lost inside the maze. This maze pattern is the recurring motif. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 154,
+    "timestamp": "5:08",
+    "seconds": 307.61,
+    "text": "no straight path out so every",
+    "scene": "An overhead maze floor, a tangled red path with dead ends, a tiny Player lost in it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 155,
+    "timestamp": "5:09",
+    "seconds": 309.39,
+    "text": "time you tried to leave, you'd",
+    "scene": "The tiny Player tries to leave but the maze path curves him back inward. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 156,
+    "timestamp": "5:11",
+    "seconds": 311.03,
+    "text": "pass a thousand more chances to",
+    "scene": "The maze corridors lined with countless slot machines on every wall. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 157,
+    "timestamp": "5:13",
+    "seconds": 312.95,
+    "text": "stay. Even the carpet might be in",
+    "scene": "A wildly swirling loud patterned carpet underfoot. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 158,
+    "timestamp": "5:15",
+    "seconds": 315.19,
+    "text": "on it. The theory goes, those famously hideous",
+    "scene": "The Player winces down at the garish swirling carpet. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 159,
+    "timestamp": "5:19",
+    "seconds": 318.85,
+    "text": "swirling casino carpets are loud on",
+    "scene": "The carpet pattern drawn as visually shouting with jagged loud lines. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 160,
+    "timestamp": "5:22",
+    "seconds": 321.87,
+    "text": "purpose so your eyes lift off",
+    "scene": "The Player's gaze bounces up off the ugly carpet, upward motion arrows. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 161,
+    "timestamp": "5:24",
+    "seconds": 323.99,
+    "text": "the floor and back onto the",
+    "scene": "The Player's eyes land back on the glowing slot machines. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 162,
+    "timestamp": "5:25",
+    "seconds": 325.37,
+    "text": "machines.",
+    "scene": "The machines glow invitingly at eye level while the carpet stays ugly below. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 163,
+    "timestamp": "5:27",
+    "seconds": 326.77,
+    "text": "Then the twist nobody expects.",
+    "scene": "A twist spiral arrow beside a surprised face. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 164,
+    "timestamp": "5:29",
+    "seconds": 328.95,
+    "text": "The maze isn't even the winning",
+    "scene": "The maze blueprint with a big red X over it, rejected. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 165,
+    "timestamp": "5:31",
+    "seconds": 330.59,
+    "text": "move anymore. A designer named Roger Thomas, working",
+    "scene": "A generic luxe-designer archetype, sleek and stylish, holding a champagne glass. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 166,
+    "timestamp": "5:34",
+    "seconds": 334.49,
+    "text": "with Steve Wynn on his Las",
+    "scene": "The luxe-designer archetype beside a generic wealthy resort-owner archetype, both studying plans for a grand resort. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 167,
+    "timestamp": "5:36",
+    "seconds": 336.39,
+    "text": "Vegas resorts, tossed Friedman's rulebook.",
+    "scene": "The luxe-designer archetype tosses the professor's maze rulebook over his shoulder into a bin. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 168,
+    "timestamp": "5:40",
+    "seconds": 339.73,
+    "text": "His insight.",
+    "scene": "The luxe-designer archetype with a bright lightbulb, elegant. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 169,
+    "timestamp": "5:41",
+    "seconds": 341.27,
+    "text": "People don't bet freely when they",
+    "scene": "A tense anxious Player clutches his chips tightly inside the claustrophobic maze. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 170,
+    "timestamp": "5:43",
+    "seconds": 343.07,
+    "text": "feel trapped and anxious.",
+    "scene": "The same Player sweats, hunched, hoarding his chips. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 171,
+    "timestamp": "5:45",
+    "seconds": 344.79,
+    "text": "They bet freely when they feel",
+    "scene": "The same Player relaxed and smiling, loosely tossing chips. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 172,
+    "timestamp": "5:46",
+    "seconds": 346.23,
+    "text": "rich and safe.",
+    "scene": "The Player lounges like royalty, calm and generous with his chips. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 173,
+    "timestamp": "5:48",
+    "seconds": 347.51,
+    "text": "So he built the opposite.",
+    "scene": "Split frame. Left: a cramped dim claustrophobic maze. Right: a bright open sunlit grand hall. The luxe-designer archetype gestures from the maze to the open hall. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 174,
+    "timestamp": "5:49",
+    "seconds": 349.25,
+    "text": "High ceilings.",
+    "scene": "A soaring tall ceiling; the Player is small but awed, looking up. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 175,
+    "timestamp": "5:50",
+    "seconds": 350.49,
+    "text": "Sunlight. Art.",
+    "scene": "Warm sunlight beams and framed art on the walls, airy and open. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 176,
+    "timestamp": "5:52",
+    "seconds": 351.91,
+    "text": "Luxury. The playground.",
+    "scene": "A lavish open hall: fountains, chandeliers, and gold, the Player strolling happily, a luxurious playground. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 177,
+    "timestamp": "5:54",
+    "seconds": 354.15,
+    "text": "Make people feel like high rollers",
+    "scene": "The Player dressed up feeling like a VIP, chips flowing freely around him. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 178,
+    "timestamp": "5:56",
+    "seconds": 355.91,
+    "text": "and they gamble like high rollers.",
+    "scene": "The dressed-up Player tosses big stacks of chips with carefree abandon. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 179,
+    "timestamp": "5:58",
+    "seconds": 358.03,
+    "text": "It worked even better.",
+    "scene": "A money graph arrow climbing upward while the luxe-designer archetype looks smug. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 180,
+    "timestamp": "5:59",
+    "seconds": 359.35,
+    "text": "The most effective cage is the",
+    "scene": "A birdcage drawn as a beautiful golden palace, the Player content inside it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 181,
+    "timestamp": "6:02",
+    "seconds": 361.65,
+    "text": "one that feels like a palace.",
+    "scene": "The gilded palace cage glows; the Player is happily trapped, not noticing the bars. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 182,
+    "timestamp": "6:05",
+    "seconds": 364.67,
+    "text": "Quick myth check.",
+    "scene": "A magnifying glass over a slot machine with a small MYTH stamp. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 183,
+    "timestamp": "6:06",
+    "seconds": 366.27,
+    "text": "Casinos pump in oxygen to keep",
+    "scene": "A cartoon oxygen tank with a hose pumping into a casino vent, a rumor cloud rising. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 184,
+    "timestamp": "6:08",
+    "seconds": 368.47,
+    "text": "you awake. They don't.",
+    "scene": "A big red X over the oxygen tank, the rumor debunked. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 185,
+    "timestamp": "6:11",
+    "seconds": 370.63,
+    "text": "That came from a novel.",
+    "scene": "An open novel with the oxygen rumor drawn as a thought balloon rising from its pages. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 186,
+    "timestamp": "6:12",
+    "seconds": 372.17,
+    "text": "And it'd actually be a felony.",
+    "scene": "The oxygen tank behind little jail bars beside a small gavel. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 187,
+    "timestamp": "6:15",
+    "seconds": 374.75,
+    "text": "The real version is worse.",
+    "scene": "The Slot Machine leans in conspiratorially, hinting at a worse secret. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 188,
+    "timestamp": "6:17",
+    "seconds": 376.95,
+    "text": "They pump in scent.",
+    "scene": "A ceiling vent puffs out wavy curling scent lines dotted with tiny flowers, drifting down over the Player who sits at a slot machine with dreamy half-closed eyes and a small contented smile, leaning toward the smell. A soft flat-color haze tints the air around the vent. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 189,
+    "timestamp": "6:19",
+    "seconds": 378.55,
+    "text": "One study piped a pleasant smell",
+    "scene": "A single slot area with a scent diffuser puffing sweet smell lines, researcher archetypes taking notes. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 190,
+    "timestamp": "6:21",
+    "seconds": 380.67,
+    "text": "into a single slot area of",
+    "scene": "One roped-off slot section with scent wafting, contrasted with a plain bare section. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 191,
+    "timestamp": "6:23",
+    "seconds": 382.63,
+    "text": "a Vegas casino and the money",
+    "scene": "Coins and chips flow more heavily in the scented section, an up arrow over it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 192,
+    "timestamp": "6:24",
+    "seconds": 384.43,
+    "text": "gambled there jumped about 45%.",
+    "scene": "A money arrow jumps up sharply in the scented zone, with more coins piling there. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 193,
+    "timestamp": "6:27",
+    "seconds": 387.19,
+    "text": "Same machines. Same odds.",
+    "scene": "Two identical machines side by side with equal signs drawn between them. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 194,
+    "timestamp": "6:29",
+    "seconds": 389.35,
+    "text": "Just a smell. That's the rental price of your",
+    "scene": "A single scent flower wearing a price tag while a brain is rented out on a hook. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 195,
+    "timestamp": "6:32",
+    "seconds": 391.87,
+    "text": "judgment.",
+    "scene": "A brain dangling on a for-rent hook, swayed by a scent flower. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 196,
+    "timestamp": "6:33",
+    "seconds": 393.19,
+    "text": "Stack the rest.",
+    "scene": "A hand stacks several trick tiles, each with a tiny icon: a chip, a drink, an ATM. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 197,
+    "timestamp": "6:35",
+    "seconds": 394.53,
+    "text": "Chips and digital credits instead of",
+    "scene": "Colorful chips and a glowing digital credit meter, no cash anywhere. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 198,
+    "timestamp": "6:36",
+    "seconds": 396.49,
+    "text": "cash. Because a plastic disc doesn't feel",
+    "scene": "A plastic chip beside a dollar bill; the chip feels weightless with a meh face. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 199,
+    "timestamp": "6:39",
+    "seconds": 399.23,
+    "text": "like money. Free drinks because nothing sharpens a",
+    "scene": "A waiter hands the Player a free cocktail. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 200,
+    "timestamp": "6:42",
+    "seconds": 402.19,
+    "text": "financial decision. Like alcohol.",
+    "scene": "The Player is tipsy and cross-eyed, making a reckless bet with a cocktail in hand. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 201,
+    "timestamp": "6:44",
+    "seconds": 404.41,
+    "text": "ATMs right there on the floor",
+    "scene": "An ATM machine planted right beside the slot machines, glowing. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 202,
+    "timestamp": "6:46",
+    "seconds": 406.21,
+    "text": "for when the chips run dry.",
+    "scene": "The Player with empty pockets feeds a card into the on-floor ATM. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 203,
+    "timestamp": "6:48",
+    "seconds": 408.31,
+    "text": "All of it aimed at the",
+    "scene": "Many arrows for scent, drink, ATM, and chips all point toward one chair. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 204,
+    "timestamp": "6:50",
+    "seconds": 409.57,
+    "text": "chair. And here's the answer to the",
+    "scene": "The slot-machine chair spotlighted, every arrow converging on it. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 205,
+    "timestamp": "6:52",
+    "seconds": 412.37,
+    "text": "question we opened with. Here's where it stops being funny.",
+    "scene": "The tone shifts: the grinning Slot Machine's smile fades into a quiet somber look, the colors muted. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 206,
+    "timestamp": "6:56",
+    "seconds": 416.43,
+    "text": "Shull found the deepest players eventually",
+    "scene": "The anthropologist archetype gently observes a single deep, weary player. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 207,
+    "timestamp": "6:59",
+    "seconds": 419.07,
+    "text": "stop playing to win it all.",
+    "scene": "A Player at the machine with a discarded trophy on the floor, no longer wanting the prize. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 208,
+    "timestamp": "7:01",
+    "seconds": 421.23,
+    "text": "They reach a state she calls",
+    "scene": "The Player's eyes go glassy in a faint trance. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 209,
+    "timestamp": "7:03",
+    "seconds": 422.65,
+    "text": "the machine zone, where the world",
+    "scene": "The Player sits alone at the Slot Machine inside a calm rounded bubble; everything outside the bubble is erased to empty white, silent and weightless. A nearby wall clock has melted, its hands drooping. The Player's face is blank and far away, neither happy nor sad. Muted, hollow mood. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 210,
+    "timestamp": "7:05",
+    "seconds": 424.95,
+    "text": "goes quiet, time disappears, and the",
+    "scene": "The world around the Player whites out completely; the clock is gone, only the Player and the soft glow remain. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 211,
+    "timestamp": "7:08",
+    "seconds": 427.77,
+    "text": "jackpot stops being the point.",
+    "scene": "A jackpot symbol drawn faint and transparent, no longer the goal, ignored. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 212,
+    "timestamp": "7:10",
+    "seconds": 430.09,
+    "text": "They're not chasing money.",
+    "scene": "Coins drawn faded; the Player does not even look at them. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 213,
+    "timestamp": "7:11",
+    "seconds": 431.47,
+    "text": "They're chasing the feeling of vanishing,",
+    "scene": "The Player turns translucent, beginning to dissolve into the machine's soft glow. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 214,
+    "timestamp": "7:14",
+    "seconds": 433.75,
+    "text": "and the machine is built exactly",
+    "scene": "The Slot Machine drawn as a soft glowing doorway of light, inviting the Player in. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 215,
+    "timestamp": "7:16",
+    "seconds": 435.89,
+    "text": "to let them disappear into it",
+    "scene": "The Player half-dissolved, fading peacefully into the machine's glow. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 216,
+    "timestamp": "7:18",
+    "seconds": 437.83,
+    "text": "for as long as the bank",
+    "scene": "A thin lifeline thread connects the fading Player to a small wallet. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 217,
+    "timestamp": "7:19",
+    "seconds": 439.29,
+    "text": "account holds out.",
+    "scene": "The wallet thread thins down to its last coin, about to snap. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 218,
+    "timestamp": "7:21",
+    "seconds": 440.75,
+    "text": "That's the real product.",
+    "scene": "The Slot Machine presents a soft glowing void on a little pedestal as its real product. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 219,
+    "timestamp": "7:22",
+    "seconds": 442.35,
+    "text": "Not gambling. Oh, disappearance.",
+    "scene": "Only an empty glowing chair remains at the machine; the Player has vanished. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 220,
+    "timestamp": "7:25",
+    "seconds": 445.23,
+    "text": "So that's why you keep going",
+    "scene": "The empty chair, then the Player drifting back to it along a loop arrow. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 221,
+    "timestamp": "7:27",
+    "seconds": 447.07,
+    "text": "back even though you know you'll",
+    "scene": "The Player settles back into the chair, eyes open, knowing. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 222,
+    "timestamp": "7:29",
+    "seconds": 448.89,
+    "text": "lose. You were never really there for",
+    "scene": "Coins drawn crossed out, marked as not the real reason. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 223,
+    "timestamp": "7:31",
+    "seconds": 450.95,
+    "text": "the money. You were there for the almost",
+    "scene": "The near-miss reels glow again, the almost feeling shining, a callback to the near miss. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 224,
+    "timestamp": "7:33",
+    "seconds": 452.73,
+    "text": "the party, the quiet, the disappearing.",
+    "scene": "Three small icons in a row: the celebration party, the quiet bubble, and the fading figure, the real draws. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 225,
+    "timestamp": "7:35",
+    "seconds": 455.37,
+    "text": "Knowing the odds was never going",
+    "scene": "The odds chart on the wall; the Player looks at it but stays unmoved. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 226,
+    "timestamp": "7:37",
+    "seconds": 457.11,
+    "text": "to save you because the odds",
+    "scene": "The odds chart drawn as a flimsy shield that fails to protect the Player. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 227,
+    "timestamp": "7:38",
+    "seconds": 458.49,
+    "text": "were never the thing keeping you",
+    "scene": "The odds chart set aside while a glowing heart is shown as the real tether to the chair. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 228,
+    "timestamp": "7:40",
+    "seconds": 460.13,
+    "text": "in the chair. The casino isn't fighting your math.",
+    "scene": "The Slot Machine waves off a chalkboard full of equations, ignoring the math entirely. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 229,
+    "timestamp": "7:43",
+    "seconds": 463.15,
+    "text": "It's feeding your feelings.",
+    "scene": "The Slot Machine villain, grinning gently, leans down and spoon-feeds a small glowing red heart into the chest of the slumped, calm-but-sad Player instead of paying out coins. On the floor lies a crumpled worksheet covered in scribbled equations, tossed aside. Quiet, resigned mood. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 230,
+    "timestamp": "7:45",
+    "seconds": 464.67,
+    "text": "And it's very, very good at",
+    "scene": "The Slot Machine takes a smug little bow, a master of its craft. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 231,
+    "timestamp": "7:46",
+    "seconds": 466.33,
+    "text": "it. And if you're feeling smug because",
+    "scene": "A smug bystander Player crosses his arms with a not-me smirk. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 232,
+    "timestamp": "7:49",
+    "seconds": 468.83,
+    "text": "you don't gamble, check your screen",
+    "scene": "The smug bystander glances down at his glowing phone. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 233,
+    "timestamp": "7:51",
+    "seconds": 470.87,
+    "text": "time. Remember Friedman's maze.",
+    "scene": "The maze blueprint reappears inside a thought bubble, a callback. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 234,
+    "timestamp": "7:53",
+    "seconds": 473.23,
+    "text": "The floor with no exit.",
+    "scene": "The no-exit maze shown again with its dead ends. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 235,
+    "timestamp": "7:55",
+    "seconds": 475.29,
+    "text": "Built to keep you drifting past",
+    "scene": "A tiny figure drifts through the maze past endless slot machines. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 236,
+    "timestamp": "7:57",
+    "seconds": 476.63,
+    "text": "one more machine.",
+    "scene": "The figure passes yet another machine, a just-one-more loop. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 237,
+    "timestamp": "7:58",
+    "seconds": 478.19,
+    "text": "Same logic as the infinite scroll",
+    "scene": "The maze pattern morphs into a phone's scrolling feed, the same tangled shape. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 238,
+    "timestamp": "8:00",
+    "seconds": 480.33,
+    "text": "in your hand right now.",
+    "scene": "A hand holds a phone whose screen is the maze drawn as a feed, a scroll bar with no bottom. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 239,
+    "timestamp": "8:02",
+    "seconds": 481.63,
+    "text": "No clock. No bottom.",
+    "scene": "The phone screen shows a crossed-out clock and a scroll bar that never ends, an arrow plunging down into infinity. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 240,
+    "timestamp": "8:03",
+    "seconds": 483.13,
+    "text": "No natural place to stop.",
+    "scene": "The endless feed scrolls on with no stop sign, the figure thumb-scrolling forever. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 241,
+    "timestamp": "8:05",
+    "seconds": 484.77,
+    "text": "You know it's eating your life.",
+    "scene": "An hourglass drains into the phone, the Player's time being consumed. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 242,
+    "timestamp": "8:06",
+    "seconds": 486.35,
+    "text": "You open it anyway.",
+    "scene": "The Player, knowing better, taps the phone open again, the same loop as the slot machine. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 243,
+    "timestamp": "8:08",
+    "seconds": 487.95,
+    "text": "The casino figured it out first.",
+    "scene": "The grinning Slot Machine and the phone side by side; the machine tips its hat to the phone, the same sly grin on both. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 244,
+    "timestamp": "8:10",
+    "seconds": 490.13,
+    "text": "Now you carry one in your pocket.",
+    "scene": "The Player holds up a smartphone. The phone screen shows the exact same tangled no-exit maze pattern from the casino blueprint earlier, now as an endless feed with a scroll bar that has no bottom. The Slot Machine's sly grin is faintly reflected in the phone, and a small red arrow loops endlessly down the screen. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  },
+  {
+    "index": 245,
+    "timestamp": "8:12",
+    "seconds": 492.09,
+    "text": "You're being played.",
+    "scene": "The Player stands stunned holding the phone while the Slot Machine winks; a big red YOU GOT PLAYED stamp is slapped across the frame. No year text, no floating numbers, no flags or insignia; draw only what is described."
+  }
+]
