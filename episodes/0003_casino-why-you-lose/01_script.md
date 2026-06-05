@@ -1,70 +1,70 @@
 [COLD OPEN]
-Can you actually beat the casino? <break time="0.7s" /> Technically, yes. <break time="0.8s" /> A handful of people have. Counting cards, catching a sloppy table. You know what happens to them? A tap on the shoulder, and they're thrown out. Banned for life. Which tells you everything you need to know. The casino will happily let you play any game in the building, right up until the moment you might actually win. The house doesn't fear bad luck. It fears skill. <break time="0.7s" />
+Can you actually beat the casino? <break time="0.6s" /> Technically, yes. <break time="0.4s" /> A handful of people have. Counting cards, catching a sloppy table. You know what happens to them? A tap on the shoulder, and they're thrown out. Banned for life. Which tells you everything you need to know. The casino will happily let you play any game in the building, right up until the moment you might actually win. The house doesn't fear bad luck. It fears skill. <break time="0.7s" />
 
 So for the rest of us, the ones not running blackjack math in our heads, the answer's simpler. No. You will not beat the casino. You already know that. The odds are practically printed on the wall. And you go anyway. Millions of people go anyway. <break time="0.7s" />
 
-So here's the real question, the one the casino is praying you never ask out loud. <break time="0.7s" /> If you know you'll lose, why do you keep coming back? <break time="0.7s" />
+So here's the real question, the one the casino is praying you never ask out loud. <break time="0.4s" /> If you know you'll lose, why do you keep coming back? <break time="0.7s" />
 
 [SETUP]
-First, the part you already know. It's just the foundation, so we'll be quick. Every game on that floor is tilted a few percent toward the house. <break time="0.7s" /> Roulette's the cleanest example. A bet on red looks like a coin flip. It isn't. There's a green zero on the wheel, a slot that's neither red nor black, and the American wheel has two of them. That little green sliver is the entire business model. It quietly turns "even money" into a slow loser, every spin, forever. <break time="0.7s" />
+First, the part you already know. It's just the foundation, so we'll be quick. Every game on that floor is tilted a few percent toward the house. <break time="0.4s" /> Roulette's the cleanest example. A bet on red looks like a coin flip. It isn't. There's a green zero on the wheel, a slot that's neither red nor black, and the American wheel has two of them. That little green sliver is the entire business model. It quietly turns even money into a slow loser, every spin, forever. <break time="0.7s" />
 
-And here's the only math that matters. A tiny edge, repeated enough times, becomes a certainty. The casino doesn't need to beat you on any single bet. It needs you to make a lot of bets. Over enough spins, the law of averages pays the house its cut like clockwork. The edge is basically gravity. Slow, quiet, constant. <break time="0.7s" />
+And here's the only math that matters. A tiny edge, repeated enough times, becomes a certainty. The casino doesn't need to beat you on any single bet. It needs you to make a lot of bets. Over enough spins, the law of averages pays the house its cut like clockwork. The edge is basically gravity. Slow, quiet, constant. <break time="0.5s" />
 
-But gravity only wins if you stay in the air. So the real question isn't why the odds favor the casino, everybody knows the odds favor the casino. The question is why you sit there long enough to let those odds do their work. And that is what the entire building is engineered to solve. It's one giant machine, tuned to a single number the industry literally has a name for. They call it "time on device." And the device they care about most isn't the card table. It's the slot machine, the casino's quiet biggest moneymaker, and almost everything clever in the building exists to keep you glued to one. <break time="0.7s" />
+But gravity only wins if you stay in the air. So the real question isn't why the odds favor the casino, everybody knows the odds favor the casino. The question is why you sit there long enough to let those odds do their work. And that is what the entire building is engineered to solve. It's one giant machine, tuned to a single number the industry literally has a name for. They call it "time on device." And the device they care about most isn't the card table. It's the slot machine, the casino's quiet biggest moneymaker, and almost everything clever in the building exists to keep you glued to "one". <break time="0.7s" />
 
 [THE TURN]
-The slickest trick on the floor, and you've personally fallen for it. <break time="0.7s" />
+The slickest trick on the floor, and you've personally fallen for it. <break time="0.6s" />
 
 It's called a "loss disguised as a win." Researchers at the University of Waterloo named it, and once you hear it you can't unhear it. <break time="0.7s" />
 
-Modern slots let you bet on many lines at once. Put a dollar across twenty lines, "win" on three, get back forty cents. You are down sixty. That's a loss. A kindergartner could tell you that's a loss. <break time="0.7s" />
+Modern slots let you bet on many lines at once. Put a dollar across twenty lines, "win" on three, get back forty cents. You are down sixty. That's a loss. A kindergartner could tell you that's a loss. <break time="0.6s" />
 
-The machine disagrees. It lights up, it sings, it throws the exact same party it throws for a real win. And here's the unsettling part the researchers measured. Your body can't tell the difference. Heart rate, skin, brain, all react to that net loss the same way they react to actually winning. You leave convinced you won way more often than you did, because the machine trained you to feel like a winner while it emptied your wallet. <break time="0.7s" />
+The machine disagrees. It lights up, it sings, it throws the exact same party it throws for a real win. And here's the unsettling part the researchers measured. <break time="0.1s" /> Your body can't tell the difference. Heart rate, skin, brain, all react to that net loss the same way they react to actually winning. You leave convinced you won way more often than you did, because the machine trained you to feel like a winner while it emptied your wallet. <break time="0.6s" />
 
-It's losing, with a soundtrack. And you clap along. <break time="0.8s" />
+It's losing, with a soundtrack. And you clap along. <break time="0.7s" />
 
 [THE SCIENCE]
-None of this is accident, it's recipe. Slots run on the same reinforcement schedule that makes a lab pigeon hammer a lever until it drops. Unpredictable rewards, doled out just often enough to keep you going. Add the near miss, two jackpot symbols on the line, the third landing one cruel notch above it. <break time="0.7s" /> So close. Your brain reads "almost," and almost feels like progress. It isn't. The reels have no memory. But that feeling keeps your thumb on the button. <break time="0.7s" />
+None of this is accident, it's recipe. Slots run on the same reinforcement schedule that makes a lab pigeon hammer a lever until it drops. Unpredictable rewards, doled out just often enough to keep you going. Add the near miss, two jackpot symbols on the line, the third landing one cruel notch above it. <break time="0.3s" /> So close. Your brain reads "almost," and almost feels like progress. It isn't. The reels have no memory. But that feeling keeps your thumb on the button. <break time="0.6s" />
 
 [THE TRACKING]
-Now it gets personal. Literally. <break time="0.7s" />
+Now it gets personal. Literally. <break time="0.6s" />
 
-That loyalty card you slot in for "points" isn't a rewards program, it's surveillance. The casino logs every bet, every spin, every pause, learning exactly how you play and, more importantly, exactly when you're about to crack. <break time="0.7s" />
+That loyalty card you slot in for "points" isn't a rewards program, it's surveillance. The casino logs every bet, every spin, every pause, learning exactly how you play and, more importantly, exactly when you're about to crack. <break time="0.6s" />
 
-Anthropologist Natasha Dow Schull spent fifteen years on this and documented the part that should chill you. Casinos pinpoint your pain point, the moment a losing streak is about to lift you out of your seat and aim you at the door. And right then, just before you quit, someone appears. A smiling host. A free dinner. "Rough night? Let me comp you a steak." That's not kindness. That's timing. They caught you at the exact second you'd decided to leave, and pulled you back. It knows your name. <break time="0.8s" />
+Anthropologist Natasha Dow Schull spent fifteen years on this and documented the part that should chill you. Casinos pinpoint your pain point, the moment a losing streak is about to lift you out of your seat and aim you at the door. And right then, just before you quit, someone appears. <break time="0.1s" /> A smiling host. A free dinner. Rough night? Let me comp you a steak. That's not kindness. That's timing. They caught you at the exact second you'd decided to leave, and pulled you back. It knew you were leaving before you did. <break time="0.6s" />
 
 [THE BUILDING]
-The games are rigged in your head. What about the room? <break time="0.7s" />
+The games are rigged in your head. <break time="0.2s" /> So is the building. <break time="0.6s" />
 
-For decades the bible of casino design was written by Bill Friedman, a former gambling addict turned professor who studied dozens of casinos to crack the code. His conclusion was simple. Nothing matters except how many people gamble and how many come back. Everything else is decoration. <break time="0.7s" />
+For decades the bible of casino design was written by Bill Friedman, a former gambling addict turned professor who studied dozens of casinos to crack the code. His conclusion was simple. Nothing matters except how many people gamble and how many come back. Everything else is decoration. <break time="0.6s" />
 
-So he built a trap. Low ceilings. No windows. No clocks. Slots at the entrance, so the offer is the first thing you see. A maze of a floor with no straight path out, so every time you tried to leave you'd pass a thousand more chances to stay. Even the carpet might be in on it. The theory goes those famously hideous, swirling casino carpets are loud on purpose, so your eyes lift off the floor and back onto the machines. <break time="0.7s" />
+So he built a trap. Low ceilings. No windows. No clocks. Slots at the entrance, so the offer is the first thing you see. A maze of a floor with no straight path out, so every time you tried to leave you'd pass a thousand more chances to stay. Even the carpet might be in on it. The theory goes those famously hideous, swirling casino carpets are loud on purpose, so your eyes lift off the floor and back onto the machines. <break time="0.6s" />
 
 Then the twist nobody expects. The maze isn't even the winning move anymore. A designer named Roger Thomas, working with Steve Wynn on the Bellagio, tossed Friedman's rulebook. His insight. People don't bet freely when they feel trapped and anxious. They bet freely when they feel rich and safe. So he built the opposite. High ceilings, sunlight, art, luxury. The "playground." Make people feel like high rollers and they gamble like high rollers. It worked even better. The most effective cage is the one that feels like a palace. <break time="0.7s" />
 
 [THE SENSES]
-Quick myth check. "Casinos pump in oxygen to keep you awake." They don't. That came from a novel, and it'd actually be a felony. Sorry. <break time="0.7s" />
+Quick myth check. "Casinos pump in oxygen to keep you awake." They don't. That came from a novel, and it'd actually be a felony. <break time="0.7s" />
 
 The real version is worse. They pump in scent. One study piped a pleasant smell into a single slot area of a Vegas casino and the money gambled there jumped about forty-five percent. Same machines, same odds, just a smell. That's the rental price of your judgment. <break time="0.7s" />
 
-Stack the rest. Chips and digital credits instead of cash, because a plastic disc doesn't feel like money. Free drinks, because nothing sharpens a financial decision like alcohol. ATMs right there on the floor for when the chips run dry. All of it, aimed at the chair. <break time="0.8s" />
+Stack the rest. Chips and digital credits instead of cash, because a plastic disc doesn't feel like money. Free drinks, because nothing sharpens a financial decision like alcohol. ATMs right there on the floor for when the chips run dry. All of it, aimed at the chair. <break time="0.7s" />
 
 [HUMAN LAYER]
 And here's the answer to the question we opened with. Here's where it stops being funny. <break time="0.7s" />
 
 Schull found the deepest players eventually stop playing to win at all. They reach a state she calls the "machine zone," where the world goes quiet, time disappears, and the jackpot stops being the point. They're not chasing money. They're chasing the feeling of vanishing. And the machine is built, exactly, to let them disappear into it for as long as the bank account holds out. <break time="0.7s" />
 
-That's the real product. Not gambling. Disappearance. <break time="0.8s" />
+That's the real product. Not gambling. <break time="0.3s" /> Disappearance. <break time="0.7s" />
 
 [PAYOFF]
-So that's why you keep going back even though you know you'll lose. You were never really there for the money. You were there for the almost, the party, the quiet, the disappearing. Knowing the odds was never going to save you, because the odds were never the thing keeping you in the chair. The casino isn't fighting your math. It's feeding your feelings, and it's very, very good at it. <break time="0.7s" />
+So that's why you keep going back even though you know you'll lose. You were never really there for the money. You were there for the almost, the party, the quiet, the disappearing. Knowing the odds was never going to save you, because the odds were never the thing keeping you in the chair. The casino isn't fighting your math. It's feeding your feelings, and it's very, very good at it. <break time="0.6s" />
 
 [BUTTON]
 And if you're feeling smug because you don't gamble, check your screen time. Remember Friedman's maze, the floor with no exit, built to keep you drifting past one more machine? Same logic as the infinite scroll in your hand right now. No clock. No bottom. No natural place to stop. You know it's eating your life. You open it anyway. <break time="0.7s" />
 
-The casino figured it out first. Now you carry one in your pocket. <break time="0.8s" />
+The casino figured it out first. Now you carry one in your pocket. <break time="0.5s" />
 
-You're being played.
+You're being "played."
 
 ## SOURCES
 - Mike Dixon & Kevin Harrigan, University of Waterloo, "losses disguised as wins" (Addiction, 2010)
