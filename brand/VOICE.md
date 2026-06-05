@@ -1,5 +1,12 @@
 # Voice — ElevenLabs Setup
 
+## Narration tone (the standard)
+The read is dry, smart, and a little irreverent. Humor and wit are core, not optional. The best lines land as buttons, a beat after the setup. Don't mug for the joke; deliver it flat and let it hit.
+
+- **POV:** "you're being played, here's how." Confident and knowing, never lecturing or preachy. You're letting the viewer in on something, not teaching a class.
+- **Writing rule:** minimize em dashes. Overuse is an AI tell. Prefer periods, commas, or a restructured sentence.
+- **Lead voice:** still being A/B'd (Keanan vs Tyler). This tone standard applies no matter which voice wins; the words carry the wit, the voice just has to stay out of the way.
+
 ## The honest take on "ElevenLabs gets you demonetized"
 It doesn't. AI voice alone is fine and stays monetizable. What gets flagged is recycling the *exact same* preset over identical templated videos with no added value. The fix isn't avoiding ElevenLabs, it's (a) not using the one voice every AI channel uses, (b) varying delivery, (c) adding real substance. See FORMATS.md.
 

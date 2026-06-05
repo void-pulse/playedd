@@ -2,6 +2,7 @@
 
 Seed slate. Status: backlog / scripting / recording / editing / published.
 Rotate pillars; never ship the same pillar twice in a row.
+Favor topics with enough depth to sustain 6-9 minutes.
 
 | # | Pillar | Working Title | Status |
 |---|---|---|---|

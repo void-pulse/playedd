@@ -32,5 +32,18 @@ Crude, intentionally bad MS-Paint doodles (stick figures, wobbly lines, red stam
 - Phase 1 (YPP approved): AdSense on. This lane's RPM ($8-15) means real money per view, unlike the psychology basement.
 - Phase 2: affiliate (finance/consumer products fit this audience perfectly), plus a newsletter you own. The email list is the durable asset; AdSense is the floor, not the ceiling.
 
-## Cadence
-Start at 3/week. Prove the loop and the quality bar before touching daily. Daily identical uploads is the exact fingerprint that got AI channels mass-terminated in early 2026. Variety and substance first, volume second.
+## Production model & cadence
+Low-volume, high-production, longer-form. That is the proven model in this niche, and it's what the reference channel does. Depth beats frequency: one strong, deep episode does more than three thin ones.
+- Aim for **~1 strong episode per week**, not 3 forgettable ones.
+- Longer-form (see brand/FORMATS.md: 6-9 min and trending up) is where this lane performs and pays.
+- Daily identical uploads is the exact fingerprint that got AI channels mass-terminated in early 2026. Variety, depth, and substance first; volume never at the cost of the human layer or the humor.
+
+## Category
+**Education** (confirmed; matches the reference channel). Set it on every upload. Leave the Education academic sub-fields (Type, Problems, Academic system, Level, Exam/course/standard) blank, they're for formal coursework, not explainers.
+
+## Reference channel
+**Zenn** (@zenn0009) — ~14 videos, ~136K subscribers, ~1M average views, ~13-minute doodle explainers, Education category. Proof that low-volume, high-production, longer-form doodle explainers work in this exact lane. Study how they do it; don't copy their topics.
+
+## Localization
+- YouTube **auto-dubbing ON**, with review-before-publish. Original spoken language is **English** on every upload.
+- Do **not** hand-translate titles, descriptions, or tags yet. Revisit localized metadata only when analytics show real dubbed-language viewership.
