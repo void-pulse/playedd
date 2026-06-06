@@ -23,6 +23,7 @@ episodes/**/test_frames/
 episodes/**/music/*.mp3
 episodes/**/sfx/*.mp3
 episodes/**/short/*.mp3
+episodes/**/short/narration.txt
 assets/sfx/*.mp3
 
 # OS
