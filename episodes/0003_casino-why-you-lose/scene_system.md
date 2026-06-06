@@ -10,6 +10,14 @@ outlines, flat fills, one clear subject per frame, mostly empty white space,
 intentionally bad. Do NOT restate the base style inside a scene prompt; describe
 only the SCENE content (plus the SAFETY clause below).
 
+## Setting (anchor every scene)
+Anchor every scene in the episode's primary world. For this episode that is a
+**casino interior**: gaming floor, slot machines, roulette, card tables, loud
+casino carpet, casino decor. Do NOT render generic home/house rooms (living
+rooms, lamps, family photos, home furniture) unless the script line explicitly
+takes place at home. When a line is abstract, place the action inside the
+casino by default.
+
 ## Recurring cast (draw consistently every time)
 - **The Player** — a small, hunched, round-headed everyman with worried dot
   eyes, usually seated at a slot machine. The "you" of the video.

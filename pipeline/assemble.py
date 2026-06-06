@@ -26,7 +26,7 @@ import tempfile
 from pathlib import Path
 
 MIN_DUR = 0.40  # floor so a tiny segment doesn't flash by
-SYNC_OFFSET_SEC = 0.25  # shift every image LATER by this much (images were appearing early)
+SYNC_OFFSET_SEC = 0.40  # shift every image LATER by this much (images were appearing early)
 
 
 def audio_duration(path: Path) -> float:

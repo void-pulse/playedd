@@ -18,6 +18,7 @@ Rules for each scene:
 - If a short handwritten label would help (a name, a year, a place), specify the exact text, kept short and correctly spelled.
 - Do NOT restate the style (white background, stickmen, etc.), that's added automatically. Only describe the SCENE content.
 - Keep continuity: if a character or object recurs across nearby segments, describe it consistently.
+- Anchor every scene in the episode's primary world/setting (defined in the episode's `scene_system.md`). Do NOT drift into generic home/house rooms or unrelated environments unless the script line explicitly takes place there. When a line is abstract, default to the episode's main setting.
 
 Output **valid JSON only**, no prose, no markdown fences. Same length as the input array. Schema:
 
