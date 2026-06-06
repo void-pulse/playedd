@@ -14,7 +14,7 @@ Usage:
     # writes episodes/<ep>/chunks/NN_<slug>.mp3 + episodes/<ep>/audio/narration.mp3
 
 Flags:
-    --voice NARRATOR_A|...           which voice from VOICE_IDS below (default NARRATOR_A)
+    --voice NARRATOR_A|...           which voice from VOICE_IDS below (default NARRATOR_D = Drew, the locked Playedd voice)
     --voice-id <raw id>              raw ElevenLabs voice id, overrides --voice
     --model eleven_multilingual_v2   (default)
     --section "THE BUILDING"         regenerate ONLY that section (case-insensitive
@@ -205,7 +205,7 @@ def do_dry_run(script_path: Path, sections: list[dict], voice_label: str, voice_
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script", help="path to 01_script.md")
-    ap.add_argument("--voice", default="NARRATOR_A", choices=list(VOICE_IDS.keys()))
+    ap.add_argument("--voice", default="NARRATOR_D", choices=list(VOICE_IDS.keys()))  # Drew = locked Playedd voice
     ap.add_argument("--voice-id", default=None, help="raw voice id, overrides --voice")
     ap.add_argument("--model", default="eleven_multilingual_v2")
     ap.add_argument("--section", default=None,
