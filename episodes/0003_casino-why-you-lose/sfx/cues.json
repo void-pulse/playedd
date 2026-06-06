@@ -80,6 +80,14 @@
     "file": "3m33s_near-miss.mp3"
   },
   {
+    "phrase": "on the button",
+    "kit_sound": "slot_button.mp3",
+    "segment_index": 112,
+    "timestamp": "3:42",
+    "start_sec": 221.79,
+    "file": "3m42s_slot-button.mp3"
+  },
+  {
     "phrase": "slot in",
     "kit_sound": "card_beep.mp3",
     "segment_index": 115,
