@@ -22,6 +22,7 @@ episodes/**/chunks/
 episodes/**/test_frames/
 episodes/**/music/*.mp3
 episodes/**/sfx/*.mp3
+episodes/**/short/*.mp3
 assets/sfx/*.mp3
 
 # OS
