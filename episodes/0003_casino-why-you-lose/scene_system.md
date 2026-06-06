@@ -18,6 +18,10 @@ rooms, lamps, family photos, home furniture) unless the script line explicitly
 takes place at home. When a line is abstract, place the action inside the
 casino by default.
 
+When the narration says "the house" it means the **CASINO** (the gambling
+term), never a literal house, home, or cottage. Always render "the house" as the
+casino building or the casino floor.
+
 ## Recurring cast (draw consistently every time)
 - **The Player** — a small, hunched, round-headed everyman with worried dot
   eyes, usually seated at a slot machine. The "you" of the video.
