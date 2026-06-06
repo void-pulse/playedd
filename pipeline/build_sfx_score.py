@@ -103,25 +103,24 @@ def main():
     b = beat_starts(segs)
     end = target
 
-    # --- beds: (file, start, stop, gain). Continuous coverage, no dead air. ---
+    # --- beds: ONLY the machine-zone ambiance during HUMAN LAYER. No continuous
+    # bed anywhere else (the rest of the episode is dry SFX). ---
     beds = [
-        ("casino_floor_walla.mp3",  0.0,                  b["the_building"], 0.16),  # cold open + SETUP..TRACKING
-        ("slot_machine_chorus.mp3", b["the_turn"],        b["the_tracking"], 0.12),  # under TURN+SCIENCE
-        ("casino_lounge.mp3",       b["the_building"] - XF, b["human_layer"], 0.16),  # BUILDING+SENSES (xfade from walla)
-        ("machine_zone_drone.mp3",  b["human_layer"],     b["payoff"],       0.10),  # HUMAN LAYER
-        ("tension_bed.mp3",         b["human_layer"],     b["payoff"],       0.10),  # HUMAN LAYER
-        ("casino_lounge.mp3",       b["payoff"] - XF,     end,               0.14),  # PAYOFF + BUTTON to end
+        ("machine_zone_drone.mp3",  b["human_layer"],     b["payoff"],       0.13),  # HUMAN LAYER ambiance
+        ("tension_bed.mp3",         b["human_layer"],     b["payoff"],       0.10),  # HUMAN LAYER ambiance
     ]
 
-    # --- floor sweeteners through SETUP..THE SENSES (= setup_start .. human_layer_start) ---
+    # --- occasional casino sweeteners (NOT continuous): sparse one-shots through
+    # SETUP..THE SENSES, with long random gaps so it's "a little casino, sometimes."
+    # The HUMAN LAYER beat is left out so the machine-zone ambiance stays clean. ---
     random.seed(SEED)
     z0, z1 = b["setup"], b["human_layer"]
     sweeteners = []
-    t = z0 + random.uniform(2.0, 6.0)
+    t = z0 + random.uniform(6.0, 14.0)
     while t < z1 - 2.0:
         snd = random.choice(SWEET_POOL)
         sweeteners.append((snd, round(t, 3)))
-        t += random.uniform(8.0, 14.0)
+        t += random.uniform(22.0, 45.0)   # sparse: occasional, not the whole time
 
     # --- marked cues (prominent accents) ---
     cues = json.loads((ep / "sfx" / "cues.json").read_text())
@@ -182,11 +181,11 @@ def main():
     os.replace(tmp, out)
 
     def lbl(s): return f"{int(s // 60)}:{int(s % 60):02d}"
-    print("Bed gains (raised, continuous floor):")
+    print("Beds (machine-zone ambiance, HUMAN LAYER only; dry SFX elsewhere):")
     for fname, start, stop, gain in beds:
         print(f"  {fname:<24} {lbl(max(0,start))}-{lbl(stop)}  gain={gain}")
-    print(f"\nFloor sweeteners scattered: {len(sweeteners)} "
-          f"(SETUP..THE SENSES, ~8-14s apart, gain {SWEET_GAIN}/{SWEET_JACKPOT_GAIN} jackpot)")
+    print(f"\nOccasional casino sweeteners: {len(sweeteners)} "
+          f"(SETUP..THE SENSES, ~22-45s apart, gain {SWEET_GAIN}/{SWEET_JACKPOT_GAIN} jackpot)")
     print(f"Marked cues (peak-normalized, gain {MARKED_GAIN}): {len(marked)}")
     print(f"full_sfx.mp3 -> {out}  ({ffdur(out):.1f}s, target {target:.1f}s)")
 
