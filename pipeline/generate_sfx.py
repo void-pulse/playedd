@@ -32,6 +32,17 @@ SFX = [
     ("whoosh.mp3", "soft UI whoosh transition", 1.0, False),
     ("card_riffle.mp3", "playing card shuffle riffle", 2.0, False),
     ("cha_ching.mp3", "cash register cha-ching", 1.0, False),
+    # --- added for ep3 ---
+    ("door_slam.mp3", "heavy door slamming shut, single hard thud", 1.5, False),
+    ("roulette_spin.mp3", "roulette wheel spinning, ball rattling then settling into a slot", 4.0, False),
+    ("slot_reel_spin.mp3", "slot machine reels spinning and clicking to a stop", 2.0, False),
+    ("near_miss.mp3", "slot machine almost-win, hopeful rising tone that deflates", 2.0, False),
+    ("card_beep.mp3", "plastic card swipe with a short electronic beep", 1.0, False),
+    ("service_bell.mp3", "small front-desk service bell ding", 1.0, False),
+    ("grand_chime.mp3", "bright magical shimmer chime, luxurious reveal", 2.0, False),
+    ("perfume_spray.mp3", "perfume atomizer spritz, short spray", 1.0, False),
+    ("machine_zone_drone.mp3", "low muffled hypnotic drone, the world going quiet and hollow", 6.0, True),
+    ("phone_notify.mp3", "smartphone notification pop with a short scroll swipe", 1.0, False),
 ]
 
 
@@ -54,10 +65,14 @@ def main():
     client = ElevenLabs(api_key=api_key)
 
     start_credits = credit_count(client)
-    done = 0
+    done = skipped = 0
     for name, prompt, duration, loop in SFX:
         out_path = SFX_DIR / name
-        print(f"[{done + 1:02d}/{len(SFX)}] {name}: {duration:.0f}s loop={loop} ...")
+        if out_path.exists() and out_path.stat().st_size > 0:   # skip-existing (no re-bill)
+            skipped += 1
+            print(f"[--] {name}: skip (exists)")
+            continue
+        print(f"[{done + 1:02d}] {name}: {duration:.0f}s loop={loop} ...")
         audio = client.text_to_sound_effects.convert(
             text=prompt,
             duration_seconds=duration,   # explicit -> auto-length OFF
@@ -78,7 +93,7 @@ def main():
 
     end_credits = credit_count(client)
     used = (end_credits - start_credits) if (start_credits is not None and end_credits is not None) else None
-    print(f"\nDone. {done}/{len(SFX)} effects -> {SFX_DIR}")
+    print(f"\nDone. generated={done} skipped={skipped} total={len(SFX)} -> {SFX_DIR}")
     if used is not None:
         print(f"Credits used (character_count delta): {used}")
     else:

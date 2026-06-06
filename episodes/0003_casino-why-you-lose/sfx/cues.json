@@ -1,0 +1,106 @@
+[
+  {
+    "phrase": "banned for life",
+    "kit_sound": "door_slam.mp3",
+    "segment_index": 7,
+    "timestamp": "0:12",
+    "start_sec": 11.65,
+    "file": "0m12s_door-slam.mp3"
+  },
+  {
+    "phrase": "green zero",
+    "kit_sound": "roulette_spin.mp3",
+    "segment_index": 34,
+    "timestamp": "1:02",
+    "start_sec": 61.61,
+    "file": "1m02s_roulette.mp3"
+  },
+  {
+    "phrase": "clockwork",
+    "kit_sound": "coin_drop.mp3",
+    "segment_index": 49,
+    "timestamp": "1:34",
+    "start_sec": 94.29,
+    "file": "1m34s_coin-drop.mp3"
+  },
+  {
+    "phrase": "clap along",
+    "kit_sound": "slot_jackpot.mp3",
+    "segment_index": 96,
+    "timestamp": "3:12",
+    "start_sec": 192.39,
+    "file": "3m12s_jackpot.mp3"
+  },
+  {
+    "phrase": "So close",
+    "kit_sound": "near_miss.mp3",
+    "segment_index": 107,
+    "timestamp": "3:33",
+    "start_sec": 212.59,
+    "file": "3m33s_near-miss.mp3"
+  },
+  {
+    "phrase": "comp you a steak",
+    "kit_sound": "service_bell.mp3",
+    "segment_index": 132,
+    "timestamp": "4:22",
+    "start_sec": 262.23,
+    "file": "4m22s_service-bell.mp3"
+  },
+  {
+    "phrase": "swirling casino carpets",
+    "kit_sound": "casino_ambience.mp3",
+    "segment_index": 159,
+    "timestamp": "5:19",
+    "start_sec": 318.85,
+    "file": "5m19s_ambience.mp3"
+  },
+  {
+    "phrase": "feels like a palace",
+    "kit_sound": "grand_chime.mp3",
+    "segment_index": 181,
+    "timestamp": "6:02",
+    "start_sec": 361.65,
+    "file": "6m02s_grand-chime.mp3"
+  },
+  {
+    "phrase": "pump in scent",
+    "kit_sound": "perfume_spray.mp3",
+    "segment_index": 188,
+    "timestamp": "6:17",
+    "start_sec": 376.95,
+    "file": "6m17s_perfume.mp3"
+  },
+  {
+    "phrase": "chips run dry",
+    "kit_sound": "cha_ching.mp3",
+    "segment_index": 202,
+    "timestamp": "6:46",
+    "start_sec": 406.21,
+    "file": "6m46s_cha-ching.mp3"
+  },
+  {
+    "phrase": "machine zone",
+    "kit_sound": "machine_zone_drone.mp3",
+    "segment_index": 209,
+    "timestamp": "7:03",
+    "start_sec": 422.65,
+    "file": "7m03s_machine-zone.mp3"
+  },
+  {
+    "phrase": "infinite scroll",
+    "kit_sound": "phone_notify.mp3",
+    "segment_index": 237,
+    "timestamp": "7:58",
+    "start_sec": 478.19,
+    "file": "7m58s_phone.mp3"
+  },
+  {
+    "phrase": "You're being",
+    "kit_sound": "record_scratch.mp3",
+    "segment_index": 245,
+    "timestamp": "8:12",
+    "start_sec": 492.09,
+    "file": "8m12s_stamp.mp3"
+  }
+]
