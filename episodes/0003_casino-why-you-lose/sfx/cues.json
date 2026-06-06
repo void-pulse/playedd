@@ -24,6 +24,14 @@
     "file": "1m34s_coin-drop.mp3"
   },
   {
+    "phrase": "time on device",
+    "kit_sound": "clock_tick.mp3",
+    "segment_index": 61,
+    "timestamp": "2:00",
+    "start_sec": 119.83,
+    "file": "2m00s_clock-tick.mp3"
+  },
+  {
     "phrase": "20 lines",
     "kit_sound": "slot_reel_spin.mp3",
     "segment_index": 76,
@@ -32,12 +40,36 @@
     "file": "2m32s_reel-spin.mp3"
   },
   {
+    "phrase": "throws the exact same",
+    "kit_sound": "crowd_cheer.mp3",
+    "segment_index": 83,
+    "timestamp": "2:46",
+    "start_sec": 166.03,
+    "file": "2m46s_crowd-cheer.mp3"
+  },
+  {
+    "phrase": "clap along",
+    "kit_sound": "applause.mp3",
+    "segment_index": 96,
+    "timestamp": "3:12",
+    "start_sec": 192.39,
+    "file": "3m12s_applause.mp3"
+  },
+  {
     "phrase": "clap along",
     "kit_sound": "slot_jackpot.mp3",
     "segment_index": 96,
     "timestamp": "3:12",
     "start_sec": 192.39,
     "file": "3m12s_jackpot.mp3"
+  },
+  {
+    "phrase": "hammer a lever",
+    "kit_sound": "slot_lever.mp3",
+    "segment_index": 101,
+    "timestamp": "3:21",
+    "start_sec": 201.17,
+    "file": "3m21s_slot-lever.mp3"
   },
   {
     "phrase": "So close",
@@ -54,6 +86,30 @@
     "timestamp": "3:46",
     "start_sec": 226.09,
     "file": "3m46s_card-beep.mp3"
+  },
+  {
+    "phrase": "it's surveillance",
+    "kit_sound": "camera_servo.mp3",
+    "segment_index": 117,
+    "timestamp": "3:51",
+    "start_sec": 231.19,
+    "file": "3m51s_camera-servo.mp3"
+  },
+  {
+    "phrase": "every pause",
+    "kit_sound": "data_blips.mp3",
+    "segment_index": 119,
+    "timestamp": "3:55",
+    "start_sec": 234.83,
+    "file": "3m55s_data-blips.mp3"
+  },
+  {
+    "phrase": "someone appears",
+    "kit_sound": "footsteps_approach.mp3",
+    "segment_index": 130,
+    "timestamp": "4:18",
+    "start_sec": 258.15,
+    "file": "4m18s_footsteps-approach.mp3"
   },
   {
     "phrase": "comp you a steak",
@@ -88,6 +144,30 @@
     "file": "6m17s_perfume.mp3"
   },
   {
+    "phrase": "digital credits",
+    "kit_sound": "chip_clink.mp3",
+    "segment_index": 197,
+    "timestamp": "6:35",
+    "start_sec": 394.53,
+    "file": "6m35s_chip-clink.mp3"
+  },
+  {
+    "phrase": "Free drinks",
+    "kit_sound": "glass_clink.mp3",
+    "segment_index": 199,
+    "timestamp": "6:39",
+    "start_sec": 399.23,
+    "file": "6m39s_glass-clink.mp3"
+  },
+  {
+    "phrase": "ATMs right there",
+    "kit_sound": "atm_beep.mp3",
+    "segment_index": 201,
+    "timestamp": "6:44",
+    "start_sec": 404.41,
+    "file": "6m44s_atm-beep.mp3"
+  },
+  {
     "phrase": "chips run dry",
     "kit_sound": "cha_ching.mp3",
     "segment_index": 202,
@@ -110,6 +190,14 @@
     "timestamp": "7:58",
     "start_sec": 478.19,
     "file": "7m58s_phone.mp3"
+  },
+  {
+    "phrase": "infinite scroll",
+    "kit_sound": "scroll_swipe.mp3",
+    "segment_index": 237,
+    "timestamp": "7:58",
+    "start_sec": 478.19,
+    "file": "7m58s_scroll-swipe.mp3"
   },
   {
     "phrase": "You're being",

@@ -43,6 +43,24 @@ SFX = [
     ("perfume_spray.mp3", "perfume atomizer spritz, short spray", 1.0, False),
     ("machine_zone_drone.mp3", "low muffled hypnotic drone, the world going quiet and hollow", 6.0, True),
     ("phone_notify.mp3", "smartphone notification pop with a short scroll swipe", 1.0, False),
+    # --- ep3 palette expansion: one-shots ---
+    ("clock_tick.mp3", "a steady mechanical clock ticking, a few crisp ticks", 2.0, False),
+    ("applause.mp3", "a short burst of enthusiastic crowd applause and cheering", 3.0, False),
+    ("slot_lever.mp3", "a slot machine lever pulled down with a mechanical clunk", 1.0, False),
+    ("slot_button.mp3", "a single plastic arcade button press, soft click", 0.6, False),
+    ("data_blips.mp3", "rapid soft digital data blips and computer processing beeps", 2.0, False),
+    ("camera_servo.mp3", "a surveillance camera motor whirring and zooming, small servo", 1.5, False),
+    ("footsteps_approach.mp3", "footsteps on carpet approaching and getting closer", 2.0, False),
+    ("chip_clink.mp3", "casino poker chips stacked and clinking together", 1.5, False),
+    ("glass_clink.mp3", "cocktail glasses clinking with a soft drink pour", 1.5, False),
+    ("atm_beep.mp3", "an ATM beeping and dispensing cash, button presses", 2.0, False),
+    ("scroll_swipe.mp3", "repeated thumb swipes scrolling a phone screen, soft whooshes", 1.5, False),
+    ("crowd_cheer.mp3", "a distant crowd cheering at a big casino win", 3.0, False),
+    # --- ep3 palette expansion: ambient beds (looped in the build) ---
+    ("casino_floor_walla.mp3", "ambient busy casino floor, distant chatter, faint slot jingles, occasional coins, low room tone", 21.0, True),
+    ("slot_machine_chorus.mp3", "a wall of distant slot machines beeping, chiming and jingling continuously, no voices", 21.0, True),
+    ("casino_lounge.mp3", "calm upscale casino lounge ambience, soft murmur, gentle distant shimmer, classy and spacious", 21.0, True),
+    ("tension_bed.mp3", "a low ominous ambient drone, hollow and unsettling, subtle", 21.0, True),
 ]
 
 
