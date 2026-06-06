@@ -17,6 +17,7 @@ episodes/**/*.srt
 episodes/**/*.vtt
 episodes/**/*.mp4
 episodes/**/thumbnail*.png
+episodes/**/thumbnails/
 episodes/**/chunks/
 episodes/**/test_frames/
 episodes/**/music/*.mp3
