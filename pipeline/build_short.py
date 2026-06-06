@@ -118,8 +118,18 @@ def main():
         f.write(f"file '{cta.resolve()}'\n")   # concat demuxer: repeat last
 
     bg = "0x" + args.bg.lstrip("#")
-    vfilter = (f"[0:v]scale={W}:-2,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:{bg},"
-               f"fps={FPS},format=yuv420p[v]")
+    # If the source images are already ~9:16 (vertical-native), place them FULL-BLEED
+    # (scale to cover, no letterbox). Otherwise letterbox 16:9 on the bg with bands.
+    iw0, ih0 = Image.open(imgs[0]).size
+    portrait = (ih0 / iw0) > 1.3
+    if portrait:
+        vfilter = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,"
+                   f"crop={W}:{H},fps={FPS},format=yuv420p[v]")
+        mode = "full-bleed (9:16 native)"
+    else:
+        vfilter = (f"[0:v]scale={W}:-2,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:{bg},"
+                   f"fps={FPS},format=yuv420p[v]")
+        mode = "letterbox (16:9 on bg)"
 
     inputs = ["-f", "concat", "-safe", "0", "-i", str(listf), "-i", str(narration)]
     if args.music:
@@ -147,7 +157,7 @@ def main():
         sys.exit(f"ffmpeg failed:\n{result.stderr[-1800:]}")
     os.replace(tmp, out)
 
-    print(f"Short -> {out}  ({ffdur(out):.1f}s, {W}x{H}, {FPS}fps, {n} images + CTA)")
+    print(f"Short -> {out}  ({ffdur(out):.1f}s, {W}x{H}, {FPS}fps, {n} images + CTA, {mode})")
 
 
 if __name__ == "__main__":
