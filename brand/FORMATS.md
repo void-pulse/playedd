@@ -63,4 +63,4 @@ Low-volume, high-production is the model (see CHANNEL.md). Depth beats frequency
 - Add volume only once the pipeline runs without babysitting and extra uploads don't cost depth, the human layer, or the humor. One great video outperforms three forgettable ones here.
 
 ## Cut rhythm / pacing
-Don't cut on every caption line. One image per SRT segment (~2s) makes the video cut to the *transcript* instead of the *voice*, which feels forced and mechanical. Cut on meaning and voice beats: let strong images hold across multiple lines, and save fast cuts for rapid-fire list moments. From ep4 on, merge segments into fewer, longer shots at the storyboard stage so the rhythm breathes with the narration.
+Cuts are dynamically tuned to the narration, not a fixed rate and not one image per caption. Speed up on fast, energetic, or list lines; hold longer on slow, heavy, or emphatic ones. Every image earns its place: enough coverage, no filler. Map the cut pacing to the voice's energy and meaning at the storyboard stage, fewer and longer shots where the voice lingers, quick cuts only where it's rattling.

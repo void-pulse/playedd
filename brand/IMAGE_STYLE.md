@@ -47,3 +47,6 @@ So the style is constant and only the SCENE line changes per timestamp. Consiste
 ## Output spec
 - Aspect ratio: 16:9 (landscape). Configured in the script.
 - Filenames: named by timestamp, zero-padded so they sort in order (e.g. `0007_0m07s.png`). This is what makes CapCut assembly trivial, drop them in filename order and they're already synced.
+
+## Color & design direction (from ep4)
+Trend a bit more colorful and designed than bare black-on-white, while keeping the crude doodle identity. Thumbnails: the ep3 v3 level (bold solid background + selective pop color, not full rainbow) is the sweet spot; nudge slightly richer each time. In-video frames can carry a little more color and composition (like the better replacement frames). An evolution up, not a restyle.
