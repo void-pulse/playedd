@@ -24,6 +24,14 @@
     "file": "1m34s_coin-drop.mp3"
   },
   {
+    "phrase": "20 lines",
+    "kit_sound": "slot_reel_spin.mp3",
+    "segment_index": 76,
+    "timestamp": "2:32",
+    "start_sec": 151.73,
+    "file": "2m32s_reel-spin.mp3"
+  },
+  {
     "phrase": "clap along",
     "kit_sound": "slot_jackpot.mp3",
     "segment_index": 96,
@@ -38,6 +46,14 @@
     "timestamp": "3:33",
     "start_sec": 212.59,
     "file": "3m33s_near-miss.mp3"
+  },
+  {
+    "phrase": "slot in",
+    "kit_sound": "card_beep.mp3",
+    "segment_index": 115,
+    "timestamp": "3:46",
+    "start_sec": 226.09,
+    "file": "3m46s_card-beep.mp3"
   },
   {
     "phrase": "comp you a steak",
