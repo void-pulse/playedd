@@ -103,24 +103,21 @@ def main():
     b = beat_starts(segs)
     end = target
 
-    # --- beds: ONLY the machine-zone ambiance during HUMAN LAYER. No continuous
-    # bed anywhere else (the rest of the episode is dry SFX). ---
-    beds = [
-        ("machine_zone_drone.mp3",  b["human_layer"],     b["payoff"],       0.13),  # HUMAN LAYER ambiance
-        ("tension_bed.mp3",         b["human_layer"],     b["payoff"],       0.10),  # HUMAN LAYER ambiance
-    ]
+    # --- beds: NONE. Ambiance killed entirely; the stem is all SFX one-shots.
+    # (The machine-zone drone still appears as a placed one-shot via cues.json,
+    # but there is no continuous ambient bed anywhere.) ---
+    beds = []
 
-    # --- occasional casino sweeteners (NOT continuous): sparse one-shots through
-    # SETUP..THE SENSES, with long random gaps so it's "a little casino, sometimes."
-    # The HUMAN LAYER beat is left out so the machine-zone ambiance stays clean. ---
+    # --- dense casino sweeteners: one-shots scattered through SETUP..THE SENSES at
+    # short randomized gaps, so there's frequent SFX activity over the pictures. ---
     random.seed(SEED)
     z0, z1 = b["setup"], b["human_layer"]
     sweeteners = []
-    t = z0 + random.uniform(6.0, 14.0)
+    t = z0 + random.uniform(2.0, 6.0)
     while t < z1 - 2.0:
         snd = random.choice(SWEET_POOL)
         sweeteners.append((snd, round(t, 3)))
-        t += random.uniform(22.0, 45.0)   # sparse: occasional, not the whole time
+        t += random.uniform(8.0, 14.0)   # dense: frequent casino activity
 
     # --- marked cues (prominent accents) ---
     cues = json.loads((ep / "sfx" / "cues.json").read_text())
@@ -181,11 +178,9 @@ def main():
     os.replace(tmp, out)
 
     def lbl(s): return f"{int(s // 60)}:{int(s % 60):02d}"
-    print("Beds (machine-zone ambiance, HUMAN LAYER only; dry SFX elsewhere):")
-    for fname, start, stop, gain in beds:
-        print(f"  {fname:<24} {lbl(max(0,start))}-{lbl(stop)}  gain={gain}")
-    print(f"\nOccasional casino sweeteners: {len(sweeteners)} "
-          f"(SETUP..THE SENSES, ~22-45s apart, gain {SWEET_GAIN}/{SWEET_JACKPOT_GAIN} jackpot)")
+    print(f"Beds: {len(beds)} (ambiance killed — all SFX)")
+    print(f"Casino sweeteners scattered: {len(sweeteners)} "
+          f"(SETUP..THE SENSES, ~8-14s apart, gain {SWEET_GAIN}/{SWEET_JACKPOT_GAIN} jackpot)")
     print(f"Marked cues (peak-normalized, gain {MARKED_GAIN}): {len(marked)}")
     print(f"full_sfx.mp3 -> {out}  ({ffdur(out):.1f}s, target {target:.1f}s)")
 
