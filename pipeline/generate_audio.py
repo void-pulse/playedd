@@ -73,13 +73,14 @@ BREAK_SPLIT = re.compile(r'<break\s+time="([0-9.]+)s"\s*/?>', flags=re.I)
 DEFAULT_TEMPO = 0.92
 BEAT_GAP = 0.6
 SR = 44100
-# Trailing/leading trim level for each piece before the silence gap is inserted.
-# ElevenLabs renders an anticipatory in-breath at a split point's tail (~-41..-52 dB),
-# which sits exposed against the clean silence. It's well below speech (>= ~-37 dB), so
-# trimming the contiguous trailing/leading run below TRIM_DB removes the breath (and any
-# trailing silence) without clipping speech. Only the boundary run is trimmed; mid-phrase
-# dips are untouched (silenceremove acts on the end runs only).
-TRIM_DB = -40.0
+# Per-piece edge handling before the silence gap is inserted. Strip ONLY true digital
+# silence (<= SILENCE_DB) so a word's natural decay is always preserved — an aggressive
+# trim (e.g. -40 dB) ate the soft tail of words ending in a vowel/fricative while
+# hard-consonant endings survived. A short de-click micro-fade (DECLICK_S) at each seam
+# edge prevents a click where the piece meets the inserted silence. Speech is never
+# trimmed into; the pause is always inserted silence, never carved out of the word.
+SILENCE_DB = -55.0
+DECLICK_S = 0.01
 
 
 def slugify(label: str) -> str:
@@ -174,14 +175,15 @@ def build_segments(sections: list, beat_gap: float) -> list:
                          "label": sec["label"], "k": k, "nsegs": n,
                          "text": text, "gap_after": gap_after})
     for j, seg in enumerate(flat):
-        seg["prev"] = flat[j - 1]["text"] if j > 0 else None
-        # Drop next_text at every deliberate pause. Feeding the upcoming paragraph makes
-        # ElevenLabs render an anticipatory in-breath at the piece's tail (exposed against
-        # the inserted silence). Splits only ever happen at pauses, so a non-zero gap means
-        # "no forward context" — each piece lands on a clean terminal cadence. previous_text
-        # is kept so the piece still matches the lead-in tone from behind.
-        nxt = flat[j + 1]["text"] if j + 1 < len(flat) else None
-        seg["next"] = nxt if seg["gap_after"] == 0 else None
+        prev_seg = flat[j - 1] if j > 0 else None
+        # Cross-context (previous_text/next_text) is carried ONLY across a zero-gap, truly
+        # continuous join. At any deliberate pause — every beat boundary, and any in-beat
+        # <break> — drop it on BOTH sides: the trailing piece ends on a clean terminal
+        # cadence (no anticipatory breath) and the leading piece starts clean (no
+        # continuation onset breath). Each beat renders as a standalone take; the pauses
+        # are inserted silence (between beats) or ElevenLabs ellipses (within a beat).
+        seg["prev"] = prev_seg["text"] if (prev_seg is not None and prev_seg["gap_after"] == 0) else None
+        seg["next"] = flat[j + 1]["text"] if (j + 1 < len(flat) and seg["gap_after"] == 0) else None
     return flat
 
 
@@ -223,6 +225,49 @@ def synth_segment(client, voice_id, model, seg, out_path) -> None:
         raise
 
 
+def _ffdur(path) -> float:
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                          "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
+                         capture_output=True, text=True)
+    try:
+        return float(out.stdout.strip())
+    except ValueError:
+        return 0.0
+
+
+def tail_breath_cut(path, speech_db=-30.0, protect_s=0.090, floor_db=-55.0):
+    """Return a cut time if a piece ends with a truncated breath plateau AFTER the word's
+    decay, else None. POSITION-based, not level-based (breath and soft word-decay share a
+    level, so no amplitude trim can separate them): find the last point speech drops away
+    and stays down to EOF, always preserve `protect_s` (~90ms) of natural decay past it,
+    and cut only if there is still content above `floor_db` after that — i.e. a real breath.
+    A tail that decays cleanly to the floor returns None and is left for the -55 edge trim."""
+    dur = _ffdur(path)
+    if dur <= 0:
+        return None
+    log = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path),
+                          "-af", f"silencedetect=n={speech_db}dB:d=0.06", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    starts = re.findall(r"silence_start: ([0-9.]+)", log)
+    ends = re.findall(r"silence_end: ([0-9.]+)", log)
+    if not starts:
+        return None                       # speech runs to EOF, no trailing low region
+    last_start = float(starts[-1])
+    last_end = dur if len(ends) < len(starts) else float(ends[-1])
+    if last_end < dur - 0.05:
+        return None                       # speech resumed after the last dip, runs to EOF
+    keep_until = last_start + protect_s
+    if keep_until >= dur - 0.02:
+        return None                       # < ~90ms of tail after the word; nothing to cut
+    seg = subprocess.run(["ffmpeg", "-hide_banner", "-ss", f"{keep_until:.3f}", "-i", str(path),
+                          "-af", "volumedetect", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    m = re.search(r"max_volume: (-?[0-9.]+) dB", seg)
+    if m and float(m.group(1)) > floor_db:
+        return round(keep_until, 3)        # breath plateau above the floor -> cut at word+90ms
+    return None
+
+
 def assemble(narration_mp3: Path, items: list, tempo: float) -> None:
     """Stitch segment files in order: time-stretch each by `tempo` (atempo is
     pitch-preserving), then add `gap` seconds of REAL silence after it. Speech is
@@ -234,15 +279,24 @@ def assemble(narration_mp3: Path, items: list, tempo: float) -> None:
     inputs = []
     for p, _ in items:
         inputs += ["-i", str(p)]
-    # Trim the trailing breath/silence off each piece, then the leading breath off its
-    # head, BEFORE inserting the clean gap. areverse->silenceremove->areverse strips the
-    # tail; a second silenceremove strips the head. Acts only on the boundary runs.
-    trim = (f"areverse,silenceremove=start_periods=1:start_threshold={TRIM_DB}dB:start_duration=0,"
+    # Per piece, before inserting the gap: strip ONLY true digital silence (<= SILENCE_DB)
+    # off the head, then the tail, so the word's natural decay is fully preserved; then a
+    # DECLICK_S micro-fade at each edge to kill seam clicks. Pass forward = head; reverse,
+    # do the same = tail; reverse back. Speech is never trimmed into.
+    edge = (f"silenceremove=start_periods=1:start_threshold={SILENCE_DB}dB:start_duration=0,"
+            f"afade=t=in:st=0:d={DECLICK_S},"
             f"areverse,"
-            f"silenceremove=start_periods=1:start_threshold={TRIM_DB}dB:start_duration=0")
-    filt, labels = [], []
+            f"silenceremove=start_periods=1:start_threshold={SILENCE_DB}dB:start_duration=0,"
+            f"afade=t=in:st=0:d={DECLICK_S},"
+            f"areverse")
+    filt, labels, trims = [], [], []
     for i, (p, gap) in enumerate(items):
-        chain = f"[{i}:a]aformat=sample_rates={SR}:channel_layouts=mono,{trim}"
+        cut = tail_breath_cut(p)
+        pre = f"[{i}:a]aformat=sample_rates={SR}:channel_layouts=mono"
+        if cut is not None:               # drop a truncated breath, preserving word + 90ms
+            pre += f",atrim=0:{cut:.3f},asetpts=N/SR/TB"
+            trims.append(f"{p.name}@{cut:.2f}s")
+        chain = f"{pre},{edge}"
         if abs(tempo - 1.0) > 1e-3:
             chain += f",atempo={tempo:.4f}"
         if gap > 0:
@@ -250,6 +304,8 @@ def assemble(narration_mp3: Path, items: list, tempo: float) -> None:
         chain += f"[a{i}]"
         filt.append(chain)
         labels.append(f"[a{i}]")
+    if trims:
+        print("  time-protected breath trims (word + 90ms kept): " + ", ".join(trims))
     filt.append("".join(labels) + f"concat=n={len(items)}:v=0:a=1[out]")
     tmp = narration_mp3.with_suffix(narration_mp3.suffix + ".tmp")
     cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", ";".join(filt),
