@@ -1,0 +1,848 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "text": "Your phone is three years old and suddenly it's slow."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 2.92,
+    "text": "Apps lag, the battery's dead by lunch."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:06",
+    "seconds": 5.76,
+    "text": "So you start thinking, maybe it's time for a new one."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:08",
+    "seconds": 8.36,
+    "text": "Here's the thing, that slowdown wasn't just age."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:12",
+    "seconds": 12.04,
+    "text": "On some phones, it was a decision."
+  },
+  {
+    "index": 6,
+    "timestamp": "0:14",
+    "seconds": 14.48,
+    "text": "A choice made in software, on purpose,"
+  },
+  {
+    "index": 7,
+    "timestamp": "0:17",
+    "seconds": 17.28,
+    "text": "to make your old phone feel worse."
+  },
+  {
+    "index": 8,
+    "timestamp": "0:20",
+    "seconds": 19.76,
+    "text": "And once you see why,"
+  },
+  {
+    "index": 9,
+    "timestamp": "0:21",
+    "seconds": 21.48,
+    "text": "you'll realize it's not just your phone,"
+  },
+  {
+    "index": 10,
+    "timestamp": "0:24",
+    "seconds": 23.6,
+    "text": "it's your printer, your laptop, your washing machine."
+  },
+  {
+    "index": 11,
+    "timestamp": "0:27",
+    "seconds": 27.12,
+    "text": "Almost everything you own was built"
+  },
+  {
+    "index": 12,
+    "timestamp": "0:29",
+    "seconds": 29.4,
+    "text": "with a quiet expiration date."
+  },
+  {
+    "index": 13,
+    "timestamp": "0:32",
+    "seconds": 32.0,
+    "text": "And the reason traces back to a secret meeting"
+  },
+  {
+    "index": 14,
+    "timestamp": "0:35",
+    "seconds": 34.64,
+    "text": "a hundred years ago about a light bulb."
+  },
+  {
+    "index": 15,
+    "timestamp": "0:38",
+    "seconds": 37.68,
+    "text": "Start with the problem no company will say out loud."
+  },
+  {
+    "index": 16,
+    "timestamp": "0:41",
+    "seconds": 40.56,
+    "text": "If you make something that lasts forever,"
+  },
+  {
+    "index": 17,
+    "timestamp": "0:43",
+    "seconds": 42.92,
+    "text": "you only sell it once."
+  },
+  {
+    "index": 18,
+    "timestamp": "0:44",
+    "seconds": 44.48,
+    "text": "A perfect product is a business that runs out of customers."
+  },
+  {
+    "index": 19,
+    "timestamp": "0:48",
+    "seconds": 48.32,
+    "text": "So somewhere along the way,"
+  },
+  {
+    "index": 20,
+    "timestamp": "0:50",
+    "seconds": 50.08,
+    "text": "companies realize the most profitable product"
+  },
+  {
+    "index": 21,
+    "timestamp": "0:53",
+    "seconds": 53.04,
+    "text": "isn't the one that lasts."
+  },
+  {
+    "index": 22,
+    "timestamp": "0:55",
+    "seconds": 54.76,
+    "text": "It's the one that breaks right after"
+  },
+  {
+    "index": 23,
+    "timestamp": "0:57",
+    "seconds": 56.72,
+    "text": "you stop being angry about it."
+  },
+  {
+    "index": 24,
+    "timestamp": "0:59",
+    "seconds": 58.76,
+    "text": "Long enough that you don't blame them."
+  },
+  {
+    "index": 25,
+    "timestamp": "1:01",
+    "seconds": 60.72,
+    "text": "Short enough that you have to buy another."
+  },
+  {
+    "index": 26,
+    "timestamp": "1:03",
+    "seconds": 62.92,
+    "text": "That sweet spot has a name."
+  },
+  {
+    "index": 27,
+    "timestamp": "1:06",
+    "seconds": 65.64,
+    "text": "Planned obsolescence."
+  },
+  {
+    "index": 28,
+    "timestamp": "1:07",
+    "seconds": 67.32,
+    "text": "And it didn't start with phones,"
+  },
+  {
+    "index": 29,
+    "timestamp": "1:09",
+    "seconds": 68.64,
+    "text": "it started with the one thing you'd never suspect,"
+  },
+  {
+    "index": 30,
+    "timestamp": "1:12",
+    "seconds": 71.52,
+    "text": "the light bulb over your head."
+  },
+  {
+    "index": 31,
+    "timestamp": "1:14",
+    "seconds": 73.68,
+    "text": "In the early 1920s, light bulbs were getting too good."
+  },
+  {
+    "index": 32,
+    "timestamp": "1:18",
+    "seconds": 77.8,
+    "text": "Some lasted 2,500 hours."
+  },
+  {
+    "index": 33,
+    "timestamp": "1:20",
+    "seconds": 80.4,
+    "text": "A few experimental ones ran for tens of thousands."
+  },
+  {
+    "index": 34,
+    "timestamp": "1:24",
+    "seconds": 83.84,
+    "text": "There's a fire station in Livermore, California"
+  },
+  {
+    "index": 35,
+    "timestamp": "1:26",
+    "seconds": 86.44,
+    "text": "with a bulb that has been burning"
+  },
+  {
+    "index": 36,
+    "timestamp": "1:28",
+    "seconds": 88.36,
+    "text": "almost without pause since 1901."
+  },
+  {
+    "index": 37,
+    "timestamp": "1:32",
+    "seconds": 91.52,
+    "text": "It is still on right now."
+  },
+  {
+    "index": 38,
+    "timestamp": "1:34",
+    "seconds": 93.52,
+    "text": "So the bulb makers had a problem."
+  },
+  {
+    "index": 39,
+    "timestamp": "1:35",
+    "seconds": 95.4,
+    "text": "Their product worked. People stopped buying."
+  },
+  {
+    "index": 40,
+    "timestamp": "1:38",
+    "seconds": 98.24,
+    "text": "On December 23rd, 1924,"
+  },
+  {
+    "index": 41,
+    "timestamp": "1:41",
+    "seconds": 100.56,
+    "text": "the biggest names in the industry,"
+  },
+  {
+    "index": 42,
+    "timestamp": "1:42",
+    "seconds": 102.2,
+    "text": "Ozrom, Phillips, General Electric and others,"
+  },
+  {
+    "index": 43,
+    "timestamp": "1:45",
+    "seconds": 105.28,
+    "text": "quietly met in Geneva"
+  },
+  {
+    "index": 44,
+    "timestamp": "1:47",
+    "seconds": 107.12,
+    "text": "and formed something called the Phoebus Cartel."
+  },
+  {
+    "index": 45,
+    "timestamp": "1:50",
+    "seconds": 110.12,
+    "text": "And they made a decision that sounds insane."
+  },
+  {
+    "index": 46,
+    "timestamp": "1:53",
+    "seconds": 112.76,
+    "text": "They agreed to make their bulbs worse."
+  },
+  {
+    "index": 47,
+    "timestamp": "1:55",
+    "seconds": 114.96,
+    "text": "They set a new rule."
+  },
+  {
+    "index": 48,
+    "timestamp": "1:57",
+    "seconds": 116.6,
+    "text": "No bulb would last more than a thousand hours."
+  },
+  {
+    "index": 49,
+    "timestamp": "2:00",
+    "seconds": 120.0,
+    "text": "Engineers who'd spent decades making bulbs last longer"
+  },
+  {
+    "index": 50,
+    "timestamp": "2:04",
+    "seconds": 124.24,
+    "text": "were now ordered to make them die sooner."
+  },
+  {
+    "index": 51,
+    "timestamp": "2:07",
+    "seconds": 126.72,
+    "text": "And if a company sold a bulb that lasted too long,"
+  },
+  {
+    "index": 52,
+    "timestamp": "2:10",
+    "seconds": 129.72,
+    "text": "they were fined. There were testing labs whose entire job"
+  },
+  {
+    "index": 53,
+    "timestamp": "2:13",
+    "seconds": 133.16,
+    "text": "was to make sure the product failed on schedule."
+  },
+  {
+    "index": 54,
+    "timestamp": "2:16",
+    "seconds": 135.92,
+    "text": "This wasn't a cheap product, it was a good one."
+  },
+  {
+    "index": 55,
+    "timestamp": "2:19",
+    "seconds": 138.68,
+    "text": "Deliberately broken by secret agreement."
+  },
+  {
+    "index": 56,
+    "timestamp": "2:21",
+    "seconds": 141.36,
+    "text": "And it worked. Sales went right back up."
+  },
+  {
+    "index": 57,
+    "timestamp": "2:25",
+    "seconds": 144.68,
+    "text": "The cartel fell apart by World War II,"
+  },
+  {
+    "index": 58,
+    "timestamp": "2:27",
+    "seconds": 147.48,
+    "text": "but the idea didn't die with it."
+  },
+  {
+    "index": 59,
+    "timestamp": "2:30",
+    "seconds": 149.6,
+    "text": "It grew up."
+  },
+  {
+    "index": 60,
+    "timestamp": "2:31",
+    "seconds": 150.92,
+    "text": "In the depths of the depression,"
+  },
+  {
+    "index": 61,
+    "timestamp": "2:33",
+    "seconds": 152.52,
+    "text": "a man named Bernard London actually wrote a pamphlet"
+  },
+  {
+    "index": 62,
+    "timestamp": "2:36",
+    "seconds": 156.36,
+    "text": "arguing that the government should force products"
+  },
+  {
+    "index": 63,
+    "timestamp": "2:39",
+    "seconds": 158.92,
+    "text": "to expire on a schedule"
+  },
+  {
+    "index": 64,
+    "timestamp": "2:41",
+    "seconds": 160.84,
+    "text": "to keep people buying and factories running."
+  },
+  {
+    "index": 65,
+    "timestamp": "2:44",
+    "seconds": 163.88,
+    "text": "He wasn't exposing the trick."
+  },
+  {
+    "index": 66,
+    "timestamp": "2:46",
+    "seconds": 165.8,
+    "text": "He was recommending it."
+  },
+  {
+    "index": 67,
+    "timestamp": "2:47",
+    "seconds": 167.4,
+    "text": "By the 1950s, it wasn't a secret at all anymore."
+  },
+  {
+    "index": 68,
+    "timestamp": "2:51",
+    "seconds": 171.32,
+    "text": "It was a craft."
+  },
+  {
+    "index": 69,
+    "timestamp": "2:53",
+    "seconds": 172.64,
+    "text": "Car makers started redrawing their cars every single year"
+  },
+  {
+    "index": 70,
+    "timestamp": "2:56",
+    "seconds": 176.12,
+    "text": "so the one in your driveway would feel old"
+  },
+  {
+    "index": 71,
+    "timestamp": "2:58",
+    "seconds": 178.36,
+    "text": "long before it ever wore out."
+  },
+  {
+    "index": 72,
+    "timestamp": "3:00",
+    "seconds": 180.28,
+    "text": "The idea had learned its first lesson."
+  },
+  {
+    "index": 73,
+    "timestamp": "3:03",
+    "seconds": 183.16,
+    "text": "It didn't need to break your things."
+  },
+  {
+    "index": 74,
+    "timestamp": "3:05",
+    "seconds": 185.16,
+    "text": "It only had to make you feel like they were already behind."
+  },
+  {
+    "index": 75,
+    "timestamp": "3:09",
+    "seconds": 189.2,
+    "text": "And from there, across a century, it kept learning."
+  },
+  {
+    "index": 76,
+    "timestamp": "3:13",
+    "seconds": 192.96,
+    "text": "It learned that breaking things made people angry"
+  },
+  {
+    "index": 77,
+    "timestamp": "3:16",
+    "seconds": 196.16,
+    "text": "and angry people complain."
+  },
+  {
+    "index": 78,
+    "timestamp": "3:18",
+    "seconds": 198.28,
+    "text": "So it got quieter. Look at your phone."
+  },
+  {
+    "index": 79,
+    "timestamp": "3:21",
+    "seconds": 200.84,
+    "text": "In 2017, people noticed their old iPhones crawling"
+  },
+  {
+    "index": 80,
+    "timestamp": "3:25",
+    "seconds": 204.8,
+    "text": "and it turned out the slowdown was a choice"
+  },
+  {
+    "index": 81,
+    "timestamp": "3:28",
+    "seconds": 207.68,
+    "text": "written into an update for phones with tired batteries."
+  },
+  {
+    "index": 82,
+    "timestamp": "3:32",
+    "seconds": 211.56,
+    "text": "The phone still worked."
+  },
+  {
+    "index": 83,
+    "timestamp": "3:33",
+    "seconds": 213.4,
+    "text": "It was just taught to feel like it didn't."
+  },
+  {
+    "index": 84,
+    "timestamp": "3:36",
+    "seconds": 216.12,
+    "text": "When more than 30 states came after Apple,"
+  },
+  {
+    "index": 85,
+    "timestamp": "3:39",
+    "seconds": 219.0,
+    "text": "their own attorney general said it plainly."
+  },
+  {
+    "index": 86,
+    "timestamp": "3:42",
+    "seconds": 221.84,
+    "text": "People figured the only fix was a new phone"
+  },
+  {
+    "index": 87,
+    "timestamp": "3:45",
+    "seconds": 224.6,
+    "text": "and Apple understood exactly what that did to sales."
+  },
+  {
+    "index": 88,
+    "timestamp": "3:49",
+    "seconds": 228.56,
+    "text": "Then the idea learned something better than breaking."
+  },
+  {
+    "index": 89,
+    "timestamp": "3:51",
+    "seconds": 231.48,
+    "text": "It learned to lock."
+  },
+  {
+    "index": 90,
+    "timestamp": "3:53",
+    "seconds": 232.96,
+    "text": "Your printer still prints, but slide in a cheaper ink"
+  },
+  {
+    "index": 91,
+    "timestamp": "3:57",
+    "seconds": 236.76,
+    "text": "and it can turn on you overnight,"
+  },
+  {
+    "index": 92,
+    "timestamp": "3:58",
+    "seconds": 238.4,
+    "text": "flashing that the cartridge is damaged or missing"
+  },
+  {
+    "index": 93,
+    "timestamp": "4:01",
+    "seconds": 241.2,
+    "text": "when it isn't. Why guard a few dollars of ink that fiercely?"
+  },
+  {
+    "index": 94,
+    "timestamp": "4:06",
+    "seconds": 245.56,
+    "text": "The company's own boss said it out loud."
+  },
+  {
+    "index": 95,
+    "timestamp": "4:08",
+    "seconds": 248.28,
+    "text": "They lose money on the printer."
+  },
+  {
+    "index": 96,
+    "timestamp": "4:10",
+    "seconds": 249.76,
+    "text": "They make it on the ink."
+  },
+  {
+    "index": 97,
+    "timestamp": "4:11",
+    "seconds": 251.28,
+    "text": "The machine was never the gift."
+  },
+  {
+    "index": 98,
+    "timestamp": "4:13",
+    "seconds": 253.48,
+    "text": "It was the hook."
+  },
+  {
+    "index": 99,
+    "timestamp": "4:15",
+    "seconds": 255.12,
+    "text": "And then it learned its cleverest move of all."
+  },
+  {
+    "index": 100,
+    "timestamp": "4:18",
+    "seconds": 257.92,
+    "text": "Don't break it. Don't even hide it."
+  },
+  {
+    "index": 101,
+    "timestamp": "4:20",
+    "seconds": 260.16,
+    "text": "Just lock the door on something you already own"
+  },
+  {
+    "index": 102,
+    "timestamp": "4:23",
+    "seconds": 262.84,
+    "text": "and charge you to open it."
+  },
+  {
+    "index": 103,
+    "timestamp": "4:25",
+    "seconds": 264.68,
+    "text": "Sit in a new car."
+  },
+  {
+    "index": 104,
+    "timestamp": "4:27",
+    "seconds": 266.52,
+    "text": "The heated seat is already in the seat."
+  },
+  {
+    "index": 105,
+    "timestamp": "4:29",
+    "seconds": 268.92,
+    "text": "You paid for it."
+  },
+  {
+    "index": 106,
+    "timestamp": "4:30",
+    "seconds": 270.2,
+    "text": "But it stays cold until you pay again by the month."
+  },
+  {
+    "index": 107,
+    "timestamp": "4:34",
+    "seconds": 274.0,
+    "text": "The horsepower is already in the engine."
+  },
+  {
+    "index": 108,
+    "timestamp": "4:36",
+    "seconds": 276.0,
+    "text": "Mercedes will sell you the rest of it"
+  },
+  {
+    "index": 109,
+    "timestamp": "4:38",
+    "seconds": 278.0,
+    "text": "for around $1,200 a year."
+  },
+  {
+    "index": 110,
+    "timestamp": "4:40",
+    "seconds": 280.28,
+    "text": "No new parts, just permission."
+  },
+  {
+    "index": 111,
+    "timestamp": "4:43",
+    "seconds": 282.6,
+    "text": "You own the whole machine."
+  },
+  {
+    "index": 112,
+    "timestamp": "4:44",
+    "seconds": 284.16,
+    "text": "You're renting the pieces back one at a time."
+  },
+  {
+    "index": 113,
+    "timestamp": "4:47",
+    "seconds": 286.76,
+    "text": "People have started hacking their own cars"
+  },
+  {
+    "index": 114,
+    "timestamp": "4:49",
+    "seconds": 288.84,
+    "text": "to take back what they already bought."
+  },
+  {
+    "index": 115,
+    "timestamp": "4:51",
+    "seconds": 290.92,
+    "text": "That's where we are."
+  },
+  {
+    "index": 116,
+    "timestamp": "4:52",
+    "seconds": 292.44,
+    "text": "So here's the shape of the world that meeting built."
+  },
+  {
+    "index": 117,
+    "timestamp": "4:56",
+    "seconds": 295.52,
+    "text": "100 years ago, a few men in a room decided"
+  },
+  {
+    "index": 118,
+    "timestamp": "4:58",
+    "seconds": 298.28,
+    "text": "the things you buy should quietly betray you"
+  },
+  {
+    "index": 119,
+    "timestamp": "5:01",
+    "seconds": 300.8,
+    "text": "and the idea outlived every one of them."
+  },
+  {
+    "index": 120,
+    "timestamp": "5:04",
+    "seconds": 303.6,
+    "text": "It just got gentler about it."
+  },
+  {
+    "index": 121,
+    "timestamp": "5:05",
+    "seconds": 305.44,
+    "text": "It stopped breaking your things"
+  },
+  {
+    "index": 122,
+    "timestamp": "5:07",
+    "seconds": 307.08,
+    "text": "and started keeping them from you."
+  },
+  {
+    "index": 123,
+    "timestamp": "5:09",
+    "seconds": 309.04,
+    "text": "From a bulb engineered to burn out,"
+  },
+  {
+    "index": 124,
+    "timestamp": "5:11",
+    "seconds": 311.3,
+    "text": "to a tractor a farmer isn't allowed to fix,"
+  },
+  {
+    "index": 125,
+    "timestamp": "5:14",
+    "seconds": 314.06,
+    "text": "to a seat that's only warm when you're paying."
+  },
+  {
+    "index": 126,
+    "timestamp": "5:17",
+    "seconds": 316.82,
+    "text": "You walk through your own home surrounded by things"
+  },
+  {
+    "index": 127,
+    "timestamp": "5:19",
+    "seconds": 319.22,
+    "text": "that are technically yours"
+  },
+  {
+    "index": 128,
+    "timestamp": "5:21",
+    "seconds": 320.62,
+    "text": "sitting there with their hands out."
+  },
+  {
+    "index": 129,
+    "timestamp": "5:22",
+    "seconds": 322.3,
+    "text": "And even the bulb's revenge got quietly taken."
+  },
+  {
+    "index": 130,
+    "timestamp": "5:26",
+    "seconds": 325.54,
+    "text": "An LED can last 20 years, but plenty die young,"
+  },
+  {
+    "index": 131,
+    "timestamp": "5:29",
+    "seconds": 329.46,
+    "text": "sealed in a fixture you can't open, built cheap on purpose."
+  },
+  {
+    "index": 132,
+    "timestamp": "5:33",
+    "seconds": 333.36,
+    "text": "The trick never left. It just moved into the parts of your life you can't see."
+  },
+  {
+    "index": 133,
+    "timestamp": "5:38",
+    "seconds": 337.86,
+    "text": "So the next time your phone slows down right on cue"
+  },
+  {
+    "index": 134,
+    "timestamp": "5:41",
+    "seconds": 340.9,
+    "text": "or your own car asks you for rent,"
+  },
+  {
+    "index": 135,
+    "timestamp": "5:43",
+    "seconds": 343.42,
+    "text": "don't blame yourself."
+  },
+  {
+    "index": 136,
+    "timestamp": "5:45",
+    "seconds": 344.86,
+    "text": "You didn't wear it out."
+  },
+  {
+    "index": 137,
+    "timestamp": "5:46",
+    "seconds": 346.08,
+    "text": "You weren't careless."
+  },
+  {
+    "index": 138,
+    "timestamp": "5:47",
+    "seconds": 347.42,
+    "text": "Someone a long time ago in a quiet room"
+  },
+  {
+    "index": 139,
+    "timestamp": "5:51",
+    "seconds": 350.92,
+    "text": "decided the things you own"
+  },
+  {
+    "index": 140,
+    "timestamp": "5:53",
+    "seconds": 352.66,
+    "text": "should never quite belong to you."
+  },
+  {
+    "index": 141,
+    "timestamp": "5:54",
+    "seconds": 354.26,
+    "text": "You didn't lose it. You got played."
+  }
+]
