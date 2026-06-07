@@ -19,6 +19,7 @@ Usage:
         --music music/full_score.mp3 --out short/short_casino.mp4
 """
 import argparse
+import json
 import os
 import subprocess
 import sys
@@ -33,6 +34,12 @@ FONT_MARKER = ROOT / "brand" / "assets" / "fonts" / "PermanentMarker.ttf"
 W, H, FPS = 1080, 1920, 30
 CTA_SEC = 3.0
 MUSIC_DB = -22.0
+CUE_DB = -14.0   # default duck for spot SFX cues so they sit under the VO
+SR = 44100
+
+
+def db_to_lin(db: float) -> float:
+    return round(10 ** (db / 20.0), 4)
 
 
 def ffdur(p: Path) -> float:
@@ -110,6 +117,11 @@ def main():
     ap.add_argument("--tail", type=float, default=0.0,
                     help="extra seconds to hold the end card AFTER narration ends "
                          "(music tails under it and fades out)")
+    ap.add_argument("--stamp-sfx", default=None,
+                    help="one-shot SFX mixed in at the moment the stamp end card appears")
+    ap.add_argument("--sfx-cues", default=None,
+                    help="JSON list of {file, at, gain_db} spot SFX mixed into the "
+                         "timeline at those times, kept subtle/low under the VO")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
@@ -158,31 +170,87 @@ def main():
                    f"fps={FPS},format=yuv420p[v]")
         mode = "letterbox (16:9 on bg)"
 
+    # optional spot SFX cues and a stamp one-shot (mixed under the VO)
+    cues = []
+    if args.sfx_cues:
+        for c in json.loads(Path(args.sfx_cues).read_text()):
+            cp = Path(c["file"])
+            if not cp.exists():
+                sys.exit(f"Missing sfx cue file: {cp}")
+            cues.append({"file": cp, "at": float(c["at"]),
+                         "gain_db": float(c.get("gain_db", CUE_DB))})
+    stamp_sfx = Path(args.stamp_sfx) if args.stamp_sfx else None
+    if stamp_sfx and not stamp_sfx.exists():
+        sys.exit(f"Missing stamp sfx: {stamp_sfx}")
+
     inputs = ["-f", "concat", "-safe", "0", "-i", str(listf), "-i", str(narration)]
-    if args.music:
-        if not Path(args.music).exists():
-            sys.exit(f"Missing music: {args.music}")
-        inputs += ["-stream_loop", "-1", "-i", str(args.music)]
-        mus = round(10 ** (MUSIC_DB / 20.0), 4)
-        if tail > 0:
-            fade = round(min(2.0, tail + 0.6), 2)   # fade the music tail out into silence
-            fc = (vfilter + ";"
-                  f"[1:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB[n];"
-                  f"[2:a]atrim=0:{total:.3f},asetpts=N/SR/TB,volume={mus},"
-                  f"afade=t=out:st={round(total - fade, 3)}:d={fade}[m];"
-                  f"[n][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
-        else:
-            fc = (vfilter + ";"
-                  f"[2:a]volume={mus}[m];"
-                  f"[1:a][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
-        amap = ["-map", "[a]"]
-    else:
-        if tail > 0:
-            fc = vfilter + f";[1:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB[a]"
+
+    if not cues and not stamp_sfx:
+        # ---------- original behavior, preserved byte-for-byte ----------
+        if args.music:
+            if not Path(args.music).exists():
+                sys.exit(f"Missing music: {args.music}")
+            inputs += ["-stream_loop", "-1", "-i", str(args.music)]
+            mus = db_to_lin(MUSIC_DB)
+            if tail > 0:
+                fade = round(min(2.0, tail + 0.6), 2)   # fade the music tail out into silence
+                fc = (vfilter + ";"
+                      f"[1:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB[n];"
+                      f"[2:a]atrim=0:{total:.3f},asetpts=N/SR/TB,volume={mus},"
+                      f"afade=t=out:st={round(total - fade, 3)}:d={fade}[m];"
+                      f"[n][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
+            else:
+                fc = (vfilter + ";"
+                      f"[2:a]volume={mus}[m];"
+                      f"[1:a][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
             amap = ["-map", "[a]"]
         else:
-            fc = vfilter
-            amap = ["-map", "1:a"]
+            if tail > 0:
+                fc = vfilter + f";[1:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB[a]"
+                amap = ["-map", "[a]"]
+            else:
+                fc = vfilter
+                amap = ["-map", "1:a"]
+    else:
+        # ---------- general mix: VO (full) + ducked spot cues + stamp SFX [+ ducked music] ----------
+        parts, labels = [], []
+        # VO is input 1; always padded to `total` so the tail has a silent bed for the stamp
+        parts.append(f"[1:a]aformat=sample_rates={SR}:channel_layouts=stereo,"
+                     f"apad,atrim=0:{total:.3f},asetpts=N/SR/TB[vo]")
+        labels.append("[vo]")
+        idx = 2
+        if args.music:
+            if not Path(args.music).exists():
+                sys.exit(f"Missing music: {args.music}")
+            inputs += ["-stream_loop", "-1", "-i", str(args.music)]
+            mus = db_to_lin(MUSIC_DB)
+            base = (f"[{idx}:a]aformat=sample_rates={SR}:channel_layouts=stereo,"
+                    f"atrim=0:{total:.3f},asetpts=N/SR/TB,volume={mus}")
+            if tail > 0:
+                fade = round(min(2.0, tail + 0.6), 2)
+                base += f",afade=t=out:st={round(total - fade, 3)}:d={fade}"
+            parts.append(base + "[mus]")
+            labels.append("[mus]")
+            idx += 1
+        for i, c in enumerate(cues):
+            inputs += ["-i", str(c["file"])]
+            ms = max(0, int(round(c["at"] * 1000)))
+            parts.append(f"[{idx}:a]aformat=sample_rates={SR}:channel_layouts=stereo,"
+                         f"volume={db_to_lin(c['gain_db'])},adelay={ms}:all=1[c{i}]")
+            labels.append(f"[c{i}]")
+            idx += 1
+        if stamp_sfx:
+            inputs += ["-i", str(stamp_sfx)]
+            ms = max(0, int(round(window * 1000)))   # stamp lands when the image region ends
+            parts.append(f"[{idx}:a]aformat=sample_rates={SR}:channel_layouts=stereo,"
+                         f"adelay={ms}:all=1[st]")
+            labels.append("[st]")
+            idx += 1
+        parts.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0:"
+                     f"duration=longest:dropout_transition=0,atrim=0:{total:.3f},"
+                     f"alimiter=limit=0.95:level=false[a]")
+        fc = vfilter + ";" + ";".join(parts)
+        amap = ["-map", "[a]"]
 
     out = Path(args.out)
     tmp = out.with_suffix(out.suffix + ".tmp")
