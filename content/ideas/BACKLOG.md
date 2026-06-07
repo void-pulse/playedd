@@ -4,6 +4,8 @@ Every entry is a "you're being played" story: a hidden manipulation, a manufactu
 
 Status: 🔬 researched · 🌱 raw idea · ✅ produced
 
+**Veins** (manipulation types — balance the mix, don't run the same one twice in a row): Manufactured Tradition · Manufactured Insecurity · Manufactured Scarcity · Exit Barriers / Retention Traps · Invisible Empires (hidden monopolies) · Planned Obsolescence · Pricing Manipulation · Emotional Arbitrage · Corporate Gaslighting · Hidden Economies.
+
 ---
 
 ## ✅ Produced
@@ -64,6 +66,27 @@ Status: 🔬 researched · 🌱 raw idea · ✅ produced
 - The play: a deliberately bad pricing option exists only to steer you to a pricier one.
 - Killer fact: in Ariely's Economist test, a useless $125 print-only option pushed 84% to the expensive combo; removing it cut revenue from $11,444 to $8,012. Same trick as our popcorn-size video — natural callback.
 - Sources: Ariely "Predictably Irrational"; The Economist "The importance of irrelevant alternatives."
+
+---
+
+## 🌱 Demand-validated candidates (YouTube Inspiration tool)
+
+Shoot-soon:
+- The Cancel Trap — every subscription engineered so you can't quit (Prime maze, free-trial amnesia, phone-only cancel); FTC "click to cancel" makes it timely [Exit Barriers]
+- The Illusion of Choice — "rival" brands owned by the same few giants; Luxottica controls most eyewear (and why glasses cost a fortune) [Invisible Empires]
+- Private Equity Ate Main Street — PE buys your vet/dentist/local business, then jacks prices and guts service [Profit Extraction]
+- They Invented Your Carbon Footprint — BP's PR campaign coined it to shift climate guilt onto consumers [Corporate Gaslighting]
+- Jaywalking Is Fake — car companies invented the crime to move blame onto pedestrians [Corporate Gaslighting]
+- TurboTax Wants Your Taxes Hard — Intuit lobbied for decades to keep filing complicated [Regulatory Capture]
+- The Funeral Trade Sells Grief — caskets marked up 300%+, sold to the grieving [Emotional Arbitrage]
+- Your Airline Is a Bank — frequent-flyer miles worth more than the planes [Hidden Economies]
+
+Strong adds:
+- Body Odor Was Invented — Lifebuoy/Odorono manufactured the shame of sweat [Manufactured Insecurity]
+- They Sold Women the Razor — Gillette reclassified normal body hair as "unsanitary" [Manufactured Insecurity]
+- The Mattress Shell Game — same mattress, dozens of fake names, no price comparison [Market Obfuscation]
+- Loot Boxes Are Slot Machines for Kids — gambling mechanics in children's games [Exploitative Design]
+- Luxury Brands Burn What They Can't Sell — destroying stock to protect fake scarcity [Artificial Scarcity]
 
 ---
 
