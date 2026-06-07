@@ -63,6 +63,16 @@ SOURCES_SPLIT = re.compile(
 # (**[LABEL]**, *[LABEL]*, __[LABEL]__). Both the bare and bold house styles parse.
 LABEL_LINE = re.compile(r"^[ \t]*(?:\*{1,2}|_{1,2})?\[([^\]]+)\](?:\*{1,2}|_{1,2})?[ \t]*$", flags=re.M)
 BREAK_TAG = re.compile(r"<break[^>]*>")
+BREAK_SPLIT = re.compile(r'<break\s+time="([0-9.]+)s"\s*/?>', flags=re.I)
+
+# Assembly defaults (post-process; see assemble()). atempo is a pitch-preserving
+# time-stretch, so 0.92 = the channel's slightly-slower read with Drew's timbre
+# unchanged. BEAT_GAP is the real silence inserted between beats AND at every <break>
+# point: pauses are silence in the mix, never <break> tags sent to ElevenLabs (whose
+# <break> rendering glitches with a clipped onset of the next phrase).
+DEFAULT_TEMPO = 0.92
+BEAT_GAP = 0.6
+SR = 44100
 
 
 def slugify(label: str) -> str:
@@ -120,23 +130,73 @@ def load_script(path: Path) -> str:
     return "\n\n".join(s["tts"] for s in parse_sections(path))
 
 
-def chunk_path(chunks_dir: Path, sec: dict) -> Path:
-    return chunks_dir / f"{sec['index'] + 1:02d}_{sec['slug']}.mp3"
+def split_on_breaks(tts: str) -> list:
+    """Split a section's TTS on <break time="Xs"/> tags into (clean_text, gap_after)
+    pieces. The break becomes REAL silence at assembly instead of being sent to
+    ElevenLabs, whose <break> rendering can glitch (a clipped onset of the next
+    phrase). gap_after is the break duration in seconds; the last piece is 0.0."""
+    parts = BREAK_SPLIT.split(tts)          # [text, dur, text, dur, ...]
+    texts, durs = parts[0::2], parts[1::2]
+    segs = []
+    for i, t in enumerate(texts):
+        clean = to_plain(t).strip()
+        if not clean:
+            continue
+        segs.append((clean, float(durs[i]) if i < len(durs) else 0.0))
+    return segs
+
+
+def build_segments(sections: list, beat_gap: float) -> list:
+    """Flatten sections into an ordered list of synth segments, each tagged with the
+    silence gap that follows it: a within-beat <break> gap, the inter-beat gap at a
+    section boundary, or 0.0 at the very end. Seam context (prev/next) is the adjacent
+    segment so a split read keeps continuous prosody."""
+    flat = []
+    n_sec = len(sections)
+    for si, sec in enumerate(sections):
+        segs = split_on_breaks(sec["tts"]) or [(to_plain(sec["tts"]).strip(), 0.0)]
+        n = len(segs)
+        for k, (text, gap) in enumerate(segs):
+            if k < n - 1:
+                gap_after = gap             # within-beat paragraph pause
+            elif si < n_sec - 1:
+                gap_after = beat_gap        # between beats
+            else:
+                gap_after = 0.0             # end of narration
+            flat.append({"sec_index": sec["index"], "slug": sec["slug"],
+                         "label": sec["label"], "k": k, "nsegs": n,
+                         "text": text, "gap_after": gap_after})
+    for j, seg in enumerate(flat):
+        seg["prev"] = flat[j - 1]["text"] if j > 0 else None
+        seg["next"] = flat[j + 1]["text"] if j + 1 < len(flat) else None
+    return flat
+
+
+def seg_file(chunks_dir: Path, seg: dict) -> Path:
+    """Chunk filename. Single-segment beats keep the legacy NN_slug.mp3 name (so
+    unchanged chunks are reused and never re-billed); split beats add a _k suffix."""
+    num = seg["sec_index"] + 1
+    if seg["nsegs"] == 1:
+        return chunks_dir / f"{num:02d}_{seg['slug']}.mp3"
+    return chunks_dir / f"{num:02d}_{seg['slug']}_{seg['k'] + 1}.mp3"
 
 
 def atomic_replace_from_tmp(tmp: Path, final: Path) -> None:
     os.replace(tmp, final)
 
 
-def synth_chunk(client, voice_id, model, sec, prev_plain, next_plain, out_path) -> None:
-    """Synthesize one section to out_path via temp-then-rename (crash-safe)."""
+def synth_segment(client, voice_id, model, seg, out_path) -> None:
+    """Synthesize one segment to out_path via temp-then-rename (crash-safe). No
+    <break> tags are ever sent to ElevenLabs; pauses are real silence added later.
+    Adjacent-segment text is passed as previous_text/next_text so a split read keeps
+    continuous prosody across the silence."""
     audio = client.text_to_speech.convert(
         voice_id=voice_id,
         model_id=model,
-        text=sec["tts"],
+        text=seg["text"],
         voice_settings=VOICE_SETTINGS,
-        previous_text=prev_plain,
-        next_text=next_plain,
+        previous_text=seg["prev"],
+        next_text=seg["next"],
     )
     tmp = out_path.with_suffix(out_path.suffix + ".tmp")
     try:
@@ -150,24 +210,37 @@ def synth_chunk(client, voice_id, model, sec, prev_plain, next_plain, out_path) 
         raise
 
 
-def concat_to(narration_mp3: Path, chunk_files: list[Path]) -> None:
-    """ffmpeg-concat chunk_files (in order) into narration_mp3 via temp-then-rename."""
-    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
-        for cf in chunk_files:
-            f.write(f"file '{cf.resolve()}'\n")
-        list_path = f.name
+def assemble(narration_mp3: Path, items: list, tempo: float) -> None:
+    """Stitch segment files in order: time-stretch each by `tempo` (atempo is
+    pitch-preserving), then add `gap` seconds of REAL silence after it. Speech is
+    stretched; the silence gaps stay exact (added after the stretch). This is the
+    single assembly path: the inter-beat gaps and the within-beat <break> pauses are
+    identical silence, which is why neither glitches. Atomic temp-then-rename.
+
+    `items` is a list of (segment_path, gap_after_seconds)."""
+    inputs = []
+    for p, _ in items:
+        inputs += ["-i", str(p)]
+    filt, labels = [], []
+    for i, (p, gap) in enumerate(items):
+        chain = f"[{i}:a]aformat=sample_rates={SR}:channel_layouts=mono"
+        if abs(tempo - 1.0) > 1e-3:
+            chain += f",atempo={tempo:.4f}"
+        if gap > 0:
+            chain += f",apad=pad_dur={gap}"
+        chain += f"[a{i}]"
+        filt.append(chain)
+        labels.append(f"[a{i}]")
+    filt.append("".join(labels) + f"concat=n={len(items)}:v=0:a=1[out]")
     tmp = narration_mp3.with_suffix(narration_mp3.suffix + ".tmp")
-    # -f mp3 is required: ffmpeg can't infer the muxer from the ".tmp" extension.
-    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", list_path,
-           "-c", "copy", "-f", "mp3", str(tmp)]
-    try:
-        result = subprocess.run(cmd, capture_output=True, text=True)
-        if result.returncode != 0:
-            tmp.unlink(missing_ok=True)
-            sys.exit(f"ffmpeg concat failed:\n{result.stderr[-1500:]}")
-        atomic_replace_from_tmp(tmp, narration_mp3)
-    finally:
-        Path(list_path).unlink(missing_ok=True)
+    cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", ";".join(filt),
+           "-map", "[out]", "-c:a", "libmp3lame", "-b:a", "128k",
+           "-ar", str(SR), "-ac", "1", "-f", "mp3", str(tmp)]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        tmp.unlink(missing_ok=True)
+        sys.exit(f"ffmpeg assemble failed:\n{result.stderr[-1500:]}")
+    atomic_replace_from_tmp(tmp, narration_mp3)
 
 
 def write_followalong(script_dir: Path, sections: list[dict]) -> Path:
@@ -180,28 +253,29 @@ def write_followalong(script_dir: Path, sections: list[dict]) -> Path:
     return out
 
 
-def do_dry_run(script_path: Path, sections: list[dict], voice_label: str, voice_id: str) -> None:
-    def preview(s, n=90):
-        s = s.replace("\n", " ")
+def do_dry_run(script_path: Path, sections: list, flat: list, voice_label: str,
+               voice_id: str, tempo: float, beat_gap: float) -> None:
+    def preview(s, n=78):
+        s = (s or "").replace("\n", " ")
         return (s[:n] + "...") if len(s) > n else s
 
-    total_chars = total_breaks = 0
+    chunks_dir = script_path.parent / "chunks"
     print("DRY RUN — no API calls made\n")
     print(f"Episode : {script_path}")
     print(f"Voice   : {voice_label} ({voice_id})  [resolved, NOT called]")
-    print(f"Sections: {len(sections)}\n")
-    for i, sec in enumerate(sections):
-        chars = len(sec["tts"])
-        breaks = len(BREAK_TAG.findall(sec["tts"]))
-        total_chars += chars
-        total_breaks += breaks
-        prev_plain = to_plain(sections[i - 1]["tts"]) if i > 0 else None
-        next_plain = to_plain(sections[i + 1]["tts"]) if i + 1 < len(sections) else None
-        print(f"[{i + 1:02d}] {sec['label']:<14} file=chunks/{sec['index'] + 1:02d}_{sec['slug']}.mp3"
-              f"  chars={chars}  breaks={breaks}")
-        print(f"     previous_text -> {('(none)' if prev_plain is None else repr(preview(prev_plain)))}")
-        print(f"     next_text     -> {('(none)' if next_plain is None else repr(preview(next_plain)))}")
-    print(f"\nTOTALS: sections={len(sections)}  chars={total_chars}  breaks={total_breaks}")
+    print(f"Sections: {len(sections)}   Segments: {len(flat)}   "
+          f"tempo={tempo}x   beat_gap={beat_gap}s\n")
+    total = 0
+    for seg in flat:
+        total += len(seg["text"])
+        tag = seg["label"] + (f" [{seg['k'] + 1}/{seg['nsegs']}]" if seg["nsegs"] > 1 else "")
+        print(f"  {tag:<22} {seg_file(chunks_dir, seg).name:<26} "
+              f"chars={len(seg['text']):<5} gap_after={seg['gap_after']}s")
+        print(f"     prev -> {repr(preview(seg['prev']))}")
+        print(f"     next -> {repr(preview(seg['next']))}")
+    split = sum(1 for s in flat if s["nsegs"] > 1)
+    print(f"\nTOTALS: segments={len(flat)}  chars={total}  "
+          f"(split-from-breaks segments: {split})")
 
 
 def main():
@@ -212,6 +286,11 @@ def main():
     ap.add_argument("--model", default="eleven_multilingual_v2")
     ap.add_argument("--section", default=None,
                     help="regenerate only this section label (case-insensitive), then re-stitch")
+    ap.add_argument("--tempo", type=float, default=DEFAULT_TEMPO,
+                    help=f"post-process read speed (atempo, pitch-preserved). Channel "
+                         f"default {DEFAULT_TEMPO}; pass 1.0 for full speed (e.g. shorts)")
+    ap.add_argument("--beat-gap", type=float, default=BEAT_GAP,
+                    help=f"seconds of real silence between beats (default {BEAT_GAP})")
     ap.add_argument("--dry-run", action="store_true", help="parse + report, no API calls")
     args = ap.parse_args()
 
@@ -221,11 +300,12 @@ def main():
     sections = parse_sections(script_path)
     if not sections:
         sys.exit("No [LABEL] sections found in script. Check 01_script.md.")
+    flat = build_segments(sections, args.beat_gap)
 
     voice_id = args.voice_id or VOICE_IDS.get(args.voice)
 
     if args.dry_run:
-        do_dry_run(script_path, sections, args.voice, voice_id)
+        do_dry_run(script_path, sections, flat, args.voice, voice_id, args.tempo, args.beat_gap)
         return
 
     api_key = os.getenv("ELEVENLABS_API_KEY")
@@ -241,38 +321,44 @@ def main():
     audio_dir.mkdir(exist_ok=True)
     narration_mp3 = audio_dir / "narration.mp3"
 
-    # Which sections to (re)generate?
+    # Which segments to (re)generate?
     if args.section:
         want = args.section.strip().lower()
-        targets = [s for s in sections if s["label"].lower() == want]
-        if not targets:
+        if want not in {s["label"].lower() for s in sections}:
             labels = ", ".join(s["label"] for s in sections)
             sys.exit(f"No section matching '{args.section}'. Available: {labels}")
+        targets = [seg for seg in flat if seg["label"].lower() == want]
     else:
-        targets = sections
+        targets = flat
 
     from elevenlabs.client import ElevenLabs
     client = ElevenLabs(api_key=api_key)
 
-    for sec in targets:
-        i = sec["index"]
-        prev_plain = to_plain(sections[i - 1]["tts"]) if i > 0 else None
-        next_plain = to_plain(sections[i + 1]["tts"]) if i + 1 < len(sections) else None
-        out_path = chunk_path(chunks_dir, sec)
-        print(f"[{i + 1:02d}/{len(sections)}] {sec['label']} -> {out_path.name} "
-              f"({len(sec['tts'])} chars) ...")
-        synth_chunk(client, voice_id, args.model, sec, prev_plain, next_plain, out_path)
+    for seg in targets:
+        out_path = seg_file(chunks_dir, seg)
+        tag = seg["label"] + (f" [{seg['k'] + 1}/{seg['nsegs']}]" if seg["nsegs"] > 1 else "")
+        print(f"[{tag}] -> {out_path.name} ({len(seg['text'])} chars) ...")
+        synth_segment(client, voice_id, args.model, seg, out_path)
 
-    # Stitch: every chunk must exist (atomic writes left prior chunks intact on failure).
-    chunk_files = [chunk_path(chunks_dir, s) for s in sections]
-    missing = [cf.name for cf in chunk_files if not (cf.exists() and cf.stat().st_size > 0)]
+    # Remove stale chunk files for regenerated beats (post-synth, so a failed run never
+    # orphans a good chunk). This also cleans up when a beat changes single<->split.
+    expected = {seg_file(chunks_dir, s).name for s in flat}
+    for idx, slug in {(s["sec_index"], s["slug"]) for s in targets}:
+        for old in chunks_dir.glob(f"{idx + 1:02d}_{slug}*.mp3"):
+            if old.name not in expected:
+                old.unlink()
+
+    # Assemble: every segment file must exist (atomic writes left prior ones intact).
+    seg_files = [seg_file(chunks_dir, s) for s in flat]
+    missing = [f.name for f in seg_files if not (f.exists() and f.stat().st_size > 0)]
     if missing:
         sys.exit("Cannot stitch — missing/empty chunks: " + ", ".join(missing) +
                  "\nRun a full generation (no --section) first.")
 
-    concat_to(narration_mp3, chunk_files)
+    assemble(narration_mp3, [(seg_file(chunks_dir, s), s["gap_after"]) for s in flat], args.tempo)
     txt = write_followalong(ep_dir, sections)
-    print(f"\nStitched -> {narration_mp3}")
+    print(f"\nStitched -> {narration_mp3}  "
+          f"(tempo={args.tempo}x, beat_gap={args.beat_gap}s, {len(flat)} segments)")
     print(f"Follow-along -> {txt}")
     print("Next: upload narration.mp3 to TurboScribe, export SRT, then run parse_timestamps.py")
 
