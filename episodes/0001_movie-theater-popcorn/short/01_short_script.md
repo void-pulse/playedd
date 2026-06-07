@@ -1,0 +1,2 @@
+[SHORT]
+This man is about to pay nine dollars for sixty cents of popcorn. <break time="0.4s"/> And he'll walk away feeling like it was his idea. <break time="0.5s"/> It wasn't. <break time="0.5s"/> From the second he walked in, everything in that building was arranged to put this exact bucket in his hands. <break time="0.4s"/> Even the movie he came to see. <break time="0.3s"/> Especially the movie. <break time="0.6s"/> You're being played.
