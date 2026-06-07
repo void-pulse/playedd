@@ -62,7 +62,7 @@ SFX = [
     ("casino_lounge.mp3", "calm upscale casino lounge ambience, soft murmur, gentle distant shimmer, classy and spacious", 21.0, True),
     ("tension_bed.mp3", "a low ominous ambient drone, hollow and unsettling, subtle", 21.0, True),
     # --- ep1 popcorn short ---
-    ("stamp_slam.mp3", "a hard rubber ink stamp thunk slamming down onto paper, single firm impact", 1.0, False),
+    ("stamp_slam.mp3", "a single heavy deep pound, a heavy mallet or fist slamming down hard onto a wooden desk with a low booming thud and powerful weighty impact", 1.3, False),
     ("popcorn_pop.mp3", "popcorn kernels popping in a popper, a quick lively burst of pops", 2.0, False),
     ("cash_register.mp3", "an old cash register cha-ching with a bright bell and drawer", 1.5, False),
     ("empty_thud.mp3", "a low hollow falling thud, something heavy collapsing in an empty room", 2.0, False),
