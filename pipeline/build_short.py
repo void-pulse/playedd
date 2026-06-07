@@ -106,7 +106,10 @@ def main():
     ap.add_argument("--cuts", nargs="*", type=float, default=None,
                     help="optional explicit image start times (len == #images)")
     ap.add_argument("--cta-sec", type=float, default=CTA_SEC,
-                    help="seconds the CTA/stamp end card holds (default 3.0)")
+                    help="seconds the CTA/stamp end card holds during the narration")
+    ap.add_argument("--tail", type=float, default=0.0,
+                    help="extra seconds to hold the end card AFTER narration ends "
+                         "(music tails under it and fades out)")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
@@ -118,7 +121,9 @@ def main():
 
     dur = ffdur(narration)
     cta_sec = args.cta_sec
-    window = max(0.5, dur - cta_sec)          # image region; CTA fills the tail
+    tail = max(0.0, args.tail)
+    total = dur + tail                        # the end card is held for `tail` past narration
+    window = max(0.5, dur - cta_sec)          # image region; end card fills the rest
     n = len(imgs)
 
     if args.cuts and len(args.cuts) == n:
@@ -136,7 +141,7 @@ def main():
     with open(listf, "w") as f:
         for img, du in zip(imgs, durs):
             f.write(f"file '{img.resolve()}'\nduration {du}\n")
-        f.write(f"file '{cta.resolve()}'\nduration {cta_sec}\n")
+        f.write(f"file '{cta.resolve()}'\nduration {round(cta_sec + tail, 3)}\n")  # hold through tail
         f.write(f"file '{cta.resolve()}'\n")   # concat demuxer: repeat last
 
     bg = "0x" + args.bg.lstrip("#")
@@ -159,19 +164,31 @@ def main():
             sys.exit(f"Missing music: {args.music}")
         inputs += ["-stream_loop", "-1", "-i", str(args.music)]
         mus = round(10 ** (MUSIC_DB / 20.0), 4)
-        fc = (vfilter + ";"
-              f"[2:a]volume={mus}[m];"
-              f"[1:a][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
+        if tail > 0:
+            fade = round(min(2.0, tail + 0.6), 2)   # fade the music tail out into silence
+            fc = (vfilter + ";"
+                  f"[1:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB[n];"
+                  f"[2:a]atrim=0:{total:.3f},asetpts=N/SR/TB,volume={mus},"
+                  f"afade=t=out:st={round(total - fade, 3)}:d={fade}[m];"
+                  f"[n][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
+        else:
+            fc = (vfilter + ";"
+                  f"[2:a]volume={mus}[m];"
+                  f"[1:a][m]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]")
         amap = ["-map", "[a]"]
     else:
-        fc = vfilter
-        amap = ["-map", "1:a"]
+        if tail > 0:
+            fc = vfilter + f";[1:a]apad,atrim=0:{total:.3f},asetpts=N/SR/TB[a]"
+            amap = ["-map", "[a]"]
+        else:
+            fc = vfilter
+            amap = ["-map", "1:a"]
 
     out = Path(args.out)
     tmp = out.with_suffix(out.suffix + ".tmp")
     cmd = ["ffmpeg", "-y", *inputs, "-filter_complex", fc, "-map", "[v]", *amap,
            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
-           "-c:a", "aac", "-b:a", "192k", "-r", str(FPS), "-t", f"{dur:.3f}",
+           "-c:a", "aac", "-b:a", "192k", "-r", str(FPS), "-t", f"{total:.3f}",
            "-f", "mp4", "-movflags", "+faststart", str(tmp)]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
