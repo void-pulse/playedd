@@ -73,6 +73,13 @@ BREAK_SPLIT = re.compile(r'<break\s+time="([0-9.]+)s"\s*/?>', flags=re.I)
 DEFAULT_TEMPO = 0.92
 BEAT_GAP = 0.6
 SR = 44100
+# Trailing/leading trim level for each piece before the silence gap is inserted.
+# ElevenLabs renders an anticipatory in-breath at a split point's tail (~-41..-52 dB),
+# which sits exposed against the clean silence. It's well below speech (>= ~-37 dB), so
+# trimming the contiguous trailing/leading run below TRIM_DB removes the breath (and any
+# trailing silence) without clipping speech. Only the boundary run is trimmed; mid-phrase
+# dips are untouched (silenceremove acts on the end runs only).
+TRIM_DB = -40.0
 
 
 def slugify(label: str) -> str:
@@ -168,7 +175,13 @@ def build_segments(sections: list, beat_gap: float) -> list:
                          "text": text, "gap_after": gap_after})
     for j, seg in enumerate(flat):
         seg["prev"] = flat[j - 1]["text"] if j > 0 else None
-        seg["next"] = flat[j + 1]["text"] if j + 1 < len(flat) else None
+        # Drop next_text at every deliberate pause. Feeding the upcoming paragraph makes
+        # ElevenLabs render an anticipatory in-breath at the piece's tail (exposed against
+        # the inserted silence). Splits only ever happen at pauses, so a non-zero gap means
+        # "no forward context" — each piece lands on a clean terminal cadence. previous_text
+        # is kept so the piece still matches the lead-in tone from behind.
+        nxt = flat[j + 1]["text"] if j + 1 < len(flat) else None
+        seg["next"] = nxt if seg["gap_after"] == 0 else None
     return flat
 
 
@@ -221,9 +234,15 @@ def assemble(narration_mp3: Path, items: list, tempo: float) -> None:
     inputs = []
     for p, _ in items:
         inputs += ["-i", str(p)]
+    # Trim the trailing breath/silence off each piece, then the leading breath off its
+    # head, BEFORE inserting the clean gap. areverse->silenceremove->areverse strips the
+    # tail; a second silenceremove strips the head. Acts only on the boundary runs.
+    trim = (f"areverse,silenceremove=start_periods=1:start_threshold={TRIM_DB}dB:start_duration=0,"
+            f"areverse,"
+            f"silenceremove=start_periods=1:start_threshold={TRIM_DB}dB:start_duration=0")
     filt, labels = [], []
     for i, (p, gap) in enumerate(items):
-        chain = f"[{i}:a]aformat=sample_rates={SR}:channel_layouts=mono"
+        chain = f"[{i}:a]aformat=sample_rates={SR}:channel_layouts=mono,{trim}"
         if abs(tempo - 1.0) > 1e-3:
             chain += f",atempo={tempo:.4f}"
         if gap > 0:
@@ -291,6 +310,9 @@ def main():
                          f"default {DEFAULT_TEMPO}; pass 1.0 for full speed (e.g. shorts)")
     ap.add_argument("--beat-gap", type=float, default=BEAT_GAP,
                     help=f"seconds of real silence between beats (default {BEAT_GAP})")
+    ap.add_argument("--reassemble", action="store_true",
+                    help="re-stitch from existing chunks only (no synthesis, no API calls); "
+                         "use after changing --tempo/--beat-gap or the trim")
     ap.add_argument("--dry-run", action="store_true", help="parse + report, no API calls")
     args = ap.parse_args()
 
@@ -308,10 +330,7 @@ def main():
         do_dry_run(script_path, sections, flat, args.voice, voice_id, args.tempo, args.beat_gap)
         return
 
-    api_key = os.getenv("ELEVENLABS_API_KEY")
-    if not api_key:
-        sys.exit("ELEVENLABS_API_KEY not set. Add it to .env")
-    if not voice_id:
+    if not voice_id and not args.reassemble:
         sys.exit(f"No voice id for {args.voice}. Fill it into VOICE_IDS (or pass --voice-id).")
 
     ep_dir = script_path.parent
@@ -321,32 +340,39 @@ def main():
     audio_dir.mkdir(exist_ok=True)
     narration_mp3 = audio_dir / "narration.mp3"
 
-    # Which segments to (re)generate?
-    if args.section:
-        want = args.section.strip().lower()
-        if want not in {s["label"].lower() for s in sections}:
-            labels = ", ".join(s["label"] for s in sections)
-            sys.exit(f"No section matching '{args.section}'. Available: {labels}")
-        targets = [seg for seg in flat if seg["label"].lower() == want]
+    if not args.reassemble:
+        api_key = os.getenv("ELEVENLABS_API_KEY")
+        if not api_key:
+            sys.exit("ELEVENLABS_API_KEY not set. Add it to .env")
+
+        # Which segments to (re)generate?
+        if args.section:
+            want = args.section.strip().lower()
+            if want not in {s["label"].lower() for s in sections}:
+                labels = ", ".join(s["label"] for s in sections)
+                sys.exit(f"No section matching '{args.section}'. Available: {labels}")
+            targets = [seg for seg in flat if seg["label"].lower() == want]
+        else:
+            targets = flat
+
+        from elevenlabs.client import ElevenLabs
+        client = ElevenLabs(api_key=api_key)
+
+        for seg in targets:
+            out_path = seg_file(chunks_dir, seg)
+            tag = seg["label"] + (f" [{seg['k'] + 1}/{seg['nsegs']}]" if seg["nsegs"] > 1 else "")
+            print(f"[{tag}] -> {out_path.name} ({len(seg['text'])} chars) ...")
+            synth_segment(client, voice_id, args.model, seg, out_path)
+
+        # Remove stale chunk files for regenerated beats (post-synth, so a failed run
+        # never orphans a good chunk). Also cleans up a beat changing single<->split.
+        expected = {seg_file(chunks_dir, s).name for s in flat}
+        for idx, slug in {(s["sec_index"], s["slug"]) for s in targets}:
+            for old in chunks_dir.glob(f"{idx + 1:02d}_{slug}*.mp3"):
+                if old.name not in expected:
+                    old.unlink()
     else:
-        targets = flat
-
-    from elevenlabs.client import ElevenLabs
-    client = ElevenLabs(api_key=api_key)
-
-    for seg in targets:
-        out_path = seg_file(chunks_dir, seg)
-        tag = seg["label"] + (f" [{seg['k'] + 1}/{seg['nsegs']}]" if seg["nsegs"] > 1 else "")
-        print(f"[{tag}] -> {out_path.name} ({len(seg['text'])} chars) ...")
-        synth_segment(client, voice_id, args.model, seg, out_path)
-
-    # Remove stale chunk files for regenerated beats (post-synth, so a failed run never
-    # orphans a good chunk). This also cleans up when a beat changes single<->split.
-    expected = {seg_file(chunks_dir, s).name for s in flat}
-    for idx, slug in {(s["sec_index"], s["slug"]) for s in targets}:
-        for old in chunks_dir.glob(f"{idx + 1:02d}_{slug}*.mp3"):
-            if old.name not in expected:
-                old.unlink()
+        print("Reassemble only — no synthesis, no API calls.")
 
     # Assemble: every segment file must exist (atomic writes left prior ones intact).
     seg_files = [seg_file(chunks_dir, s) for s in flat]
