@@ -59,7 +59,9 @@ SOURCES_SPLIT = re.compile(
     r"^[ \t]*(?:#+[ \t]*SOURCES\b|-*[ \t]*SOURCES[ \t]*-*)[ \t]*$",
     flags=re.I | re.M,
 )
-LABEL_LINE = re.compile(r"^[ \t]*\[([^\]]+)\][ \t]*$", flags=re.M)
+# A beat label on its own line: [LABEL], optionally wrapped in markdown emphasis
+# (**[LABEL]**, *[LABEL]*, __[LABEL]__). Both the bare and bold house styles parse.
+LABEL_LINE = re.compile(r"^[ \t]*(?:\*{1,2}|_{1,2})?\[([^\]]+)\](?:\*{1,2}|_{1,2})?[ \t]*$", flags=re.M)
 BREAK_TAG = re.compile(r"<break[^>]*>")
 
 

@@ -15,10 +15,10 @@ Status: 🔬 researched · 🌱 raw idea · ✅ produced
 
 ## 🔬 Researched — ready to script
 
-### 1. The Light Bulb Conspiracy (Phoebus cartel)
-- The play: the birth of planned obsolescence — things built to die so you rebuy.
-- Killer fact: Dec 23 1924, Geneva — Osram, Philips, GE and others secretly agreed to cut bulb life from 2,500h to 1,000h and fined any member whose bulbs lasted longer. The Livermore CA fire-station bulb has burned since 1901.
-- Sources: IEEE Spectrum "The Great Lightbulb Conspiracy"; Wikipedia "Phoebus cartel"; US v. GE (1949).
+### 1. Why Everything You Own Is Designed to Die  → in production as ep4
+- The play: planned obsolescence, a century deep. The 1924 Phoebus cartel is the ORIGIN reveal; the payoff is how the same idea runs your life today — phone throttling, printer-ink lockouts, car-feature subscriptions, and repair lockouts. The trick stopped breaking your things and started keeping them from you.
+- Killer fact: Dec 23 1924, Geneva — Osram, Philips, GE and others secretly agreed to cut bulb life from 2,500h to 1,000h and fined any member whose bulbs lasted longer. The Livermore CA fire-station bulb has burned since 1901. Modern echoes: Apple "batterygate," HP "Dynamic Security" ink blocks, Mercedes ~$1,200/yr horsepower, John Deere repair lockouts.
+- Sources: IEEE Spectrum "The Great Lightbulb Conspiracy"; Wikipedia "Phoebus cartel"; US v. GE (1949); Bernard London (1932); Arizona AG (Apple); HP CEO Enrique Lores (Davos 2024); right-to-repair coverage.
 
 ### 2. The Man Who Invented Manipulation (Edward Bernays)
 - The play: the origin of modern advertising/PR — manufacturing desire around your reason.
