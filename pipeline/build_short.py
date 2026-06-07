@@ -48,33 +48,52 @@ def hex_rgb(h: str):
 
 
 def make_cta_card(bg_hex: str, out_png: Path):
-    bg = hex_rgb(bg_hex)
-    fg = (250, 249, 244)
-    img = Image.new("RGB", (W, H), bg)
+    """Channel stamp end card: big red tilted 'YOU'RE BEING PLAYED' over a white
+    card, with 'full story on my channel' and an up-arrow beneath. bg_hex unused
+    (the stamp card is always white)."""
+    RED = (201, 48, 32)
+    INK = (34, 34, 34)
+    img = Image.new("RGB", (W, H), (255, 255, 255))
     d = ImageDraw.Draw(img)
     cx = W // 2
-    # up-arrow (head + shaft), upper-middle
-    top = int(H * 0.28)
-    head_w, head_h, shaft_w, shaft_h = 300, 180, 96, 200
-    d.polygon([(cx - head_w // 2, top + head_h), (cx, top), (cx + head_w // 2, top + head_h)], fill=fg)
-    d.rectangle([cx - shaft_w // 2, top + head_h, cx + shaft_w // 2, top + head_h + shaft_h], fill=fg)
-    # text lines, auto-fit so the widest line stays within the frame margins
-    lines = ["FULL BREAKDOWN", "ON MY CHANNEL"]
-    max_w = int(W * 0.88)
-    size = 150
+
+    # auto-fit the stamp text to the frame width
+    stamp = "YOU'RE BEING PLAYED"
+    max_w = int(W * 0.72)
+    size = 180
     while size > 40:
         font = ImageFont.truetype(str(FONT_MARKER), size)
-        widest = max(d.textbbox((0, 0), ln, font=font)[2] - d.textbbox((0, 0), ln, font=font)[0]
-                     for ln in lines)
-        if widest <= max_w:
+        bb = d.textbbox((0, 0), stamp, font=font)
+        if (bb[2] - bb[0]) <= max_w:
             break
         size -= 4
-    line_h = int(size * 1.25)
-    for i, line in enumerate(lines):
-        bb = d.textbbox((0, 0), line, font=font)
-        w = bb[2] - bb[0]
-        y = int(H * 0.50) + i * line_h
-        d.text((cx - w // 2 - bb[0], y), line, font=font, fill=fg)
+    bb = d.textbbox((0, 0), stamp, font=font)
+    tw, th, pad = bb[2] - bb[0], bb[3] - bb[1], 48
+    layer = Image.new("RGBA", (tw + pad * 2 + 28, th + pad * 2 + 28), (0, 0, 0, 0))
+    ld = ImageDraw.Draw(layer)
+    ld.rectangle([14, 14, 14 + tw + pad * 2, 14 + th + pad * 2], outline=RED, width=14)  # stamp box
+    ld.text((14 + pad - bb[0], 14 + pad - bb[1]), stamp, font=font, fill=RED)
+    layer = layer.rotate(7, expand=True, resample=Image.BICUBIC)                          # slammed tilt
+    img.paste(layer, (cx - layer.width // 2, int(H * 0.30)), layer)
+
+    # up-arrow beneath the stamp
+    top = int(H * 0.58)
+    hw, hh, sw, sh = 210, 120, 64, 150
+    d.polygon([(cx - hw // 2, top + hh), (cx, top), (cx + hw // 2, top + hh)], fill=INK)
+    d.rectangle([cx - sw // 2, top + hh, cx + sw // 2, top + hh + sh], fill=INK)
+
+    # subline
+    sub = "full story on my channel"
+    sub_w = int(W * 0.78)
+    ssize = 72
+    while ssize > 28:
+        sfont = ImageFont.truetype(str(FONT_MARKER), ssize)
+        sb = d.textbbox((0, 0), sub, font=sfont)
+        if (sb[2] - sb[0]) <= sub_w:
+            break
+        ssize -= 4
+    sb = d.textbbox((0, 0), sub, font=sfont)
+    d.text((cx - (sb[2] - sb[0]) // 2 - sb[0], int(H * 0.72)), sub, font=sfont, fill=INK)
     img.save(out_png)
 
 
@@ -86,6 +105,8 @@ def main():
     ap.add_argument("--bg", default="#1A1A1A", help="solid background color")
     ap.add_argument("--cuts", nargs="*", type=float, default=None,
                     help="optional explicit image start times (len == #images)")
+    ap.add_argument("--cta-sec", type=float, default=CTA_SEC,
+                    help="seconds the CTA/stamp end card holds (default 3.0)")
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
@@ -96,7 +117,8 @@ def main():
             sys.exit(f"Missing input: {p}")
 
     dur = ffdur(narration)
-    window = max(0.5, dur - CTA_SEC)          # image region; CTA fills the tail
+    cta_sec = args.cta_sec
+    window = max(0.5, dur - cta_sec)          # image region; CTA fills the tail
     n = len(imgs)
 
     if args.cuts and len(args.cuts) == n:
@@ -114,7 +136,7 @@ def main():
     with open(listf, "w") as f:
         for img, du in zip(imgs, durs):
             f.write(f"file '{img.resolve()}'\nduration {du}\n")
-        f.write(f"file '{cta.resolve()}'\nduration {CTA_SEC}\n")
+        f.write(f"file '{cta.resolve()}'\nduration {cta_sec}\n")
         f.write(f"file '{cta.resolve()}'\n")   # concat demuxer: repeat last
 
     bg = "0x" + args.bg.lstrip("#")
