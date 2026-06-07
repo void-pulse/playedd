@@ -67,6 +67,10 @@ SFX = [
     ("cash_register.mp3", "an old cash register cha-ching with a bright bell and drawer", 1.5, False),
     ("empty_thud.mp3", "a low hollow falling thud, something heavy collapsing in an empty room", 2.0, False),
     ("regal_ding.mp3", "a short bright regal chime fanfare, a tiny triumphant royal flourish", 1.5, False),
+    # --- ep2 diamond short ---
+    ("ring_sparkle.mp3", "a glassy magical sparkle shimmer twinkle, a bright diamond glint", 1.5, False),
+    ("bubble_pop.mp3", "a soft bubble pop deflating, a gentle little pop and fizzle", 1.0, False),
+    ("eerie_whoosh.mp3", "a low mysterious whoosh, a hollow unsettling tone sweeping in", 2.0, False),
 ]
 
 
