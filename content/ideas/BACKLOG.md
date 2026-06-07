@@ -95,7 +95,6 @@ Strong adds:
 - Airline miles — a currency they devalue at will
 - Subscriptions / hard-to-cancel dark patterns
 - Bottled water — often just filtered tap
-- The illusion of choice — a few giants behind every brand
 - Printer ink — razor-and-blades + chipped cartridges
 - Shrinkflation
 - Expiration / "sell by" dates — mostly arbitrary, drive waste
@@ -106,9 +105,98 @@ Strong adds:
 - Farmed salmon dyed pink — the SalmoFan color card
 - Airline miles, part two — airlines make more money selling miles to banks than flying planes
 - "Free" mobile games — billions extracted from a tiny sliver of "whale" players
-- Gyms — far more memberships sold than could ever physically fit inside
-- Charm pricing — why $9.99 still beats $10 even when you know the trick
-- Grocery store layout — engineered to walk you past everything you didn't come for
-- Fake checkout urgency — "only 2 left!" and countdown timers that are simply made up
-- "Free vacation" timeshare presentations — how the trap actually closes
 - Crypto romance / "pig-butchering" scams — step by step
+
+---
+
+## Candidate Pool
+
+Harvested from the YouTube Inspiration tool (demand-validated), deduped and ranked.
+
+**Rank:** 🔥 top (clear villain + reveal + demand, not oversaturated) · ⭐ strong · • bank / long-tail · ⚠️ verify or myth-risk
+**Build rule:** every pick gets deep-researched and its receipts verified before scripting (like the light bulb). Ranking is a first pass — re-sort freely.
+
+**Already in the pipeline (validated by the tool, not re-listed):** popcorn (ep1), diamonds (ep2), casino (ep3), planned obsolescence / light bulb (ep4), and the researched set — Bernays, the sugar cover-up, Mother's Day, lobster, Beanie Babies, olive oil, dating apps, cellulite, the decoy effect. Plus the keepers already logged: the Cancel Trap, Illusion of Choice / Luxottica, Private Equity Ate Main Street, the carbon footprint, jaywalking, TurboTax, the funeral trade, the airline-as-bank, body odor, women's razors, the mattress shell game, loot boxes, luxury burning stock.
+
+### 1. Manufactured Tradition & Demand
+- 🔥 **Invented Holidays** — Sweetest Day, "National ___ Day," Father's Day rebranded as BBQ Day, Valentine's/Cyber Monday built to rescue dead seasons. The greeting-card and retail lobbies manufacture occasions.
+- 🔥 **The White Wedding Dress** — Queen Victoria (1840) turned into a marketing standard that exists to sell new fabric.
+- ⭐ **The Wedding-Industrial Complex** — "extravagance = love" engineered into a moral obligation.
+- ⭐ **The Honeymoon** — invented by travel agencies to manufacture a trip.
+- ⭐ **The American Lawn** — sold as status by seed/chemical interests; the "weed" was invented to sell the cure.
+- ⭐ **Twice-a-Day Brushing** — Pepsodent's Claude Hopkins built the daily ritual (and invented the "film" you must remove).
+- ⭐ **The Road Trip** — auto industry manufactured it to justify highways.
+- ⭐ **Milk in Schools** — a dairy surplus dumped on kids and rebranded as health.
+- ⭐ **Breakfast Is Sacred** — cereal + orange-juice marketing (overlaps the Bernays episode; could fold in).
+- ⚠️ **Coca-Cola "invented" Santa** — MYTH. Coke shaped the modern image, didn't create it. Only viable as a myth-busting angle, not a straight claim.
+
+### 2. Manufactured Insecurity & Problems
+- 🔥 **Skincare Steps & "Skin Types"** — invented to sell you ten serums for a face that needs one.
+- 🔥 **Blue-Light Glasses / "Digital Eye Strain"** — a condition sold to you with thin evidence.
+- ⭐ **The "Summer Body"** — the diet industry's seasonal panic on a calendar.
+- ⭐ **Arch Support / "Overpronation"** — sold to move expensive insoles.
+- ⭐ **"Sitting Disease"** — standing-desk marketing dressed as a health crisis.
+- ⭐ **Vitamin "Deficiencies"** — the supplement industry invents the gap it fills.
+- ⭐ **Dandruff / "Scalp Detox"** — shampoo that creates the problem it then solves.
+- ⭐ **Baby-Food Fear** — "homemade puree isn't safe enough."
+- • Static cling / fabric softener · scent-booster "micro-odors" · "posture crisis."
+
+### 3. Manufactured Scarcity
+- 🔥 **The Waitlist Game** — Rolex and Hermès make you beg for mass-produced goods.
+- 🔥 **Fake Urgency** — countdown timers, "only 2 left," ghost notifications (Ticketmaster, fast fashion, hotel sites).
+- ⭐ **The Disney Vault** — locking films away to spike nostalgia-driven demand.
+- ⭐ **Supreme / Hype Drops** — engineered sellouts.
+- ⭐ **Champagne & "Small-Batch"** — limited production keeps a common thing feeling elite.
+- • Lego retiring sets · numbered editions · coffee "micro-lots." *(sneakers/Labubu/Stanley already in raw backlog)*
+
+### 4. Exit Barriers / Retention Traps
+- 🔥 **Gyms Profit From No-Shows** — the business model is built on members who never come.
+- ⭐ **Retention Scripts** — the "save" departments (SiriusXM, cable) engineered to wear down your will to cancel.
+- ⭐ **You Can't Own Software Anymore** — subscription lock-in (Adobe et al.); digital feudalism (ties to ep4's ownership theme).
+- • Timeshare exit traps · car-wash plate recognition · wine clubs · pet-insurance pre-existing clauses. *(the umbrella "Cancel Trap" is already a keeper)*
+
+### 5. Invisible Empires (hidden monopolies / illusion of choice)
+- 🔥 **One Brewer Owns the Bar** — AB InBev sits behind your "rival" beers.
+- 🔥 **Four Companies Own the Grocery Aisle** — the illusion of choice between Nestlé/P&G/Unilever brands.
+- ⭐ **The Elevator Oligopoly** — a handful of firms move every city (also a Hidden Economy).
+- • Hearing aids · baby-formula duopoly · pet-food duopoly. *(Luxottica/eyewear + tax software already keepers)*
+
+### 6. Planned Obsolescence (distinct from ep4's core)
+- 🔥 **New Houses Are Built to Rot** — the economics of the disposable American home.
+- ⭐ **Fast Fashion's Disposable Wardrobe** — clothes engineered to fall apart.
+- ⭐ **The "Color of the Year"** — Pantone/paint trends invented to make your good furniture feel old.
+- ⭐ **The Thread-Count War** — bedding priced on a number that means nothing.
+- • Roads designed to fail · particle-board furniture lifespans.
+
+### 7. Pricing & Choice Manipulation
+- 🔥 **The Grocery Store Is a Trap** — layout, eye-level shelves, milk at the back, pumped-in scent; the whole path is engineered.
+- 🔥 **IKEA Is a Maze on Purpose** — the Gruen effect, designed to make you buy what you didn't come for.
+- ⭐ **Delivery-App Fees** — inflated menu prices plus hidden service fees.
+- ⭐ **Menu Engineering** — no dollar signs, decoy dishes, heavy cutlery to signal quality.
+- ⭐ **The "Premium Illusion"** — gold-plated cables, "polarized tiers," matte coatings: same product, higher price.
+- ⭐ **Personalized / Dynamic Pricing** — a higher price shown based on your device or history.
+- ⭐ **The Fake Sale** — phantom "original" prices and was/now anchoring.
+- • $9.99 charm pricing · gas-station snack markups.
+
+### 8. Emotional Arbitrage
+- ⭐ **Self-Storage** — a multibillion-dollar industry built on your inability to let go. *(funeral trade already a keeper)*
+
+### 9. Corporate Gaslighting (blame shifted onto you)
+- 🔥 **The Recycling Lie** — the plastic and soda industries sold recycling to dodge their own responsibility (the "Crying Indian" ad; most plastic never gets recycled).
+- ⚠️ **"Pink Tax"** — contested framing; handle carefully if at all. *(carbon footprint + jaywalking already keepers)*
+
+### 10. Hidden Economies (boring businesses that quietly print money)
+- 🔥 **Fine Art Is a Tax Shelter** — the high-end art market as a financial instrument, not a love of paintings.
+- ⭐ **Parking** — the most profitable real estate nobody thinks about.
+- ⭐ **Data Centers** — the most valuable dirt on earth now (good AI-infrastructure tie-in).
+- • Vending machines · laundromats · libraries-as-real-estate. *(airline-miles-as-a-bank already a keeper)*
+
+### 11. Dark / Exploitative Design
+- ⭐ **Autoplay & "Are You Still Watching"** — streaming built so you never stop; choice fatigue funnels you to higher tiers.
+- ⭐ **Theme Parks Manipulate Time** — engineered to make you spend more per hour.
+- ⭐ **Streaks & Read Receipts** — manufactured anxiety, especially on teens (handle with care).
+- ⭐ **Credit-Card Points Gamify Your Debt** — rewards psychology that hides the interest. *(loot boxes + infinite scroll already logged)*
+
+### 12. Food & Product Secrets
+- ⭐ **Your Chain Meal Is Reheated Frozen Bags** — "fresh" restaurant food that isn't.
+- ⭐ **Food Fraud** — "wasabi" is dyed horseradish, "parmesan" has filler, "natural flavors" aren't. *(olive oil already researched; dyed salmon in raw backlog)*
