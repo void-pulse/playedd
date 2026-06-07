@@ -4,7 +4,7 @@ Every entry is a "you're being played" story: a hidden manipulation, a manufactu
 
 Status: 🔬 researched · 🌱 raw idea · ✅ produced
 
-**Veins** (manipulation types — balance the mix, don't run the same one twice in a row): Manufactured Tradition · Manufactured Insecurity · Manufactured Scarcity · Exit Barriers / Retention Traps · Invisible Empires (hidden monopolies) · Planned Obsolescence · Pricing Manipulation · Emotional Arbitrage · Corporate Gaslighting · Hidden Economies.
+**Veins** (manipulation types — balance the mix, don't run the same one twice in a row): Manufactured Tradition · Manufactured Insecurity · Manufactured Scarcity · Exit Barriers / Retention Traps · Invisible Empires (hidden monopolies) · Planned Obsolescence · Pricing Manipulation · Emotional Arbitrage · Corporate Gaslighting · Hidden Economies · Private Equity Rollups · Lock-In & Structural Barriers.
 
 ---
 
@@ -74,26 +74,24 @@ Status: 🔬 researched · 🌱 raw idea · ✅ produced
 Shoot-soon:
 - The Cancel Trap — every subscription engineered so you can't quit (Prime maze, free-trial amnesia, phone-only cancel); FTC "click to cancel" makes it timely [Exit Barriers]
 - The Illusion of Choice — "rival" brands owned by the same few giants; Luxottica controls most eyewear (and why glasses cost a fortune) [Invisible Empires]
-- Private Equity Ate Main Street — PE buys your vet/dentist/local business, then jacks prices and guts service [Profit Extraction]
+- Private Equity Ate Main Street — PE buys your vet/dentist/local business, then jacks prices and guts service [Private Equity Rollups]
 - They Invented Your Carbon Footprint — BP's PR campaign coined it to shift climate guilt onto consumers [Corporate Gaslighting]
 - Jaywalking Is Fake — car companies invented the crime to move blame onto pedestrians [Corporate Gaslighting]
-- TurboTax Wants Your Taxes Hard — Intuit lobbied for decades to keep filing complicated [Regulatory Capture]
+- TurboTax Wants Your Taxes Hard — Intuit lobbied for decades to keep filing complicated [Lock-In & Structural Barriers]
 - The Funeral Trade Sells Grief — caskets marked up 300%+, sold to the grieving [Emotional Arbitrage]
-- Your Airline Is a Bank — frequent-flyer miles worth more than the planes [Hidden Economies]
+- Your Airline Is a Bank — frequent-flyer miles worth more than the planes (and quietly devalued at will) [Hidden Economies]
 
 Strong adds:
 - Body Odor Was Invented — Lifebuoy/Odorono manufactured the shame of sweat [Manufactured Insecurity]
 - They Sold Women the Razor — Gillette reclassified normal body hair as "unsanitary" [Manufactured Insecurity]
-- The Mattress Shell Game — same mattress, dozens of fake names, no price comparison [Market Obfuscation]
-- Loot Boxes Are Slot Machines for Kids — gambling mechanics in children's games [Exploitative Design]
-- Luxury Brands Burn What They Can't Sell — destroying stock to protect fake scarcity [Artificial Scarcity]
+- The Mattress Shell Game — same mattress, dozens of fake names, no price comparison [Pricing & Choice Manipulation]
+- Loot Boxes Are Slot Machines for Kids — gambling mechanics in children's games [Dark / Exploitative Design]
+- Luxury Brands Burn What They Can't Sell — destroying stock to protect fake scarcity [Manufactured Scarcity]
 
 ---
 
 ## 🌱 Raw backlog — not yet researched
 - Listerine / manufactured "halitosis"
-- Airline miles — a currency they devalue at will
-- Subscriptions / hard-to-cancel dark patterns
 - Bottled water — often just filtered tap
 - Printer ink — razor-and-blades + chipped cartridges
 - Shrinkflation
@@ -103,7 +101,6 @@ Strong adds:
 - "Detox" / juice cleanses — your liver already does it
 - Margarine vs butter — the pink-dye laws
 - Farmed salmon dyed pink — the SalmoFan color card
-- Airline miles, part two — airlines make more money selling miles to banks than flying planes
 - "Free" mobile games — billions extracted from a tiny sliver of "whale" players
 - Crypto romance / "pig-butchering" scams — step by step
 
@@ -155,11 +152,16 @@ Harvested from the YouTube Inspiration tool (demand-validated), deduped and rank
 - ⭐ **You Can't Own Software Anymore** — subscription lock-in (Adobe et al.); digital feudalism (ties to ep4's ownership theme).
 - • Timeshare exit traps · car-wash plate recognition · wine clubs · pet-insurance pre-existing clauses. *(the umbrella "Cancel Trap" is already a keeper)*
 
+**Example Bank** *(ammunition, not standalone)*: hidden cancel button, Prime deletion patterns, phone-only news cancel, hotel cancel hide-and-seek, airline ghost seats, 20%-start tip jars, refund-blocking progress bars, swipe limits, cable cancel architecture, reward-app lock-in, non-refundable game wallets, razor subscriptions.
+
 ### 5. Invisible Empires (hidden monopolies / illusion of choice)
 - 🔥 **One Brewer Owns the Bar** — AB InBev sits behind your "rival" beers.
 - 🔥 **Four Companies Own the Grocery Aisle** — the illusion of choice between Nestlé/P&G/Unilever brands.
 - ⭐ **The Elevator Oligopoly** — a handful of firms move every city (also a Hidden Economy).
 - • Hearing aids · baby-formula duopoly · pet-food duopoly. *(Luxottica/eyewear + tax software already keepers)*
+- ⭐ **The Ticket Is Already Gone** — Ticketmaster + resale bots; live DOJ case [Invisible Empires]
+
+**Example Bank — "why it costs that much"** *(ammunition, not standalone)*: evergreen drug pricing, allergy-med patents, greeting cards, $500 car fobs, car-seat "safety tax," wedding flowers, gendered dry-cleaning, salon dye, teeth whitening, airline seat engineering, insurance doubling, smart-bulb/thermostat patents, Lego IP, textbook inflation, makeup pigment, houseplant scarcity, dollar-store creep, bedsheet markup, coffee/berry/cookware logistics, plywood/container monopolies.
 
 ### 6. Planned Obsolescence (distinct from ep4's core)
 - 🔥 **New Houses Are Built to Rot** — the economics of the disposable American home.
@@ -167,6 +169,9 @@ Harvested from the YouTube Inspiration tool (demand-validated), deduped and rank
 - ⭐ **The "Color of the Year"** — Pantone/paint trends invented to make your good furniture feel old.
 - ⭐ **The Thread-Count War** — bedding priced on a number that means nothing.
 - • Roads designed to fail · particle-board furniture lifespans.
+- ⭐ **They Won't Let You Fix It** — right to repair: John Deere, glued batteries, DRM locks, remote bricking [Planned Obsolescence]
+
+**Example Bank** *(ammunition, not standalone)*: *Built to fail* — printer ink (chip+pricing), earbud batteries (~18–24mo), vacuums, fridges, mattresses (sag post-warranty), power-tool batteries (~500 charges), smartwatch batteries (~18mo), nonstick coatings, running shoes (3-mo cushioning), luggage wheels, jacket zippers, blender blades, stand-mixer gears, dishwasher sump bolts, glass cooktops, phone screens, espresso seals, solar-panel resin, piano keys, toaster sensors, camera dead pixels, bike tires, brush-head abrasives, high-heat plastic, sealed headlights. *Software kill switches* — remote-bricked smart-home, batterygate slowdowns, smart-doorbell timers, ebooks that die unpaid, online-only games, BMW heated-seat sub, John Deere chip locks, pizza-oven/HVAC part rejection, stroller repair flags, DRM repair blocks, engine locks vs indie mechanics, hospital-equipment licensing. *Repair hostility* — glue-not-screws, proprietary screws, unrepairable eyewear frames, repair = half the device price, dead shoe repair, scare-tactic warranties.
 
 ### 7. Pricing & Choice Manipulation
 - 🔥 **The Grocery Store Is a Trap** — layout, eye-level shelves, milk at the back, pumped-in scent; the whole path is engineered.
@@ -177,6 +182,9 @@ Harvested from the YouTube Inspiration tool (demand-validated), deduped and rank
 - ⭐ **Personalized / Dynamic Pricing** — a higher price shown based on your device or history.
 - ⭐ **The Fake Sale** — phantom "original" prices and was/now anchoring.
 - • $9.99 charm pricing · gas-station snack markups.
+- ⭐ **Free Shipping Is the Most Expensive Way to Shop** — the cost is baked into the price [Pricing & Choice Manipulation]
+
+**Example Bank (+ sensory)** *(ammunition, not standalone)*: $100 anchor dish, high-price-first, bulk-size math, bundle hikes, annual-billing amnesia, à-la-carte sides, $20 "adjective" toast, game currency, points-driven spend, battle-pass retention. *Sensory* — hotel scents, spa lighting, heavy car doors, slow premium service, payment "ka-ching" sounds, booking-panic color theory.
 
 ### 8. Emotional Arbitrage
 - ⭐ **Self-Storage** — a multibillion-dollar industry built on your inability to let go. *(funeral trade already a keeper)*
@@ -196,7 +204,19 @@ Harvested from the YouTube Inspiration tool (demand-validated), deduped and rank
 - ⭐ **Theme Parks Manipulate Time** — engineered to make you spend more per hour.
 - ⭐ **Streaks & Read Receipts** — manufactured anxiety, especially on teens (handle with care).
 - ⭐ **Credit-Card Points Gamify Your Debt** — rewards psychology that hides the interest. *(loot boxes + infinite scroll already logged)*
+- ⭐ **Buy Now Pay Later** — engineered a trillion-dollar debt habit out of small purchases [Dark / Exploitative Design]
 
 ### 12. Food & Product Secrets
 - ⭐ **Your Chain Meal Is Reheated Frozen Bags** — "fresh" restaurant food that isn't.
 - ⭐ **Food Fraud** — "wasabi" is dyed horseradish, "parmesan" has filler, "natural flavors" aren't. *(olive oil already researched; dyed salmon in raw backlog)*
+
+### 13. Private Equity Rollups
+- 🔥 **The Private Equity Playbook** — funds buy your vet/dentist/pediatrician/local HVAC, jack prices, cut staff, add fees; the vet clinic is the flagship, and "buy the business for the land" is the twist [Private Equity Rollups]
+
+**Target Bank** *(ammunition — who PE is rolling up, not standalone)*: *Healthcare* — pediatricians, vet clinics, dental, orthodontics (+interest), pharmacies, ambulances, home care, blood banks, senior centers, daycares. *Home services* — HVAC (the playbook), plumbing, electrical, landscaping, tree service, pest control, septic, fire protection, irrigation (→ service contracts/debt). *Buy-for-the-land* — bakeries, hardware stores, bowling alleys, marinas, pizzerias, commercial kitchens, parking lots, self-storage. *Logistics/everyday* — garbage, towing, roadside assistance, auto body, school buses, crane rental, car washes, funeral homes (asset-stripped), laundromats, dry cleaners, locksmiths, home-security monitoring, surveying.
+
+### 14. Lock-In & Structural Barriers
+- 🔥 **You're Not Allowed to Buy a Normal House** — zoning + lobbying + builders killed the simple affordable home [Lock-In & Structural Barriers]
+- ⭐ **Why You Can't Buy a Car From the Maker** — dealership franchise laws and lobbying block direct sales [Lock-In & Structural Barriers]
+
+**Example Bank** *(ammunition, not standalone)*: confusing carrier exits, broken insurance portability, sabotaged medical-record interoperability, work-app lock-in, un-leaveable social accounts, used-EV tax barriers, hard-to-buy-local-eggs, toll-road monopolies, retail lease patents, white-tee decision fatigue.
