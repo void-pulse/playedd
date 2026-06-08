@@ -4,7 +4,7 @@ build_draft.py  —  reproducible ep4 episode assembler.
 
 Self-contained: regenerate images (generate_images), audio (generate_audio), sfx
 (generate_sfx) and the music bed, then run this. Reads sfx_cues.json (the SFX manifest)
-and narration.json (whisper segment + word timestamps). Produces draft_ep4.mp4.
+and narration.json (whisper segment + word timestamps). Produces 0004_<slug>.mp4 (final render).
 
 Design notes (hard-won):
 - SFX land on the exact WORD they illustrate (word-level times) — not the picture cut.
@@ -137,7 +137,7 @@ if r.returncode!=0: AUD.unlink(missing_ok=True); sys.exit("audio pass failed:\n"
 print(f"audio rendered: {ffdur(AUD):.1f}s (target {total}s); {sum(1 for _,_,a in placed if a!='NOT FOUND')} cues on-word, {len(CUEMAP['beds'])} beds")
 
 # ---------- PASS 2: video via concat FILTER (demuxer drops still frames) + mux ----------
-out=EP/"draft_ep4.mp4"; tmp=out.with_suffix(".mp4.tmp")
+out=EP/f"{EP.name}.mp4"; tmp=out.with_suffix(".mp4.tmp")   # final render: 0004_<slug>.mp4 (ep1/ep2 convention)
 SCALE=(f"scale={W}:{H}:force_original_aspect_ratio=decrease,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={FPS},format=yuv420p")
 vin=[]; vfp=[]
 for k,(idx,img,du) in enumerate(items):
