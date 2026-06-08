@@ -92,10 +92,16 @@ if LOGO and LOGO["frame"] in imgs:
     imgs[LOGO["frame"]]=logo_tmp
     print(f"composited logo onto frame {LOGO['frame']}")
 
-prev=0.0
+prev=-1.0
 for s in scenes:
-    t=max(seg_time(nrm(s["text"])), prev+0.2)
-    s["t"]=0.0 if s is scenes[0] else round(t+SYNC_OFFSET,3); prev=t
+    if "at" in s:                                          # explicit override: exact appearance time
+        final=float(s["at"])
+    elif prev < 0:                                         # first frame
+        final=0.0
+    else:                                                  # text-match the narration segment + sync offset
+        final=round(seg_time(nrm(s["text"]))+SYNC_OFFSET, 3)
+    if prev >= 0: final=max(final, prev+0.2)               # keep monotonic
+    s["t"]=round(final,3); prev=s["t"]
 n=len(scenes); items=[]
 for i,s in enumerate(scenes):
     end=scenes[i+1]["t"] if i+1<n else total

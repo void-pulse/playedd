@@ -677,7 +677,8 @@
     "seconds": 340.9,
     "text": "or your own car asks you for rent,",
     "register": "BRIGHT DOODLE",
-    "scene": "Clean bright background. Callback: the Owner's car holds out a little open hand and a coin meter, asking him for rent; he sighs. Selective pop: green coins. No year text, no floating numbers, no brand logos, no flags; draw only what is described."
+    "scene": "Clean bright background. Callback: the Owner's car holds out a little open hand and a coin meter, asking him for rent; he sighs. Selective pop: green coins. No year text, no floating numbers, no brand logos, no flags; draw only what is described.",
+    "at": 345.4
   },
   {
     "index": 135,
@@ -685,7 +686,17 @@
     "seconds": 343.42,
     "text": "don't blame yourself.",
     "register": "BRIGHT DOODLE",
-    "scene": "Clean bright background. The Owner starts to point an accusing finger at himself, but a friendly red STOP hand gently blocks it — don't blame yourself. Selective pop: red stop hand. No year text, no floating numbers, no brand logos, no flags; draw only what is described."
+    "scene": "Clean bright background. The Owner starts to point an accusing finger at himself, but a friendly red STOP hand gently blocks it — don't blame yourself. Selective pop: red stop hand. No year text, no floating numbers, no brand logos, no flags; draw only what is described.",
+    "at": 347.8
+  },
+  {
+    "index": 136,
+    "timestamp": "5:49",
+    "seconds": 349,
+    "at": 349.7,
+    "register": "BRIGHT DOODLE",
+    "text": "You didn't wear it out. You weren't careless.",
+    "scene": "Clean bright background. The Owner stands with both palms turned up in an innocent 'it wasn't me' shrug and a relieved look, a reassuring green check mark glowing over his head — he didn't wear it out, he wasn't careless. Selective pop: the green check mark. No real-person likeness, no brand logos, no flags; draw only what is described."
   },
   {
     "index": 138,
