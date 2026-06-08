@@ -162,13 +162,26 @@ def main():
     iw0, ih0 = Image.open(imgs[0]).size
     portrait = (ih0 / iw0) > 1.3
     if portrait:
-        vfilter = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,"
-                   f"crop={W}:{H},fps={FPS},format=yuv420p[v]")
+        scale_body = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,fps={FPS},format=yuv420p"
         mode = "full-bleed (9:16 native)"
     else:
-        vfilter = (f"[0:v]scale={W}:-2,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:{bg},"
-                   f"fps={FPS},format=yuv420p[v]")
+        scale_body = f"scale={W}:-2,pad={W}:{H}:(ow-iw)/2:(oh-ih)/2:{bg},setsar=1,fps={FPS},format=yuv420p"
         mode = "letterbox (16:9 on bg)"
+    # Render the picture track with the concat FILTER, not the demuxer: the concat demuxer
+    # silently drops / mis-times still frames (observed: it dropped the last vignette frame).
+    previd = tmpdir / "video.mp4"
+    frames = list(zip(imgs, durs)) + [(cta, round(cta_sec + tail, 3))]
+    vin, vparts = [], []
+    for k, (img, du) in enumerate(frames):
+        vin += ["-loop", "1", "-t", f"{du}", "-i", str(img)]
+        vparts.append(f"[{k}:v]{scale_body}[v{k}]")
+    vparts.append("".join(f"[v{k}]" for k in range(len(frames))) + f"concat=n={len(frames)}:v=1[v]")
+    vr = subprocess.run(["ffmpeg", "-y", *vin, "-filter_complex", ";".join(vparts), "-map", "[v]",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", str(FPS),
+        "-f", "mp4", str(previd)], capture_output=True, text=True)
+    if vr.returncode != 0:
+        sys.exit(f"video pre-render failed:\n{vr.stderr[-1800:]}")
+    vfilter = f"[0:v]fps={FPS},format=yuv420p[v]"   # picture track pre-rendered; just normalize
 
     # optional spot SFX cues and a stamp one-shot (mixed under the VO)
     cues = []
@@ -183,7 +196,7 @@ def main():
     if stamp_sfx and not stamp_sfx.exists():
         sys.exit(f"Missing stamp sfx: {stamp_sfx}")
 
-    inputs = ["-f", "concat", "-safe", "0", "-i", str(listf), "-i", str(narration)]
+    inputs = ["-i", str(previd), "-i", str(narration)]
 
     if not cues and not stamp_sfx:
         # ---------- original behavior, preserved byte-for-byte ----------
