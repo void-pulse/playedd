@@ -40,4 +40,5 @@ This traces back to a decision made in 1924. Full breakdown 👉 [EPISODE LINK]
 ### POSTING NOTES
 - Post the episode first; drop the short 2-3 days later as bait pointing back to it.
 - Set the Short's Related-video field to the full episode.
-- AI-d
+- AI-disclosure ON for both.
+- Replace [EPISODE LINK] in the short's pinned comment once the episode is live.
