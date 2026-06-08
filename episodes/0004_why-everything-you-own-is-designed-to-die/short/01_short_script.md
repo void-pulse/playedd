@@ -1,0 +1,2 @@
+[SHORT]
+This guy owns his car. <break time="0.4s"/> Paid every cent. <break time="0.3s"/> It's his. <break time="0.5s"/> So why is the heated seat locked? <break time="0.5s"/> It's already in there. The heater, the wires, the button. All of it. Built in. <break time="0.5s"/> He just has to pay. Every month. To turn on something he already bought. <break time="0.5s"/> And he will. <break time="0.4s"/> Because of something they figured out about you a hundred years ago.
