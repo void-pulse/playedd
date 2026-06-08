@@ -32,8 +32,8 @@ The proven shape for this channel, going forward. Not a one-off.
 ### Hook-first rule (non-negotiable)
 The first 2 seconds decide the video. Open inside the mystery, on the single most arresting line you have. No "in this video," no throat-clearing, no slow build. Every line after that must earn the next one: if a sentence doesn't open a loop or pay one off, cut it. Write the cold open last, after you know your strongest fact, and lead with it.
 
-### End stamp
-The end stamp is the **Playedd logo, silent.** The old "YOU'RE BEING PLAYED" CTA text is retired. (Pipeline: `build_short.py` and `build_draft.py` still render the old CTA text; have Claude Code remove it and swap in the logo asset.)
+### End stamp / outro card
+The main video ends on a silent **like-and-subscribe outro card** in the Playedd doodle style, held ~5-10s after narration. Logan adds the actual subscribe button and channel logo himself via YouTube's end screen, so the card MUST LEAVE THE CENTER AND TOP-RIGHT CLEAR: center is reserved for the subscribe/logo end-screen element, top-right for YouTube's recommended-video card. Put the doodle like/subscribe prompts in the left and lower-left area only. The old "YOU'RE BEING PLAYED" CTA is retired. Shorts: a brief like/subscribe doodle is fine (no end-screen reservation needed).
 
 ### Production rule: lock the audio BEFORE TurboScribe
 Finalize the narration read first: trim dead air, fix flubs, lock the performance. THEN run TurboScribe for timestamps. Tight source audio is what makes the downstream image sync tight; re-cutting audio after timestamping throws the whole image track out of sync.

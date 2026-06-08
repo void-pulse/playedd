@@ -54,25 +54,19 @@ def hex_rgb(h: str):
     return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
 
 
-LOGO_ASSET = ROOT / "brand" / "assets" / "avatar_800.png"
+OUTRO_ASSET = ROOT / "brand" / "assets" / "end_card_short.png"
 
 
 def make_cta_card(bg_hex: str, out_png: Path):
-    """Silent end stamp: the Playedd logo, centered on a white card. The old
-    'YOU'RE BEING PLAYED' CTA text is retired channel-wide (brand/FORMATS.md).
-    bg_hex kept for signature compatibility; the card is always white."""
-    card = Image.new("RGB", (W, H), (255, 255, 255))
-    if LOGO_ASSET.exists():
-        logo = Image.open(LOGO_ASSET).convert("RGBA")
-        px = logo.load()                      # drop the cream/near-white bg so the face sits on the card
-        for y in range(logo.height):
-            for x in range(logo.width):
-                r, g, b, a = px[x, y]
-                if r > 232 and g > 230 and b > 222:
-                    px[x, y] = (r, g, b, 0)
-        side = int(W * 0.66)
-        logo = logo.resize((side, side), Image.LANCZOS)
-        card.paste(logo, ((W - side) // 2, (H - side) // 2), logo)
+    """Silent like/subscribe outro card for the Short (brand/FORMATS.md). Shorts have no end
+    screen, so no layout reservation. The old 'YOU'RE BEING PLAYED' CTA is retired channel-wide.
+    bg_hex kept for signature compatibility."""
+    if OUTRO_ASSET.exists():
+        card = Image.open(OUTRO_ASSET).convert("RGB")
+        if card.size != (W, H):
+            card = card.resize((W, H), Image.LANCZOS)
+    else:
+        card = Image.new("RGB", (W, H), (255, 255, 255))
     card.save(out_png)
 
 

@@ -26,8 +26,8 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-LOGO = ROOT / "brand" / "assets" / "avatar_800.png"   # silent Playedd end stamp (no CTA text)
-LOGO_SEC = 2.5
+OUTRO = ROOT / "brand" / "assets" / "end_card_main.png"  # silent like/subscribe outro card
+OUTRO_SEC = 7.0  # held after narration; art keeps CENTER + TOP-RIGHT clear for YouTube's end screen
 MIN_DUR = 0.40  # floor so a tiny segment doesn't flash by
 SYNC_OFFSET_SEC = 0.25  # shift every image LATER by this much (FORMATS.md global)
 
@@ -54,7 +54,7 @@ def main():
     ap.add_argument("--fps", type=int, default=30)
     ap.add_argument("--out", default=None)
     ap.add_argument("--segments", default=None)
-    ap.add_argument("--no-logo", action="store_true", help="skip the silent Playedd logo end stamp")
+    ap.add_argument("--no-outro", action="store_true", help="skip the silent like/subscribe end card")
     args = ap.parse_args()
 
     ep = Path(args.episode)
@@ -79,36 +79,32 @@ def main():
     starts = [0.0 if i == 0 else float(seg["seconds"]) + SYNC_OFFSET_SEC
               for i, seg in enumerate(segments)]
 
-    # Duration of each image = gap to the next image's start; last holds to end of audio.
+    # Frame-exact timing: snap every cut to an output-frame boundary so durations are exact
+    # multiples of 1/fps. This kills the cumulative late-drift that otherwise creeps in when a
+    # looped still image is read at the demuxer default rate and rounded per input (cuts ran
+    # ~1s late by the back half before this). Each image holds to the NEXT image's snapped start.
+    fps = args.fps
+    bounds = [round((starts[i + 1] if i + 1 < n else audio_len) * fps) for i in range(n)]
     items = []
+    prev = 0  # first image is pinned to frame 0
     for i, seg in enumerate(segments):
-        start = starts[i]
-        end = starts[i + 1] if i + 1 < n else audio_len
-        dur = max(MIN_DUR, round(end - start, 3))
-        items.append((find_image(images_dir, seg["index"]), dur))
+        dur_frames = max(round(MIN_DUR * fps), bounds[i] - prev)
+        items.append((find_image(images_dir, seg["index"]), dur_frames / fps))
+        prev = prev + dur_frames
 
-    # Silent Playedd logo end stamp: composite the tracked face onto a clean white frame,
-    # held LOGO_SEC past the narration. Baked at assemble time so a clean rebuild can't lose it.
-    use_logo = LOGO.exists() and not args.no_logo
-    tmpdir = Path(tempfile.mkdtemp())
-    if use_logo:
-        logo_frame = tmpdir / "logo.png"
-        lr = subprocess.run([
-            "ffmpeg", "-y", "-f", "lavfi", "-i", "color=white:s=1920x1080", "-i", str(LOGO),
-            "-filter_complex",
-            "[1:v]colorkey=0xfaf9f4:0.18:0.08,scale=760:760[lg];[0:v][lg]overlay=(W-w)/2:(H-h)/2[out]",
-            "-map", "[out]", "-frames:v", "1", str(logo_frame)], capture_output=True, text=True)
-        if lr.returncode != 0:
-            sys.exit("logo end-stamp composite failed:\n" + lr.stderr[-1500:])
-        items.append((logo_frame, LOGO_SEC))
-    total = audio_len + (LOGO_SEC if use_logo else 0.0)
+    # Silent like/subscribe outro card, held OUTRO_SEC past the narration. The card art keeps the
+    # CENTER + TOP-RIGHT clear for YouTube's end-screen subscribe button + recommended-video card.
+    use_outro = OUTRO.exists() and not args.no_outro
+    if use_outro:
+        items.append((OUTRO, round(OUTRO_SEC * fps) / fps))
+    total = sum(dur for _, dur in items)
 
     # Video via the concat FILTER (the concat demuxer silently drops still-image durations).
     scale_body = (f"scale=1920:1080:force_original_aspect_ratio=decrease,"
                   f"pad=1920:1080:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={args.fps},format=yuv420p")
     vin, vparts = [], []
     for k, (img, dur) in enumerate(items):
-        vin += ["-loop", "1", "-t", f"{dur}", "-i", str(img)]
+        vin += ["-framerate", str(args.fps), "-loop", "1", "-t", f"{dur:.5f}", "-i", str(img)]
         vparts.append(f"[{k}:v]{scale_body}[v{k}]")
     vparts.append("".join(f"[v{k}]" for k in range(len(items))) + f"concat=n={len(items)}:v=1[v]")
     aidx = len(items)
@@ -123,7 +119,7 @@ def main():
         "-movflags", "+faststart", str(out_path),
     ]
 
-    print(f"Assembling {n} frames + narration ({audio_len:.1f}s) + silent logo -> {out_path}")
+    print(f"Assembling {n} frames + narration ({audio_len:.1f}s) + outro card -> {out_path}")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         print(result.stderr[-2000:])
