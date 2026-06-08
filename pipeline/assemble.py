@@ -25,8 +25,11 @@ import sys
 import tempfile
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+LOGO = ROOT / "brand" / "assets" / "avatar_800.png"   # silent Playedd end stamp (no CTA text)
+LOGO_SEC = 2.5
 MIN_DUR = 0.40  # floor so a tiny segment doesn't flash by
-SYNC_OFFSET_SEC = 0.40  # shift every image LATER by this much (images were appearing early)
+SYNC_OFFSET_SEC = 0.25  # shift every image LATER by this much (FORMATS.md global)
 
 
 def audio_duration(path: Path) -> float:
@@ -51,6 +54,7 @@ def main():
     ap.add_argument("--fps", type=int, default=30)
     ap.add_argument("--out", default=None)
     ap.add_argument("--segments", default=None)
+    ap.add_argument("--no-logo", action="store_true", help="skip the silent Playedd logo end stamp")
     args = ap.parse_args()
 
     ep = Path(args.episode)
@@ -83,33 +87,43 @@ def main():
         dur = max(MIN_DUR, round(end - start, 3))
         items.append((find_image(images_dir, seg["index"]), dur))
 
-    # concat demuxer list file (last entry repeated so its duration is honored)
-    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
-        for img, dur in items:
-            f.write(f"file '{img.resolve()}'\n")
-            f.write(f"duration {dur}\n")
-        f.write(f"file '{items[-1][0].resolve()}'\n")  # demuxer quirk: repeat last
-        list_path = f.name
+    # Silent Playedd logo end stamp: composite the tracked face onto a clean white frame,
+    # held LOGO_SEC past the narration. Baked at assemble time so a clean rebuild can't lose it.
+    use_logo = LOGO.exists() and not args.no_logo
+    tmpdir = Path(tempfile.mkdtemp())
+    if use_logo:
+        logo_frame = tmpdir / "logo.png"
+        lr = subprocess.run([
+            "ffmpeg", "-y", "-f", "lavfi", "-i", "color=white:s=1920x1080", "-i", str(LOGO),
+            "-filter_complex",
+            "[1:v]colorkey=0xfaf9f4:0.18:0.08,scale=760:760[lg];[0:v][lg]overlay=(W-w)/2:(H-h)/2[out]",
+            "-map", "[out]", "-frames:v", "1", str(logo_frame)], capture_output=True, text=True)
+        if lr.returncode != 0:
+            sys.exit("logo end-stamp composite failed:\n" + lr.stderr[-1500:])
+        items.append((logo_frame, LOGO_SEC))
+    total = audio_len + (LOGO_SEC if use_logo else 0.0)
 
-    vf = (
-        f"scale=1920:1080:force_original_aspect_ratio=decrease,"
-        f"pad=1920:1080:(ow-iw)/2:(oh-ih)/2:white,"
-        f"fps={args.fps},format=yuv420p"
-    )
+    # Video via the concat FILTER (the concat demuxer silently drops still-image durations).
+    scale_body = (f"scale=1920:1080:force_original_aspect_ratio=decrease,"
+                  f"pad=1920:1080:(ow-iw)/2:(oh-ih)/2:white,setsar=1,fps={args.fps},format=yuv420p")
+    vin, vparts = [], []
+    for k, (img, dur) in enumerate(items):
+        vin += ["-loop", "1", "-t", f"{dur}", "-i", str(img)]
+        vparts.append(f"[{k}:v]{scale_body}[v{k}]")
+    vparts.append("".join(f"[v{k}]" for k in range(len(items))) + f"concat=n={len(items)}:v=1[v]")
+    aidx = len(items)
+    vparts.append(f"[{aidx}:a]aresample=44100,apad,atrim=0:{total:.3f},asetpts=N/SR/TB[a]")
 
     cmd = [
-        "ffmpeg", "-y",
-        "-f", "concat", "-safe", "0", "-i", list_path,
-        "-i", str(audio_path),
-        "-vf", vf,
-        "-c:v", "libx264", "-preset", "medium", "-crf", "18",
-        "-c:a", "aac", "-b:a", "192k",
-        "-pix_fmt", "yuv420p",
-        "-shortest",
-        str(out_path),
+        "ffmpeg", "-y", *vin, "-i", str(audio_path),
+        "-filter_complex", ";".join(vparts),
+        "-map", "[v]", "-map", "[a]",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
+        "-c:a", "aac", "-b:a", "192k", "-r", str(args.fps), "-t", f"{total:.3f}",
+        "-movflags", "+faststart", str(out_path),
     ]
 
-    print(f"Assembling {n} frames + narration ({audio_len:.1f}s) -> {out_path}")
+    print(f"Assembling {n} frames + narration ({audio_len:.1f}s) + silent logo -> {out_path}")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         print(result.stderr[-2000:])

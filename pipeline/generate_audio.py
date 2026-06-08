@@ -200,19 +200,22 @@ def atomic_replace_from_tmp(tmp: Path, final: Path) -> None:
     os.replace(tmp, final)
 
 
-def synth_segment(client, voice_id, model, seg, out_path) -> None:
+def synth_segment(client, voice_id, model, seg, out_path, voice_settings=VOICE_SETTINGS, seed=None) -> None:
     """Synthesize one segment to out_path via temp-then-rename (crash-safe). No
     <break> tags are ever sent to ElevenLabs; pauses are real silence added later.
     Adjacent-segment text is passed as previous_text/next_text so a split read keeps
-    continuous prosody across the silence."""
-    audio = client.text_to_speech.convert(
+    continuous prosody across the silence. A fixed seed holds tone steady across chunks."""
+    kwargs = dict(
         voice_id=voice_id,
         model_id=model,
         text=seg["text"],
-        voice_settings=VOICE_SETTINGS,
+        voice_settings=voice_settings,
         previous_text=seg["prev"],
         next_text=seg["next"],
     )
+    if seed is not None:
+        kwargs["seed"] = seed
+    audio = client.text_to_speech.convert(**kwargs)
     tmp = out_path.with_suffix(out_path.suffix + ".tmp")
     try:
         with open(tmp, "wb") as f:
@@ -359,6 +362,10 @@ def main():
     ap.add_argument("--voice", default="NARRATOR_D", choices=list(VOICE_IDS.keys()))  # Drew = locked Playedd voice
     ap.add_argument("--voice-id", default=None, help="raw voice id, overrides --voice")
     ap.add_argument("--model", default="eleven_multilingual_v2")
+    ap.add_argument("--stability", type=float, default=None, help="override voice stability (brand default 0.40)")
+    ap.add_argument("--style", type=float, default=None, help="override voice style (brand default 0.15)")
+    ap.add_argument("--similarity", type=float, default=None, help="override similarity_boost (brand default 0.80)")
+    ap.add_argument("--seed", type=int, default=None, help="fixed ElevenLabs seed for tone consistency across chunks")
     ap.add_argument("--section", default=None,
                     help="regenerate only this section label (case-insensitive), then re-stitch")
     ap.add_argument("--tempo", type=float, default=DEFAULT_TEMPO,
@@ -414,11 +421,17 @@ def main():
         from elevenlabs.client import ElevenLabs
         client = ElevenLabs(api_key=api_key)
 
+        vs = dict(VOICE_SETTINGS)
+        if args.stability is not None: vs["stability"] = args.stability
+        if args.style is not None: vs["style"] = args.style
+        if args.similarity is not None: vs["similarity_boost"] = args.similarity
+        print(f"Voice settings: {vs}  seed={args.seed}")
+
         for seg in targets:
             out_path = seg_file(chunks_dir, seg)
             tag = seg["label"] + (f" [{seg['k'] + 1}/{seg['nsegs']}]" if seg["nsegs"] > 1 else "")
             print(f"[{tag}] -> {out_path.name} ({len(seg['text'])} chars) ...")
-            synth_segment(client, voice_id, args.model, seg, out_path)
+            synth_segment(client, voice_id, args.model, seg, out_path, vs, args.seed)
 
         # Remove stale chunk files for regenerated beats (post-synth, so a failed run
         # never orphans a good chunk). Also cleans up a beat changing single<->split.

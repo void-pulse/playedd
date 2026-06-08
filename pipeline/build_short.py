@@ -54,54 +54,26 @@ def hex_rgb(h: str):
     return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
 
 
+LOGO_ASSET = ROOT / "brand" / "assets" / "avatar_800.png"
+
+
 def make_cta_card(bg_hex: str, out_png: Path):
-    """Channel stamp end card: big red tilted 'YOU'RE BEING PLAYED' over a white
-    card, with 'full story on my channel' and an up-arrow beneath. bg_hex unused
-    (the stamp card is always white)."""
-    RED = (201, 48, 32)
-    INK = (34, 34, 34)
-    img = Image.new("RGB", (W, H), (255, 255, 255))
-    d = ImageDraw.Draw(img)
-    cx = W // 2
-
-    # auto-fit the stamp text to the frame width
-    stamp = "YOU'RE BEING PLAYED"
-    max_w = int(W * 0.72)
-    size = 180
-    while size > 40:
-        font = ImageFont.truetype(str(FONT_MARKER), size)
-        bb = d.textbbox((0, 0), stamp, font=font)
-        if (bb[2] - bb[0]) <= max_w:
-            break
-        size -= 4
-    bb = d.textbbox((0, 0), stamp, font=font)
-    tw, th, pad = bb[2] - bb[0], bb[3] - bb[1], 48
-    layer = Image.new("RGBA", (tw + pad * 2 + 28, th + pad * 2 + 28), (0, 0, 0, 0))
-    ld = ImageDraw.Draw(layer)
-    ld.rectangle([14, 14, 14 + tw + pad * 2, 14 + th + pad * 2], outline=RED, width=14)  # stamp box
-    ld.text((14 + pad - bb[0], 14 + pad - bb[1]), stamp, font=font, fill=RED)
-    layer = layer.rotate(7, expand=True, resample=Image.BICUBIC)                          # slammed tilt
-    img.paste(layer, (cx - layer.width // 2, int(H * 0.30)), layer)
-
-    # up-arrow beneath the stamp
-    top = int(H * 0.58)
-    hw, hh, sw, sh = 210, 120, 64, 150
-    d.polygon([(cx - hw // 2, top + hh), (cx, top), (cx + hw // 2, top + hh)], fill=INK)
-    d.rectangle([cx - sw // 2, top + hh, cx + sw // 2, top + hh + sh], fill=INK)
-
-    # subline
-    sub = "full story on my channel"
-    sub_w = int(W * 0.78)
-    ssize = 72
-    while ssize > 28:
-        sfont = ImageFont.truetype(str(FONT_MARKER), ssize)
-        sb = d.textbbox((0, 0), sub, font=sfont)
-        if (sb[2] - sb[0]) <= sub_w:
-            break
-        ssize -= 4
-    sb = d.textbbox((0, 0), sub, font=sfont)
-    d.text((cx - (sb[2] - sb[0]) // 2 - sb[0], int(H * 0.72)), sub, font=sfont, fill=INK)
-    img.save(out_png)
+    """Silent end stamp: the Playedd logo, centered on a white card. The old
+    'YOU'RE BEING PLAYED' CTA text is retired channel-wide (brand/FORMATS.md).
+    bg_hex kept for signature compatibility; the card is always white."""
+    card = Image.new("RGB", (W, H), (255, 255, 255))
+    if LOGO_ASSET.exists():
+        logo = Image.open(LOGO_ASSET).convert("RGBA")
+        px = logo.load()                      # drop the cream/near-white bg so the face sits on the card
+        for y in range(logo.height):
+            for x in range(logo.width):
+                r, g, b, a = px[x, y]
+                if r > 232 and g > 230 and b > 222:
+                    px[x, y] = (r, g, b, 0)
+        side = int(W * 0.66)
+        logo = logo.resize((side, side), Image.LANCZOS)
+        card.paste(logo, ((W - side) // 2, (H - side) // 2), logo)
+    card.save(out_png)
 
 
 def main():
