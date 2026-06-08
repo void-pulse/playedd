@@ -71,6 +71,25 @@ SFX = [
     ("ring_sparkle.mp3", "a glassy magical sparkle shimmer twinkle, a bright diamond glint", 1.5, False),
     ("bubble_pop.mp3", "a soft bubble pop deflating, a gentle little pop and fizzle", 1.0, False),
     ("eerie_whoosh.mp3", "a low mysterious whoosh, a hollow unsettling tone sweeping in", 2.0, False),
+    # --- ep4 cinematic palette (upgraded: richer prompts, natural tails) ---
+    ("icy_freeze.mp3", "frost rapidly spreading across glass, a delicate icy crackle with a cold shimmering tone descending, cinematic", 2.5, False),
+    ("cartel_murmur.mp3", "low conspiratorial mumbling voices of men gathered in a closed room, indistinct hushed murmur, no clear words", 6.0, True),
+    ("factory_hum.mp3", "an old early-1900s factory of machines, steady mechanical hum and distant clatter", 6.0, True),
+    ("slow_winddown.mp3", "an electronic device slowing down, a sad descending power-down whir", 2.5, False),
+    ("error_buzzer.mp3", "a device politely refusing input, a soft warm descending two-tone error, gentle and not harsh", 2.0, False),
+    ("padlock_click.mp3", "a small set of keys jingling, then a lock smoothly turning and clicking shut, a clean satisfying latch, light and crisp, not a heavy slam or clunk", 2.2, False),
+    ("coin_meter.mp3", "a coin dropping into an old metal parking meter, a clink then a mechanical ratchet turn that settles", 2.5, False),
+    ("horse_whinny.mp3", "a single proud horse whinny and snort, warm and natural, one short call", 2.0, False),
+    ("crowd_angry.mp3", "a frustrated crowd grumbling and muttering with irritation, a rising wave of annoyed voices", 3.0, False),
+    ("gavel_bang.mp3", "a wooden judge's gavel banging twice, firm and authoritative", 1.5, False),
+    ("light_hum.mp3", "a warm wondrous reveal shimmer, soft glassy bells blooming and gently fading out, magical and bright", 3.0, False),
+    ("scissors_snip.mp3", "a crisp sharp metal scissor snip cutting a wire, a clean snick with a tiny glassy tink", 1.8, False),
+    ("typewriter_ding.mp3", "an old typewriter clack with a bright carriage-return ding", 2.0, False),
+    ("dark_swell.mp3", "a smooth cinematic rising swell, low warm strings growing with a quiet sense of menace, something evolving, subtle and not scary, no melody", 3.0, False),
+    ("digital_lag.mp3", "a smartphone gently slowing to a crawl, a soft warm descending whir winding down, smooth and subtle, not harsh, no glitch, no stutter", 2.5, False),
+    # --- ep4 cinematic stings (new) ---
+    ("cartel_reveal.mp3", "a dark conspiratorial reveal sting, a low ominous orchestral swell with a soft cinematic boom, a secret being uncovered, tasteful not jumpy", 3.0, False),
+    ("realization_chime.mp3", "a single clear bright realization chime, a clean glassy bell with a soft shimmering tail, an aha moment", 2.5, False),
 ]
 
 
