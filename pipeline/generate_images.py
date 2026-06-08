@@ -63,24 +63,26 @@ def build_prompt(style_block: str, scene: str) -> str:
     return f"{style_block}\n\nSCENE: {scene}"
 
 
-def image_args(model: str, prompt: str) -> dict:
+def image_args(model: str, prompt: str, portrait: bool = False) -> dict:
     """
     Arg shapes differ slightly per model on fal. Verify against the model's API
     page if a call ever rejects an argument:
       https://fal.ai/models/fal-ai/gpt-image-2
       https://fal.ai/models/fal-ai/flux/schnell
+    portrait=True -> native 9:16 vertical (Shorts); default is landscape 16:9.
     """
     if "gpt-image" in model:
+        size = {"width": 1080, "height": 1920} if portrait else {"width": 1920, "height": 1080}
         return {
             "prompt": prompt,
-            "image_size": {"width": 1920, "height": 1080},  # native 1080p test; fal also accepts named enums
+            "image_size": size,
             "num_images": 1,
             "quality": "medium",             # medium is the cost/quality sweet spot
         }
     # flux fallback
     return {
         "prompt": prompt,
-        "image_size": "landscape_16_9",
+        "image_size": "portrait_16_9" if portrait else "landscape_16_9",
         "num_images": 1,
         "num_inference_steps": 4,
     }
@@ -99,13 +101,13 @@ def extract_url(result: dict) -> str:
     raise RuntimeError(f"No image URL in result: {list(result.keys())}")
 
 
-def generate_one(fal_client, model, style_block, seg, out_dir, resume):
+def generate_one(fal_client, model, style_block, seg, out_dir, resume, portrait=False):
     out_path = out_dir / safe_name(seg["index"], seg["timestamp"])
     if resume and out_path.exists() and out_path.stat().st_size > 0:
         return seg["index"], "skip", out_path.name
     prompt = build_prompt(style_block, seg["scene"])
     try:
-        result = fal_client.subscribe(model, arguments=image_args(model, prompt), with_logs=False)
+        result = fal_client.subscribe(model, arguments=image_args(model, prompt, portrait), with_logs=False)
         url = extract_url(result)
         r = requests.get(url, timeout=120)
         r.raise_for_status()
@@ -122,6 +124,8 @@ def main():
     ap.add_argument("--concurrency", type=int, default=4)
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--only", type=int, default=None)
+    ap.add_argument("--portrait", action="store_true",
+                    help="native 9:16 vertical for Shorts (overrides the style block's framing)")
     args = ap.parse_args()
 
     if not os.getenv("FAL_KEY"):
@@ -139,12 +143,22 @@ def main():
     out_dir = scenes_path.parent / "images"
     out_dir.mkdir(exist_ok=True)
     style_block = load_style_block()
+    if args.portrait:
+        # swap the canonical horizontal framing for native vertical 9:16, fill edge to edge
+        style_block = re.sub(
+            r"Composition: horizontal 16:9 wide YouTube frame\. Clean, centered, readable\. "
+            r"Do not crop important objects\. Leave breathing room\.",
+            "Composition: VERTICAL 9:16 tall mobile frame (a Short). Compose the subject TALL and "
+            "BIG so it fills the whole vertical frame top to bottom and edge to edge — no empty "
+            "bands, no margins, no dead white space. Clean and readable.",
+            style_block,
+        )
 
     print(f"Model: {args.model} | {len(scenes)} images | concurrency {args.concurrency}")
     ok = skip = err = 0
     with cf.ThreadPoolExecutor(max_workers=args.concurrency) as ex:
         futures = [
-            ex.submit(generate_one, fal_client, args.model, style_block, s, out_dir, args.resume)
+            ex.submit(generate_one, fal_client, args.model, style_block, s, out_dir, args.resume, args.portrait)
             for s in scenes
         ]
         for fut in cf.as_completed(futures):

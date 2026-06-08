@@ -4,7 +4,7 @@
 # on 04_short_scenes.json). White bg, narration ends before the brand line, silent stamp slam.
 set -euo pipefail
 EP=episodes/0004_why-everything-you-own-is-designed-to-die/short
-python pipeline/build_short.py "$EP/audio/narration.mp3" \
+.venv/bin/python pipeline/build_short.py "$EP/audio/narration.mp3" \
   --images "$EP"/images/0001_*.png "$EP"/images/0002_*.png "$EP"/images/0003_*.png \
            "$EP"/images/0004_*.png "$EP"/images/0005_*.png "$EP"/images/0006_*.png "$EP"/images/0007_*.png \
   --bg "#FFFFFF" --cta-sec 0 --tail 2.5 \
