@@ -34,6 +34,14 @@ clean-and-light, some a soft tint, some a simple suggested setting. Lean subtle 
    strong) — keep it soft and a touch designed. Do NOT use heavy solid-black silhouettes. Keep
    DESIGNED BEATS sparing so they stay special.
 
+## STAY IN CONTEXT — logical, not literal
+Read the beat for its MEANING and draw the real-world logic of it, not the dictionary sense of a
+word. Don't take "die / fall apart / broken / worse" literally as death, corpses, or gore
+(nobody hurt, no bodies, no gravestones). Don't solve a beat with a lazy literal gag (e.g.
+"redrawn every year" is a subtly **restyled** car — a new grille, sharper headlights, a fresh
+trim — NOT the same car in a different color). When in doubt, show how it actually works in the
+world. Text labels should teach a real fact (a name, date, number), never narrate the obvious.
+
 ## HARD RULE — every frame is a specific, meaningful visual
 Every frame must be a concrete, meaningful image for ITS narration beat — a visual the viewer
 could not get from any other line. **No boring, generic, or filler frames. No placeholders.**
@@ -61,12 +69,12 @@ bg). When abstract, default to the Owner at home with his stuff (BRIGHT DOODLE).
   round table, conspiring over a light bulb. Drawn as outlined doodle figures (gray suits, not
   solid-black silhouettes) so the frame stays bright. Generic archetypes, no likeness, no name
   labels.
-- **The Trick ("the idea") — RECURRING villain, fixed design, pin to `images/0005_0m12s.png`.**
+- **The Trick ("the idea") — RECURRING villain, fixed design, pin to `images/0058_2m27s.png`.**
   A small green imp: pointy ears, a wide sly grin with little teeth, mischievous dot eyes, often
   holding a wrench. He IS "the idea that keeps learning" — the personification of planned
-  obsolescence. Recurs at: the phone-slowdown decision (pushing the SLOW lever), and the HUMAN
-  LAYER "it learned to lock / its cleverest move of all" beats (sabotaging the printer, the
-  car). Same green imp every time; do not redesign him.
+  obsolescence. He first appears when the cartel disbands and "the idea grew up," then recurs through the HUMAN
+  LAYER "it learned to lock / its cleverest move of all" beats (sabotaging the printer, the car).
+  Same green imp every time; do not redesign him.
 - **The Printer** — a sly-faced desktop printer flashing a red "INK?" error. Generic, NO logo.
 - **The Paywall Car** — a generic car with a padlock on the heated seat + a coin-slot meter.
   NO brand logo. (Lives in the DESIGNED BEAT register.)
@@ -85,14 +93,27 @@ bg). When abstract, default to the Owner at home with his stuff (BRIGHT DOODLE).
 - **The bulb burns on** — the Immortal Light Bulb recurs; at the payoff an LED version dies
   young, sealed in a fixture it can't be opened from.
 
-## Real people = generic archetypes only (no likeness)
+## Real people = generic archetypes WITH a printed name (no likeness)
 Bernard London, the cartel executives, the attorney general, any CEO, and ANY real person are
-drawn ONLY as generic doodle archetypes — never a likeness, never a name label.
+drawn as generic doodle archetypes (no real-person LIKENESS) — but DO print their name as a
+short hand-lettered label so the viewer learns it (e.g., BERNARD LONDON). Company names too, as
+plain hand-lettered text, NOT logos (e.g., OSRAM, PHILIPS, GENERAL ELECTRIC, APPLE, MERCEDES).
+
+## Text & learning tools (PRINT IT — new direction)
+Print informative text as learning tools, hand-lettered in the crude doodle style, short and
+correctly spelled. This replaces the old "no text" rule:
+- **Names:** every real person or company mentioned gets a printed name label. Plain hand-
+  lettered text, never a brand logo.
+- **Dates & numbers:** print them when they matter — e.g., 1924, GENEVA; 1,000 HOURS; 2,500
+  HOURS; 1901; 2017; $1,200 / YEAR.
+- **Big keyword words:** put the beat's key word big on the frame as a teaching aid where it
+  helps (e.g., PLANNED OBSOLESCENCE, PERMISSION, THE HOOK).
+Keep it legible and uncluttered — one or two text elements per frame, not a wall of text.
 
 ## SAFETY (append to every scene)
-"No year text, no floating numbers, no brand logos, no flags or insignia; draw only what is
-described." Convey era with old-timey dress / cobwebs / a clock, not a year. Convey
-"lasts long vs dies fast" with a healthy vs burnt-out bulb, not a number.
+"Hand-lettered doodle text labels welcome (names, dates, numbers, a key word) — short and
+correctly spelled. No real-person likeness, no brand logos, no flags or insignia; draw only
+what is described."
 
 ## Color
 Bright doodle with generous flat fills. Pop colors: **warm bulb-yellow** (the bulb/filament
