@@ -1,0 +1,600 @@
+1
+00:00:00,000 --> 00:00:02,920
+Your phone is three years old and suddenly it's slow.
+
+2
+00:00:02,920 --> 00:00:05,760
+Apps lag, the battery's dead by lunch.
+
+3
+00:00:05,760 --> 00:00:08,360
+So you start thinking, maybe it's time for a new one.
+
+4
+00:00:08,360 --> 00:00:12,040
+Here's the thing, that slowdown wasn't just age.
+
+5
+00:00:12,040 --> 00:00:14,480
+On some phones, it was a decision.
+
+6
+00:00:14,480 --> 00:00:17,280
+A choice made in software, on purpose,
+
+7
+00:00:17,280 --> 00:00:19,760
+to make your old phone feel worse.
+
+8
+00:00:19,760 --> 00:00:21,480
+And once you see why,
+
+9
+00:00:21,480 --> 00:00:23,600
+you'll realize it's not just your phone,
+
+10
+00:00:23,600 --> 00:00:27,120
+it's your printer, your laptop, your washing machine.
+
+11
+00:00:27,120 --> 00:00:29,400
+Almost everything you own was built
+
+12
+00:00:29,400 --> 00:00:32,000
+with a quiet expiration date.
+
+13
+00:00:32,000 --> 00:00:34,640
+And the reason traces back to a secret meeting
+
+14
+00:00:34,640 --> 00:00:37,680
+a hundred years ago about a light bulb.
+
+15
+00:00:37,680 --> 00:00:40,560
+Start with the problem no company will say out loud.
+
+16
+00:00:40,560 --> 00:00:42,920
+If you make something that lasts forever,
+
+17
+00:00:42,920 --> 00:00:44,480
+you only sell it once.
+
+18
+00:00:44,480 --> 00:00:48,320
+A perfect product is a business that runs out of customers.
+
+19
+00:00:48,320 --> 00:00:50,080
+So somewhere along the way,
+
+20
+00:00:50,080 --> 00:00:53,040
+companies realize the most profitable product
+
+21
+00:00:53,040 --> 00:00:54,760
+isn't the one that lasts.
+
+22
+00:00:54,760 --> 00:00:56,720
+It's the one that breaks right after
+
+23
+00:00:56,720 --> 00:00:58,760
+you stop being angry about it.
+
+24
+00:00:58,760 --> 00:01:00,720
+Long enough that you don't blame them.
+
+25
+00:01:00,720 --> 00:01:02,920
+Short enough that you have to buy another.
+
+26
+00:01:02,920 --> 00:01:05,640
+That sweet spot has a name.
+
+27
+00:01:05,640 --> 00:01:07,320
+Planned obsolescence.
+
+28
+00:01:07,320 --> 00:01:08,640
+And it didn't start with phones,
+
+29
+00:01:08,640 --> 00:01:11,520
+it started with the one thing you'd never suspect,
+
+30
+00:01:11,520 --> 00:01:13,680
+the light bulb over your head.
+
+31
+00:01:13,680 --> 00:01:17,800
+In the early 1920s, light bulbs were getting too good.
+
+32
+00:01:17,800 --> 00:01:20,400
+Some lasted 2,500 hours.
+
+33
+00:01:20,400 --> 00:01:23,840
+A few experimental ones ran for tens of thousands.
+
+34
+00:01:23,840 --> 00:01:26,440
+There's a fire station in Livermore, California
+
+35
+00:01:26,440 --> 00:01:28,360
+with a bulb that has been burning
+
+36
+00:01:28,360 --> 00:01:31,520
+almost without pause since 1901.
+
+37
+00:01:31,520 --> 00:01:33,520
+It is still on right now.
+
+38
+00:01:33,520 --> 00:01:35,400
+So the bulb makers had a problem.
+
+39
+00:01:35,400 --> 00:01:36,600
+Their product worked.
+
+40
+00:01:36,600 --> 00:01:38,240
+People stopped buying.
+
+41
+00:01:38,240 --> 00:01:40,560
+On December 23rd, 1924,
+
+42
+00:01:40,560 --> 00:01:42,200
+the biggest names in the industry,
+
+43
+00:01:42,200 --> 00:01:45,280
+Ozrom, Phillips, General Electric and others,
+
+44
+00:01:45,280 --> 00:01:47,120
+quietly met in Geneva
+
+45
+00:01:47,120 --> 00:01:50,120
+and formed something called the Phoebus Cartel.
+
+46
+00:01:50,120 --> 00:01:52,760
+And they made a decision that sounds insane.
+
+47
+00:01:52,760 --> 00:01:54,960
+They agreed to make their bulbs worse.
+
+48
+00:01:54,960 --> 00:01:56,600
+They set a new rule.
+
+49
+00:01:56,600 --> 00:02:00,000
+No bulb would last more than a thousand hours.
+
+50
+00:02:00,000 --> 00:02:04,240
+Engineers who'd spent decades making bulbs last longer
+
+51
+00:02:04,240 --> 00:02:06,720
+were now ordered to make them die sooner.
+
+52
+00:02:06,720 --> 00:02:09,720
+And if a company sold a bulb that lasted too long,
+
+53
+00:02:09,720 --> 00:02:10,880
+they were fined.
+
+54
+00:02:10,880 --> 00:02:13,160
+There were testing labs whose entire job
+
+55
+00:02:13,160 --> 00:02:15,920
+was to make sure the product failed on schedule.
+
+56
+00:02:15,920 --> 00:02:18,680
+This wasn't a cheap product, it was a good one.
+
+57
+00:02:18,680 --> 00:02:21,360
+Deliberately broken by secret agreement.
+
+58
+00:02:21,360 --> 00:02:22,400
+And it worked.
+
+59
+00:02:22,400 --> 00:02:24,680
+Sales went right back up.
+
+60
+00:02:24,680 --> 00:02:27,160
+The cartel fell apart by World War II,
+
+61
+00:02:27,160 --> 00:02:29,560
+but the idea didn't die with it.
+
+62
+00:02:29,560 --> 00:02:31,000
+It grew up.
+
+63
+00:02:31,000 --> 00:02:32,720
+In the depths of the Depression,
+
+64
+00:02:32,720 --> 00:02:36,280
+a man named Bernard London actually wrote a pamphlet
+
+65
+00:02:36,280 --> 00:02:39,080
+arguing that the government should force products
+
+66
+00:02:39,080 --> 00:02:41,040
+to expire on a schedule
+
+67
+00:02:41,040 --> 00:02:43,680
+to keep people buying and factories running.
+
+68
+00:02:43,680 --> 00:02:45,760
+He wasn't exposing the trick.
+
+69
+00:02:45,760 --> 00:02:47,280
+He was recommending it.
+
+70
+00:02:47,280 --> 00:02:50,680
+By the 1950s, it wasn't a secret at all anymore.
+
+71
+00:02:50,680 --> 00:02:52,040
+It was a craft.
+
+72
+00:02:52,040 --> 00:02:55,560
+Car makers started redrawing their cars every single year
+
+73
+00:02:55,560 --> 00:02:58,200
+so the one in your driveway would feel old
+
+74
+00:02:58,200 --> 00:03:00,680
+long before it ever wore out.
+
+75
+00:03:00,680 --> 00:03:03,200
+The idea had learned its first lesson.
+
+76
+00:03:03,200 --> 00:03:04,960
+It didn't need to break your things.
+
+77
+00:03:04,960 --> 00:03:08,400
+It only had to make you feel like they were already behind.
+
+78
+00:03:08,400 --> 00:03:11,920
+And from there, across a century, it kept learning.
+
+79
+00:03:11,920 --> 00:03:15,040
+It learned that breaking things made people angry
+
+80
+00:03:15,040 --> 00:03:17,160
+and angry people complain.
+
+81
+00:03:17,160 --> 00:03:18,520
+So it got quieter.
+
+82
+00:03:18,520 --> 00:03:19,800
+Look at your phone.
+
+83
+00:03:19,800 --> 00:03:23,480
+In 2017, people noticed their old iPhones crawling
+
+84
+00:03:23,480 --> 00:03:26,080
+and it turned out the slowdown was a choice
+
+85
+00:03:26,080 --> 00:03:30,280
+written into an update for phones with tired batteries.
+
+86
+00:03:30,280 --> 00:03:32,080
+The phone still worked.
+
+87
+00:03:32,080 --> 00:03:34,600
+It was just taught to feel like it didn't.
+
+88
+00:03:34,600 --> 00:03:37,680
+When more than 30 states came after Apple,
+
+89
+00:03:37,680 --> 00:03:40,480
+their own Attorney General said it plainly.
+
+90
+00:03:40,480 --> 00:03:43,200
+People figured the only fix was a new phone
+
+91
+00:03:43,200 --> 00:03:47,200
+and Apple understood exactly what that did to sales.
+
+92
+00:03:47,200 --> 00:03:50,400
+Then the idea learned something better than breaking.
+
+93
+00:03:50,400 --> 00:03:52,080
+It learned to lock.
+
+94
+00:03:52,080 --> 00:03:54,640
+Your printer still prints.
+
+95
+00:03:54,640 --> 00:03:56,720
+But slide in a cheaper ink
+
+96
+00:03:56,720 --> 00:03:58,600
+and it can turn on you overnight,
+
+97
+00:03:58,600 --> 00:04:00,920
+flashing that the cartridge is damaged
+
+98
+00:04:00,920 --> 00:04:02,600
+or missing when it isn't.
+
+99
+00:04:02,600 --> 00:04:06,300
+Why guard a few dollars of ink that fiercely?
+
+100
+00:04:06,300 --> 00:04:08,920
+The company's own boss said it out loud.
+
+101
+00:04:08,920 --> 00:04:10,320
+They lose money on the printer.
+
+102
+00:04:10,320 --> 00:04:11,780
+They make it on the ink.
+
+103
+00:04:11,780 --> 00:04:13,920
+The machine was never the gift.
+
+104
+00:04:13,920 --> 00:04:15,460
+It was the hook.
+
+105
+00:04:15,460 --> 00:04:18,820
+And then it learned its cleverest move of all.
+
+106
+00:04:18,820 --> 00:04:19,940
+Don't break it.
+
+107
+00:04:19,940 --> 00:04:21,260
+Don't even hide it.
+
+108
+00:04:21,260 --> 00:04:24,460
+Just lock the door on something you already own
+
+109
+00:04:24,460 --> 00:04:26,660
+and charge you to open it.
+
+110
+00:04:26,660 --> 00:04:28,340
+Sit in a new car.
+
+111
+00:04:28,340 --> 00:04:30,900
+The heated seat is already in the seat.
+
+112
+00:04:30,900 --> 00:04:32,220
+You paid for it.
+
+113
+00:04:32,220 --> 00:04:36,420
+But it stays cold until you pay again by the month.
+
+114
+00:04:36,420 --> 00:04:38,700
+The horsepower is already in the engine.
+
+115
+00:04:38,700 --> 00:04:40,980
+Mercedes will sell you the rest of it
+
+116
+00:04:40,980 --> 00:04:43,200
+for around $1,200 a year.
+
+117
+00:04:43,200 --> 00:04:44,460
+No new parts.
+
+118
+00:04:44,460 --> 00:04:45,860
+Just permission.
+
+119
+00:04:45,860 --> 00:04:47,620
+You own the whole machine.
+
+120
+00:04:47,620 --> 00:04:49,620
+You're renting the pieces back.
+
+121
+00:04:49,620 --> 00:04:52,940
+One at a time, people have started hacking their own cars
+
+122
+00:04:52,940 --> 00:04:54,660
+to take back what they already bought.
+
+123
+00:04:54,660 --> 00:04:56,540
+That's where we are.
+
+124
+00:04:56,540 --> 00:04:59,620
+So here's the shape of the world that meeting built.
+
+125
+00:04:59,620 --> 00:05:02,380
+100 years ago, a few men in a room decided
+
+126
+00:05:02,380 --> 00:05:04,940
+the things you buy should quietly betray you
+
+127
+00:05:04,940 --> 00:05:07,700
+and the idea outlived every one of them.
+
+128
+00:05:07,700 --> 00:05:09,540
+It just got gentler about it.
+
+129
+00:05:09,540 --> 00:05:11,220
+It stopped breaking your things
+
+130
+00:05:11,220 --> 00:05:13,140
+and started keeping them from you.
+
+131
+00:05:13,140 --> 00:05:15,420
+From a bulb engineered to burn out,
+
+132
+00:05:15,420 --> 00:05:18,180
+to a tractor a farmer isn't allowed to fix,
+
+133
+00:05:18,180 --> 00:05:20,940
+to a seat that's only warm when you're paying.
+
+134
+00:05:20,940 --> 00:05:22,380
+You walk through your own home
+
+135
+00:05:22,380 --> 00:05:24,740
+surrounded by things that are technically yours
+
+136
+00:05:24,740 --> 00:05:26,540
+sitting there with their hands out.
+
+137
+00:05:26,540 --> 00:05:29,660
+And even the bulb's revenge got quietly taken.
+
+138
+00:05:29,660 --> 00:05:33,580
+An LED can last 20 years, but plenty die young,
+
+139
+00:05:33,580 --> 00:05:37,480
+sealed in a fixture you can't open, built cheap on purpose.
+
+140
+00:05:37,480 --> 00:05:38,660
+The trick never left.
+
+141
+00:05:38,660 --> 00:05:41,980
+It just moved into the parts of your life you can't see.
+
+142
+00:05:41,980 --> 00:05:45,020
+So the next time your phone slows down right on cue
+
+143
+00:05:45,020 --> 00:05:48,980
+or your own car asks you for rent, don't blame yourself.
+
+144
+00:05:48,980 --> 00:05:50,200
+You didn't wear it out.
+
+145
+00:05:50,200 --> 00:05:51,520
+You weren't careless.
+
+146
+00:05:51,520 --> 00:05:55,020
+Someone a long time ago in a quiet room
+
+147
+00:05:55,020 --> 00:05:56,780
+decided the things you own
+
+148
+00:05:56,780 --> 00:05:58,380
+should never quite belong to you.
+
+149
+00:05:58,380 --> 00:05:59,500
+You didn't lose it.
+
+150
+00:05:59,500 --> 00:06:00,620
+You got played.
+

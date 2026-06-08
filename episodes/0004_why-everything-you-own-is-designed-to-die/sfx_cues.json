@@ -1,0 +1,30 @@
+{
+  "_doc": "Cinematic SFX manifest for the ep4 build. Each cue is placed on the exact WORD it illustrates (word-level times from narration.json). Beds are ambience under a frame-index range. Logo is composited onto the final frame at assemble time (reproducible end card).",
+  "cues": [
+    {"sfx": "light_hum",         "phrase": "a hundred years ago about a light bulb",          "word": "light",      "gain": -12, "lead": -0.10},
+    {"sfx": "realization_chime", "phrase": "that sweet spot has a name planned obsolescence",  "word": "planned",    "gain": -13, "lead": -0.05},
+    {"sfx": "cartel_reveal",     "phrase": "formed something called the phoebus cartel",       "word": "phoebus",    "gain": -10, "lead": -0.15},
+    {"sfx": "scissors_snip",     "phrase": "they agreed to make their bulbs worse",            "word": "worse",      "gain": -12, "lead": -0.03},
+    {"sfx": "clock_tick",        "phrase": "make sure the product failed on schedule",         "word": "schedule",   "gain": -15, "lead": -0.70},
+    {"sfx": "cash_register",     "phrase": "sales went right back up",                         "word": "up",         "gain": -13, "lead": -0.05},
+    {"sfx": "dark_swell",        "phrase": "it grew up",                                       "word": "grew",       "gain": -13, "lead": -0.40},
+    {"sfx": "crowd_angry",       "phrase": "breaking things made people angry",                "word": "angry",      "gain": -14, "lead": -0.05},
+    {"sfx": "digital_lag",       "phrase": "noticed their old iphones crawling",               "word": "crawling",   "gain": -16, "lead": -0.05},
+    {"sfx": "padlock_click",     "phrase": "it learned to lock",                               "word": "lock",       "gain": -11, "lead": -0.03},
+    {"sfx": "error_buzzer",      "phrase": "it can turn on you overnight",                     "word": "turn",       "gain": -13, "lead": -0.05},
+    {"sfx": "cha_ching",         "phrase": "they make it on the ink",                          "word": "ink",        "gain": -13, "lead": -0.05},
+    {"sfx": "icy_freeze",        "phrase": "it stays cold until you pay",                      "word": "cold",       "gain": -10, "lead": -0.05},
+    {"sfx": "horse_whinny",      "phrase": "the horsepower is already in the engine",          "word": "horsepower", "gain": -13, "lead": -0.05},
+    {"sfx": "coin_meter",        "phrase": "no new parts just permission",                     "word": "permission", "gain": -13, "lead": -0.05},
+    {"sfx": "data_blips",        "phrase": "people have started hacking their own cars",       "word": "hacking",    "gain": -14, "lead": -0.05},
+    {"sfx": "stamp_slam",        "phrase": "you got played",                                   "word": "played",     "gain": -6,  "lead": -0.03}
+  ],
+  "beds": [
+    {"sfx": "cartel_murmur", "from": 40,  "to": 44,  "gain": -22},
+    {"sfx": "factory_hum",   "from": 49,  "to": 52,  "gain": -23},
+    {"sfx": "cartel_murmur", "from": 117, "to": 117, "gain": -23},
+    {"sfx": "cartel_murmur", "from": 138, "to": 138, "gain": -23}
+  ],
+  "music": {"file": "music/draft_bed.mp3", "gain_db": -22},
+  "logo": {"frame": 141, "asset": "brand/assets/avatar_800.png", "colorkey": "0xfaf9f4:0.18:0.08", "size": 660, "x": "(W-w)/2", "y": 35}
+}
