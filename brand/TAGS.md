@@ -9,7 +9,9 @@ Tags are a SEARCH signal. Fill them with what people actually type, not with bra
 
 ## Brand tags (the last 1-2 only)
 
-Playedd, how the world plays you, hidden business models
+Playedd, the hidden why, things you never knew
+
+(Pick search-intent tags per topic first. For money-vein episodes you can still use "hidden business models" / "how companies trick you" as a search tag, but it's no longer a channel brand tag.)
 
 ## Category
 
