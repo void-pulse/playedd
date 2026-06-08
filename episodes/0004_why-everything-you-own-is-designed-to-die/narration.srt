@@ -76,7 +76,7 @@ So somewhere along the way,
 
 20
 00:00:50,080 --> 00:00:53,040
-companies realize the most profitable product
+companies realized the most profitable product
 
 21
 00:00:53,040 --> 00:00:54,760
@@ -168,7 +168,7 @@ the biggest names in the industry,
 
 43
 00:01:42,200 --> 00:01:45,280
-Ozrom, Phillips, General Electric and others,
+Osram, Philips, General Electric and others,
 
 44
 00:01:45,280 --> 00:01:47,120
@@ -475,12 +475,12 @@ Just permission.
 You own the whole machine.
 
 120
-00:04:47,620 --> 00:04:49,620
-You're renting the pieces back.
+00:04:47,620 --> 00:04:50,900
+You're renting the pieces back, one at a time.
 
 121
-00:04:49,620 --> 00:04:52,940
-One at a time, people have started hacking their own cars
+00:04:50,900 --> 00:04:52,940
+People have started hacking their own cars
 
 122
 00:04:52,940 --> 00:04:54,660
