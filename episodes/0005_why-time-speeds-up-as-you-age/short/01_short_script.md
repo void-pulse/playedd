@@ -1,2 +1,6 @@
-[SHORT]
-As a kid, one summer felt like it lasted forever. <break time="0.4s"/> Now a whole year vanishes in what feels like weeks. <break time="0.4s"/> Same 365 days. So why does time keep speeding up? <break time="0.5s"/> There is an obvious answer. When you are five, a year is a fifth of your life. When you are fifty, it is a sliver. Tidy. And wrong. <break time="0.5s"/> The real reason is not time. It is memory. <break time="0.4s"/> As a kid, everything is a first, so your brain records everything. As an adult, life turns to routine, and your brain stops saving the repeats. <break time="0.5s"/> Time did not speed up. You just stopped saving the file.
+[SHORT — TEASER]
+Why does time crawl when you're a kid, <break time="0.3s"/> but fly by when you're grown? <break time="0.4s"/> Is it just that each year is a smaller slice of your life? <break time="0.4s"/> Nope. <break time="0.4s"/> The real reason is weirder. And it lets you slow time back down.
+
+# Short and sweet, one idea per picture. Pose the question, float the obvious
+# (percentage) answer, reject it, tease the real reason + the payoff (slow time
+# down). The how lives only in the full video.

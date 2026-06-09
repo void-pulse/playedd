@@ -1,0 +1,82 @@
+[
+  {
+    "n": 1,
+    "beat": "cold_open",
+    "start_sec": 0.0,
+    "duration_sec": 33.437,
+    "file": "01_cold_open.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: wistful and nostalgic, a warm endless-summer memory, a soft question in the air"
+  },
+  {
+    "n": 2,
+    "beat": "setup",
+    "start_sec": 33.437,
+    "duration_sec": 21.827,
+    "file": "02_setup.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: gently curious, the quiet feeling of noticing something odd, light and inquisitive"
+  },
+  {
+    "n": 3,
+    "beat": "the_turn",
+    "start_sec": 55.263,
+    "duration_sec": 36.037,
+    "file": "03_the_turn.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: something quietly dawning, a hopeful lift as the mystery opens up"
+  },
+  {
+    "n": 4,
+    "beat": "reveal_1",
+    "start_sec": 91.301,
+    "duration_sec": 25.078,
+    "file": "04_reveal_1.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: light and tentative, a plausible idea offered then gently doubted, a small question mark"
+  },
+  {
+    "n": 5,
+    "beat": "reveal_2",
+    "start_sec": 116.378,
+    "duration_sec": 30.093,
+    "file": "05_reveal_2.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: warm discovery, the real insight arriving, strings opening with quiet wonder"
+  },
+  {
+    "n": 6,
+    "beat": "reveal_3",
+    "start_sec": 146.471,
+    "duration_sec": 36.455,
+    "file": "06_reveal_3.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: tender and nostalgic, the glow of first times, intimate and warm"
+  },
+  {
+    "n": 7,
+    "beat": "reveal_4",
+    "start_sec": 182.927,
+    "duration_sec": 21.687,
+    "file": "07_reveal_4.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: curious and speculative, an intriguing maybe, weightless and open-ended"
+  },
+  {
+    "n": 8,
+    "beat": "human_layer",
+    "start_sec": 204.614,
+    "duration_sec": 23.731,
+    "file": "08_human_layer.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: reassuring and grounding, warm and intimate, a steadying calm"
+  },
+  {
+    "n": 9,
+    "beat": "payoff",
+    "start_sec": 228.345,
+    "duration_sec": 33.576,
+    "file": "09_payoff.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: hopeful and expansive, gently uplifting, a sense of possibility opening wide"
+  },
+  {
+    "n": 10,
+    "beat": "button",
+    "start_sec": 261.921,
+    "duration_sec": 20.201,
+    "file": "10_button.mp3",
+    "prompt": "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer score. Mood: warm and resolved, a soft closing wonder, settling with a gentle smile"
+  }
+]

@@ -1,1 +1,35 @@
-{"text": " As a kid, one summer felt like it lasted forever. Now a whole year vanishes in what feels like weeks. Same 365 days, so why does time keep speeding up? There is an obvious answer. When you are five, a year is a fifth of your life. When you are 50, it is a sliver, tidy and wrong. The real reason is not time, it is memory. As a kid, everything is a first, so your brain records everything. As an adult, life turns to routine and your brain stops saving the repeats. Time did not speed up. You just stopped saving the file.", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 3.06, "text": " As a kid, one summer felt like it lasted forever.", "tokens": [50363, 1081, 257, 5141, 11, 530, 3931, 2936, 588, 340, 15436, 8097, 13, 50516], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 1, "seek": 0, "start": 3.06, "end": 5.86, "text": " Now a whole year vanishes in what feels like weeks.", "tokens": [50516, 2735, 257, 2187, 614, 5719, 5614, 287, 644, 5300, 588, 2745, 13, 50656], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 2, "seek": 0, "start": 5.86, "end": 9.48, "text": " Same 365 days, so why does time keep speeding up?", "tokens": [50656, 16766, 21268, 1528, 11, 523, 1521, 857, 640, 1394, 26347, 510, 30, 50837], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 3, "seek": 0, "start": 9.48, "end": 10.98, "text": " There is an obvious answer.", "tokens": [50837, 1318, 318, 281, 3489, 3280, 13, 50912], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 4, "seek": 0, "start": 10.98, "end": 13.66, "text": " When you are five, a year is a fifth of your life.", "tokens": [50912, 1649, 345, 389, 1936, 11, 257, 614, 318, 257, 8150, 286, 534, 1204, 13, 51046], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 5, "seek": 0, "start": 13.66, "end": 17.46, "text": " When you are 50, it is a sliver, tidy and wrong.", "tokens": [51046, 1649, 345, 389, 2026, 11, 340, 318, 257, 1017, 1428, 11, 43044, 290, 2642, 13, 51236], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 6, "seek": 0, "start": 17.46, "end": 19.86, "text": " The real reason is not time, it is memory.", "tokens": [51236, 383, 1103, 1738, 318, 407, 640, 11, 340, 318, 4088, 13, 51356], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 7, "seek": 0, "start": 19.86, "end": 21.82, "text": " As a kid, everything is a first,", "tokens": [51356, 1081, 257, 5141, 11, 2279, 318, 257, 717, 11, 51454], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 8, "seek": 0, "start": 21.82, "end": 23.46, "text": " so your brain records everything.", "tokens": [51454, 523, 534, 3632, 4406, 2279, 13, 51536], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 9, "seek": 0, "start": 23.46, "end": 25.78, "text": " As an adult, life turns to routine", "tokens": [51536, 1081, 281, 4044, 11, 1204, 4962, 284, 8027, 51652], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 10, "seek": 0, "start": 25.78, "end": 28.36, "text": " and your brain stops saving the repeats.", "tokens": [51652, 290, 534, 3632, 9911, 8914, 262, 29819, 13, 51781], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 11, "seek": 0, "start": 28.36, "end": 29.76, "text": " Time did not speed up.", "tokens": [51781, 3862, 750, 407, 2866, 510, 13, 51851], "temperature": 0.0, "avg_logprob": -0.06157911234888537, "compression_ratio": 1.6827586206896552, "no_speech_prob": 0.011278294958174229}, {"id": 12, "seek": 2976, "start": 29.76, "end": 31.48, "text": " You just stopped saving the file.", "tokens": [50364, 921, 655, 5025, 8914, 262, 2393, 13, 50449], "temperature": 0.0, "avg_logprob": -0.3607028484344482, "compression_ratio": 0.8048780487804879, "no_speech_prob": 0.0033720997162163258}], "language": "en"}
+{
+  "text": " Why does time crawl when you're a kid, but fly by when you're grown? Is it just that each year is a smaller slice of your life? Nope, the real reason is weirder, and it lets you slow time back down.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.04,
+      "text": " Why does time crawl when you're a kid,"
+    },
+    {
+      "id": 1,
+      "start": 2.04,
+      "end": 4.04,
+      "text": " but fly by when you're grown?"
+    },
+    {
+      "id": 2,
+      "start": 4.04,
+      "end": 7.44,
+      "text": " Is it just that each year is a smaller slice of your life?"
+    },
+    {
+      "id": 3,
+      "start": 7.44,
+      "end": 10.08,
+      "text": " Nope, the real reason is weirder,"
+    },
+    {
+      "id": 4,
+      "start": 10.08,
+      "end": 12.0,
+      "text": " and it lets you slow time back down."
+    }
+  ]
+}
