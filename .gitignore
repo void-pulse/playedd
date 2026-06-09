@@ -37,3 +37,4 @@ Thumbs.db
 # Keep the template's empty folders tracked
 !episodes/_template/audio/.gitkeep
 !episodes/_template/images/.gitkeep
+test/

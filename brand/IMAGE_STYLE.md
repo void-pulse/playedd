@@ -20,6 +20,58 @@ When the scene description (written per timestamp) is vague, force it to one met
 ## STYLE_BLOCK (do not delete the markers; the script reads between them)
 
 <!-- STYLE_BLOCK_START -->
+The image style must look like a SIMPLE, CRUDE, hand-drawn cartoon — a quick doodle colored in flat, like a coloring-book page. It is amateur and simple on purpose. It is NEVER polished, NEVER 3D, NEVER rendered, NEVER glossy, NEVER realistic.
+
+Use a simple stickman / childish cartoon style, colored in flat:
+- COLOR THE WHOLE SCENE with flat fills. Give the moment a simple colored setting that fits it (a flat blue sky, a flat green ground or hill, a flat-colored room or floor, a flat night sky). Do NOT leave the subject floating on empty white — but keep the setting SIMPLE: one or two flat color areas plus a simple horizon or ground line, drawn crudely. No detailed scenery, no texture, no depth, no perspective.
+- Objects are FULLY colored with flat color fills and thick black outlines (not line-art with a single red accent anymore).
+- Thick, uneven, wobbly hand-drawn black outlines on everything.
+- Stick-figure humans: round heads, line bodies, dot eyes, very basic expressions. A simple recurring stickman everyman can appear in the scene living the idea.
+- FLAT COLORS ONLY. This is the most important rule: no shading, no gradients, no highlights, no soft lighting, no 3D, no realistic rendering. Keep every shape flat and simple like a crude hand-drawn cartoon. If it starts to look smooth, glossy, dimensional, or like a real illustration, it is WRONG.
+- No Disney, no anime, no Pixar, no polished vector art, no professional illustration, no 3D render.
+- Simple flat backgrounds and settings only: a flat color, a simple ground or horizon line, and a few crude shapes (sun, clouds, hills, walls, floor). Never detailed or textured.
+- Flat color palette: green, brown, gray, red, yellow, orange, blue, and simple flats as needed.
+- Use red arrows or red question marks to point things out when helpful.
+- Handwritten text only when it helps; short, correctly spelled, easy to read, in big bold black caps.
+- Build everything from basic shapes: circles, rectangles, arrows, boxes, signs, screens, stickmen, question marks.
+- ONE bold idea per frame: a single clear subject or moment, drawn big in a simple colored setting. Color and a simple background are good, but NO second competing subject and NO busy clutter.
+
+Composition: horizontal 16:9 wide YouTube frame. Place the one idea clearly with a simple colored setting around it. Do not crop the main subject. Avoid glitches, broken anatomy, unreadable text, or messy clutter.
+
+The drawing should feel hand-made, simple, and a little crude — colored in flat like a coloring book. Keep it SIMPLE and FLAT. Do NOT make it look polished, smooth, dimensional, 3D, or professional. That is the entire point.
+<!-- STYLE_BLOCK_END -->
+
+---
+
+## How a final per-image prompt is assembled
+`generate_images.py` builds each prompt as:
+
+```
+[STYLE_BLOCK]
+
+SCENE: <the scene description for this timestamp, written by Claude Code from the script>
+```
+
+So the style is constant and only the SCENE line changes per timestamp. Consistency for free.
+
+## Output spec
+- **Main episode frames: 16:9 (landscape).** Configured in the script.
+- **Shorts: native 9:16 (vertical), generated with the `--portrait` flag.** Don't crop landscape frames into vertical; generate vertical natively (ep4's short was reworked this way).
+- Filenames: named by timestamp, zero-padded so they sort in order (e.g. `0007_0m07s.png`). This is what makes CapCut assembly trivial, drop them in filename order and they're already synced.
+
+## Color & design direction (UPDATED — colored/scene look, LOCKED IN)
+We moved from "white background + one pop of color" to a **fully-colored, simple-scene** look (Zenn-inspired, but kept crude and flat). Every frame is colored in like a coloring book; the subject sits in a simple flat colored setting; still ONE bold idea per frame; still crude stickmen. The hard guardrail: **NO 3D, NO shading, NO gradients, NO polish** — if it looks smooth/dimensional/rendered, it's wrong. Thumbnails: bold and colorful, big caps + black outline (ep5 / casino level). Adopted after the ep5/casino tests; first used on the NEXT video (ep5 already shipped on the old style — don't re-render it).
+
+> TO REVERT to the old crude white-background style: paste the block from **"## Previous style block (archived for revert)"** at the bottom of this file back between the STYLE_BLOCK markers above (or `git show <pre-restyle-commit>:brand/IMAGE_STYLE.md`).
+
+Output format unchanged: main frames 16:9, shorts native 9:16 (`--portrait`).
+
+---
+
+## Previous style block (archived for revert)
+The crude, mostly-white-background "MS Paint" style we used through ep5. To go back, paste the text below back between the `STYLE_BLOCK_START` / `STYLE_BLOCK_END` markers above.
+
+```
 The image style must look like an extremely simple beginner drawing made in MS Paint, drawn quickly by hand by someone who is not good at drawing.
 
 Use a simple stickman / childish drawing style:
@@ -41,27 +93,4 @@ Use a simple stickman / childish drawing style:
 Composition: horizontal 16:9 wide YouTube frame. Clean, centered, readable. Build the frame around the one idea with generous empty space. Do not crop the main object. Avoid glitches, broken anatomy, unreadable text, or messy overlapping clutter.
 
 The drawing should feel amateur, funny, and intentionally bad, like a noob made it in Paint in thirty seconds. Do NOT make it look good, polished, or professional. That is the entire point.
-<!-- STYLE_BLOCK_END -->
-
----
-
-## How a final per-image prompt is assembled
-`generate_images.py` builds each prompt as:
-
 ```
-[STYLE_BLOCK]
-
-SCENE: <the scene description for this timestamp, written by Claude Code from the script>
-```
-
-So the style is constant and only the SCENE line changes per timestamp. Consistency for free.
-
-## Output spec
-- **Main episode frames: 16:9 (landscape).** Configured in the script.
-- **Shorts: native 9:16 (vertical), generated with the `--portrait` flag.** Don't crop landscape frames into vertical; generate vertical natively (ep4's short was reworked this way).
-- Filenames: named by timestamp, zero-padded so they sort in order (e.g. `0007_0m07s.png`). This is what makes CapCut assembly trivial, drop them in filename order and they're already synced.
-
-## Color & design direction
-Keep the **subtle-color** direction: a bit more colorful and designed than bare black-on-white, while keeping the crude doodle identity. Thumbnails: bold solid background + selective pop color (the ep3 v3 level), not full rainbow; nudge slightly richer each time. In-video frames can carry a little more color and composition. An evolution up, not a restyle. Pair this with THE BAR above: more color, still one idea per frame.
-
-> OPEN DECISION (Logan): these docs assume we KEEP the crude-doodle identity and enforce the one-bold-idea bar. If the wonder lane wants a more iconic, designed look (closer to Zenn), that's a restyle, say so and I'll rewrite this whole file. Also flagging: I read "--portrait" as "shorts stay native vertical," main stays 16:9. Correct me if you meant main frames go portrait.
