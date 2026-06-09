@@ -119,10 +119,10 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = ""):
         f = fit(line, int(W * 0.82), start=140)
         y += centered(line, y, f, INK) + 34
 
-    # arrow pointing DOWN to the LOWER-LEFT, where YouTube shows the video link on a Short
-    # (the link sits under the channel handle + subscribe button, bottom-left).
-    p1 = (int(W * 0.46), int(H * 0.70))
-    p2 = (int(W * 0.13), int(H * 0.85))
+    # arrow pointing DOWN to the video-link row on a Short. The link ("> video title") sits at
+    # the bottom, left-OF-CENTER (not the far corner) just under the channel handle, so aim there.
+    p1 = (int(W * 0.55), int(H * 0.68))
+    p2 = (int(W * 0.27), int(H * 0.80))
     ax, ay = p2[0] - p1[0], p2[1] - p1[1]
     L = (ax * ax + ay * ay) ** 0.5
     ux, uy = ax / L, ay / L
