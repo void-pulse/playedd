@@ -1,0 +1,877 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "text": "Stan has one big thing due tomorrow.",
+    "scene": "Stan sitting at a desk at night, a big glowing task labeled DUE TOMORROW in front of him, a dark window behind. One big thing due. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 2.64,
+    "text": "So tonight, he sits down to finally start it.",
+    "scene": "Stan at the desk cracking his knuckles, determined to finally start, the glowing DUE TOMORROW task in front of him. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 3,
+    "timestamp": "0:06",
+    "seconds": 6.0,
+    "text": "And then, somehow, the kitchen really needs cleaning.",
+    "scene": "Stan suddenly up and frantically scrubbing dirty dishes at the kitchen sink, the glowing DUE TOMORROW task ignored on the desk behind him. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 4,
+    "timestamp": "0:10",
+    "seconds": 9.68,
+    "text": "His desk needs reorganizing.",
+    "scene": "Stan frantically reorganizing a messy desk drawer, sweating, the glowing task shoved aside. Desk reorganizing. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 5,
+    "timestamp": "0:12",
+    "seconds": 12.16,
+    "text": "He should probably reply to that email first.",
+    "scene": "Stan hunched over a phone typing an email, a little send icon, the glowing task ignored. Reply first. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 6,
+    "timestamp": "0:15",
+    "seconds": 14.76,
+    "text": "He watches one video, just one.",
+    "scene": "Stan flopped watching a glowing screen, holding up one finger meaning 'just one', the task ignored. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 7,
+    "timestamp": "0:18",
+    "seconds": 18.08,
+    "text": "The whole night, Stan is busy, Stan is moving,",
+    "scene": "Stan a frantic blur doing several chores at once, sweeping and wiping, busy and moving all night. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 8,
+    "timestamp": "0:22",
+    "seconds": 21.92,
+    "text": "and Stan does not touch the one thing he actually has to do.",
+    "scene": "The glowing DUE TOMORROW task sitting completely untouched on the desk while a blurry busy Stan zooms behind it. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 9,
+    "timestamp": "0:26",
+    "seconds": 25.72,
+    "text": "And he feels terrible the entire time.",
+    "scene": "Stan mid-chore with an anguished miserable sweaty face, big black caps FEELS TERRIBLE. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 10,
+    "timestamp": "0:28",
+    "seconds": 28.48,
+    "text": "Now, here's the giveaway.",
+    "scene": "Stan with a big red arrow pointing at him, big black caps THE GIVEAWAY. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 11,
+    "timestamp": "0:31",
+    "seconds": 30.72,
+    "text": "Stan is not being lazy.",
+    "scene": "Stan frantic and sweating with a red line crossing out a LAZY label, big black caps NOT LAZY. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 12,
+    "timestamp": "0:33",
+    "seconds": 33.04,
+    "text": "A lazy person would be relaxed.",
+    "scene": "A relaxed stick figure flopped calm and content on a couch, big black caps LAZY."
+  },
+  {
+    "index": 13,
+    "timestamp": "0:35",
+    "seconds": 35.4,
+    "text": "Stan is suffering.",
+    "scene": "Tense sweating anguished Stan surrounded by chores, big black caps SUFFERING. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 14,
+    "timestamp": "0:38",
+    "seconds": 37.56,
+    "text": "So what is actually going on?",
+    "scene": "Stan with a giant red question mark over his head, big black caps WHAT'S GOING ON? (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 15,
+    "timestamp": "0:40",
+    "seconds": 39.64,
+    "text": "Because procrastination is not laziness.",
+    "scene": "The word PROCRASTINATION with a red X crossing out a LAZINESS label, big black caps NOT LAZINESS."
+  },
+  {
+    "index": 16,
+    "timestamp": "0:43",
+    "seconds": 42.52,
+    "text": "It is not bad planning.",
+    "scene": "PROCRASTINATION with a red X crossing out a BAD PLANNING label, big black caps NOT BAD PLANNING."
+  },
+  {
+    "index": 17,
+    "timestamp": "0:44",
+    "seconds": 44.04,
+    "text": "And the ancient Greeks were so obsessed with it",
+    "scene": "An ancient Greek philosopher in a toga rubbing his chin, fascinated, big black caps THE GREEKS."
+  },
+  {
+    "index": 18,
+    "timestamp": "0:46",
+    "seconds": 46.12,
+    "text": "that they gave it its own name.",
+    "scene": "An old Greek scroll with a glowing blank name tag, big black caps THEY NAMED IT."
+  },
+  {
+    "index": 19,
+    "timestamp": "0:48",
+    "seconds": 48.04,
+    "text": "We are taught that procrastination is basically laziness",
+    "scene": "A chalkboard reading PROCRASTINATION = LAZINESS with a red question mark. We're taught this."
+  },
+  {
+    "index": 20,
+    "timestamp": "0:51",
+    "seconds": 51.24,
+    "text": "or being bad with time.",
+    "scene": "A tangled clock with a red X, big black caps BAD WITH TIME?"
+  },
+  {
+    "index": 21,
+    "timestamp": "0:54",
+    "seconds": 53.68,
+    "text": "So the fix we are handed is always the same.",
+    "scene": "A hand offering Stan a one-size-fits-all ADVICE box, big black caps THE USUAL FIX. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 22,
+    "timestamp": "0:57",
+    "seconds": 56.96,
+    "text": "Try harder, get a planner, have more discipline,",
+    "scene": "Three things in a row, a planner, a clock and a TRY HARDER poster, each stamped with a big red X."
+  },
+  {
+    "index": 23,
+    "timestamp": "1:00",
+    "seconds": 60.32,
+    "text": "and that advice almost never works.",
+    "scene": "A TRY HARDER poster with a big red X and a defeated Stan, big black caps NEVER WORKS. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 24,
+    "timestamp": "1:02",
+    "seconds": 62.24,
+    "text": "There is a reason for that.",
+    "scene": "Stan with a small lightbulb and a red arrow, big black caps THERE'S A REASON. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 25,
+    "timestamp": "1:04",
+    "seconds": 63.68,
+    "text": "It is aimed at the wrong problem entirely.",
+    "scene": "A dartboard with the dart stuck far off to the side, missing the bullseye completely, big black caps WRONG PROBLEM."
+  },
+  {
+    "index": 26,
+    "timestamp": "1:06",
+    "seconds": 66.44,
+    "text": "Because procrastination has almost nothing to do with time.",
+    "scene": "A wall clock with a big red X over it, big black caps NOT ABOUT TIME."
+  },
+  {
+    "index": 27,
+    "timestamp": "1:10",
+    "seconds": 70.16,
+    "text": "It has to do with feeling.",
+    "scene": "A single glowing red heart, big black caps IT'S A FEELING."
+  },
+  {
+    "index": 28,
+    "timestamp": "1:12",
+    "seconds": 71.8,
+    "text": "When you sit down to face a task,",
+    "scene": "Stan sitting down at the desk facing the big glowing DUE TOMORROW task. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 29,
+    "timestamp": "1:13",
+    "seconds": 73.36,
+    "text": "your brain does not just see the task.",
+    "scene": "Stan's head with a thought bubble holding the task, big black caps NOT JUST A TASK. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 30,
+    "timestamp": "1:16",
+    "seconds": 75.84,
+    "text": "It feels something about it.",
+    "scene": "The glowing task giving off wavy feeling lines, Stan sensing it, big black caps IT FEELS LIKE SOMETHING. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 31,
+    "timestamp": "1:18",
+    "seconds": 77.68,
+    "text": "Maybe boredom, maybe anxiety, maybe a quiet fear",
+    "scene": "The glowing task radiating a small gray storm cloud hand-lettered DREAD and BORED, Stan leaning away. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 32,
+    "timestamp": "1:22",
+    "seconds": 81.88,
+    "text": "that you will try, and it still will not be good enough.",
+    "scene": "A small storm cloud over the task hand-lettered NOT GOOD ENOUGH?, Stan uneasy. The quiet fear. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 33,
+    "timestamp": "1:25",
+    "seconds": 85.08,
+    "text": "And your brain, more than almost anything,",
+    "scene": "Stan's round head opened to show a simple brain, big black caps YOUR BRAIN. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 34,
+    "timestamp": "1:28",
+    "seconds": 87.84,
+    "text": "wants that bad feeling to stop right now.",
+    "scene": "Stan's brain slamming a big red STOP button on the storm cloud, big black caps MAKE IT STOP NOW. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 35,
+    "timestamp": "1:30",
+    "seconds": 90.28,
+    "text": "So it reaches for the one move that kills it instantly.",
+    "scene": "Stan's brain grabbing one big lever labeled AVOID, big black caps THE ONE MOVE. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 36,
+    "timestamp": "1:33",
+    "seconds": 93.36,
+    "text": "It avoids the task.",
+    "scene": "Stan turning his back and walking away from the glowing task, big black caps AVOID THE TASK. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 37,
+    "timestamp": "1:35",
+    "seconds": 95.12,
+    "text": "That is all procrastination is.",
+    "scene": "A plain label card, big black caps THAT'S ALL IT IS."
+  },
+  {
+    "index": 38,
+    "timestamp": "1:37",
+    "seconds": 97.24,
+    "text": "Not laziness, mood repair,",
+    "scene": "Two labels, a red X over LAZINESS and a green check on MOOD REPAIR."
+  },
+  {
+    "index": 39,
+    "timestamp": "1:40",
+    "seconds": 100.08,
+    "text": "a quick hit of relief in the present,",
+    "scene": "Stan with a glowing relief bubble over his head saying AHH, big black caps RELIEF NOW. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 40,
+    "timestamp": "1:42",
+    "seconds": 102.0,
+    "text": "put on a credit card that your future self has to pay.",
+    "scene": "A credit card swiping while an IOU slip drops into a mailbox labeled FUTURE STAN, big black caps PAY LATER."
+  },
+  {
+    "index": 41,
+    "timestamp": "1:45",
+    "seconds": 105.24,
+    "text": "And this is exactly why procrastination",
+    "scene": "The word PROCRASTINATION with arrows, big black caps OPPOSITE OF LAZY."
+  },
+  {
+    "index": 42,
+    "timestamp": "1:47",
+    "seconds": 107.44,
+    "text": "is basically the opposite of laziness.",
+    "scene": "A split with a not-equal sign between a calm LAZY figure and a tense PROCRASTINATE Stan, big black caps OPPOSITE. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 43,
+    "timestamp": "1:50",
+    "seconds": 110.28,
+    "text": "Lazy is comfortable.",
+    "scene": "A relaxed figure flopped content on a couch, big black caps LAZY = COMFY."
+  },
+  {
+    "index": 44,
+    "timestamp": "1:52",
+    "seconds": 111.84,
+    "text": "Lazy is fine doing nothing.",
+    "scene": "The relaxed figure happily doing nothing, big black caps FINE DOING NOTHING."
+  },
+  {
+    "index": 45,
+    "timestamp": "1:54",
+    "seconds": 113.96,
+    "text": "But a procrastinator desperately wants to do the thing,",
+    "scene": "Stan desperately reaching out toward the glowing task, wanting it badly, big black caps WANTS TO DO IT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 46,
+    "timestamp": "1:57",
+    "seconds": 117.04,
+    "text": "fully intends to,",
+    "scene": "Stan with a determined raised fist, big black caps FULLY INTENDS TO. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 47,
+    "timestamp": "1:59",
+    "seconds": 118.68,
+    "text": "swears they will start in five minutes",
+    "scene": "Stan holding up five fingers beside a clock, big black caps FIVE MINUTES. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 48,
+    "timestamp": "2:01",
+    "seconds": 120.6,
+    "text": "and feels awful the whole time they do not.",
+    "scene": "Stan anguished and miserable while NOT doing the task, big black caps FEELS AWFUL. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 49,
+    "timestamp": "2:04",
+    "seconds": 123.56,
+    "text": "There's nothing relaxed about it.",
+    "scene": "Stan tense and sweating, the opposite of relaxed, big black caps NOTHING RELAXED. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 50,
+    "timestamp": "2:05",
+    "seconds": 125.44,
+    "text": "And there is a cruel little twist baked in.",
+    "scene": "A little gift box with a red ribbon hiding something, big black caps A CRUEL TWIST."
+  },
+  {
+    "index": 51,
+    "timestamp": "2:08",
+    "seconds": 127.92,
+    "text": "The one who pays the bill is future you.",
+    "scene": "Present Stan handing an IOU bill to a faded ghostly future Stan, big black caps FUTURE YOU PAYS. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 52,
+    "timestamp": "2:11",
+    "seconds": 130.52,
+    "text": "And your brain treats future you almost like a stranger.",
+    "scene": "Stan eyeing a faded ghostly future-Stan he doesn't recognize, big black caps LIKE A STRANGER. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 53,
+    "timestamp": "2:14",
+    "seconds": 134.16,
+    "text": "Present you grabs the relief.",
+    "scene": "Present Stan greedily grabbing a glowing RELIEF bubble, big black caps PRESENT YOU. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 54,
+    "timestamp": "2:17",
+    "seconds": 137.24,
+    "text": "Future you is the one panicking at two in the morning.",
+    "scene": "A clock reading 2:00 AM, a faded future-Stan wide awake and panicking at the desk, big black caps FUTURE YOU. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 55,
+    "timestamp": "2:20",
+    "seconds": 140.48,
+    "text": "And here is the strangest part.",
+    "scene": "A red arrow, big black caps THE STRANGEST PART."
+  },
+  {
+    "index": 56,
+    "timestamp": "2:22",
+    "seconds": 142.4,
+    "text": "The people who procrastinate the most",
+    "scene": "Stan with a big caring heart glowing in his chest, big black caps THEY CARE THE MOST. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 57,
+    "timestamp": "2:25",
+    "seconds": 144.72,
+    "text": "are often the ones who care the most.",
+    "scene": "Stan as a careful nervous perfectionist, big black caps CARE = MORE FEAR. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 58,
+    "timestamp": "2:27",
+    "seconds": 147.04,
+    "text": "Because if you are terrified of doing it badly,",
+    "scene": "Stan terrified and sweating about doing the task badly, big black caps TERRIFIED OF FAILING. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 59,
+    "timestamp": "2:30",
+    "seconds": 149.88,
+    "text": "the bad feeling is even bigger.",
+    "scene": "The bad-feeling storm cloud over the task swelling even bigger, big black caps BIGGER FEELING."
+  },
+  {
+    "index": 60,
+    "timestamp": "2:32",
+    "seconds": 151.92,
+    "text": "So you flinch away even harder.",
+    "scene": "Stan recoiling and flinching hard away from the giant storm cloud, big black caps FLINCH HARDER. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 61,
+    "timestamp": "2:34",
+    "seconds": 154.08,
+    "text": "Now, if you think this is a modern problem,",
+    "scene": "Stan holding a phone and a remote with a question mark, big black caps A MODERN PROBLEM? (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 62,
+    "timestamp": "2:37",
+    "seconds": 156.56,
+    "text": "something phones and streaming did to us,",
+    "scene": "A phone and a TV with streaming play icons, big black caps PHONES AND STREAMING?"
+  },
+  {
+    "index": 63,
+    "timestamp": "2:39",
+    "seconds": 158.6,
+    "text": "the ancient Greeks would laugh.",
+    "scene": "An ancient Greek philosopher in a toga laughing knowingly, big black caps THE GREEKS WOULD LAUGH."
+  },
+  {
+    "index": 64,
+    "timestamp": "2:41",
+    "seconds": 160.56,
+    "text": "They were fascinated by this exact puzzle.",
+    "scene": "Two toga philosophers leaning over the same puzzle, fascinated, big black caps THE SAME PUZZLE."
+  },
+  {
+    "index": 65,
+    "timestamp": "2:43",
+    "seconds": 163.16,
+    "text": "Thousands of years ago, they even had a word for it.",
+    "scene": "An ancient sundial and a worn scroll, big black caps THOUSANDS OF YEARS AGO."
+  },
+  {
+    "index": 66,
+    "timestamp": "2:47",
+    "seconds": 166.56,
+    "text": "Akrasia.",
+    "scene": "Stan dressed in a Greek toga holding up a scroll with huge bold hand-lettered AKRASIA. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 67,
+    "timestamp": "2:48",
+    "seconds": 168.08,
+    "text": "It means doing something even while you know fully",
+    "scene": "Stan in a toga knowingly doing the wrong thing while a thought bubble shows he knows better, big black caps AGAINST YOUR JUDGMENT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 68,
+    "timestamp": "2:51",
+    "seconds": 171.4,
+    "text": "that it goes against your better judgment.",
+    "scene": "A brain on one side and a hand reaching the wrong way on the other, big black caps KNOW BETTER, DON'T DO IT."
+  },
+  {
+    "index": 69,
+    "timestamp": "2:55",
+    "seconds": 174.56,
+    "text": "Socrates and Aristotle genuinely argued",
+    "scene": "Two toga philosophers labeled SOCRATES and ARISTOTLE arguing, big black caps THEY ARGUED."
+  },
+  {
+    "index": 70,
+    "timestamp": "2:57",
+    "seconds": 176.76,
+    "text": "about how it is even possible.",
+    "scene": "The two toga philosophers scratching their heads at a giant question mark, big black caps HOW IS IT POSSIBLE?"
+  },
+  {
+    "index": 71,
+    "timestamp": "2:59",
+    "seconds": 179.0,
+    "text": "How can a person know the smart thing to do, truly know it,",
+    "scene": "Stan in a toga with a glowing smart idea above him but standing frozen, big black caps KNOWS THE SMART THING. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 72,
+    "timestamp": "3:03",
+    "seconds": 183.12,
+    "text": "and still not do it?",
+    "scene": "The same toga Stan still frozen, not doing it, big black caps STILL DOESN'T DO IT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 73,
+    "timestamp": "3:05",
+    "seconds": 184.8,
+    "text": "Procrastination is not a bug of the modern world.",
+    "scene": "PROCRASTINATION with a red X over a MODERN BUG label, big black caps NOT MODERN."
+  },
+  {
+    "index": 74,
+    "timestamp": "3:07",
+    "seconds": 187.4,
+    "text": "It is one of the oldest riddles of being human.",
+    "scene": "An ancient riddle carved on a stone tablet, big black caps OLDEST HUMAN RIDDLE."
+  },
+  {
+    "index": 75,
+    "timestamp": "3:10",
+    "seconds": 190.2,
+    "text": "And the word we use is a tiny confession all on its own.",
+    "scene": "A small folded confession note, big black caps A TINY CONFESSION."
+  },
+  {
+    "index": 76,
+    "timestamp": "3:15",
+    "seconds": 194.68,
+    "text": "Procrastinate comes from Latin, pro, meaning forward,",
+    "scene": "Huge bold hand-lettered PRO with a small forward arrow, big black caps PRO = FORWARD."
+  },
+  {
+    "index": 77,
+    "timestamp": "3:19",
+    "seconds": 198.92,
+    "text": "and cras, meaning tomorrow.",
+    "scene": "Huge bold hand-lettered CRAS beside a calendar, big black caps CRAS = TOMORROW."
+  },
+  {
+    "index": 78,
+    "timestamp": "3:22",
+    "seconds": 201.84,
+    "text": "Put them together, and it literally",
+    "scene": "The words PRO and CRAS sliding together with a big plus sign, big black caps PRO + CRAS."
+  },
+  {
+    "index": 79,
+    "timestamp": "3:24",
+    "seconds": 203.76,
+    "text": "means to put it forward to tomorrow.",
+    "scene": "An arrow pushing the task forward onto a calendar page stamped TOMORROW, big black caps TO TOMORROW."
+  },
+  {
+    "index": 80,
+    "timestamp": "3:26",
+    "seconds": 206.16,
+    "text": "Humans have been doing this so reliably for so long",
+    "scene": "A long line of tiny stick people through history all pointing to 'tomorrow', big black caps FOR SO LONG."
+  },
+  {
+    "index": 81,
+    "timestamp": "3:30",
+    "seconds": 210.0,
+    "text": "that we built a word for it out of the actual word for tomorrow.",
+    "scene": "A calendar endlessly flipping its pages, every page stamped TOMORROW, big black caps THE WORD FOR TOMORROW."
+  },
+  {
+    "index": 82,
+    "timestamp": "3:34",
+    "seconds": 213.52,
+    "text": "So here's the part that turns everything",
+    "scene": "Stan with the world flipping upside down around him, big black caps TURNED UPSIDE DOWN. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 83,
+    "timestamp": "3:36",
+    "seconds": 216.0,
+    "text": "you have been told upside down.",
+    "scene": "Old advice cards being flipped over above Stan's head, big black caps EVERYTHING YOU'RE TOLD. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 84,
+    "timestamp": "3:38",
+    "seconds": 218.04,
+    "text": "Because procrastination runs on bad feelings,",
+    "scene": "The glowing task running on a little fuel gauge labeled BAD FEELINGS, big black caps RUNS ON BAD FEELINGS."
+  },
+  {
+    "index": 85,
+    "timestamp": "3:41",
+    "seconds": 221.32,
+    "text": "the way most of us fight it actually feeds it.",
+    "scene": "Stan swinging a sword at the task but the blows feeding a flame on it, big black caps FIGHTING FEEDS IT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 86,
+    "timestamp": "3:44",
+    "seconds": 224.32,
+    "text": "You put the thing off, then you call yourself lazy and useless",
+    "scene": "Stan pointing at himself with hand-lettered LAZY and USELESS over his head, big black caps YOU BEAT YOURSELF UP. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 87,
+    "timestamp": "3:48",
+    "seconds": 228.2,
+    "text": "and ask what is wrong with you.",
+    "scene": "Stan with a sad worried face, big black caps WHAT'S WRONG WITH ME? (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 88,
+    "timestamp": "3:50",
+    "seconds": 230.36,
+    "text": "And now there is a whole new layer of bad feeling",
+    "scene": "A dark new layer of bad-feeling sludge sticking onto the task, big black caps A NEW LAYER."
+  },
+  {
+    "index": 89,
+    "timestamp": "3:53",
+    "seconds": 232.64,
+    "text": "stuck to that task. So the next time you go to start it,",
+    "scene": "The task now bigger and uglier with the extra dark layer, Stan facing it, big black caps EVEN MORE TO AVOID. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 90,
+    "timestamp": "3:56",
+    "seconds": 235.96,
+    "text": "there is even more to flinch away from.",
+    "scene": "Stan flinching away even harder from the now-bigger task, big black caps FLINCH AGAIN. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 91,
+    "timestamp": "4:00",
+    "seconds": 239.68,
+    "text": "Guilt is not the cure.",
+    "scene": "A red X over a CURE bottle beside the word GUILT, big black caps GUILT IS NOT THE CURE."
+  },
+  {
+    "index": 92,
+    "timestamp": "4:01",
+    "seconds": 241.48,
+    "text": "Guilt is the fuel.",
+    "scene": "A fuel can labeled GUILT pouring onto a flame burning on the task, big black caps GUILT IS THE FUEL."
+  },
+  {
+    "index": 93,
+    "timestamp": "4:03",
+    "seconds": 243.28,
+    "text": "The harder you beat yourself up, the bigger and scarier",
+    "scene": "Stan beating himself up while the task swells into a scary monster, big black caps BIGGER AND SCARIER. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 94,
+    "timestamp": "4:06",
+    "seconds": 246.36,
+    "text": "the thing becomes.",
+    "scene": "The task now a huge looming scary monster towering over tiny Stan, big black caps THE THING GROWS. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 95,
+    "timestamp": "4:08",
+    "seconds": 248.08,
+    "text": "Which leads to the most backward sounding",
+    "scene": "A signpost pointing the backwards direction, big black caps THE BACKWARDS FIX."
+  },
+  {
+    "index": 96,
+    "timestamp": "4:10",
+    "seconds": 250.12,
+    "text": "fix in all of psychology.",
+    "scene": "A surprised cartoon brain, big black caps IN ALL OF PSYCHOLOGY."
+  },
+  {
+    "index": 97,
+    "timestamp": "4:12",
+    "seconds": 251.68,
+    "text": "And it is a real study.",
+    "scene": "A clipboard with a science check mark, big black caps A REAL STUDY."
+  },
+  {
+    "index": 98,
+    "timestamp": "4:14",
+    "seconds": 254.0,
+    "text": "Researchers track students across their exams.",
+    "scene": "Researchers with clipboards watching a row of students at exam desks, big black caps STUDENTS AND EXAMS."
+  },
+  {
+    "index": 99,
+    "timestamp": "4:17",
+    "seconds": 256.96,
+    "text": "The students who simply forgave themselves",
+    "scene": "A student gently telling themselves IT'S OKAY, forgiving, big black caps FORGAVE THEMSELVES."
+  },
+  {
+    "index": 100,
+    "timestamp": "4:19",
+    "seconds": 259.16,
+    "text": "for procrastinating before the first exam",
+    "scene": "A calendar with FIRST EXAM marked and a calm forgiving student before it, big black caps BEFORE EXAM 1."
+  },
+  {
+    "index": 101,
+    "timestamp": "4:22",
+    "seconds": 261.96,
+    "text": "went on to procrastinate less before the next one.",
+    "scene": "The same student calm before the NEXT exam with a green down-arrow, big black caps PROCRASTINATED LESS."
+  },
+  {
+    "index": 102,
+    "timestamp": "4:26",
+    "seconds": 265.52,
+    "text": "Not the most disciplined students,",
+    "scene": "A stern row of disciplined students with a red X over them, big black caps NOT THE DISCIPLINED ONES."
+  },
+  {
+    "index": 103,
+    "timestamp": "4:28",
+    "seconds": 267.68,
+    "text": "the most forgiving ones. Because once you drop the guilt,",
+    "scene": "A gentle forgiving student glowing with a green check, big black caps THE FORGIVING ONES."
+  },
+  {
+    "index": 104,
+    "timestamp": "4:31",
+    "seconds": 271.44,
+    "text": "the task stops radiating dread",
+    "scene": "The scary task losing its dark dread aura as a guilt weight is set down, big black caps DREAD FADES."
+  },
+  {
+    "index": 105,
+    "timestamp": "4:34",
+    "seconds": 273.88,
+    "text": "and it quietly turns back into just a task.",
+    "scene": "The giant scary task shrinking back into a small normal approachable task, big black caps JUST A TASK AGAIN."
+  },
+  {
+    "index": 106,
+    "timestamp": "4:37",
+    "seconds": 277.48,
+    "text": "The secret was never to be harder on yourself.",
+    "scene": "A red X over a BE HARDER ON YOURSELF sign, big black caps NEVER BE HARDER."
+  },
+  {
+    "index": 107,
+    "timestamp": "4:40",
+    "seconds": 280.36,
+    "text": "It was to stop making the thing feel so awful to walk up to",
+    "scene": "Stan calmly walking up to a now-friendly small task with no dread, big black caps EASIER TO WALK UP TO. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 108,
+    "timestamp": "4:44",
+    "seconds": 284.0,
+    "text": "and then to shrink it.",
+    "scene": "A big task being squeezed small between Stan's hands, big black caps SHRINK IT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 109,
+    "timestamp": "4:46",
+    "seconds": 285.52,
+    "text": "Not write the essay.",
+    "scene": "A red X over a full ESSAY page, big black caps NOT THE WHOLE ESSAY."
+  },
+  {
+    "index": 110,
+    "timestamp": "4:47",
+    "seconds": 287.16,
+    "text": "Write one bad sentence.",
+    "scene": "Stan writing one wobbly crooked sentence on a page, big black caps ONE BAD SENTENCE. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 111,
+    "timestamp": "4:49",
+    "seconds": 289.04,
+    "text": "Make the first step too small to be scary.",
+    "scene": "A giant first stair labeled START breaking into one tiny easy step, big black caps TOO SMALL TO BE SCARY."
+  },
+  {
+    "index": 112,
+    "timestamp": "4:52",
+    "seconds": 291.96,
+    "text": "So the next time you are Stan,",
+    "scene": "Stan back in the kitchen, sponge in hand, big black caps NEXT TIME YOU'RE STAN. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 113,
+    "timestamp": "4:54",
+    "seconds": 293.72,
+    "text": "scrubbing a perfectly clean kitchen",
+    "scene": "Stan scrubbing an already spotless sparkling sink while the glowing DUE TOMORROW task waits ignored, big black caps PERFECTLY CLEAN KITCHEN. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 114,
+    "timestamp": "4:55",
+    "seconds": 295.4,
+    "text": "to avoid the thing you swore you would do,",
+    "scene": "Stan glancing guiltily over at the DUE TOMORROW task he is avoiding, big black caps THE THING YOU SWORE. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 115,
+    "timestamp": "4:58",
+    "seconds": 297.84,
+    "text": "do not reach for the guilt.",
+    "scene": "Stan pausing and turning away from a gray guilt cloud, a red X on the guilt, big black caps DON'T REACH FOR GUILT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 116,
+    "timestamp": "4:59",
+    "seconds": 299.4,
+    "text": "That is the trap that keeps the whole loop spinning.",
+    "scene": "A spinning loop arrow labeled GUILT going round and round, big black caps THE TRAP THAT SPINS."
+  },
+  {
+    "index": 117,
+    "timestamp": "5:02",
+    "seconds": 302.32,
+    "text": "You are not lazy and you are not broken.",
+    "scene": "Stan standing calm and steady with a green check, big black caps NOT LAZY, NOT BROKEN. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 118,
+    "timestamp": "5:06",
+    "seconds": 305.64,
+    "text": "You are doing one of the most human things",
+    "scene": "Stan bathed in a warm gentle glow, big black caps THE MOST HUMAN THING. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 119,
+    "timestamp": "5:07",
+    "seconds": 307.48,
+    "text": "there is, quietly trading a little peace now",
+    "scene": "Present Stan cupping a small glowing PEACE bubble now, big black caps A LITTLE PEACE NOW. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 120,
+    "timestamp": "5:10",
+    "seconds": 310.28,
+    "text": "for a little panic later.",
+    "scene": "A faded future-Stan holding a small dark PANIC cloud later, big black caps A LITTLE PANIC LATER. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 121,
+    "timestamp": "5:12",
+    "seconds": 312.16,
+    "text": "The Greeks never did solve it,",
+    "scene": "Two toga Greek philosophers shrugging, big black caps NEVER SOLVED IT."
+  },
+  {
+    "index": 122,
+    "timestamp": "5:14",
+    "seconds": 314.32,
+    "text": "but they understood it.",
+    "scene": "The same toga philosophers nodding with quiet understanding, big black caps BUT THEY UNDERSTOOD."
+  },
+  {
+    "index": 123,
+    "timestamp": "5:16",
+    "seconds": 315.84,
+    "text": "And it turns out that understanding it",
+    "scene": "Stan calm at the sink setting the sponge down, self-aware and at peace, big black caps UNDERSTAND IT. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 124,
+    "timestamp": "5:18",
+    "seconds": 317.88,
+    "text": "and going a little easier on yourself",
+    "scene": "Stan gently patting his own shoulder, going easy on himself, big black caps GO EASY ON YOURSELF. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  },
+  {
+    "index": 125,
+    "timestamp": "5:20",
+    "seconds": 320.04,
+    "text": "is the closest thing we have ever found to a cure.",
+    "scene": "Stan at peace calmly walking toward the now-small friendly task, big black caps THE CLOSEST THING TO A CURE. (Stan is always the same plain crude stick figure: round white head, two dot eyes, a simple line mouth, thin line body and limbs, no hair.)"
+  }
+]

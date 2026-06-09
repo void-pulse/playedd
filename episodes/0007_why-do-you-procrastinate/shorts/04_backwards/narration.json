@@ -1,0 +1,29 @@
+{
+  "text": " Everyone tells you to beat procrastination with more discipline, try harder, get a planner, and it almost never works because it's aimed at the wrong problem. The number one science-backed fix is the complete opposite of what you've been told. One real study proved it, and it has nothing to do with willpower.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.4,
+      "text": " Everyone tells you to beat procrastination with more discipline, try harder, get a"
+    },
+    {
+      "id": 1,
+      "start": 4.4,
+      "end": 9.36,
+      "text": " planner, and it almost never works because it's aimed at the wrong problem."
+    },
+    {
+      "id": 2,
+      "start": 9.36,
+      "end": 13.64,
+      "text": " The number one science-backed fix is the complete opposite of what you've been told."
+    },
+    {
+      "id": 3,
+      "start": 13.64,
+      "end": 16.68,
+      "text": " One real study proved it, and it has nothing to do with willpower."
+    }
+  ]
+}

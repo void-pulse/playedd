@@ -1,0 +1,767 @@
+{
+  "text": " Stan has one big thing due tomorrow. So tonight, he sits down to finally start it. And then, somehow, the kitchen really needs cleaning. His desk needs reorganizing. He should probably reply to that email first. He watches one video, just one. The whole night, Stan is busy, Stan is moving, and Stan does not touch the one thing he actually has to do. And he feels terrible the entire time. Now, here's the giveaway. Stan is not being lazy. A lazy person would be relaxed. Stan is suffering. So what is actually going on? Because procrastination is not laziness. It is not bad planning. And the ancient Greeks were so obsessed with it that they gave it its own name. We are taught that procrastination is basically laziness or being bad with time. So the fix we are handed is always the same. Try harder, get a planner, have more discipline, and that advice almost never works. There is a reason for that. It is aimed at the wrong problem entirely. Because procrastination has almost nothing to do with time. It has to do with feeling. When you sit down to face a task, your brain does not just see the task. It feels something about it. Maybe boredom, maybe anxiety, maybe a quiet fear that you will try, and it still will not be good enough. And your brain, more than almost anything, wants that bad feeling to stop right now. So it reaches for the one move that kills it instantly. It avoids the task. That is all procrastination is. Not laziness, mood repair, a quick hit of relief in the present, put on a credit card that your future self has to pay. And this is exactly why procrastination is basically the opposite of laziness. Lazy is comfortable. Lazy is fine doing nothing. But a procrastinator desperately wants to do the thing, fully intends to, swears they will start in five minutes and feels awful the whole time they do not. There's nothing relaxed about it. And there is a cruel little twist baked in. The one who pays the bill is future you. And your brain treats future you almost like a stranger. Present you grabs the relief. Future you is the one panicking at two in the morning. And here is the strangest part. The people who procrastinate the most are often the ones who care the most. Because if you are terrified of doing it badly, the bad feeling is even bigger. So you flinch away even harder. Now, if you think this is a modern problem, something phones and streaming did to us, the ancient Greeks would laugh. They were fascinated by this exact puzzle. Thousands of years ago, they even had a word for it. Akrasia. It means doing something even while you know fully that it goes against your better judgment. Socrates and Aristotle genuinely argued about how it is even possible. How can a person know the smart thing to do, truly know it, and still not do it? Procrastination is not a bug of the modern world. It is one of the oldest riddles of being human. And the word we use is a tiny confession all on its own. Procrastinate comes from Latin, pro, meaning forward, and cras, meaning tomorrow. Put them together, and it literally means to put it forward to tomorrow. Humans have been doing this so reliably for so long that we built a word for it out of the actual word for tomorrow. So here's the part that turns everything you have been told upside down. Because procrastination runs on bad feelings, the way most of us fight it actually feeds it. You put the thing off, then you call yourself lazy and useless and ask what is wrong with you. And now there is a whole new layer of bad feeling stuck to that task. So the next time you go to start it, there is even more to flinch away from. Guilt is not the cure. Guilt is the fuel. The harder you beat yourself up, the bigger and scarier the thing becomes. Which leads to the most backward sounding fix in all of psychology. And it is a real study. Researchers track students across their exams. The students who simply forgave themselves for procrastinating before the first exam went on to procrastinate less before the next one. Not the most disciplined students, the most forgiving ones. Because once you drop the guilt, the task stops radiating dread and it quietly turns back into just a task. The secret was never to be harder on yourself. It was to stop making the thing feel so awful to walk up to and then to shrink it. Not write the essay. Write one bad sentence. Make the first step too small to be scary. So the next time you are Stan, scrubbing a perfectly clean kitchen to avoid the thing you swore you would do, do not reach for the guilt. That is the trap that keeps the whole loop spinning. You are not lazy and you are not broken. You are doing one of the most human things there is, quietly trading a little peace now for a little panic later. The Greeks never did solve it, but they understood it. And it turns out that understanding it and going a little easier on yourself is the closest thing we have ever found to a cure.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.64,
+      "text": " Stan has one big thing due tomorrow."
+    },
+    {
+      "id": 1,
+      "start": 2.64,
+      "end": 6.0,
+      "text": " So tonight, he sits down to finally start it."
+    },
+    {
+      "id": 2,
+      "start": 6.0,
+      "end": 9.68,
+      "text": " And then, somehow, the kitchen really needs cleaning."
+    },
+    {
+      "id": 3,
+      "start": 9.68,
+      "end": 12.16,
+      "text": " His desk needs reorganizing."
+    },
+    {
+      "id": 4,
+      "start": 12.16,
+      "end": 14.76,
+      "text": " He should probably reply to that email first."
+    },
+    {
+      "id": 5,
+      "start": 14.76,
+      "end": 18.08,
+      "text": " He watches one video, just one."
+    },
+    {
+      "id": 6,
+      "start": 18.08,
+      "end": 21.92,
+      "text": " The whole night, Stan is busy, Stan is moving,"
+    },
+    {
+      "id": 7,
+      "start": 21.92,
+      "end": 25.72,
+      "text": " and Stan does not touch the one thing he actually has to do."
+    },
+    {
+      "id": 8,
+      "start": 25.72,
+      "end": 28.48,
+      "text": " And he feels terrible the entire time."
+    },
+    {
+      "id": 9,
+      "start": 28.48,
+      "end": 30.72,
+      "text": " Now, here's the giveaway."
+    },
+    {
+      "id": 10,
+      "start": 30.72,
+      "end": 33.04,
+      "text": " Stan is not being lazy."
+    },
+    {
+      "id": 11,
+      "start": 33.04,
+      "end": 35.4,
+      "text": " A lazy person would be relaxed."
+    },
+    {
+      "id": 12,
+      "start": 35.4,
+      "end": 37.56,
+      "text": " Stan is suffering."
+    },
+    {
+      "id": 13,
+      "start": 37.56,
+      "end": 39.64,
+      "text": " So what is actually going on?"
+    },
+    {
+      "id": 14,
+      "start": 39.64,
+      "end": 42.52,
+      "text": " Because procrastination is not laziness."
+    },
+    {
+      "id": 15,
+      "start": 42.52,
+      "end": 44.04,
+      "text": " It is not bad planning."
+    },
+    {
+      "id": 16,
+      "start": 44.04,
+      "end": 46.12,
+      "text": " And the ancient Greeks were so obsessed with it"
+    },
+    {
+      "id": 17,
+      "start": 46.12,
+      "end": 48.04,
+      "text": " that they gave it its own name."
+    },
+    {
+      "id": 18,
+      "start": 48.04,
+      "end": 51.24,
+      "text": " We are taught that procrastination is basically laziness"
+    },
+    {
+      "id": 19,
+      "start": 51.24,
+      "end": 53.68,
+      "text": " or being bad with time."
+    },
+    {
+      "id": 20,
+      "start": 53.68,
+      "end": 56.96,
+      "text": " So the fix we are handed is always the same."
+    },
+    {
+      "id": 21,
+      "start": 56.96,
+      "end": 60.32,
+      "text": " Try harder, get a planner, have more discipline,"
+    },
+    {
+      "id": 22,
+      "start": 60.32,
+      "end": 62.24,
+      "text": " and that advice almost never works."
+    },
+    {
+      "id": 23,
+      "start": 62.24,
+      "end": 63.68,
+      "text": " There is a reason for that."
+    },
+    {
+      "id": 24,
+      "start": 63.68,
+      "end": 66.44,
+      "text": " It is aimed at the wrong problem entirely."
+    },
+    {
+      "id": 25,
+      "start": 66.44,
+      "end": 70.16,
+      "text": " Because procrastination has almost nothing to do with time."
+    },
+    {
+      "id": 26,
+      "start": 70.16,
+      "end": 71.8,
+      "text": " It has to do with feeling."
+    },
+    {
+      "id": 27,
+      "start": 71.8,
+      "end": 73.36,
+      "text": " When you sit down to face a task,"
+    },
+    {
+      "id": 28,
+      "start": 73.36,
+      "end": 75.84,
+      "text": " your brain does not just see the task."
+    },
+    {
+      "id": 29,
+      "start": 75.84,
+      "end": 77.68,
+      "text": " It feels something about it."
+    },
+    {
+      "id": 30,
+      "start": 77.68,
+      "end": 81.88,
+      "text": " Maybe boredom, maybe anxiety, maybe a quiet fear"
+    },
+    {
+      "id": 31,
+      "start": 81.88,
+      "end": 85.08,
+      "text": " that you will try, and it still will not be good enough."
+    },
+    {
+      "id": 32,
+      "start": 85.08,
+      "end": 87.84,
+      "text": " And your brain, more than almost anything,"
+    },
+    {
+      "id": 33,
+      "start": 87.84,
+      "end": 90.28,
+      "text": " wants that bad feeling to stop right now."
+    },
+    {
+      "id": 34,
+      "start": 90.28,
+      "end": 93.36,
+      "text": " So it reaches for the one move that kills it instantly."
+    },
+    {
+      "id": 35,
+      "start": 93.36,
+      "end": 95.12,
+      "text": " It avoids the task."
+    },
+    {
+      "id": 36,
+      "start": 95.12,
+      "end": 97.24,
+      "text": " That is all procrastination is."
+    },
+    {
+      "id": 37,
+      "start": 97.24,
+      "end": 100.08,
+      "text": " Not laziness, mood repair,"
+    },
+    {
+      "id": 38,
+      "start": 100.08,
+      "end": 102.0,
+      "text": " a quick hit of relief in the present,"
+    },
+    {
+      "id": 39,
+      "start": 102.0,
+      "end": 105.24,
+      "text": " put on a credit card that your future self has to pay."
+    },
+    {
+      "id": 40,
+      "start": 105.24,
+      "end": 107.44,
+      "text": " And this is exactly why procrastination"
+    },
+    {
+      "id": 41,
+      "start": 107.44,
+      "end": 110.28,
+      "text": " is basically the opposite of laziness."
+    },
+    {
+      "id": 42,
+      "start": 110.28,
+      "end": 111.84,
+      "text": " Lazy is comfortable."
+    },
+    {
+      "id": 43,
+      "start": 111.84,
+      "end": 113.92,
+      "text": " Lazy is fine doing nothing."
+    },
+    {
+      "id": 44,
+      "start": 113.96,
+      "end": 117.04,
+      "text": " But a procrastinator desperately wants to do the thing,"
+    },
+    {
+      "id": 45,
+      "start": 117.04,
+      "end": 118.68,
+      "text": " fully intends to,"
+    },
+    {
+      "id": 46,
+      "start": 118.68,
+      "end": 120.6,
+      "text": " swears they will start in five minutes"
+    },
+    {
+      "id": 47,
+      "start": 120.6,
+      "end": 123.56,
+      "text": " and feels awful the whole time they do not."
+    },
+    {
+      "id": 48,
+      "start": 123.56,
+      "end": 125.44,
+      "text": " There's nothing relaxed about it."
+    },
+    {
+      "id": 49,
+      "start": 125.44,
+      "end": 127.92,
+      "text": " And there is a cruel little twist baked in."
+    },
+    {
+      "id": 50,
+      "start": 127.92,
+      "end": 130.52,
+      "text": " The one who pays the bill is future you."
+    },
+    {
+      "id": 51,
+      "start": 130.52,
+      "end": 134.16,
+      "text": " And your brain treats future you almost like a stranger."
+    },
+    {
+      "id": 52,
+      "start": 134.16,
+      "end": 137.24,
+      "text": " Present you grabs the relief."
+    },
+    {
+      "id": 53,
+      "start": 137.24,
+      "end": 140.48,
+      "text": " Future you is the one panicking at two in the morning."
+    },
+    {
+      "id": 54,
+      "start": 140.48,
+      "end": 142.4,
+      "text": " And here is the strangest part."
+    },
+    {
+      "id": 55,
+      "start": 142.4,
+      "end": 144.72,
+      "text": " The people who procrastinate the most"
+    },
+    {
+      "id": 56,
+      "start": 144.72,
+      "end": 147.04,
+      "text": " are often the ones who care the most."
+    },
+    {
+      "id": 57,
+      "start": 147.04,
+      "end": 149.88,
+      "text": " Because if you are terrified of doing it badly,"
+    },
+    {
+      "id": 58,
+      "start": 149.88,
+      "end": 151.92,
+      "text": " the bad feeling is even bigger."
+    },
+    {
+      "id": 59,
+      "start": 151.92,
+      "end": 154.08,
+      "text": " So you flinch away even harder."
+    },
+    {
+      "id": 60,
+      "start": 154.08,
+      "end": 156.56,
+      "text": " Now, if you think this is a modern problem,"
+    },
+    {
+      "id": 61,
+      "start": 156.56,
+      "end": 158.6,
+      "text": " something phones and streaming did to us,"
+    },
+    {
+      "id": 62,
+      "start": 158.6,
+      "end": 160.56,
+      "text": " the ancient Greeks would laugh."
+    },
+    {
+      "id": 63,
+      "start": 160.56,
+      "end": 163.16,
+      "text": " They were fascinated by this exact puzzle."
+    },
+    {
+      "id": 64,
+      "start": 163.16,
+      "end": 166.56,
+      "text": " Thousands of years ago, they even had a word for it."
+    },
+    {
+      "id": 65,
+      "start": 166.56,
+      "end": 168.08,
+      "text": " Akrasia."
+    },
+    {
+      "id": 66,
+      "start": 168.08,
+      "end": 171.4,
+      "text": " It means doing something even while you know fully"
+    },
+    {
+      "id": 67,
+      "start": 171.4,
+      "end": 174.56,
+      "text": " that it goes against your better judgment."
+    },
+    {
+      "id": 68,
+      "start": 174.56,
+      "end": 176.76,
+      "text": " Socrates and Aristotle genuinely argued"
+    },
+    {
+      "id": 69,
+      "start": 176.76,
+      "end": 179.0,
+      "text": " about how it is even possible."
+    },
+    {
+      "id": 70,
+      "start": 179.0,
+      "end": 183.12,
+      "text": " How can a person know the smart thing to do, truly know it,"
+    },
+    {
+      "id": 71,
+      "start": 183.12,
+      "end": 184.8,
+      "text": " and still not do it?"
+    },
+    {
+      "id": 72,
+      "start": 184.8,
+      "end": 187.4,
+      "text": " Procrastination is not a bug of the modern world."
+    },
+    {
+      "id": 73,
+      "start": 187.4,
+      "end": 190.2,
+      "text": " It is one of the oldest riddles of being human."
+    },
+    {
+      "id": 74,
+      "start": 190.2,
+      "end": 194.68,
+      "text": " And the word we use is a tiny confession all on its own."
+    },
+    {
+      "id": 75,
+      "start": 194.68,
+      "end": 198.92,
+      "text": " Procrastinate comes from Latin, pro, meaning forward,"
+    },
+    {
+      "id": 76,
+      "start": 198.92,
+      "end": 201.84,
+      "text": " and cras, meaning tomorrow."
+    },
+    {
+      "id": 77,
+      "start": 201.84,
+      "end": 203.76,
+      "text": " Put them together, and it literally"
+    },
+    {
+      "id": 78,
+      "start": 203.76,
+      "end": 206.16,
+      "text": " means to put it forward to tomorrow."
+    },
+    {
+      "id": 79,
+      "start": 206.16,
+      "end": 210.0,
+      "text": " Humans have been doing this so reliably for so long"
+    },
+    {
+      "id": 80,
+      "start": 210.0,
+      "end": 213.52,
+      "text": " that we built a word for it out of the actual word for tomorrow."
+    },
+    {
+      "id": 81,
+      "start": 213.52,
+      "end": 216.0,
+      "text": " So here's the part that turns everything"
+    },
+    {
+      "id": 82,
+      "start": 216.0,
+      "end": 218.04,
+      "text": " you have been told upside down."
+    },
+    {
+      "id": 83,
+      "start": 218.04,
+      "end": 221.32,
+      "text": " Because procrastination runs on bad feelings,"
+    },
+    {
+      "id": 84,
+      "start": 221.32,
+      "end": 224.32,
+      "text": " the way most of us fight it actually feeds it."
+    },
+    {
+      "id": 85,
+      "start": 224.32,
+      "end": 228.2,
+      "text": " You put the thing off, then you call yourself lazy and useless"
+    },
+    {
+      "id": 86,
+      "start": 228.2,
+      "end": 230.36,
+      "text": " and ask what is wrong with you."
+    },
+    {
+      "id": 87,
+      "start": 230.36,
+      "end": 232.64,
+      "text": " And now there is a whole new layer of bad feeling"
+    },
+    {
+      "id": 88,
+      "start": 232.64,
+      "end": 233.96,
+      "text": " stuck to that task."
+    },
+    {
+      "id": 89,
+      "start": 233.96,
+      "end": 235.96,
+      "text": " So the next time you go to start it,"
+    },
+    {
+      "id": 90,
+      "start": 235.96,
+      "end": 239.68,
+      "text": " there is even more to flinch away from."
+    },
+    {
+      "id": 91,
+      "start": 239.68,
+      "end": 241.48,
+      "text": " Guilt is not the cure."
+    },
+    {
+      "id": 92,
+      "start": 241.48,
+      "end": 243.28,
+      "text": " Guilt is the fuel."
+    },
+    {
+      "id": 93,
+      "start": 243.28,
+      "end": 246.36,
+      "text": " The harder you beat yourself up, the bigger and scarier"
+    },
+    {
+      "id": 94,
+      "start": 246.36,
+      "end": 248.08,
+      "text": " the thing becomes."
+    },
+    {
+      "id": 95,
+      "start": 248.08,
+      "end": 250.12,
+      "text": " Which leads to the most backward sounding"
+    },
+    {
+      "id": 96,
+      "start": 250.12,
+      "end": 251.68,
+      "text": " fix in all of psychology."
+    },
+    {
+      "id": 97,
+      "start": 251.68,
+      "end": 254.0,
+      "text": " And it is a real study."
+    },
+    {
+      "id": 98,
+      "start": 254.0,
+      "end": 256.92,
+      "text": " Researchers track students across their exams."
+    },
+    {
+      "id": 99,
+      "start": 256.96,
+      "end": 259.16,
+      "text": " The students who simply forgave themselves"
+    },
+    {
+      "id": 100,
+      "start": 259.16,
+      "end": 261.96,
+      "text": " for procrastinating before the first exam"
+    },
+    {
+      "id": 101,
+      "start": 261.96,
+      "end": 265.52,
+      "text": " went on to procrastinate less before the next one."
+    },
+    {
+      "id": 102,
+      "start": 265.52,
+      "end": 267.68,
+      "text": " Not the most disciplined students,"
+    },
+    {
+      "id": 103,
+      "start": 267.68,
+      "end": 269.04,
+      "text": " the most forgiving ones."
+    },
+    {
+      "id": 104,
+      "start": 269.04,
+      "end": 271.44,
+      "text": " Because once you drop the guilt,"
+    },
+    {
+      "id": 105,
+      "start": 271.44,
+      "end": 273.88,
+      "text": " the task stops radiating dread"
+    },
+    {
+      "id": 106,
+      "start": 273.88,
+      "end": 277.48,
+      "text": " and it quietly turns back into just a task."
+    },
+    {
+      "id": 107,
+      "start": 277.48,
+      "end": 280.36,
+      "text": " The secret was never to be harder on yourself."
+    },
+    {
+      "id": 108,
+      "start": 280.36,
+      "end": 283.96,
+      "text": " It was to stop making the thing feel so awful to walk up to"
+    },
+    {
+      "id": 109,
+      "start": 284.0,
+      "end": 285.52,
+      "text": " and then to shrink it."
+    },
+    {
+      "id": 110,
+      "start": 285.52,
+      "end": 287.16,
+      "text": " Not write the essay."
+    },
+    {
+      "id": 111,
+      "start": 287.16,
+      "end": 289.04,
+      "text": " Write one bad sentence."
+    },
+    {
+      "id": 112,
+      "start": 289.04,
+      "end": 291.96,
+      "text": " Make the first step too small to be scary."
+    },
+    {
+      "id": 113,
+      "start": 291.96,
+      "end": 293.72,
+      "text": " So the next time you are Stan,"
+    },
+    {
+      "id": 114,
+      "start": 293.72,
+      "end": 295.4,
+      "text": " scrubbing a perfectly clean kitchen"
+    },
+    {
+      "id": 115,
+      "start": 295.4,
+      "end": 297.84,
+      "text": " to avoid the thing you swore you would do,"
+    },
+    {
+      "id": 116,
+      "start": 297.84,
+      "end": 299.4,
+      "text": " do not reach for the guilt."
+    },
+    {
+      "id": 117,
+      "start": 299.4,
+      "end": 302.32,
+      "text": " That is the trap that keeps the whole loop spinning."
+    },
+    {
+      "id": 118,
+      "start": 302.32,
+      "end": 305.64,
+      "text": " You are not lazy and you are not broken."
+    },
+    {
+      "id": 119,
+      "start": 305.64,
+      "end": 307.48,
+      "text": " You are doing one of the most human things"
+    },
+    {
+      "id": 120,
+      "start": 307.48,
+      "end": 310.28,
+      "text": " there is, quietly trading a little peace now"
+    },
+    {
+      "id": 121,
+      "start": 310.28,
+      "end": 312.12,
+      "text": " for a little panic later."
+    },
+    {
+      "id": 122,
+      "start": 312.16,
+      "end": 314.32,
+      "text": " The Greeks never did solve it,"
+    },
+    {
+      "id": 123,
+      "start": 314.32,
+      "end": 315.84,
+      "text": " but they understood it."
+    },
+    {
+      "id": 124,
+      "start": 315.84,
+      "end": 317.88,
+      "text": " And it turns out that understanding it"
+    },
+    {
+      "id": 125,
+      "start": 317.88,
+      "end": 320.04,
+      "text": " and going a little easier on yourself"
+    },
+    {
+      "id": 126,
+      "start": 320.04,
+      "end": 322.92,
+      "text": " is the closest thing we have ever found to a cure."
+    }
+  ]
+}

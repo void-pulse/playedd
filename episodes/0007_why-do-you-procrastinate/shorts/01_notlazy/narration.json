@@ -1,0 +1,29 @@
+{
+  "text": " Meet Stan. He has one thing due tomorrow. So tonight he scrubbed the whole kitchen, reorganized his desk, and answered every email. Anything but the actual task. And he felt awful the entire time. Here's the giveaway. Stan isn't lazy. A lazy person would be relaxed. Stan is suffering. Procrastination isn't laziness. It's almost the opposite. So what is it really?",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 5.6,
+      "text": " Meet Stan. He has one thing due tomorrow. So tonight he scrubbed the whole kitchen, reorganized"
+    },
+    {
+      "id": 1,
+      "start": 5.6,
+      "end": 11.68,
+      "text": " his desk, and answered every email. Anything but the actual task. And he felt awful the entire"
+    },
+    {
+      "id": 2,
+      "start": 11.68,
+      "end": 18.64,
+      "text": " time. Here's the giveaway. Stan isn't lazy. A lazy person would be relaxed. Stan is suffering."
+    },
+    {
+      "id": 3,
+      "start": 18.64,
+      "end": 24.88,
+      "text": " Procrastination isn't laziness. It's almost the opposite. So what is it really?"
+    }
+  ]
+}
