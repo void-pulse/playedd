@@ -38,6 +38,14 @@ The main video ends on a silent **like-and-subscribe outro card** in the Playedd
 ### Production rule: lock the audio BEFORE TurboScribe
 Finalize the narration read first: trim dead air, fix flubs, lock the performance. THEN run TurboScribe for timestamps. Tight source audio is what makes the downstream image sync tight; re-cutting audio after timestamping throws the whole image track out of sync.
 
+### Motion / animated frames — ON THE BURNER (use when it earns it, not by default)
+Stills are the default. Animation is a tool we reach for **only when a beat genuinely benefits** from motion (the hook, a reveal, a "thing in motion" metaphor) — never gratuitously. Proven and ready to pull off the burner:
+- **How:** fal image-to-video on an already-generated doodle frame (tested with `fal-ai/kling-video/v2.1/standard/image-to-video`): `fal_client.upload_file(frame)` → `subscribe(..., {image_url, prompt, duration:"5"})` → download the clip. Prompt the specific motion AND add "the hand-lettered text and white background stay perfectly still and stable" — that kept our line-art + text from warping.
+- **Assemble:** swap the still for the clip, trim to the frame's cut duration, scale full-bleed, concat exactly like the still picture-track (same `build_short`/`assemble` step; clips just replace images).
+- **Cost/quality:** ~$0.10–0.20 per 5s clip on the standard tier (a full ~13s short ≈ $0.50–0.75). Standard returns ~716×1284 — upscale or use a Pro/4K tier for crisp final output.
+- **Rule of thumb:** animate the hook + a few key beats, leave the rest stills (or editor Ken Burns). Don't animate a whole 5-min episode just because we can.
+- Proof of concept: the "Sharks are older than trees" animated short (shark swims, tree sways, seedling sprouts, text held stable).
+
 ### Title formula
 A bold, counterintuitive claim with CAPS on the key words, kept consistent for branding. The title promises the "wait, what?" that the video pays off.
 
