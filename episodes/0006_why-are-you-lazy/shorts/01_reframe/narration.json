@@ -1,0 +1,47 @@
+{
+  "text": " Meet Stan, he had all day to go for one run. He didn't, and now he feels like a failure. But Stan isn't lazy. His brain is a million year old survival machine, built to save energy, and it's just doing its job. So why does doing nothing feel like a sin? That part is way weirder than you think.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.0,
+      "text": " Meet Stan, he had all day to go for one run."
+    },
+    {
+      "id": 1,
+      "start": 3.0,
+      "end": 5.8,
+      "text": " He didn't, and now he feels like a failure."
+    },
+    {
+      "id": 2,
+      "start": 5.8,
+      "end": 7.56,
+      "text": " But Stan isn't lazy."
+    },
+    {
+      "id": 3,
+      "start": 7.56,
+      "end": 10.04,
+      "text": " His brain is a million year old survival machine,"
+    },
+    {
+      "id": 4,
+      "start": 10.04,
+      "end": 13.0,
+      "text": " built to save energy, and it's just doing its job."
+    },
+    {
+      "id": 5,
+      "start": 13.0,
+      "end": 15.56,
+      "text": " So why does doing nothing feel like a sin?"
+    },
+    {
+      "id": 6,
+      "start": 15.56,
+      "end": 17.84,
+      "text": " That part is way weirder than you think."
+    }
+  ]
+}

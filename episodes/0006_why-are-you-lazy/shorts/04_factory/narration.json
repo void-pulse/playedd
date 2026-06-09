@@ -1,0 +1,53 @@
+{
+  "text": " Why do you feel guilty doing nothing? Honestly, it's not even you. A few hundred years ago, as factories took over, a new idea got sold. Hard work is holy, and rest is wasted time. So, resting got quietly rebranded as a moral failure. That guilt in your chest is basically a very old sales pitch, but that's only half the story.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.0,
+      "text": " Why do you feel guilty doing nothing?"
+    },
+    {
+      "id": 1,
+      "start": 2.0,
+      "end": 4.24,
+      "text": " Honestly, it's not even you."
+    },
+    {
+      "id": 2,
+      "start": 4.24,
+      "end": 6.56,
+      "text": " A few hundred years ago, as factories took over,"
+    },
+    {
+      "id": 3,
+      "start": 6.56,
+      "end": 8.28,
+      "text": " a new idea got sold."
+    },
+    {
+      "id": 4,
+      "start": 8.28,
+      "end": 11.56,
+      "text": " Hard work is holy, and rest is wasted time."
+    },
+    {
+      "id": 5,
+      "start": 11.56,
+      "end": 15.24,
+      "text": " So, resting got quietly rebranded as a moral failure."
+    },
+    {
+      "id": 6,
+      "start": 15.24,
+      "end": 18.92,
+      "text": " That guilt in your chest is basically a very old sales pitch,"
+    },
+    {
+      "id": 7,
+      "start": 18.92,
+      "end": 20.44,
+      "text": " but that's only half the story."
+    }
+  ]
+}
