@@ -57,48 +57,74 @@ def hex_rgb(h: str):
 LOGO_ASSET = ROOT / "brand" / "assets" / "avatar_800.png"
 
 
-def make_cta_card(bg_hex: str, out_png: Path):
-    """Drive-to-full-video end card for the teaser Short: Playedd logo up top, an up-arrow,
-    and big 'FOR FULL BREAKDOWN' beneath, on a white card (the style we used before, now with
-    the logo). bg_hex kept for signature compatibility; the card is always white."""
+def make_cta_card(bg_hex: str, out_png: Path, challenge: str = ""):
+    """Drive-to-full-video end card for the teaser Short: a big Playedd logo up top, an up-arrow,
+    'FOR FULL BREAKDOWN', and an optional bottom challenge line (e.g. a per-episode like-bait).
+    bg_hex kept for signature compatibility; the card is always white."""
     INK = (34, 34, 34)
+    RED = (201, 48, 32)
     card = Image.new("RGB", (W, H), (255, 255, 255))
     d = ImageDraw.Draw(card)
     cx = W // 2
 
-    # Playedd logo (drop the cream/near-white bg), centered near the top
+    def fit(line, max_w, start=170, lo=40):
+        size = start
+        while size > lo:
+            f = ImageFont.truetype(str(FONT_MARKER), size)
+            if d.textbbox((0, 0), line, font=f)[2] <= max_w:
+                return f
+            size -= 4
+        return ImageFont.truetype(str(FONT_MARKER), lo)
+
+    def centered(line, y, font, fill):
+        bb = d.textbbox((0, 0), line, font=font)
+        d.text((cx - (bb[2] - bb[0]) // 2 - bb[0], y), line, font=font, fill=fill)
+        return bb[3] - bb[1]
+
+    # bigger Playedd logo (drop the cream/near-white bg), centered near the top
     if LOGO_ASSET.exists():
         logo = Image.open(LOGO_ASSET).convert("RGBA")
         px = logo.load()
-        for y in range(logo.height):
-            for x in range(logo.width):
-                r, g, b, a = px[x, y]
+        for yy in range(logo.height):
+            for xx in range(logo.width):
+                r, g, b, a = px[xx, yy]
                 if r > 232 and g > 230 and b > 222:
-                    px[x, y] = (r, g, b, 0)
-        side = int(W * 0.48)
+                    px[xx, yy] = (r, g, b, 0)
+        side = int(W * 0.62)
         logo = logo.resize((side, side), Image.LANCZOS)
-        card.paste(logo, (cx - side // 2, int(H * 0.10)), logo)
+        card.paste(logo, (cx - side // 2, int(H * 0.03)), logo)
 
     # up-arrow (points up toward the logo / channel)
-    top = int(H * 0.46)
-    hw, hh, sw, sh = 240, 140, 74, 150
+    top = int(H * 0.40)
+    hw, hh, sw, sh = 210, 100, 66, 110
     d.polygon([(cx - hw // 2, top + hh), (cx, top), (cx + hw // 2, top + hh)], fill=INK)
     d.rectangle([cx - sw // 2, top + hh, cx + sw // 2, top + hh + sh], fill=INK)
 
-    # big "FOR FULL BREAKDOWN" beneath, two lines, each auto-fit to width
-    max_w = int(W * 0.82)
-    y = int(H * 0.66)
+    # "FOR FULL BREAKDOWN" (two lines)
+    y = int(H * 0.51)
     for line in ("FOR FULL", "BREAKDOWN"):
-        size = 170
-        while size > 40:
-            font = ImageFont.truetype(str(FONT_MARKER), size)
-            bb = d.textbbox((0, 0), line, font=font)
-            if (bb[2] - bb[0]) <= max_w:
-                break
-            size -= 4
-        bb = d.textbbox((0, 0), line, font=font)
-        d.text((cx - (bb[2] - bb[0]) // 2 - bb[0], y), line, font=font, fill=INK)
-        y += (bb[3] - bb[1]) + 36
+        f = fit(line, int(W * 0.82), start=150)
+        y += centered(line, y, f, INK) + 40
+
+    # optional bottom challenge line: "HEAD: body" -> red head + black wrapped body
+    if challenge:
+        head, _, body = challenge.partition(":")
+        yc = int(H * 0.75)
+        yc += centered(head.strip(), yc, fit(head.strip(), int(W * 0.86), start=100), RED) + 28
+        if body.strip():
+            fb = ImageFont.truetype(str(FONT_MARKER), 62)
+            lines, cur = [], ""
+            for w in body.strip().split():
+                t = (cur + " " + w).strip()
+                if d.textbbox((0, 0), t, font=fb)[2] <= int(W * 0.88):
+                    cur = t
+                else:
+                    lines.append(cur); cur = w
+            if cur:
+                lines.append(cur)
+            for ln in lines:
+                yc += centered(ln, yc, fb, INK) + 16
+
     card.save(out_png)
 
 
@@ -108,6 +134,7 @@ def main():
     ap.add_argument("--images", nargs="+", required=True, help="ordered image paths")
     ap.add_argument("--music", default=None, help="optional music bed (ducked low)")
     ap.add_argument("--bg", default="#1A1A1A", help="solid background color")
+    ap.add_argument("--cta-line", default="", help="optional bottom challenge line on the CTA card, e.g. 'LAZY CHALLENGE: like this video'")
     ap.add_argument("--cuts", nargs="*", type=float, default=None,
                     help="optional explicit image start times (len == #images)")
     ap.add_argument("--cta-sec", type=float, default=CTA_SEC,
@@ -145,7 +172,7 @@ def main():
 
     tmpdir = Path(tempfile.mkdtemp())
     cta = tmpdir / "cta.png"
-    make_cta_card(args.bg, cta)
+    make_cta_card(args.bg, cta, args.cta_line)
 
     listf = tmpdir / "list.txt"
     with open(listf, "w") as f:
