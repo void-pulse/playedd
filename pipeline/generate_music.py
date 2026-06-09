@@ -27,22 +27,28 @@ from dotenv import load_dotenv
 load_dotenv()
 
 SHARED_PREFIX = (
-    "Instrumental background score for a wry investigative explainer video. "
-    "Minimal electronic palette, sparse muted synth and soft low bass, around 90 BPM, "
-    "low energy, sits underneath a voiceover, loopable, no vocals, no dramatic swells. Mood: "
+    "Instrumental upbeat, curious explainer score for a wondrous video about time, memory, and "
+    "noticing the world. Bright, warm, and gently propulsive: light pizzicato and plucked strings, "
+    "soft rounded synth arpeggios, warm piano, a light steady rhythmic pulse with soft mallets, "
+    "major key, optimistic and inquisitive, around 100 BPM, moderate energy with a gentle forward "
+    "momentum, sits comfortably beneath a calm voiceover, no vocals, no heavy or aggressive drums, "
+    "no harsh synths, no big EDM drops. Playful, bright, and modern like a feel-good explainer "
+    "score. Mood: "
 )
 
+# One cue per ep5 beat. The arc honors the head-fake (reveal_1 is the tempting-but-weak idea,
+# reveal_2 is the real warm discovery) and the no-mortality rule (human_layer is reassurance).
 MOODS = {
-    "cold_open": "curious and slightly tense, a question hanging in the air",
-    "setup": "steady and methodical, a quiet ticking pulse, matter-of-fact",
-    "the_turn": "something dawning, slightly off-kilter, the floor tilting",
-    "the_science": "clinical and mechanical, precise, cold lab curiosity",
-    "the_tracking": "cold and watchful, quietly menacing, surveillance unease",
-    "the_building": "starts low and claustrophobic, opens into spacious and grand",
-    "the_senses": "hazy and seductive, slightly woozy, perfumed with an undertow",
-    "human_layer": "melancholy and hollow, the world going quiet, weightless",
-    "payoff": "resolving with a sad clarity, the truth settling",
-    "button": "wry and knowing, a small final sting",
+    "cold_open": "wistful and nostalgic, a warm endless-summer memory, a soft question in the air",
+    "setup": "gently curious, the quiet feeling of noticing something odd, light and inquisitive",
+    "the_turn": "something quietly dawning, a hopeful lift as the mystery opens up",
+    "reveal_1": "light and tentative, a plausible idea offered then gently doubted, a small question mark",
+    "reveal_2": "warm discovery, the real insight arriving, strings opening with quiet wonder",
+    "reveal_3": "tender and nostalgic, the glow of first times, intimate and warm",
+    "reveal_4": "curious and speculative, an intriguing maybe, weightless and open-ended",
+    "human_layer": "reassuring and grounding, warm and intimate, a steadying calm",
+    "payoff": "hopeful and expansive, gently uplifting, a sense of possibility opening wide",
+    "button": "warm and resolved, a soft closing wonder, settling with a gentle smile",
 }
 
 TAIL_MS = 2000           # crossfade tail added to each cue

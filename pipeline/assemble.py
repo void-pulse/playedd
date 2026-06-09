@@ -30,6 +30,14 @@ OUTRO = ROOT / "brand" / "assets" / "end_card_main.png"  # silent like/subscribe
 OUTRO_SEC = 7.0  # held after narration; art keeps CENTER + TOP-RIGHT clear for YouTube's end screen
 MIN_DUR = 0.40  # floor so a tiny segment doesn't flash by
 SYNC_OFFSET_SEC = 0.25  # shift every image LATER by this much (FORMATS.md global)
+MUSIC_DB = -15.0  # base level of the score (well under the VO); sidechain ducks it further while Jack talks
+# Gentle macro-leveling so softer/punchier lines sit at a steadier volume (level only, no timing change).
+# Long window + modest max-gain = even out slow drift across the read without audible pumping.
+VO_LEVEL = "dynaudnorm=f=300:g=21:m=3.0:p=0.90"
+
+
+def db_to_lin(db: float) -> float:
+    return 10 ** (db / 20.0)
 
 
 def audio_duration(path: Path) -> float:
@@ -55,6 +63,10 @@ def main():
     ap.add_argument("--out", default=None)
     ap.add_argument("--segments", default=None)
     ap.add_argument("--no-outro", action="store_true", help="skip the silent like/subscribe end card")
+    ap.add_argument("--music", default=None,
+                    help="optional score (e.g. music/full_score.mp3), ducked under the VO")
+    ap.add_argument("--raw-vo", action="store_true",
+                    help="skip the gentle VO leveling (use the locked narration dynamics as-is)")
     args = ap.parse_args()
 
     ep = Path(args.episode)
@@ -108,10 +120,32 @@ def main():
         vparts.append(f"[{k}:v]{scale_body}[v{k}]")
     vparts.append("".join(f"[v{k}]" for k in range(len(items))) + f"concat=n={len(items)}:v=1[v]")
     aidx = len(items)
-    vparts.append(f"[{aidx}:a]aresample=44100,apad,atrim=0:{total:.3f},asetpts=N/SR/TB[a]")
+
+    music_path = Path(args.music) if args.music else None
+    if music_path and not music_path.exists():
+        sys.exit(f"Missing music: {music_path}")
+
+    vo_pre = "" if args.raw_vo else f",{VO_LEVEL}"
+    extra_inputs = []
+    if music_path:
+        # VO (leveled) at full level + a sidechain copy; the score is ducked under the VO
+        # (sidechaincompress) so it dips while Jack talks and breathes in the gaps, then fades out.
+        midx = aidx + 1
+        mlin = db_to_lin(MUSIC_DB)
+        fade_st = max(0.0, audio_len - 3.0)
+        vparts.append(
+            f"[{aidx}:a]aresample=44100{vo_pre},apad,atrim=0:{total:.3f},asetpts=N/SR/TB,asplit=2[vo][vosc];"
+            f"[{midx}:a]aresample=44100,apad,atrim=0:{total:.3f},asetpts=N/SR/TB,volume={mlin:.4f},"
+            f"afade=t=in:st=0:d=1.5,afade=t=out:st={fade_st:.3f}:d=3.0[musv];"
+            f"[musv][vosc]sidechaincompress=threshold=0.06:ratio=8:attack=20:release=350[duck];"
+            f"[vo][duck]amix=inputs=2:normalize=0:duration=first:dropout_transition=0[a]"
+        )
+        extra_inputs = ["-i", str(music_path)]
+    else:
+        vparts.append(f"[{aidx}:a]aresample=44100{vo_pre},apad,atrim=0:{total:.3f},asetpts=N/SR/TB[a]")
 
     cmd = [
-        "ffmpeg", "-y", *vin, "-i", str(audio_path),
+        "ffmpeg", "-y", *vin, "-i", str(audio_path), *extra_inputs,
         "-filter_complex", ";".join(vparts),
         "-map", "[v]", "-map", "[a]",
         "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
@@ -119,7 +153,8 @@ def main():
         "-movflags", "+faststart", str(out_path),
     ]
 
-    print(f"Assembling {n} frames + narration ({audio_len:.1f}s) + outro card -> {out_path}")
+    print(f"Assembling {n} frames + narration ({audio_len:.1f}s)"
+          f"{' + score' if music_path else ''} + outro card -> {out_path}")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         print(result.stderr[-2000:])
