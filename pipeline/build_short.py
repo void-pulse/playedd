@@ -81,7 +81,7 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = ""):
         d.text((cx - (bb[2] - bb[0]) // 2 - bb[0], y), line, font=font, fill=fill)
         return bb[3] - bb[1]
 
-    # bigger Playedd logo (drop the cream/near-white bg), centered near the top
+    # Playedd logo (drop the cream/near-white bg), big, centered near the top
     if LOGO_ASSET.exists():
         logo = Image.open(LOGO_ASSET).convert("RGBA")
         px = logo.load()
@@ -90,40 +90,48 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = ""):
                 r, g, b, a = px[xx, yy]
                 if r > 232 and g > 230 and b > 222:
                     px[xx, yy] = (r, g, b, 0)
-        side = int(W * 0.62)
+        side = int(W * 0.52)
         logo = logo.resize((side, side), Image.LANCZOS)
-        card.paste(logo, (cx - side // 2, int(H * 0.03)), logo)
+        card.paste(logo, (cx - side // 2, int(H * 0.02)), logo)
 
-    # up-arrow (points up toward the logo / channel)
-    top = int(H * 0.40)
-    hw, hh, sw, sh = 210, 100, 66, 110
-    d.polygon([(cx - hw // 2, top + hh), (cx, top), (cx + hw // 2, top + hh)], fill=INK)
-    d.rectangle([cx - sw // 2, top + hh, cx + sw // 2, top + hh + sh], fill=INK)
-
-    # "FOR FULL BREAKDOWN" (two lines)
-    y = int(H * 0.51)
-    for line in ("FOR FULL", "BREAKDOWN"):
-        f = fit(line, int(W * 0.82), start=150)
-        y += centered(line, y, f, INK) + 40
-
-    # optional bottom challenge line: "HEAD: body" -> red head + black wrapped body
+    # challenge like-bait line up near the logo ("HEAD: body" -> red head + black body)
     if challenge:
         head, _, body = challenge.partition(":")
-        yc = int(H * 0.75)
-        yc += centered(head.strip(), yc, fit(head.strip(), int(W * 0.86), start=100), RED) + 28
+        yc = int(H * 0.33)
+        yc += centered(head.strip(), yc, fit(head.strip(), int(W * 0.86), start=92), RED) + 22
         if body.strip():
-            fb = ImageFont.truetype(str(FONT_MARKER), 62)
+            fb = ImageFont.truetype(str(FONT_MARKER), 56)
             lines, cur = [], ""
             for w in body.strip().split():
                 t = (cur + " " + w).strip()
-                if d.textbbox((0, 0), t, font=fb)[2] <= int(W * 0.88):
+                if d.textbbox((0, 0), t, font=fb)[2] <= int(W * 0.9):
                     cur = t
                 else:
                     lines.append(cur); cur = w
             if cur:
                 lines.append(cur)
             for ln in lines:
-                yc += centered(ln, yc, fb, INK) + 16
+                yc += centered(ln, yc, fb, INK) + 14
+
+    # "FOR FULL BREAKDOWN" sitting above the arrow
+    y = int(H * 0.50)
+    for line in ("FOR FULL", "BREAKDOWN"):
+        f = fit(line, int(W * 0.82), start=140)
+        y += centered(line, y, f, INK) + 34
+
+    # arrow pointing DOWN to the LOWER-LEFT, where YouTube shows the video link on a Short
+    # (the link sits under the channel handle + subscribe button, bottom-left).
+    p1 = (int(W * 0.46), int(H * 0.70))
+    p2 = (int(W * 0.13), int(H * 0.85))
+    ax, ay = p2[0] - p1[0], p2[1] - p1[1]
+    L = (ax * ax + ay * ay) ** 0.5
+    ux, uy = ax / L, ay / L
+    head = 132
+    bx, by = p2[0] - ux * head, p2[1] - uy * head
+    d.line([p1, (bx, by)], fill=INK, width=50)
+    perpx, perpy = -uy, ux
+    hw2 = head * 0.62
+    d.polygon([p2, (bx + perpx * hw2, by + perpy * hw2), (bx - perpx * hw2, by - perpy * hw2)], fill=INK)
 
     card.save(out_png)
 
