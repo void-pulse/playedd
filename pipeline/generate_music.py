@@ -170,6 +170,15 @@ def main():
 
     music_dir.mkdir(exist_ok=True)
 
+    # Per-episode mood overrides: <ep>/music_moods.json (beat -> mood line) wins over the
+    # built-in MOODS, so each episode's beat structure scores correctly without editing this
+    # shared file. Falls back to MOODS for any beat the episode file doesn't define.
+    moods = dict(MOODS)
+    moods_file = ep / "music_moods.json"
+    if moods_file.exists():
+        moods.update(json.loads(moods_file.read_text(encoding="utf-8")))
+        print(f"Loaded per-episode moods: {moods_file}")
+
     from elevenlabs.client import ElevenLabs
     client = ElevenLabs(api_key=api_key)
 
@@ -181,11 +190,11 @@ def main():
         if not m:
             sys.exit(f"Unexpected chunk name: {cf.name}")
         beat = m.group(2)
-        if beat not in MOODS:
-            sys.exit(f"No mood defined for beat '{beat}'. Add it to MOODS.")
+        if beat not in moods:
+            sys.exit(f"No mood defined for beat '{beat}'. Add it to MOODS or {moods_file.name}.")
         dur = ffdur(cf)
         length_ms = max(MIN_MS, min(MAX_MS, round(dur * 1000) + TAIL_MS))
-        prompt = SHARED_PREFIX + MOODS[beat]
+        prompt = SHARED_PREFIX + moods[beat]
         out_path = music_dir / f"{i + 1:02d}_{beat}.mp3"
         print(f"[{i + 1:02d}/{len(chunk_files)}] {beat}: beat={dur:.1f}s "
               f"cue_len={length_ms / 1000:.1f}s -> {out_path.name} ...")
