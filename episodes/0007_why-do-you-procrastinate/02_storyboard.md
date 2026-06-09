@@ -11,7 +11,7 @@ Creative direction for the image track. Worker expands into per-timestamp scenes
 
 **[COLD OPEN] Stan busy-avoiding**
 - Stan frantically scrubbing a dish, sweating, while behind him a glowing task labeled "DUE TOMORROW" sits ignored. Busy, but tormented.
-- Cut: split frame: a relaxed figure flopped on a couch labeled "LAZY" (calm) vs tense Stan surrounded by chores labeled "PROCRASTINATING" (suffering). One idea: "NOT THE SAME."
+- Cut: split frame: a figure shrugging and turning away from a task labeled "LAZY = DON'T WANT TO" vs Stan reaching toward the task but flinching away, labeled "PROCRASTINATING = WANT TO, CAN'T." One idea: "NOT THE SAME."
 
 **[SETUP] the usual advice fails**
 - A planner, a clock, a "TRY HARDER" poster, all stamped with a red X. The standard fix that never works.

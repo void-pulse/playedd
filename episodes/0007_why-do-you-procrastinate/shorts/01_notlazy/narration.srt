@@ -1,15 +1,19 @@
 1
-00:00:00,000 --> 00:00:05,600
-Meet Stan. He has one thing due tomorrow. So tonight he scrubbed the whole kitchen, reorganized
+00:00:00,000 --> 00:00:05,360
+Meet Stan. He has one thing due tomorrow, so tonight he scrubbed the whole kitchen, reorganized
 
 2
-00:00:05,600 --> 00:00:11,680
+00:00:05,360 --> 00:00:11,360
 his desk, and answered every email. Anything but the actual task. And he felt awful the entire
 
 3
-00:00:11,680 --> 00:00:18,640
-time. Here's the giveaway. Stan isn't lazy. A lazy person would be relaxed. Stan is suffering.
+00:00:11,360 --> 00:00:17,680
+time. Here's the giveaway. Stan isn't lazy. Lazy is not even wanting to do the thing. Stan
 
 4
-00:00:18,640 --> 00:00:24,880
-Procrastination isn't laziness. It's almost the opposite. So what is it really?
+00:00:17,680 --> 00:00:23,120
+desperately wants to, and he still can't make himself start. Procrastination isn't laziness.
+
+5
+00:00:23,120 --> 00:00:26,400
+It's almost the opposite. So, what is it really?
