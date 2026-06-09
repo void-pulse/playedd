@@ -1,0 +1,53 @@
+{
+  "text": " Meet Stan, Stan had all day to go for one run. He didn't, and now he feels like garbage about it. But here's the thing, Stan isn't lazy. His brain is a survival machine, built over millions of years to never waste energy. Doing nothing is what kept your ancestors alive. So why does it feel like a crime? That part is way stranger than you think.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.44,
+      "text": " Meet Stan, Stan had all day to go for one run."
+    },
+    {
+      "id": 1,
+      "start": 3.44,
+      "end": 6.76,
+      "text": " He didn't, and now he feels like garbage about it."
+    },
+    {
+      "id": 2,
+      "start": 6.76,
+      "end": 9.56,
+      "text": " But here's the thing, Stan isn't lazy."
+    },
+    {
+      "id": 3,
+      "start": 9.56,
+      "end": 11.56,
+      "text": " His brain is a survival machine,"
+    },
+    {
+      "id": 4,
+      "start": 11.56,
+      "end": 14.68,
+      "text": " built over millions of years to never waste energy."
+    },
+    {
+      "id": 5,
+      "start": 14.68,
+      "end": 17.44,
+      "text": " Doing nothing is what kept your ancestors alive."
+    },
+    {
+      "id": 6,
+      "start": 17.44,
+      "end": 19.52,
+      "text": " So why does it feel like a crime?"
+    },
+    {
+      "id": 7,
+      "start": 19.52,
+      "end": 21.6,
+      "text": " That part is way stranger than you think."
+    }
+  ]
+}
