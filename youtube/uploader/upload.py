@@ -135,8 +135,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="validate spec + files; no API calls")
     ap.add_argument("--main-at", default=None,
                     help="ISO8601 UTC publishAt for the main video (e.g. 2026-06-12T15:00:00Z)")
-    ap.add_argument("--shorts-start-hours", type=float, default=2.0,
-                    help="first short publishes N hours after the main (launch-day)")
+    ap.add_argument("--shorts-start-hours", type=float, default=0.0,
+                    help="first short publishes N hours after the main (default: same minute)")
     ap.add_argument("--shorts-every-days", type=float, default=2.0,
                     help="gap between shorts after the first")
     ap.add_argument("--skip-shorts", action="store_true")

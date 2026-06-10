@@ -57,7 +57,7 @@ def hex_rgb(h: str):
 LOGO_ASSET = ROOT / "brand" / "assets" / "avatar_800.png"
 
 
-def make_cta_card(bg_hex: str, out_png: Path, challenge: str = ""):
+def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str = "FOR FULL,BREAKDOWN"):
     """Drive-to-full-video end card for the teaser Short: a big Playedd logo up top, an up-arrow,
     'FOR FULL BREAKDOWN', and an optional bottom challenge line (e.g. a per-episode like-bait).
     bg_hex kept for signature compatibility; the card is always white."""
@@ -113,9 +113,9 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = ""):
             for ln in lines:
                 yc += centered(ln, yc, fb, INK) + 14
 
-    # "FOR FULL BREAKDOWN" sitting above the arrow
+    # heading (e.g. FOR FULL BREAKDOWN / FOLLOW FOR DAILY WONDER) above the arrow
     y = int(H * 0.50)
-    for line in ("FOR FULL", "BREAKDOWN"):
+    for line in [x.strip() for x in heading.split(",") if x.strip()]:
         f = fit(line, int(W * 0.82), start=140)
         y += centered(line, y, f, INK) + 34
 
@@ -143,6 +143,7 @@ def main():
     ap.add_argument("--music", default=None, help="optional music bed (ducked low)")
     ap.add_argument("--bg", default="#1A1A1A", help="solid background color")
     ap.add_argument("--cta-line", default="", help="optional bottom challenge line on the CTA card, e.g. 'LAZY CHALLENGE: like this video'")
+    ap.add_argument("--cta-heading", default="FOR FULL,BREAKDOWN", help="comma-split CTA heading lines")
     ap.add_argument("--cuts", nargs="*", type=float, default=None,
                     help="optional explicit image start times (len == #images)")
     ap.add_argument("--cta-sec", type=float, default=CTA_SEC,
@@ -180,7 +181,7 @@ def main():
 
     tmpdir = Path(tempfile.mkdtemp())
     cta = tmpdir / "cta.png"
-    make_cta_card(args.bg, cta, args.cta_line)
+    make_cta_card(args.bg, cta, args.cta_line, args.cta_heading)
 
     listf = tmpdir / "list.txt"
     with open(listf, "w") as f:

@@ -42,3 +42,9 @@ test/
 # youtube uploader runtime (oauth token + upload ledger)
 youtube/uploader/token.json
 youtube/uploader/state.json
+
+# standalone daily shorts media (committed: scenes/scripts/json)
+shorts_daily/**/audio/
+shorts_daily/**/images/
+shorts_daily/**/*.mp4
+shorts_daily/**/*.srt
