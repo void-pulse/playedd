@@ -1,0 +1,52 @@
+# Script — Where Do Your Thoughts Come From?
+
+(Narration only. Short paragraphs, one idea each. Spoken style. Mark the human-layer beat inline with [HUMAN LAYER]. Minimize em dashes. Spine maps to brand/STORY.md. EMOTIONAL REGISTER: neutral + wonder, gently liberating; NOT free-will-doom, NOT woo. Stan = everyman. Fun history thread. TARGET ~7 min / ~1,750 words, Jack reads fast.)
+
+**[COLD OPEN]**
+Right now, you are thinking a thought. So try something with me. Guess your next thought. Not think it, guess it, before it arrives. Go. You cannot, can you. It just shows up, on its own, fully formed, like it wandered in from another room. Stan tries it, and out of nowhere his brain serves up a random craving for a sandwich. Where did that come from? He did not decide to think it. It just appeared. You feel like the author of your thoughts. But the truth is a lot stranger, and once you see it, the voice in your head will never sound quite the same.
+
+**[SETUP]**
+We go through life assuming we are the one doing the thinking. I think, therefore I am, right? I am the boss up here, writing each thought, one after another. But watch your own mind for ten seconds and that whole idea starts to fall apart. A song you have not heard in years. A worry. A cringe memory from 2009. None of it was invited. It arrived.
+
+**[THE WHITE BEAR]**
+And here is where it gets genuinely weird. If you are really in charge, then prove it. Try the opposite. For the next few seconds, do not think about a white bear. Whatever you do, no white bears. ... And there it is. You cannot not think about it. Almost two hundred years ago the writer Dostoevsky dared his brother with exactly this, and psychologists later confirmed it in the lab. The harder you try to push a thought away, the harder it shoves back. So sit with the full picture. You cannot summon your next thought. And you cannot banish one either. If you were truly running the show in there, both of those should be easy. Neither one is.
+
+**[THE TURN]**
+There is a reason for that, hiding in plain sight. You literally cannot think a thought before you think it. To plan it in advance, you would already have to be thinking it. Which means every thought you have arrives from somewhere you cannot see, a moment before you notice it. You are not sitting at the keyboard typing your thoughts. You are reading them off the screen as they appear.
+
+**[REVEAL 1]**
+And your brain is doing this constantly, even when you feel like you are doing nothing. There is a whole network in there, called the default mode network, that switches on the second you stop concentrating, and it just generates. Daydreams. Replays. Random what-ifs. It is why your best ideas tend to ambush you in the shower, or on a walk, the moment you stop trying, this thing takes over and starts handing you things you were not even looking for. And it runs more than you would ever guess. Harvard researchers pinged thousands of people at random through their days to ask where their mind was. The answer: wandering about forty-seven percent of the time. Nearly half your waking life, you are not really where your body is. You are off somewhere, carried around by thoughts you never chose.
+
+**[REVEAL 2]**
+And it might go deeper than thoughts. It might reach all the way down into your choices. In the 1980s a scientist named Benjamin Libet wired people up to a brain scanner and gave them one simple job. Watch a fast clock, and whenever you feel like it, flick your wrist. Just note the exact moment you decided to move. And the results were genuinely unsettling. The brain started gearing up to move a full third of a second, sometimes more, BEFORE the person felt they had decided. The decision showed up in the brain first. The feeling of "I chose this" came second. As if you are not making the call, you are being told about it a beat late. Now, be careful with this one. It is fiercely debated, it only covers tiny simple movements, and Libet himself did not think it killed free will, he pointed out that even after the impulse builds, the conscious mind can still veto it at the last instant. Call it free won't. But strip it all down and you are left with the same strange shape. The impulse arrives on its own. What you do with it is the only part that might be yours.
+
+**[THE HISTORY TURN]**
+And if your head is spinning, take some comfort, because humans did not even know where thoughts came FROM for almost all of history. The ancient Egyptians were so certain the brain did not matter that during mummification, they slid a hook up through the nose, scooped the brain out, and threw it in the trash. But the heart? The heart they preserved with enormous care, and weighed in the afterlife against a feather, because they believed the heart was where you did your thinking and feeling. And it was not just them. Aristotle, one of the sharpest minds who ever lived, decided the brain was basically a radiator, a wet sponge whose only job was to cool the blood, and that real thought happened in the heart.
+
+**[HISTORY, THE TWIST]**
+And here is the part that should give you chills. That ancient mistake is still hiding inside the way you talk, right now. When you memorize something, you learn it "by heart." When you mean something truly, it is "heartfelt." You "know it by heart." Every one of those phrases is a little fossil, left over from thousands of years of humans being dead certain that the heart did the thinking. The actual organ generating every word of this sentence in your head did not even get the credit in our language.
+
+**[HUMAN LAYER]**
+So here is the quiet, strange truth under all of it. The thing you call "me," that voice narrating your life this very second, is not the source of your thoughts. It is the one they happen to. Everything you have ever seen, heard, feared, and loved is churning away beneath your awareness, recombining in the dark, and every so often it hands a finished thought up to the surface. And you, the part that notices, take the credit. You are not the writer in the room. You are the reader, turning pages you did not write. And somehow, that reader is the most "you" there is.
+
+**[PAYOFF]**
+Which is actually freeing, once it lands. That cruel little thought that ambushes you. That worry at 2am. That random, ugly thing your brain blurts for no reason at all. You did not write it. It arrived on its own, from a process you do not control, the same way the white bear did. So you do not have to believe it, and you do not have to be ashamed of it, because it was never really yours to begin with. The thoughts show up by themselves. The one part that is truly yours is what you choose to do with the ones that come.
+
+**[BUTTON]**
+So the next time a thought appears out of nowhere, see it for what it really is. A message handed up from a place inside you that you will never fully see, delivered to the one part of you that gets to read it, and decide. You have spent your whole life certain that you are the one doing the thinking. It turns out you are the one lucky enough to be listening.
+
+## SOURCES
+- Thoughts arise unbidden / you cannot pre-think a thought — cognitive science + philosophy of mind (e.g. Sam Harris, "Free Will").
+- Ironic process / "white bear": Dostoevsky's challenge; Daniel Wegner's ironic process theory (trying to suppress a thought makes it more intrusive).
+- Default Mode Network generates spontaneous thought / mind-wandering at wakeful rest; linked to creative incubation ("shower thoughts"). (Wikipedia "Default mode network"; Psychology Today.)
+- Mind-wandering ~47% of waking life. (Killingsworth & Gilbert, 2010, "A Wandering Mind Is an Unhappy Mind," Science; Harvard, ~2,250 participants.)
+- Libet readiness potential (1980s): brain activity precedes reported conscious decision by ~300ms+; clock/wrist-flick paradigm. HEAVILY debated, simple motor acts only, and Libet himself proposed the conscious "veto" (free won't), not predetermination. (Wikipedia "Benjamin Libet"; Trends in Cognitive Sciences, "What Is the Readiness Potential?")
+- Ancient Egyptians discarded the brain in mummification (extracted via the nose); heart preserved as the seat of intelligence, weighed against the feather of Ma'at. (History of neuroscience; Smithsonian.)
+- Aristotle's cardiocentric view: heart = intelligence; brain = a cooling mechanism for the blood. (History of neuroscience.)
+- "By heart / heartfelt" as linguistic fossils of the heart-as-mind belief (cf. French "par cœur").
+
+## REGISTER + MYTH-RISK FLAGS
+- NEUTRAL + WONDER, gently liberating landing (you're not your thoughts; you choose what to act on). NOT nihilistic, NOT "you have no free will," NOT woo. Keep concrete.
+- LIBET: present as debated, simple-movements-only, with Libet's own veto caveat. Do NOT conclude free will is disproven. Keep "you don't author your thoughts" (supported) separate from "you have no control" (overreach); the payoff reaffirms agency over your response.
+- Keep "I think therefore I am" light, not a philosophy lecture.
+- Minimize em dashes. Target ~7 min (~1,750 words).

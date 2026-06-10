@@ -1,0 +1,11 @@
+# ep11 short 3 — social jetlag (teaser)
+
+[SHORT]
+
+Every weekend, you give yourself jet lag. Without ever leaving your house.
+
+An alarm all week. Sleeping in on the weekend. Then Monday slams the alarm back down.
+
+So your body flies west on Saturday, and east on Monday.
+
+Scientists even have a name for it. And more than two out of three people are walking around with it.

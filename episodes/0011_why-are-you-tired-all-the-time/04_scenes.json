@@ -1,0 +1,584 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan the round-headed dot-eyed stickman asleep in bed wearing a sleep mask, a watch on his wrist reading 8 HRS, a wall clock above, flat dark navy bedroom, big black caps 8 HOURS."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:07",
+    "seconds": 6.76,
+    "scene": "Stan slumped face-down on an office desk, three little z's, droopy dot-eyes, a wall clock showing 3:00, flat beige office, big black caps 3 PM ZOMBIE."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:13",
+    "seconds": 13.16,
+    "scene": "Close on Stan at the desk, eyes as heavy half-closed lines, head drooping toward the desk, tired motion lines, flat beige office."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:19",
+    "seconds": 18.6,
+    "scene": "Split frame: left, Stan climbing into bed early under a moon; right, Stan flat on his back wide awake, dot-eyes huge, a glowing phone on his face, wall clock 11:00, flat dark navy bedroom."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:26",
+    "seconds": 26.44,
+    "scene": "Stan lying in bed at night with a bright lightbulb of ideas over his head and buzzing energy sparks, wall clock 11:00, flat dark navy, big black caps WRONG TIME."
+  },
+  {
+    "index": 6,
+    "timestamp": "0:32",
+    "seconds": 31.52,
+    "scene": "A simple day-night strip: a tired Stan under a sun on the left, a wide-awake Stan under a moon on the right, flat split sky."
+  },
+  {
+    "index": 7,
+    "timestamp": "0:36",
+    "seconds": 35.88,
+    "scene": "Stan standing holding up a battery icon stuck near empty at 3 out of 10, looking drained, flat beige, big black caps RUNNING ON 3."
+  },
+  {
+    "index": 8,
+    "timestamp": "0:42",
+    "seconds": 42.48,
+    "scene": "Stan shrugging with a big question mark over his head beside a bed with a red X over it, flat grey, big black caps NOT THE SLEEP."
+  },
+  {
+    "index": 9,
+    "timestamp": "0:50",
+    "seconds": 49.96,
+    "scene": "Stan trapped inside a looping circular red arrow with tiny icons around it: coffee, a crash, a phone, a bed, flat grey, big black caps THE LOOP."
+  },
+  {
+    "index": 10,
+    "timestamp": "0:56",
+    "seconds": 55.64,
+    "scene": "A big thought bubble over Stan reading JUST SLEEP MORE with a thick red X slashed across it, flat beige."
+  },
+  {
+    "index": 11,
+    "timestamp": "1:00",
+    "seconds": 60.44,
+    "scene": "One little Stan sleeping soundly with a green check mark over him, flat soft night blue, big black caps FOR SOME, YES."
+  },
+  {
+    "index": 12,
+    "timestamp": "1:04",
+    "seconds": 64.44,
+    "scene": "Three Stans in a row, each holding a sleep tracker reading 8, 9, and 10, all three still yawning, flat beige."
+  },
+  {
+    "index": 13,
+    "timestamp": "1:09",
+    "seconds": 68.6,
+    "scene": "Stan dragging himself across the office floor in the afternoon, a sun in the window, a sweat drop, flat beige."
+  },
+  {
+    "index": 14,
+    "timestamp": "1:14",
+    "seconds": 73.72,
+    "scene": "A balance scale: a huge pile labeled SLEEP on one side, still not lifting a tired slumped Stan on the other, flat grey, big black caps MORE IS NOT FIXED."
+  },
+  {
+    "index": 15,
+    "timestamp": "1:19",
+    "seconds": 78.52,
+    "scene": "A surprised Stan standing between two big boxes, one stamped 1 and one stamped 2, flat grey, big black caps TWO SYSTEMS."
+  },
+  {
+    "index": 16,
+    "timestamp": "1:23",
+    "seconds": 83.28,
+    "scene": "Two clock faces pointing different directions with a tug-of-war rope strung between them, a small Stan in the middle, flat grey."
+  },
+  {
+    "index": 17,
+    "timestamp": "1:28",
+    "seconds": 87.76,
+    "scene": "A tall rising arrow growing over a tired Stan as a sun arcs overhead, flat beige, big black caps SLEEP PRESSURE."
+  },
+  {
+    "index": 18,
+    "timestamp": "1:33",
+    "seconds": 93.44,
+    "scene": "Stan's head drawn as a little engine burning fuel, tiny round molecule dots drifting out and piling up at his feet, flat beige."
+  },
+  {
+    "index": 19,
+    "timestamp": "1:39",
+    "seconds": 99.08,
+    "scene": "Stan drawn literally as an hourglass shape, sand trickling into his lower half, eyelids getting heavy, a sun behind, flat warm tan."
+  },
+  {
+    "index": 20,
+    "timestamp": "1:47",
+    "seconds": 106.72,
+    "scene": "A full hourglass at night under a moon, Stan's eyes shut, a big hand flipping the glass over, flat dark navy."
+  },
+  {
+    "index": 21,
+    "timestamp": "1:51",
+    "seconds": 111.36,
+    "scene": "Morning: the emptied hourglass, Stan awake and clear under a sun, a coffee cup sneaking in from the edge, flat morning blue."
+  },
+  {
+    "index": 22,
+    "timestamp": "1:59",
+    "seconds": 118.96,
+    "scene": "A coffee cup slapping a strip of tape over a little round gauge marked with a z, flat brown, big black caps TAPE OVER THE SENSOR."
+  },
+  {
+    "index": 23,
+    "timestamp": "2:03",
+    "seconds": 123.4,
+    "scene": "Stan wired and jittery on coffee, then the tape peeling off and a pile of sand dumping onto him all at once, flat brown, big black caps CRASH."
+  },
+  {
+    "index": 24,
+    "timestamp": "2:09",
+    "seconds": 129.0,
+    "scene": "A single clock stamped 1 with an up-and-down arrow beside it, a small sleeping Stan, flat grey."
+  },
+  {
+    "index": 25,
+    "timestamp": "2:14",
+    "seconds": 133.72,
+    "scene": "The clock stamped 1 draining away like sand while Stan sleeps under a moon, flat dark navy."
+  },
+  {
+    "index": 26,
+    "timestamp": "2:18",
+    "seconds": 137.88,
+    "scene": "A second clock stamped 2 popping up with a shrug, turning its back on a stopwatch labeled HOURS AWAKE, flat grey, big black caps A SECOND CLOCK."
+  },
+  {
+    "index": 27,
+    "timestamp": "2:22",
+    "seconds": 141.88,
+    "scene": "A simple cross-section of Stan's head with a tiny glowing clock the size of a rice grain tucked behind his eyes, flat beige, big black caps 20,000 CELLS."
+  },
+  {
+    "index": 28,
+    "timestamp": "2:27",
+    "seconds": 147.2,
+    "scene": "A single grain of rice next to the tiny glowing clock for scale, a small arrow labeled MASTER CLOCK, flat grey."
+  },
+  {
+    "index": 29,
+    "timestamp": "2:33",
+    "seconds": 152.8,
+    "scene": "A big round 24-hour clock face with a tiny Stan riding one of its hands like a ride, flat blue, big black caps 24 HOURS."
+  },
+  {
+    "index": 30,
+    "timestamp": "2:37",
+    "seconds": 157.16,
+    "scene": "The master clock holding a clipboard marked SCHEDULE, with a sharp wide-awake Stan and a wiped droopy Stan as the two outcomes, flat grey."
+  },
+  {
+    "index": 31,
+    "timestamp": "2:44",
+    "seconds": 163.52,
+    "scene": "A simple line graph rising to a peak in the late morning, Stan standing at the top looking sharp with a lightbulb, flat blue, big black caps MORNING PEAK."
+  },
+  {
+    "index": 32,
+    "timestamp": "2:48",
+    "seconds": 168.28,
+    "scene": "The same line plunging into a deep dip in the afternoon, Stan sliding helplessly down the slope, flat orange, big black caps THE DIP."
+  },
+  {
+    "index": 33,
+    "timestamp": "2:54",
+    "seconds": 174.44,
+    "scene": "Stan melting into a puddle of soup at his desk, a spoon resting in his bowl-shaped head, flat beige office, big black caps BRAIN SOUP."
+  },
+  {
+    "index": 34,
+    "timestamp": "2:58",
+    "seconds": 178.44,
+    "scene": "A sandwich beside the melting Stan shrugging with a speech bubble NOT ME, a red arrow pointing up at the wall clock instead, flat beige."
+  },
+  {
+    "index": 35,
+    "timestamp": "3:03",
+    "seconds": 183.36,
+    "scene": "Two Stans at 3:00, one holding a lunch and one with no lunch, both dipping and drooping identically, flat beige, big black caps SAME DIP."
+  },
+  {
+    "index": 36,
+    "timestamp": "3:08",
+    "seconds": 188.44,
+    "scene": "Night: Stan trying to wind down in bed while the master clock grins mischievously beside him, flat dark navy."
+  },
+  {
+    "index": 37,
+    "timestamp": "3:13",
+    "seconds": 193.48,
+    "scene": "Stan bolting wide awake in bed with a burst of energy lines and a lightbulb, wall clock 11:00, flat dark navy, big black caps SECOND WIND."
+  },
+  {
+    "index": 38,
+    "timestamp": "3:18",
+    "seconds": 197.92,
+    "scene": "The master clock holding up a sign that reads DO NOT SLEEP over an evening window, a frustrated wide-awake Stan, flat navy."
+  },
+  {
+    "index": 39,
+    "timestamp": "3:23",
+    "seconds": 203.44,
+    "scene": "Stan lying flat on his back staring at the ceiling, dot-eyes wide, wall clock 11:00, flat dark navy, big black caps WIDE AWAKE."
+  },
+  {
+    "index": 40,
+    "timestamp": "3:30",
+    "seconds": 209.52,
+    "scene": "Stan's whole day as a three-panel filmstrip: ok in the morning, crashing at 3pm, wired at 11pm, flat strip of beige then orange then navy."
+  },
+  {
+    "index": 41,
+    "timestamp": "3:35",
+    "seconds": 215.44,
+    "scene": "Stan holding the clock's SCHEDULE clipboard with a lightbulb of realization over his head, flat grey, big black caps IT WASN'T RANDOM."
+  },
+  {
+    "index": 42,
+    "timestamp": "3:40",
+    "seconds": 219.88,
+    "scene": "A big red question mark hovering over the tiny master clock, flat grey, big black caps WHAT SETS IT."
+  },
+  {
+    "index": 43,
+    "timestamp": "3:45",
+    "seconds": 225.28,
+    "scene": "A bright sun beaming a single ray straight into Stan's eye, the tiny clock clicking on, flat blue sky, big black caps LIGHT."
+  },
+  {
+    "index": 44,
+    "timestamp": "3:50",
+    "seconds": 229.52,
+    "scene": "A close-up doodle eye with a little antenna sensor on top aimed at the light instead of a normal pupil, flat blue, big black caps NOT FOR SEEING."
+  },
+  {
+    "index": 45,
+    "timestamp": "3:56",
+    "seconds": 235.76,
+    "scene": "A morning sun with a speech bubble saying START THE DAY pointed at the little clock, a refreshed Stan waking, flat morning blue."
+  },
+  {
+    "index": 46,
+    "timestamp": "4:01",
+    "seconds": 240.72,
+    "scene": "The little clock snapping shut under a padlock beneath the morning sun, flat blue, big black caps LOCKED IN."
+  },
+  {
+    "index": 47,
+    "timestamp": "4:05",
+    "seconds": 245.24,
+    "scene": "A night lamp and moon with a speech bubble saying STAY UP, shoving the clock's hands later, flat dark navy."
+  },
+  {
+    "index": 48,
+    "timestamp": "4:11",
+    "seconds": 251.0,
+    "scene": "A glowing phone screen drawn as the strongest signal, bright rays hitting Stan's face in bed, flat dark navy, big black caps BLUE LIGHT."
+  },
+  {
+    "index": 49,
+    "timestamp": "4:17",
+    "seconds": 256.6,
+    "scene": "A phone, a laptop, and a TV all glowing at night while a little sleepy cloud labeled MELATONIN gets squashed flat, flat navy, big black caps MELATONIN DOWN."
+  },
+  {
+    "index": 50,
+    "timestamp": "4:22",
+    "seconds": 262.48,
+    "scene": "A glowing phone nudging the clock's hands backward with a red arrow, flat navy, big black caps PUSHED BACK."
+  },
+  {
+    "index": 51,
+    "timestamp": "4:29",
+    "seconds": 268.56,
+    "scene": "Stan in bed cupping his phone like a tiny glowing sun a few inches from his face, flat dark navy, big black caps A TINY SUN."
+  },
+  {
+    "index": 52,
+    "timestamp": "4:34",
+    "seconds": 273.52,
+    "scene": "Stan pushing a marker labeled BEDTIME later and later along a night timeline, night after night, flat navy."
+  },
+  {
+    "index": 53,
+    "timestamp": "4:39",
+    "seconds": 279.28,
+    "scene": "Stan holding the glowing phone while a frown thought-bubble blames himself for not being tired, flat navy."
+  },
+  {
+    "index": 54,
+    "timestamp": "4:45",
+    "seconds": 284.68,
+    "scene": "Big puzzle pieces clicking together over a tired Stan, flat grey, big black caps IT ALL FITS."
+  },
+  {
+    "index": 55,
+    "timestamp": "4:50",
+    "seconds": 290.2,
+    "scene": "Stan standing confused between two clocks set to clearly different times, one on each side of him, flat split sky, big black caps TWO TIME ZONES."
+  },
+  {
+    "index": 56,
+    "timestamp": "4:56",
+    "seconds": 296.24,
+    "scene": "Stan slumped in an airplane seat with the seatbelt on, but the little window shows his own bedroom instead of sky, flat grey plane interior, big black caps SOCIAL JET LAG."
+  },
+  {
+    "index": 57,
+    "timestamp": "5:01",
+    "seconds": 301.12,
+    "scene": "A weekday row Monday to Friday with an alarm clock yanking Stan up early each day by a string, flat beige, big black caps ALARM."
+  },
+  {
+    "index": 58,
+    "timestamp": "5:06",
+    "seconds": 306.32,
+    "scene": "Stan reaching longingly back toward the bed as the alarm drags him away, flat beige, big black caps BODY WANTED MORE."
+  },
+  {
+    "index": 59,
+    "timestamp": "5:11",
+    "seconds": 311.04,
+    "scene": "Weekend Stan sleeping in late and happy, sun high in the window, no alarm in sight, flat warm yellow, big black caps NO ALARM."
+  },
+  {
+    "index": 60,
+    "timestamp": "5:16",
+    "seconds": 316.12,
+    "scene": "Stan's sleep block sliding later along a weekend timeline, a long arrow drifting to the right, flat yellow."
+  },
+  {
+    "index": 61,
+    "timestamp": "5:20",
+    "seconds": 320.2,
+    "scene": "Monday: a giant alarm clock slamming down onto a sleeping Stan hours too early, flat beige, big black caps MONDAY."
+  },
+  {
+    "index": 62,
+    "timestamp": "5:26",
+    "seconds": 326.12,
+    "scene": "A little plane taking off from the roof of Stan's house, flat blue sky, big black caps JET LAG AT HOME."
+  },
+  {
+    "index": 63,
+    "timestamp": "5:30",
+    "seconds": 330.28,
+    "scene": "A simple map with a plane flying west on Saturday and east on Monday in a loop over Stan's tiny house, flat green map, red arrows."
+  },
+  {
+    "index": 64,
+    "timestamp": "5:36",
+    "seconds": 335.76,
+    "scene": "Stan wrung out and twisted like a wet towel with question marks spinning around him, flat grey, big black caps WHAT TIME ZONE."
+  },
+  {
+    "index": 65,
+    "timestamp": "5:43",
+    "seconds": 342.84,
+    "scene": "Stan as a jet-lagged traveler holding a suitcase, standing in his own bedroom doorway, flat navy, big black caps NEVER LEFT HOME."
+  },
+  {
+    "index": 66,
+    "timestamp": "5:48",
+    "seconds": 347.64,
+    "scene": "Three simple stick people standing in a row, two of them yawning, flat grey, big black caps 2 IN 3."
+  },
+  {
+    "index": 67,
+    "timestamp": "5:53",
+    "seconds": 353.0,
+    "scene": "A weary Stan beside a stack of cards reading plus 2h and plus 3h, a little plane looping back and forth above, flat blue."
+  },
+  {
+    "index": 68,
+    "timestamp": "5:59",
+    "seconds": 358.56,
+    "scene": "A looping arrow of a plane crossing the country and back over and over, a small tired Stan below, flat blue, big black caps OVER AND OVER."
+  },
+  {
+    "index": 69,
+    "timestamp": "6:03",
+    "seconds": 363.32,
+    "scene": "A reassuring hand on tired Stan's shoulder beside a LAZY label with a thick red X through it, flat warm, big black caps NOT LAZY."
+  },
+  {
+    "index": 70,
+    "timestamp": "6:09",
+    "seconds": 369.12,
+    "scene": "Stan drawn as a perfectly good wall clock keeping calm, accurate time, flat warm, big black caps KEEPING PERFECT TIME."
+  },
+  {
+    "index": 71,
+    "timestamp": "6:15",
+    "seconds": 374.68,
+    "scene": "The good-clock Stan standing next to a crumpled mismatched paper labeled 9 TO 5, flat grey, big black caps OUT OF SYNC."
+  },
+  {
+    "index": 72,
+    "timestamp": "6:20",
+    "seconds": 379.6,
+    "scene": "One long solid block labeled SLEEP with a bright NEW tag slapped on it, a surprised Stan, flat dark navy."
+  },
+  {
+    "index": 73,
+    "timestamp": "6:27",
+    "seconds": 387.2,
+    "scene": "A line of old-timey figures in a dim room clearly not sleeping in one block, flat sepia brown, big black caps NOT ALWAYS."
+  },
+  {
+    "index": 74,
+    "timestamp": "6:31",
+    "seconds": 391.28,
+    "scene": "Old diaries, a court record, and an old scroll stacked together under a magnifying glass, flat brown."
+  },
+  {
+    "index": 75,
+    "timestamp": "6:37",
+    "seconds": 397.36,
+    "scene": "A night timeline split into a FIRST SLEEP block and a SECOND SLEEP block with a gap between them, flat dark navy, big black caps FIRST AND SECOND SLEEP."
+  },
+  {
+    "index": 76,
+    "timestamp": "6:44",
+    "seconds": 404.16,
+    "scene": "A cozy candlelit old bedroom: Stan sitting up calmly awake at midnight between two beds, tending a candle, flat warm brown."
+  },
+  {
+    "index": 77,
+    "timestamp": "6:51",
+    "seconds": 410.8,
+    "scene": "A small vignette of old figures praying, poking a fire, and chatting quietly in the dark midnight gap, flat brown candlelight."
+  },
+  {
+    "index": 78,
+    "timestamp": "6:57",
+    "seconds": 416.92,
+    "scene": "Stan settling back down into a second bed as dawn glows orange in the window, flat warm dawn."
+  },
+  {
+    "index": 79,
+    "timestamp": "7:02",
+    "seconds": 422.08,
+    "scene": "Stan calm and awake at 3:00 in the old bed beside a PROBLEM label crossed out with a red X, flat brown, big black caps NOT A PROBLEM."
+  },
+  {
+    "index": 80,
+    "timestamp": "7:09",
+    "seconds": 428.6,
+    "scene": "A glowing Edison lightbulb erasing the midnight gap off the sleep timeline, leaving one solid block, flat dark navy, big black caps THE BULB."
+  },
+  {
+    "index": 81,
+    "timestamp": "7:14",
+    "seconds": 433.84,
+    "scene": "Two big hands squeezing the two-shift sleep timeline into one tight block, flat navy, big black caps SQUEEZED."
+  },
+  {
+    "index": 82,
+    "timestamp": "7:19",
+    "seconds": 439.24,
+    "scene": "A DEBATED rubber stamp pressed over the segmented-sleep timeline beside a balance scale, flat grey, big black caps STILL DEBATED."
+  },
+  {
+    "index": 83,
+    "timestamp": "7:25",
+    "seconds": 445.12,
+    "scene": "Modern Stan lying calmly awake at 3:00 in bed with a warm gentle thought bubble, flat dark navy."
+  },
+  {
+    "index": 84,
+    "timestamp": "7:32",
+    "seconds": 451.68,
+    "scene": "Stan lying calm but alert at 3:00 beside a worry bubble reading SOMETHING IS WRONG crossed out, flat navy."
+  },
+  {
+    "index": 85,
+    "timestamp": "7:37",
+    "seconds": 456.68,
+    "scene": "A friendly see-through great-great-grandfather figure giving modern awake Stan a thumbs up across time, flat sepia fading to navy, big black caps OLDER PROGRAM."
+  },
+  {
+    "index": 86,
+    "timestamp": "7:44",
+    "seconds": 463.64,
+    "scene": "A thoughtful Stan under big black caps WHY SO TIRED, flat grey."
+  },
+  {
+    "index": 87,
+    "timestamp": "7:49",
+    "seconds": 469.0,
+    "scene": "Stan drawn as a 24-hour body strapped onto a 9-to-5 office wall clock, flat beige, big black caps 24H BODY, 9-5 CLOCK."
+  },
+  {
+    "index": 88,
+    "timestamp": "7:54",
+    "seconds": 474.2,
+    "scene": "Two mismatched timers, a master clock with a little sun, and a tiny spinning planet, flat blue."
+  },
+  {
+    "index": 89,
+    "timestamp": "8:00",
+    "seconds": 480.2,
+    "scene": "A spinning planet beating a calendar-app icon in a face-off, flat blue, big black caps A PLANET, NOT AN APP."
+  },
+  {
+    "index": 90,
+    "timestamp": "8:07",
+    "seconds": 487.04,
+    "scene": "A small gentle doctor's clipboard with a heart and simple icons, soft and calm, flat soft teal, big black caps IF IT NEVER LIFTS."
+  },
+  {
+    "index": 91,
+    "timestamp": "8:13",
+    "seconds": 493.4,
+    "scene": "A simple doctor's door with a check mark, Stan walking calmly toward it, flat teal, big black caps QUICK VISIT."
+  },
+  {
+    "index": 92,
+    "timestamp": "8:19",
+    "seconds": 498.68,
+    "scene": "An everyday foggy Stan with a small grey cloud over his head, flat grey, big black caps JUST TIMING."
+  },
+  {
+    "index": 93,
+    "timestamp": "8:24",
+    "seconds": 504.32,
+    "scene": "Stan drawn as a friendly wind-up clock being twisted to the wrong time by a giant office hand, flat warm, big black caps WRONG TIME."
+  },
+  {
+    "index": 94,
+    "timestamp": "8:30",
+    "seconds": 510.4,
+    "scene": "Stan wide awake at midnight with energy sparkles around him, wall clock 12:00, flat dark navy."
+  },
+  {
+    "index": 95,
+    "timestamp": "8:36",
+    "seconds": 515.88,
+    "scene": "Stan with a small knowing grin and a tiny lightbulb, finally getting it, flat navy, big black caps SMILE."
+  },
+  {
+    "index": 96,
+    "timestamp": "8:40",
+    "seconds": 520.16,
+    "scene": "An old-timey figure from a few hundred years ago also wide awake at midnight, totally relaxed by candlelight, flat brown."
+  },
+  {
+    "index": 97,
+    "timestamp": "8:44",
+    "seconds": 524.44,
+    "scene": "Cozy final frame: Stan calm and content at midnight between his FIRST and SECOND sleep beds, warm and resolved, flat warm brown, big black caps BETWEEN TWO SLEEPS."
+  }
+]

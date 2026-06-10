@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan the round-headed dot-eyed stickman with a big empty thought bubble over his head, flat soft blue filling the tall frame, big black caps GUESS YOUR NEXT THOUGHT."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "A sandwich popping into Stan's thought bubble out of nowhere with motion lines, flat soft blue filling the tall frame, big black caps WHERE FROM."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "Stan sitting like a reader watching thoughts appear on a screen in front of him, flat grey filling the tall frame, big black caps YOU ARE READING IT."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "A question-mark cloud mailing a little letter down into Stan's head, flat soft blue filling the tall frame, big black caps WHO SENT IT."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "Stan looking warily at a separate speech bubble talking beside his own head, flat grey filling the tall frame, big black caps WHO IS TALKING."
+  }
+]

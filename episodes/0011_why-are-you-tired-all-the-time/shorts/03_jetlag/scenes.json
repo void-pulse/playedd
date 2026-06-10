@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan slumped in an airplane seat with the seatbelt on, the little window showing his own bedroom, flat grey plane interior filling the tall frame, big black caps JET LAG."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "An alarm clock yanking a sleepy Stan up early by a string, a weekday row behind, flat beige filling the tall frame, big black caps ALARM ALL WEEK."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "Weekend Stan sleeping in late and happy, sun high in the window, flat warm yellow filling the tall frame, big black caps SLEEP IN."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "A simple map with a plane flying west then east in a loop over Stan's tiny house, red arrows, flat green map filling the tall frame, big black caps WEST, THEN EAST."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "Three simple stick people stacked, two of them yawning, flat grey filling the tall frame, big black caps 2 IN 3."
+  }
+]

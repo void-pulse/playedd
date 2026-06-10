@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan melting into a puddle of soup at his desk, a spoon in his bowl-shaped head, wall clock 3:00, flat beige office filling the tall frame, big black caps 3 PM."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "A sandwich shrugging with a speech bubble NOT ME, a red arrow pointing up at a wall clock, flat beige filling the tall frame, big black caps NOT LUNCH."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "Two Stans side by side, one with a lunch and one without, both crashing identically, flat beige filling the tall frame, big black caps SAME DIP."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "A simple cross-section of Stan's head with a little clock inside dimming the lights, flat beige filling the tall frame, big black caps DIMMING THE LIGHTS."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "A big round 24-hour clock holding a hidden SCHEDULE clipboard behind its back, a small Stan, flat blue filling the tall frame, big black caps A HIDDEN SCHEDULE."
+  }
+]

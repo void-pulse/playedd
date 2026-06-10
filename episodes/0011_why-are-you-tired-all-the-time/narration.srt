@@ -1,0 +1,824 @@
+1
+00:00:00,000 --> 00:00:03,840
+Stan got eight hours last night, a full eight.
+
+2
+00:00:03,840 --> 00:00:06,760
+In bed on time, no coffee afternoon.
+
+3
+00:00:06,760 --> 00:00:09,040
+He did everything the internet told him to,
+
+4
+00:00:09,040 --> 00:00:13,160
+and right now, at three in the afternoon, he is a zombie.
+
+5
+00:00:13,160 --> 00:00:15,520
+Eyes heavy, brain static.
+
+6
+00:00:15,520 --> 00:00:18,600
+He could put his head on the desk and be out in four seconds.
+
+7
+00:00:18,600 --> 00:00:21,680
+So tonight, he'll go to bed early and fix it.
+
+8
+00:00:21,680 --> 00:00:26,440
+And at 11 p.m., he's wide awake, wired, scrolling,
+
+9
+00:00:26,440 --> 00:00:31,520
+suddenly full of energy and big ideas at exactly the wrong time.
+
+10
+00:00:31,520 --> 00:00:35,880
+Tired all day, awake all night, eight hours of sleep,
+
+11
+00:00:35,880 --> 00:00:38,360
+and he still feels like he's running on three.
+
+12
+00:00:38,360 --> 00:00:39,840
+Here's the strange part.
+
+13
+00:00:39,840 --> 00:00:42,480
+The problem usually isn't how much you slept.
+
+14
+00:00:42,480 --> 00:00:44,240
+You could fix the sleep completely
+
+15
+00:00:44,240 --> 00:00:46,360
+and still feel exactly like this.
+
+16
+00:00:46,360 --> 00:00:49,960
+Because being tired all the time isn't really about sleep at all.
+
+17
+00:00:49,960 --> 00:00:52,920
+It's about something most of us were never told we have.
+
+18
+00:00:52,920 --> 00:00:55,640
+And once you see it, this whole exhausting loop
+
+19
+00:00:55,640 --> 00:00:57,720
+finally makes sense.
+
+20
+00:00:57,720 --> 00:01:00,440
+The obvious answer is, just sleep more.
+
+21
+00:01:00,440 --> 00:01:04,440
+And for some people, sure, they're genuinely short on hours.
+
+22
+00:01:04,440 --> 00:01:06,360
+But you know people who are not.
+
+23
+00:01:06,360 --> 00:01:08,600
+People who get their eight, nine, 10 hours
+
+24
+00:01:08,600 --> 00:01:11,440
+and still drag through the afternoon like Stan.
+
+25
+00:01:11,440 --> 00:01:13,720
+If tiredness were only about quantity,
+
+26
+00:01:13,720 --> 00:01:15,720
+more sleep would fix everyone.
+
+27
+00:01:15,720 --> 00:01:16,560
+It doesn't.
+
+28
+00:01:16,560 --> 00:01:18,520
+So if it's not the amount, what is it?
+
+29
+00:01:18,520 --> 00:01:19,880
+Here's what nobody mentions.
+
+30
+00:01:19,880 --> 00:01:22,080
+You don't have one system keeping you awake.
+
+31
+00:01:22,080 --> 00:01:23,280
+You have two.
+
+32
+00:01:23,280 --> 00:01:25,280
+And they do not always agree.
+
+33
+00:01:25,320 --> 00:01:27,760
+The first one you already feel.
+
+34
+00:01:27,760 --> 00:01:30,840
+The longer you're awake, the more tired you get.
+
+35
+00:01:30,840 --> 00:01:33,440
+Scientists call it sleep pressure.
+
+36
+00:01:33,440 --> 00:01:35,440
+All day, your brain burns fuel
+
+37
+00:01:35,440 --> 00:01:39,080
+and a molecule called adenosine slowly builds up.
+
+38
+00:01:39,080 --> 00:01:42,760
+The more it piles up, the heavier your eyelids feel.
+
+39
+00:01:42,760 --> 00:01:46,720
+Picture sand trickling into an hourglass all day.
+
+40
+00:01:46,720 --> 00:01:48,800
+By night, the glass is full.
+
+41
+00:01:48,800 --> 00:01:51,360
+Sleep flips it over and empties it.
+
+42
+00:01:51,360 --> 00:01:55,240
+That's why you wake up clear and fade as the hours go on.
+
+43
+00:01:55,240 --> 00:01:58,960
+And coffee, caffeine doesn't remove the sand.
+
+44
+00:01:58,960 --> 00:02:01,760
+It just tapes over the sensor that reads it.
+
+45
+00:02:01,760 --> 00:02:03,400
+The pile is still there.
+
+46
+00:02:03,400 --> 00:02:04,840
+You've simply stopped feeling it
+
+47
+00:02:04,840 --> 00:02:06,800
+until the caffeine wears off
+
+48
+00:02:06,800 --> 00:02:09,000
+and it all crashes back at once.
+
+49
+00:02:09,000 --> 00:02:11,720
+So that's clock number one.
+
+50
+00:02:11,720 --> 00:02:13,720
+Pressure that builds while you're up
+
+51
+00:02:13,720 --> 00:02:15,440
+and drains while you sleep.
+
+52
+00:02:15,440 --> 00:02:17,880
+But here's the part that changes everything.
+
+53
+00:02:17,880 --> 00:02:19,440
+There is a second clock
+
+54
+00:02:19,440 --> 00:02:21,880
+and it does not care how long you've been awake.
+
+55
+00:02:21,880 --> 00:02:24,240
+Deep in your brain behind your eyes
+
+56
+00:02:24,240 --> 00:02:27,200
+sits a cluster of about 20,000 cells,
+
+57
+00:02:27,200 --> 00:02:29,080
+smaller than a grain of rice.
+
+58
+00:02:29,080 --> 00:02:32,800
+And it is the master clock for your entire body.
+
+59
+00:02:32,800 --> 00:02:35,400
+It runs a roughly 24 hour cycle
+
+60
+00:02:35,400 --> 00:02:37,160
+and it decides when you feel sharp
+
+61
+00:02:37,160 --> 00:02:40,480
+and when you feel wiped, no matter how much you slept.
+
+62
+00:02:40,480 --> 00:02:43,520
+And it keeps a schedule, a real one.
+
+63
+00:02:43,520 --> 00:02:46,520
+Late morning, it pushes you to a peak.
+
+64
+00:02:46,520 --> 00:02:48,280
+You're at your sharpest.
+
+65
+00:02:48,280 --> 00:02:50,520
+Then around two to four in the afternoon,
+
+66
+00:02:50,520 --> 00:02:52,000
+it does the opposite.
+
+67
+00:02:52,000 --> 00:02:54,440
+It dips hard.
+
+68
+00:02:54,440 --> 00:02:58,440
+That mid afternoon wall where your brain turns to soup,
+
+69
+00:02:58,440 --> 00:03:00,000
+that is not your lunch.
+
+70
+00:03:00,000 --> 00:03:03,360
+That is your clock dimming the lights on purpose.
+
+71
+00:03:03,360 --> 00:03:06,320
+People who skip lunch feel the exact same dip
+
+72
+00:03:06,320 --> 00:03:08,440
+at the exact same time.
+
+73
+00:03:08,440 --> 00:03:11,400
+And then at night, right when you're trying to wind down,
+
+74
+00:03:11,400 --> 00:03:13,480
+it can do something almost cruel.
+
+75
+00:03:13,480 --> 00:03:16,560
+It hands you a second wind, a burst of energy
+
+76
+00:03:16,560 --> 00:03:17,920
+right before bed.
+
+77
+00:03:17,920 --> 00:03:19,440
+That is not random.
+
+78
+00:03:19,440 --> 00:03:21,280
+Your clock has a window in the evening
+
+79
+00:03:21,280 --> 00:03:23,440
+where it actively fights off sleep.
+
+80
+00:03:23,440 --> 00:03:25,080
+And if you push your bedtime into it,
+
+81
+00:03:25,080 --> 00:03:27,040
+you will lie there wide awake,
+
+82
+00:03:27,040 --> 00:03:29,520
+just like Stan at 11 p.m.
+
+83
+00:03:29,520 --> 00:03:32,560
+So look at Stan's whole day again.
+
+84
+00:03:32,560 --> 00:03:35,440
+The afternoon crash, the midnight energy.
+
+85
+00:03:35,440 --> 00:03:36,960
+None of it was random.
+
+86
+00:03:36,960 --> 00:03:39,880
+He was just reading a schedule he didn't know he had.
+
+87
+00:03:39,880 --> 00:03:42,160
+So what sets this clock?
+
+88
+00:03:42,160 --> 00:03:45,280
+What tells those cells what time it actually is?
+
+89
+00:03:45,280 --> 00:03:47,720
+Light, almost entirely light.
+
+90
+00:03:47,720 --> 00:03:49,520
+Inside your eyes are special cells
+
+91
+00:03:49,520 --> 00:03:51,640
+that have nothing to do with seeing.
+
+92
+00:03:51,640 --> 00:03:53,400
+Their only job is to measure light
+
+93
+00:03:53,400 --> 00:03:55,760
+and report it straight to the master clock.
+
+94
+00:03:55,760 --> 00:03:58,120
+Bright light in the morning tells the clock,
+
+95
+00:03:58,120 --> 00:04:00,720
+it's daytime, start the day,
+
+96
+00:04:00,720 --> 00:04:03,040
+and locks the whole schedule into place.
+
+97
+00:04:03,040 --> 00:04:05,240
+But light at night does the reverse.
+
+98
+00:04:05,240 --> 00:04:09,000
+It says, it's still daytime, stay up,
+
+99
+00:04:09,000 --> 00:04:11,000
+and shoves the schedule later.
+
+100
+00:04:11,000 --> 00:04:13,800
+And blue light is the strongest signal of all.
+
+101
+00:04:13,800 --> 00:04:16,600
+The cool, bright glow pouring out of your phone,
+
+102
+00:04:16,600 --> 00:04:18,600
+your laptop, your TV.
+
+103
+00:04:18,600 --> 00:04:20,440
+It suppresses melatonin,
+
+104
+00:04:20,440 --> 00:04:22,480
+the hormone meant to make you sleepy,
+
+105
+00:04:22,480 --> 00:04:24,680
+and nudges your clock backward.
+
+106
+00:04:24,680 --> 00:04:28,560
+So when Stan lies in bed scrolling to relax,
+
+107
+00:04:28,560 --> 00:04:30,240
+he is not relaxing.
+
+108
+00:04:30,240 --> 00:04:33,520
+He is holding a tiny sun a few inches from his face,
+
+109
+00:04:33,520 --> 00:04:36,040
+telling his clock the day isn't over.
+
+110
+00:04:36,040 --> 00:04:39,280
+Night after night, pushing his own bedtime later,
+
+111
+00:04:39,280 --> 00:04:42,000
+then blaming himself for not being tired.
+
+112
+00:04:42,000 --> 00:04:44,680
+And this is where it all comes together.
+
+113
+00:04:44,680 --> 00:04:48,200
+The real reason so many of us feel tired all the time.
+
+114
+00:04:48,200 --> 00:04:50,200
+It's not that you aren't sleeping.
+
+115
+00:04:50,200 --> 00:04:51,720
+It's that your clock and your life
+
+116
+00:04:51,720 --> 00:04:54,040
+are set to two different time zones.
+
+117
+00:04:54,040 --> 00:04:56,240
+Scientists even have a name for it.
+
+118
+00:04:56,240 --> 00:04:58,080
+Social jet lag.
+
+119
+00:04:58,080 --> 00:05:01,120
+Think about your week, Monday through Friday,
+
+120
+00:05:01,120 --> 00:05:04,560
+and alarm rips you out of sleep before your body is ready.
+
+121
+00:05:04,560 --> 00:05:06,320
+Your clock wanted more.
+
+122
+00:05:06,320 --> 00:05:08,080
+The alarm did not care.
+
+123
+00:05:08,080 --> 00:05:11,040
+Then the weekend arrives, no alarm.
+
+124
+00:05:11,040 --> 00:05:13,440
+So you sleep in.
+
+125
+00:05:13,440 --> 00:05:16,120
+Your body finally gets to run on its own schedule,
+
+126
+00:05:16,120 --> 00:05:17,640
+drifting later.
+
+127
+00:05:17,640 --> 00:05:20,200
+And then Monday slams the alarm back down.
+
+128
+00:05:20,200 --> 00:05:23,240
+Hours earlier than your body has now drifted to.
+
+129
+00:05:23,240 --> 00:05:26,120
+You didn't fly anywhere, but your body did.
+
+130
+00:05:26,120 --> 00:05:28,280
+Every single weekend, you give yourself
+
+131
+00:05:28,280 --> 00:05:30,280
+a tiny dose of jet lag.
+
+132
+00:05:30,280 --> 00:05:33,480
+Flying west on Saturday, flying east on Monday,
+
+133
+00:05:33,480 --> 00:05:35,760
+then spending the whole week with that groggy,
+
+134
+00:05:35,760 --> 00:05:39,320
+wrung out what time zone am I even in feeling?
+
+135
+00:05:39,320 --> 00:05:42,840
+Because biologically, that is exactly what you are.
+
+136
+00:05:42,840 --> 00:05:44,280
+Jet lagged.
+
+137
+00:05:44,280 --> 00:05:47,600
+You just never left your house, and this is not rare.
+
+138
+00:05:47,640 --> 00:05:50,400
+In large studies, more than two out of three people
+
+139
+00:05:50,400 --> 00:05:53,000
+carry at least an hour of this misalignment,
+
+140
+00:05:53,000 --> 00:05:54,560
+every single week.
+
+141
+00:05:54,560 --> 00:05:56,400
+Plenty are carrying two or three,
+
+142
+00:05:56,400 --> 00:05:58,560
+the equivalent of flying across the country
+
+143
+00:05:58,560 --> 00:06:00,640
+and back over and over.
+
+144
+00:06:00,640 --> 00:06:03,320
+So if you feel tired all the time,
+
+145
+00:06:03,320 --> 00:06:05,400
+here's the part worth hearing.
+
+146
+00:06:05,400 --> 00:06:07,040
+You are probably not lazy.
+
+147
+00:06:07,040 --> 00:06:09,120
+You are almost certainly not broken.
+
+148
+00:06:09,120 --> 00:06:10,560
+You are out of sync.
+
+149
+00:06:10,560 --> 00:06:12,720
+Your body is keeping perfect time.
+
+150
+00:06:12,720 --> 00:06:14,680
+It is just keeping it for a different schedule
+
+151
+00:06:14,680 --> 00:06:17,200
+than the one your life is forcing on it.
+
+152
+00:06:17,200 --> 00:06:19,600
+And here's the strangest twist of all.
+
+153
+00:06:19,600 --> 00:06:22,680
+Even the thing we call normal sleep,
+
+154
+00:06:22,680 --> 00:06:27,200
+one long, unbroken block, turns out to be surprisingly new.
+
+155
+00:06:27,200 --> 00:06:31,280
+For most of human history, people did not sleep that way at all.
+
+156
+00:06:31,280 --> 00:06:34,880
+Historians digging through old diaries, court records,
+
+157
+00:06:34,880 --> 00:06:37,360
+even lines from Homer and Virgil,
+
+158
+00:06:37,360 --> 00:06:40,920
+kept finding the same pattern over and over.
+
+159
+00:06:40,920 --> 00:06:44,160
+People had a first sleep and a second sleep.
+
+160
+00:06:44,160 --> 00:06:46,800
+They would go down a couple of hours after dark,
+
+161
+00:06:46,800 --> 00:06:50,800
+then wake up around midnight on purpose for an hour or two.
+
+162
+00:06:50,800 --> 00:06:52,480
+And they used that time.
+
+163
+00:06:52,480 --> 00:06:54,640
+They prayed, tended the fire,
+
+164
+00:06:54,640 --> 00:06:56,920
+talked to whoever was beside them,
+
+165
+00:06:56,920 --> 00:06:59,000
+even visited the neighbors.
+
+166
+00:06:59,000 --> 00:07:02,080
+Then went down for their second sleep until dawn.
+
+167
+00:07:02,080 --> 00:07:05,560
+Waking up in the dead of night wasn't a problem to be fixed.
+
+168
+00:07:05,560 --> 00:07:08,600
+It was just the natural seam in the middle of the night.
+
+169
+00:07:08,600 --> 00:07:12,520
+Then came artificial light, first lamps, then the light bulb.
+
+170
+00:07:12,520 --> 00:07:13,840
+We pushed our evenings later,
+
+171
+00:07:13,840 --> 00:07:16,560
+squeezed sleep into one tight block,
+
+172
+00:07:16,560 --> 00:07:19,240
+and quietly forgot the gap had ever been there.
+
+173
+00:07:19,240 --> 00:07:23,080
+Now, historians still argue about how widespread this really was,
+
+174
+00:07:23,080 --> 00:07:25,120
+so we shouldn't oversell it.
+
+175
+00:07:25,120 --> 00:07:28,920
+But it raises a genuinely comforting thought.
+
+176
+00:07:28,920 --> 00:07:31,680
+If you wake at 3 a.m., and lie there,
+
+177
+00:07:31,680 --> 00:07:32,920
+calm but alert,
+
+178
+00:07:32,920 --> 00:07:36,680
+convinced something is wrong with you, maybe nothing is.
+
+179
+00:07:36,680 --> 00:07:39,840
+Maybe you are just running an older version of the program.
+
+180
+00:07:39,840 --> 00:07:43,640
+The one your great, great grandparents would have recognized in a heartbeat.
+
+181
+00:07:43,640 --> 00:07:46,200
+So, why are you tired all the time?
+
+182
+00:07:46,200 --> 00:07:49,000
+Usually it's not because you are failing at sleep.
+
+183
+00:07:49,000 --> 00:07:51,280
+It's because you've got a 24 hour body
+
+184
+00:07:51,280 --> 00:07:54,200
+trying to run on a 9 to 5 world's clock.
+
+185
+00:07:54,200 --> 00:07:55,960
+Two timers that don't agree.
+
+186
+00:07:55,960 --> 00:07:58,040
+A master clock set by light,
+
+187
+00:07:58,040 --> 00:08:00,200
+and a schedule built for a spinning planet,
+
+188
+00:08:00,200 --> 00:08:02,040
+not a calendar app.
+
+189
+00:08:02,040 --> 00:08:03,960
+Now, one honest note,
+
+190
+00:08:03,960 --> 00:08:07,040
+real exhaustion that drags on for weeks and never lifts
+
+191
+00:08:07,040 --> 00:08:09,280
+can sometimes be something medical.
+
+192
+00:08:09,280 --> 00:08:13,360
+A thyroid running slow, low iron sleep apnea.
+
+193
+00:08:13,400 --> 00:08:16,280
+That's a quick visit to a doctor, not a video,
+
+194
+00:08:16,280 --> 00:08:18,680
+but that every day foggy,
+
+195
+00:08:18,680 --> 00:08:21,720
+why am I always like this kind of tired?
+
+196
+00:08:21,720 --> 00:08:24,320
+That one is very often just timing.
+
+197
+00:08:24,320 --> 00:08:26,040
+You are not a tired person,
+
+198
+00:08:26,040 --> 00:08:28,000
+you are a perfectly good clock,
+
+199
+00:08:28,000 --> 00:08:30,400
+being asked to keep the wrong time.
+
+200
+00:08:30,400 --> 00:08:33,400
+And the next time you find yourself wide awake at midnight,
+
+201
+00:08:33,400 --> 00:08:35,880
+buzzing with energy you can't use,
+
+202
+00:08:35,880 --> 00:08:38,360
+you can at least smile about one thing.
+
+203
+00:08:38,360 --> 00:08:40,160
+A few hundred years ago,
+
+204
+00:08:40,160 --> 00:08:42,200
+that wasn't a problem at all.
+
+205
+00:08:42,200 --> 00:08:44,440
+That was simply called being awake
+
+206
+00:08:44,440 --> 00:08:45,960
+between your two sleeps.
+

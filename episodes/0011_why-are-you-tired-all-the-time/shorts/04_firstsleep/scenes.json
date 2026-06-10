@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan lying calm and awake at 3:00 in an old bed, flat dark navy filling the tall frame, big black caps 3 AM."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "A tall night timeline split into a FIRST SLEEP block and a SECOND SLEEP block with a gap between, flat dark navy filling the tall frame, big black caps TWO SLEEPS."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "A cozy candlelit old bedroom, Stan sitting up awake at midnight between two beds tending a candle, flat warm brown filling the tall frame, big black caps ON PURPOSE."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "A glowing Edison lightbulb erasing the midnight gap off the sleep timeline, leaving one block, flat dark navy filling the tall frame, big black caps ONE INVENTION."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "Modern Stan lying calm and awake at 3:00 beside a WRONG label crossed out with a red X, flat dark navy filling the tall frame, big black caps NOTHING IS WRONG."
+  }
+]

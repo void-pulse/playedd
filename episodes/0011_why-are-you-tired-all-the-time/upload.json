@@ -1,0 +1,48 @@
+{
+  "main": {
+    "file": "episodes/0011_why-are-you-tired-all-the-time/0011_why-are-you-tired-all-the-time.mp4",
+    "title": "Why Are You Tired All the Time?",
+    "description": "You slept a full eight hours, did everything right, and you're STILL a zombie by 3pm and wide awake at midnight. The reason isn't your sleep at all.\n\nWhat you'll learn:\n- The two clocks running your energy (and why fixing one isn't enough)\n- Why your 3pm crash has nothing to do with lunch\n- The \"jet lag\" you give yourself every weekend without leaving home\n- Why waking up at 3am used to be completely normal\n\nWhat time does YOUR afternoon crash hit? 3pm on the dot? Tell us below.\n\nSOURCES\n- Two-process model of sleep (sleep pressure + body clock): Borbely, Journal of Sleep Research (2016, 2022).\n- Adenosine builds sleep pressure while you're awake; caffeine blocks the adenosine signal.\n- The master clock (suprachiasmatic nucleus, ~20,000 cells) is set by light; evening/blue light delays it and suppresses melatonin. (StatPearls; phase-response-curve research.)\n- Social jetlag: Wittmann, Roenneberg et al., Chronobiology International (2006); more than 2 in 3 people carry an hour or more per week.\n- Segmented sleep (\"first sleep\" / \"second sleep\"): A. R. Ekirch, At Day's Close (historically documented, still academically debated).\n- Persistent weeks-long fatigue can be medical (thyroid, low iron, sleep apnea) and is worth a doctor's visit. (Mayo Clinic; Cleveland Clinic.)\n\nThis video uses AI-assisted narration and illustrations.\n\n#tired #sleep #circadianrhythm #socialjetlag #science #wonder",
+    "tags": [
+      "why am i always tired",
+      "why am i tired all the time",
+      "always tired no energy",
+      "tired after 8 hours of sleep",
+      "afternoon slump",
+      "social jetlag",
+      "circadian rhythm explained",
+      "second wind at night",
+      "first sleep second sleep",
+      "the hidden why",
+      "Playedd"
+    ],
+    "thumbnail": "episodes/0011_why-are-you-tired-all-the-time/thumbs/images/0001_0m00s.png",
+    "captions": "episodes/0011_why-are-you-tired-all-the-time/narration.srt"
+  },
+  "shorts": [
+    {
+      "file": "episodes/0011_why-are-you-tired-all-the-time/shorts/01_eighthours/01_eighthours_short.mp4",
+      "title": "8 hours of sleep and still a zombie? 😴 #Shorts",
+      "description": "You slept a full eight hours and you're still wrecked by 3pm. The reason isn't the sleep.\nFull breakdown 👉 {MAIN_URL}\n\nThis Short uses AI-assisted narration and illustrations.\n\n#shorts #sleep #tired #science",
+      "tags": ["why am i always tired", "tired after 8 hours", "sleep", "Playedd"]
+    },
+    {
+      "file": "episodes/0011_why-are-you-tired-all-the-time/shorts/02_thedip/02_thedip_short.mp4",
+      "title": "Your 3pm crash isn't your lunch 🧠 #Shorts",
+      "description": "That mid-afternoon wall has nothing to do with what you ate. People who skip lunch feel the exact same crash.\nFull breakdown 👉 {MAIN_URL}\n\nThis Short uses AI-assisted narration and illustrations.\n\n#shorts #sleep #circadianrhythm #science",
+      "tags": ["afternoon slump", "3pm crash", "circadian rhythm", "Playedd"]
+    },
+    {
+      "file": "episodes/0011_why-are-you-tired-all-the-time/shorts/03_jetlag/03_jetlag_short.mp4",
+      "title": "You give yourself jet lag every weekend ✈️ #Shorts",
+      "description": "An alarm all week, sleeping in on the weekend, then Monday slams it back down. Your body never left home, but it flew anyway.\nFull breakdown 👉 {MAIN_URL}\n\nThis Short uses AI-assisted narration and illustrations.\n\n#shorts #sleep #socialjetlag #science",
+      "tags": ["social jetlag", "why am i tired on monday", "sleep schedule", "Playedd"]
+    },
+    {
+      "file": "episodes/0011_why-are-you-tired-all-the-time/shorts/04_firstsleep/04_firstsleep_short.mp4",
+      "title": "Waking up at 3am used to be normal 🕯️ #Shorts",
+      "description": "For most of history people slept in two shifts, a first sleep and a second sleep, with an hour awake in between. Then one invention deleted the gap.\nFull breakdown 👉 {MAIN_URL}\n\nThis Short uses AI-assisted narration and illustrations.\n\n#shorts #sleep #history #wonder",
+      "tags": ["first sleep second sleep", "segmented sleep", "waking up at 3am", "Playedd"]
+    }
+  ]
+}

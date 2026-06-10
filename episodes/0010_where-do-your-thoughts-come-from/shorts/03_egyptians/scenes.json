@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "A simple ancient Egyptian mummification scene, a hook by the nose and a brain tossed into a trash basket, flat sandy tan filling the tall frame, big black caps BRAIN IN THE TRASH."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "A heart placed carefully on a golden pedestal, preserved and glowing, flat sandy tan filling the tall frame, big black caps HEART KEPT SAFE."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "A heart on one side of a scale balanced against a single feather, flat sandy tan filling the tall frame, big black caps WEIGHED WITH CARE."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "Stan pointing confusedly back and forth between his head and his heart, flat soft blue filling the tall frame, big black caps WHICH ONE THINKS."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "Old phrase fossils BY HEART and HEARTFELT carved into stone, flat brown filling the tall frame, big black caps HIDDEN IN YOUR WORDS."
+  }
+]

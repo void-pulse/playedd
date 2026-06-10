@@ -1,0 +1,20 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan the round-headed dot-eyed stickman face-down asleep on a desk under a big wall clock reading 3:00, three z's, flat beige office, huge bold black caps 8 HOURS?! with a thick outline, high contrast."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "Stan flat on his back in bed at night, dot-eyes wide open, a glowing phone lighting his face, a wall clock at 12:00, flat dark navy bedroom, huge bold black caps WIDE AWAKE? with a thick outline, high contrast."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "Stan drawn as a friendly wind-up clock with a key, a big alarm clock yanking him by a string, flat warm orange background, huge bold black caps WRONG TIME ZONE? with a thick outline, high contrast."
+  }
+]

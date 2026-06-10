@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan's body sitting at a desk while a see-through ghost-Stan floats away daydreaming, flat grey filling the tall frame, big black caps MIND WANDERING."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "A hand pinging a phone that buzzes with a question, a tiny clipboard, flat blue filling the tall frame, big black caps WHERE IS YOUR MIND."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "A simple pie chart shaded nearly half, a small Stan beside it, flat grey filling the tall frame, big black caps 47 PERCENT."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "Stan being carried off the ground by a bunch of floating thought balloons, flat soft blue filling the tall frame, big black caps NOT WHERE YOU ARE."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "A steering wheel with no hands on it spinning on its own, flat grey filling the tall frame, big black caps WHO IS STEERING."
+  }
+]

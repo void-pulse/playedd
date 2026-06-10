@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0.0,
+    "scene": "Stan the round-headed dot-eyed stickman asleep in bed with a sleep mask, a watch reading 8 HRS, a wall clock, flat dark navy bedroom filling the tall frame, big black caps 8 HOURS."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:05",
+    "seconds": 5.0,
+    "scene": "Stan slumped face-down on an office desk at 3:00, three z's, droopy dot-eyes, flat beige office filling the tall frame, big black caps 3 PM ZOMBIE."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:10",
+    "seconds": 10.0,
+    "scene": "Stan flat on his back in bed wide awake, dot-eyes huge, a glowing phone on his face, wall clock 11:00, flat dark navy filling the tall frame, big black caps WIDE AWAKE."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:15",
+    "seconds": 15.0,
+    "scene": "Stan shrugging beside a bed with a thick red X over it, flat grey filling the tall frame, big black caps NOT THE SLEEP."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:20",
+    "seconds": 20.0,
+    "scene": "A mysterious second clock stamped 2 with a big red question mark, a small puzzled Stan, flat grey filling the tall frame, big black caps A SECOND CLOCK."
+  }
+]

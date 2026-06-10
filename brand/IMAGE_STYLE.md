@@ -15,6 +15,10 @@ This is the single most important image rule going forward. Each frame carries *
 
 When the scene description (written per timestamp) is vague, force it to one metaphor before generating. A weak frame is almost always two ideas fighting; cut to one.
 
+## Anti-patterns (avoid these) — Logan notes 2026-06-10
+- **No redundant cross-out-AND-restate.** Don't X out a word and ALSO write its negation. The red X already means "not." Pick ONE: cross out the wrong word (e.g. "PROBLEM" with a red X), OR state the corrected idea in caps — never both saying the same thing. "PROBLEM" X'd out *plus* "NOT A PROBLEM" underneath is pure redundancy. Best of all: show the idea itself (a calm Stan sleeping peacefully at 3am) instead of a label negating a label.
+- **Don't over-name or over-describe Stan.** Stan is the established recurring stickman (CHARACTER.md) and the STYLE_BLOCK already defines the look, so in scene descriptions just say "Stan" (or "the stickman") — you do NOT need the full "round-headed dot-eyed stickman" descriptor on every single frame, and not every frame needs him at all. Vary it; let plenty of frames be pure concept/object with no character. Naming/redrawing him every frame is overkill.
+
 ---
 
 ## STYLE_BLOCK (do not delete the markers; the script reads between them)
