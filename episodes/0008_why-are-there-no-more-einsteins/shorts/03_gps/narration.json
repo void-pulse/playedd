@@ -1,0 +1,47 @@
+{
+  "text": " Your GPS would be wrong by two kilometers every single day. Without a theory, a bored patent clerk wrote for fun in 1905. The blue dot on your map exists because Einstein got curious about light between stamping paperwork, which makes the real question even stranger. Where did all the Einsteins go?",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 3.58,
+      "text": " Your GPS would be wrong by two kilometers every single day."
+    },
+    {
+      "id": 1,
+      "start": 3.58,
+      "end": 5.28,
+      "text": " Without a theory, a bored patent clerk"
+    },
+    {
+      "id": 2,
+      "start": 5.28,
+      "end": 7.56,
+      "text": " wrote for fun in 1905."
+    },
+    {
+      "id": 3,
+      "start": 7.56,
+      "end": 10.0,
+      "text": " The blue dot on your map exists because Einstein"
+    },
+    {
+      "id": 4,
+      "start": 10.0,
+      "end": 13.2,
+      "text": " got curious about light between stamping paperwork,"
+    },
+    {
+      "id": 5,
+      "start": 13.2,
+      "end": 15.72,
+      "text": " which makes the real question even stranger."
+    },
+    {
+      "id": 6,
+      "start": 15.72,
+      "end": 17.44,
+      "text": " Where did all the Einsteins go?"
+    }
+  ]
+}

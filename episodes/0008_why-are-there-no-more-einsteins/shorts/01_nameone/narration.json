@@ -1,0 +1,29 @@
+{
+  "text": " Quick name a living genius, a real Einstein working today, you can't, can you? A hundred years ago we minted world changers, Newton, Darwin, Einstein, household names, and then it just stopped or did it, where the geniuses actually went is a lot weirder than you think.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 6.64,
+      "text": " Quick name a living genius, a real Einstein working today, you can't, can you?"
+    },
+    {
+      "id": 1,
+      "start": 7.2,
+      "end": 13.44,
+      "text": " A hundred years ago we minted world changers, Newton, Darwin, Einstein, household names,"
+    },
+    {
+      "id": 2,
+      "start": 14.08,
+      "end": 19.68,
+      "text": " and then it just stopped or did it, where the geniuses actually went is a lot"
+    },
+    {
+      "id": 3,
+      "start": 19.68,
+      "end": 21.68,
+      "text": " weirder than you think."
+    }
+  ]
+}

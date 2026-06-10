@@ -1,0 +1,411 @@
+1
+00:00:00,000 --> 00:00:06,360
+In 1905, a 26-year-old patent clerk, a guy whose academic career had completely stalled,
+
+2
+00:00:06,360 --> 00:00:11,760
+sat down between stamping other people's paperwork and casually rewrote the universe.
+
+3
+00:00:11,760 --> 00:00:20,560
+Atoms, light, space and time itself, one man, one year, in his spare time.
+
+4
+00:00:20,560 --> 00:00:24,400
+And here's the strange part, it feels like nobody does that anymore.
+
+5
+00:00:24,400 --> 00:00:29,680
+Try to name a living Einstein, working today, and most of us like Stan here,
+
+6
+00:00:29,680 --> 00:00:35,760
+just come up blank. So, what happened? Did humanity peak and start coasting?
+
+7
+00:00:35,760 --> 00:00:39,920
+The real answer is a lot weirder, and it is not the one you are bracing for.
+
+8
+00:00:39,920 --> 00:00:44,080
+And up close, what he actually pulled off in that one year is even more absurd.
+
+9
+00:00:44,080 --> 00:00:49,280
+He proved that atoms are real, something scientists had argued about for centuries.
+
+10
+00:00:49,280 --> 00:00:55,840
+He explained that light comes in tiny particles, the idea that would later win him the Nobel Prize.
+
+11
+00:00:55,840 --> 00:01:02,240
+And then, almost as a side project, he rewrote space and time themselves with special relativity,
+
+12
+00:01:02,240 --> 00:01:07,360
+and dropped in a little equation you have definitely heard of.
+
+13
+00:01:07,360 --> 00:01:13,600
+E equals MC squared. Remember, his doctoral thesis had just been rejected.
+
+14
+00:01:13,600 --> 00:01:17,040
+He was a nobody doing this between stamping patents.
+
+15
+00:01:17,040 --> 00:01:20,960
+One man, one year, off the side of his desk.
+
+16
+00:01:20,960 --> 00:01:24,480
+And before you file that under abstract old-timey science,
+
+17
+00:01:24,480 --> 00:01:27,520
+understand that it is running your life right now.
+
+18
+00:01:27,520 --> 00:01:30,800
+The GPS in your pocket depends on his relativity.
+
+19
+00:01:30,800 --> 00:01:33,520
+Without the correction Einstein's math provides,
+
+20
+00:01:33,520 --> 00:01:37,680
+your phone's location would drift off by about two kilometers every single day.
+
+21
+00:01:38,560 --> 00:01:44,080
+The blue dot that finds you on a map exists because a bored patent clerk got curious about light.
+
+22
+00:01:44,960 --> 00:01:50,320
+So, yes. Where are the Einsteins is a completely fair thing to ask.
+
+23
+00:01:51,120 --> 00:01:53,840
+But here's the first crack in the question.
+
+24
+00:01:53,840 --> 00:01:56,960
+The image in your head, the lone genius,
+
+25
+00:01:56,960 --> 00:02:00,560
+one brilliant mind alone in a room cracking the universe,
+
+26
+00:02:00,560 --> 00:02:02,640
+was always partly a myth.
+
+27
+00:02:02,640 --> 00:02:05,120
+Even Einstein was not really alone.
+
+28
+00:02:05,120 --> 00:02:07,280
+He was building on the work of others,
+
+29
+00:02:07,280 --> 00:02:10,560
+arguing ideas with friends and his wife,
+
+30
+00:02:10,560 --> 00:02:13,360
+standing on a whole pile of physics that came before him.
+
+31
+00:02:14,160 --> 00:02:15,840
+We just love a single hero,
+
+32
+00:02:15,840 --> 00:02:20,800
+so we flatten the messy, crowded truth into one face on a poster.
+
+33
+00:02:20,800 --> 00:02:23,040
+Genius has never actually been a solo act.
+
+34
+00:02:23,680 --> 00:02:25,040
+We just tell the story that way.
+
+35
+00:02:25,680 --> 00:02:28,400
+And here is the real reason it feels so different today.
+
+36
+00:02:29,280 --> 00:02:32,640
+In 1905, the frontier of physics was close.
+
+37
+00:02:33,280 --> 00:02:37,360
+Close enough that one sharp young man could sprint to the edge of human knowledge
+
+38
+00:02:37,360 --> 00:02:39,440
+in his spare time and plant a flag.
+
+39
+00:02:40,160 --> 00:02:43,200
+Today, that edge is incredibly far away.
+
+40
+00:02:43,680 --> 00:02:46,160
+To even reach the frontier of a field now,
+
+41
+00:02:46,160 --> 00:02:49,040
+just to get to the place where you could add something new
+
+42
+00:02:49,040 --> 00:02:50,400
+takes decades of study.
+
+43
+00:02:50,960 --> 00:02:52,720
+Because we know so much more than we did.
+
+44
+00:02:53,520 --> 00:02:54,960
+Scientists have a name for this.
+
+45
+00:02:55,600 --> 00:02:56,880
+The burden of knowledge.
+
+46
+00:02:58,000 --> 00:03:02,000
+Every discovery we make pushes the starting line of the next one further out.
+
+47
+00:03:02,640 --> 00:03:04,160
+The mountain did not get smaller.
+
+48
+00:03:04,720 --> 00:03:07,520
+The hike just to reach base camp got enormous.
+
+49
+00:03:08,240 --> 00:03:10,480
+So the work itself changed shape.
+
+50
+00:03:10,560 --> 00:03:13,200
+The big problems left are tangled and gigantic.
+
+51
+00:03:13,200 --> 00:03:15,200
+Too big for any one skull to hold.
+
+52
+00:03:15,920 --> 00:03:17,840
+So science became teams.
+
+53
+00:03:18,400 --> 00:03:21,360
+The breakthroughs are still happening constantly,
+
+54
+00:03:21,360 --> 00:03:24,400
+but now a single discovery might have 100 names on it.
+
+55
+00:03:24,960 --> 00:03:26,720
+The Einstein of today is not missing.
+
+56
+00:03:27,280 --> 00:03:32,160
+He or she is one of 200 authors on a paper you will never read,
+
+57
+00:03:32,160 --> 00:03:34,320
+and you will not learn a single one of those names.
+
+58
+00:03:34,960 --> 00:03:36,480
+We did not lose the geniuses.
+
+59
+00:03:37,040 --> 00:03:38,960
+We lost the one face to pin them on.
+
+60
+00:03:39,600 --> 00:03:42,880
+Which leads to the real mystery underneath all of it.
+
+61
+00:03:42,880 --> 00:03:45,200
+What even makes an Einstein in the first place?
+
+62
+00:03:45,760 --> 00:03:49,040
+And the honest answer from the science is that it was never just a magic brain.
+
+63
+00:03:49,600 --> 00:03:51,280
+Yes, some of it is born.
+
+64
+00:03:51,280 --> 00:03:53,360
+Raw intelligence is partly genetic.
+
+65
+00:03:53,920 --> 00:03:56,000
+But the bigger half is conditions.
+
+66
+00:03:56,480 --> 00:03:59,360
+Being in the right field at the exact right moment,
+
+67
+00:03:59,360 --> 00:04:01,040
+while it is still young enough to crack.
+
+68
+00:04:01,680 --> 00:04:05,840
+Having the freedom and the empty hours to just think, remember,
+
+69
+00:04:05,840 --> 00:04:09,360
+Einstein had a quiet, boring job with time to daydream,
+
+70
+00:04:09,840 --> 00:04:12,640
+a streak of obsession, and a great deal of luck.
+
+71
+00:04:13,280 --> 00:04:15,840
+Move Einstein a hundred years in either direction,
+
+72
+00:04:15,840 --> 00:04:17,840
+and maybe nobody ever hears his name at all.
+
+73
+00:04:18,880 --> 00:04:20,960
+So here's the quiet truth.
+
+74
+00:04:21,920 --> 00:04:23,840
+We did not stop producing geniuses.
+
+75
+00:04:24,640 --> 00:04:26,320
+People did not get dumber.
+
+76
+00:04:26,320 --> 00:04:27,760
+Two things changed.
+
+77
+00:04:27,760 --> 00:04:31,920
+The shape of genius shifted from a lone hero into a hidden crowd.
+
+78
+00:04:32,480 --> 00:04:37,040
+And the conditions that once let a single person rewrite everything got rare.
+
+79
+00:04:37,600 --> 00:04:39,360
+Not because we got worse,
+
+80
+00:04:39,360 --> 00:04:42,560
+but because we already know so much that no one can hold it all anymore.
+
+81
+00:04:43,120 --> 00:04:45,440
+There are almost certainly people alive right now.
+
+82
+00:04:45,440 --> 00:04:47,200
+Every bit as brilliant as Einstein.
+
+83
+00:04:47,760 --> 00:04:49,520
+You will simply never know their names.
+
+84
+00:04:50,160 --> 00:04:52,400
+They are standing in the middle of a team.
+
+85
+00:04:52,400 --> 00:04:55,440
+A mile out at a frontier you cannot even see from here.
+
+86
+00:04:56,080 --> 00:04:59,680
+So maybe that is the real answer to where the Einsteins went.
+
+87
+00:05:00,560 --> 00:05:01,120
+Nowhere.
+
+88
+00:05:01,840 --> 00:05:03,520
+They are just spread out now.
+
+89
+00:05:03,520 --> 00:05:09,280
+The next leap that changes everything probably will not come from one lonely mind in a patent office.
+
+90
+00:05:09,280 --> 00:05:12,320
+It will come from a thousand minds and a machine.
+
+91
+00:05:12,320 --> 00:05:15,120
+Working on something most of us will never understand.
+
+92
+00:05:15,120 --> 00:05:17,680
+And no statue will ever be built for it.
+
+93
+00:05:17,680 --> 00:05:20,080
+The age of the lone genius is ending.
+
+94
+00:05:20,080 --> 00:05:21,920
+Not because we ran out of geniuses.
+
+95
+00:05:22,560 --> 00:05:25,520
+But because the universe got harder to surprise.
+
+96
+00:05:26,080 --> 00:05:29,760
+And we finally got big enough problems that we need each other to solve them.
+
+97
+00:05:30,400 --> 00:05:34,080
+So the next time you try to name a living Einstein and come up empty,
+
+98
+00:05:34,080 --> 00:05:36,400
+do not read it as humanity slowing down.
+
+99
+00:05:36,960 --> 00:05:39,600
+You are looking at what genius actually looks like now.
+
+100
+00:05:40,240 --> 00:05:45,840
+Quieter, shared, nameless, and honestly kind of more impressive.
+
+101
+00:05:46,400 --> 00:05:49,680
+There was a time when one person was enough to move the whole world.
+
+102
+00:05:49,680 --> 00:05:51,440
+Now it takes all of us at once.
+
+103
+00:05:51,440 --> 00:05:53,760
+And that might be the most human thing we have ever done.

@@ -1,0 +1,47 @@
+{
+  "text": " In 1905, a 26-year-old patent clerk, whose thesis had just been rejected, sat at his desk stamping paperwork. And in his spare time that year, he proved atoms are real, explained light, and rewrote space and time. One man, one year, a side project. So here's the question nobody can answer. Why does nobody do that anymore?",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 5.0,
+      "text": " In 1905, a 26-year-old patent clerk, whose thesis had just been rejected,"
+    },
+    {
+      "id": 1,
+      "start": 5.0,
+      "end": 7.44,
+      "text": " sat at his desk stamping paperwork."
+    },
+    {
+      "id": 2,
+      "start": 7.44,
+      "end": 11.92,
+      "text": " And in his spare time that year, he proved atoms are real, explained light,"
+    },
+    {
+      "id": 3,
+      "start": 11.92,
+      "end": 13.76,
+      "text": " and rewrote space and time."
+    },
+    {
+      "id": 4,
+      "start": 13.76,
+      "end": 18.48,
+      "text": " One man, one year, a side project."
+    },
+    {
+      "id": 5,
+      "start": 18.48,
+      "end": 21.84,
+      "text": " So here's the question nobody can answer."
+    },
+    {
+      "id": 6,
+      "start": 21.84,
+      "end": 23.36,
+      "text": " Why does nobody do that anymore?"
+    }
+  ]
+}

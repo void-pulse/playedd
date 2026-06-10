@@ -1,0 +1,623 @@
+{
+  "text": " In 1905, a 26-year-old patent clerk, a guy whose academic career had completely stalled, sat down between stamping other people's paperwork and casually rewrote the universe. Atoms, light, space and time itself, one man, one year, in his spare time. And here's the strange part, it feels like nobody does that anymore. Try to name a living Einstein, working today, and most of us like Stan here, just come up blank. So, what happened? Did humanity peak and start coasting? The real answer is a lot weirder, and it is not the one you are bracing for. And up close, what he actually pulled off in that one year is even more absurd. He proved that atoms are real, something scientists had argued about for centuries. He explained that light comes in tiny particles, the idea that would later win him the Nobel Prize. And then, almost as a side project, he rewrote space and time themselves with special relativity, and dropped in a little equation you have definitely heard of. E equals MC squared. Remember, his doctoral thesis had just been rejected. He was a nobody doing this between stamping patents. One man, one year, off the side of his desk. And before you file that under abstract old-timey science, understand that it is running your life right now. The GPS in your pocket depends on his relativity. Without the correction Einstein's math provides, your phone's location would drift off by about two kilometers every single day. The blue dot that finds you on a map exists because a bored patent clerk got curious about light. So, yes. Where are the Einsteins is a completely fair thing to ask. But here's the first crack in the question. The image in your head, the lone genius, one brilliant mind alone in a room cracking the universe, was always partly a myth. Even Einstein was not really alone. He was building on the work of others, arguing ideas with friends and his wife, standing on a whole pile of physics that came before him. We just love a single hero, so we flatten the messy, crowded truth into one face on a poster. Genius has never actually been a solo act. We just tell the story that way. And here is the real reason it feels so different today. In 1905, the frontier of physics was close. Close enough that one sharp young man could sprint to the edge of human knowledge in his spare time and plant a flag. Today, that edge is incredibly far away. To even reach the frontier of a field now, just to get to the place where you could add something new takes decades of study. Because we know so much more than we did. Scientists have a name for this. The burden of knowledge. Every discovery we make pushes the starting line of the next one further out. The mountain did not get smaller. The hike just to reach base camp got enormous. So the work itself changed shape. The big problems left are tangled and gigantic. Too big for any one skull to hold. So science became teams. The breakthroughs are still happening constantly, but now a single discovery might have 100 names on it. The Einstein of today is not missing. He or she is one of 200 authors on a paper you will never read, and you will not learn a single one of those names. We did not lose the geniuses. We lost the one face to pin them on. Which leads to the real mystery underneath all of it. What even makes an Einstein in the first place? And the honest answer from the science is that it was never just a magic brain. Yes, some of it is born. Raw intelligence is partly genetic. But the bigger half is conditions. Being in the right field at the exact right moment, while it is still young enough to crack. Having the freedom and the empty hours to just think, remember, Einstein had a quiet, boring job with time to daydream, a streak of obsession, and a great deal of luck. Move Einstein a hundred years in either direction, and maybe nobody ever hears his name at all. So here's the quiet truth. We did not stop producing geniuses. People did not get dumber. Two things changed. The shape of genius shifted from a lone hero into a hidden crowd. And the conditions that once let a single person rewrite everything got rare. Not because we got worse, but because we already know so much that no one can hold it all anymore. There are almost certainly people alive right now. Every bit as brilliant as Einstein. You will simply never know their names. They are standing in the middle of a team. A mile out at a frontier you cannot even see from here. So maybe that is the real answer to where the Einsteins went. Nowhere. They are just spread out now. The next leap that changes everything probably will not come from one lonely mind in a patent office. It will come from a thousand minds and a machine. Working on something most of us will never understand. And no statue will ever be built for it. The age of the lone genius is ending. Not because we ran out of geniuses. But because the universe got harder to surprise. And we finally got big enough problems that we need each other to solve them. So the next time you try to name a living Einstein and come up empty, do not read it as humanity slowing down. You are looking at what genius actually looks like now. Quieter, shared, nameless, and honestly kind of more impressive. There was a time when one person was enough to move the whole world. Now it takes all of us at once. And that might be the most human thing we have ever done.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 6.36,
+      "text": " In 1905, a 26-year-old patent clerk, a guy whose academic career had completely stalled,"
+    },
+    {
+      "id": 1,
+      "start": 6.36,
+      "end": 11.76,
+      "text": " sat down between stamping other people's paperwork and casually rewrote the universe."
+    },
+    {
+      "id": 2,
+      "start": 11.76,
+      "end": 20.56,
+      "text": " Atoms, light, space and time itself, one man, one year, in his spare time."
+    },
+    {
+      "id": 3,
+      "start": 20.56,
+      "end": 24.4,
+      "text": " And here's the strange part, it feels like nobody does that anymore."
+    },
+    {
+      "id": 4,
+      "start": 24.4,
+      "end": 29.68,
+      "text": " Try to name a living Einstein, working today, and most of us like Stan here,"
+    },
+    {
+      "id": 5,
+      "start": 29.68,
+      "end": 35.76,
+      "text": " just come up blank. So, what happened? Did humanity peak and start coasting?"
+    },
+    {
+      "id": 6,
+      "start": 35.76,
+      "end": 39.92,
+      "text": " The real answer is a lot weirder, and it is not the one you are bracing for."
+    },
+    {
+      "id": 7,
+      "start": 39.92,
+      "end": 44.08,
+      "text": " And up close, what he actually pulled off in that one year is even more absurd."
+    },
+    {
+      "id": 8,
+      "start": 44.08,
+      "end": 49.28,
+      "text": " He proved that atoms are real, something scientists had argued about for centuries."
+    },
+    {
+      "id": 9,
+      "start": 49.28,
+      "end": 55.84,
+      "text": " He explained that light comes in tiny particles, the idea that would later win him the Nobel Prize."
+    },
+    {
+      "id": 10,
+      "start": 55.84,
+      "end": 62.24,
+      "text": " And then, almost as a side project, he rewrote space and time themselves with special relativity,"
+    },
+    {
+      "id": 11,
+      "start": 62.24,
+      "end": 67.36,
+      "text": " and dropped in a little equation you have definitely heard of."
+    },
+    {
+      "id": 12,
+      "start": 67.36,
+      "end": 73.6,
+      "text": " E equals MC squared. Remember, his doctoral thesis had just been rejected."
+    },
+    {
+      "id": 13,
+      "start": 73.6,
+      "end": 77.04,
+      "text": " He was a nobody doing this between stamping patents."
+    },
+    {
+      "id": 14,
+      "start": 77.04,
+      "end": 80.96,
+      "text": " One man, one year, off the side of his desk."
+    },
+    {
+      "id": 15,
+      "start": 80.96,
+      "end": 84.48,
+      "text": " And before you file that under abstract old-timey science,"
+    },
+    {
+      "id": 16,
+      "start": 84.48,
+      "end": 87.52,
+      "text": " understand that it is running your life right now."
+    },
+    {
+      "id": 17,
+      "start": 87.52,
+      "end": 90.8,
+      "text": " The GPS in your pocket depends on his relativity."
+    },
+    {
+      "id": 18,
+      "start": 90.8,
+      "end": 93.52,
+      "text": " Without the correction Einstein's math provides,"
+    },
+    {
+      "id": 19,
+      "start": 93.52,
+      "end": 97.68,
+      "text": " your phone's location would drift off by about two kilometers every single day."
+    },
+    {
+      "id": 20,
+      "start": 98.56,
+      "end": 104.08,
+      "text": " The blue dot that finds you on a map exists because a bored patent clerk got curious about light."
+    },
+    {
+      "id": 21,
+      "start": 104.96,
+      "end": 110.32,
+      "text": " So, yes. Where are the Einsteins is a completely fair thing to ask."
+    },
+    {
+      "id": 22,
+      "start": 111.12,
+      "end": 113.84,
+      "text": " But here's the first crack in the question."
+    },
+    {
+      "id": 23,
+      "start": 113.84,
+      "end": 116.96,
+      "text": " The image in your head, the lone genius,"
+    },
+    {
+      "id": 24,
+      "start": 116.96,
+      "end": 120.56,
+      "text": " one brilliant mind alone in a room cracking the universe,"
+    },
+    {
+      "id": 25,
+      "start": 120.56,
+      "end": 122.64,
+      "text": " was always partly a myth."
+    },
+    {
+      "id": 26,
+      "start": 122.64,
+      "end": 125.12,
+      "text": " Even Einstein was not really alone."
+    },
+    {
+      "id": 27,
+      "start": 125.12,
+      "end": 127.28,
+      "text": " He was building on the work of others,"
+    },
+    {
+      "id": 28,
+      "start": 127.28,
+      "end": 130.56,
+      "text": " arguing ideas with friends and his wife,"
+    },
+    {
+      "id": 29,
+      "start": 130.56,
+      "end": 133.36,
+      "text": " standing on a whole pile of physics that came before him."
+    },
+    {
+      "id": 30,
+      "start": 134.16,
+      "end": 135.84,
+      "text": " We just love a single hero,"
+    },
+    {
+      "id": 31,
+      "start": 135.84,
+      "end": 140.8,
+      "text": " so we flatten the messy, crowded truth into one face on a poster."
+    },
+    {
+      "id": 32,
+      "start": 140.8,
+      "end": 143.04,
+      "text": " Genius has never actually been a solo act."
+    },
+    {
+      "id": 33,
+      "start": 143.68,
+      "end": 145.04,
+      "text": " We just tell the story that way."
+    },
+    {
+      "id": 34,
+      "start": 145.68,
+      "end": 148.4,
+      "text": " And here is the real reason it feels so different today."
+    },
+    {
+      "id": 35,
+      "start": 149.28,
+      "end": 152.64,
+      "text": " In 1905, the frontier of physics was close."
+    },
+    {
+      "id": 36,
+      "start": 153.28,
+      "end": 157.36,
+      "text": " Close enough that one sharp young man could sprint to the edge of human knowledge"
+    },
+    {
+      "id": 37,
+      "start": 157.36,
+      "end": 159.44,
+      "text": " in his spare time and plant a flag."
+    },
+    {
+      "id": 38,
+      "start": 160.16,
+      "end": 163.2,
+      "text": " Today, that edge is incredibly far away."
+    },
+    {
+      "id": 39,
+      "start": 163.68,
+      "end": 166.16,
+      "text": " To even reach the frontier of a field now,"
+    },
+    {
+      "id": 40,
+      "start": 166.16,
+      "end": 169.04,
+      "text": " just to get to the place where you could add something new"
+    },
+    {
+      "id": 41,
+      "start": 169.04,
+      "end": 170.4,
+      "text": " takes decades of study."
+    },
+    {
+      "id": 42,
+      "start": 170.96,
+      "end": 172.72,
+      "text": " Because we know so much more than we did."
+    },
+    {
+      "id": 43,
+      "start": 173.52,
+      "end": 174.96,
+      "text": " Scientists have a name for this."
+    },
+    {
+      "id": 44,
+      "start": 175.6,
+      "end": 176.88,
+      "text": " The burden of knowledge."
+    },
+    {
+      "id": 45,
+      "start": 178.0,
+      "end": 182.0,
+      "text": " Every discovery we make pushes the starting line of the next one further out."
+    },
+    {
+      "id": 46,
+      "start": 182.64,
+      "end": 184.16,
+      "text": " The mountain did not get smaller."
+    },
+    {
+      "id": 47,
+      "start": 184.72,
+      "end": 187.52,
+      "text": " The hike just to reach base camp got enormous."
+    },
+    {
+      "id": 48,
+      "start": 188.24,
+      "end": 190.48,
+      "text": " So the work itself changed shape."
+    },
+    {
+      "id": 49,
+      "start": 190.56,
+      "end": 193.2,
+      "text": " The big problems left are tangled and gigantic."
+    },
+    {
+      "id": 50,
+      "start": 193.2,
+      "end": 195.2,
+      "text": " Too big for any one skull to hold."
+    },
+    {
+      "id": 51,
+      "start": 195.92,
+      "end": 197.84,
+      "text": " So science became teams."
+    },
+    {
+      "id": 52,
+      "start": 198.4,
+      "end": 201.36,
+      "text": " The breakthroughs are still happening constantly,"
+    },
+    {
+      "id": 53,
+      "start": 201.36,
+      "end": 204.4,
+      "text": " but now a single discovery might have 100 names on it."
+    },
+    {
+      "id": 54,
+      "start": 204.96,
+      "end": 206.72,
+      "text": " The Einstein of today is not missing."
+    },
+    {
+      "id": 55,
+      "start": 207.28,
+      "end": 212.16,
+      "text": " He or she is one of 200 authors on a paper you will never read,"
+    },
+    {
+      "id": 56,
+      "start": 212.16,
+      "end": 214.32,
+      "text": " and you will not learn a single one of those names."
+    },
+    {
+      "id": 57,
+      "start": 214.96,
+      "end": 216.48,
+      "text": " We did not lose the geniuses."
+    },
+    {
+      "id": 58,
+      "start": 217.04,
+      "end": 218.96,
+      "text": " We lost the one face to pin them on."
+    },
+    {
+      "id": 59,
+      "start": 219.6,
+      "end": 222.88,
+      "text": " Which leads to the real mystery underneath all of it."
+    },
+    {
+      "id": 60,
+      "start": 222.88,
+      "end": 225.2,
+      "text": " What even makes an Einstein in the first place?"
+    },
+    {
+      "id": 61,
+      "start": 225.76,
+      "end": 229.04,
+      "text": " And the honest answer from the science is that it was never just a magic brain."
+    },
+    {
+      "id": 62,
+      "start": 229.6,
+      "end": 231.28,
+      "text": " Yes, some of it is born."
+    },
+    {
+      "id": 63,
+      "start": 231.28,
+      "end": 233.36,
+      "text": " Raw intelligence is partly genetic."
+    },
+    {
+      "id": 64,
+      "start": 233.92,
+      "end": 236.0,
+      "text": " But the bigger half is conditions."
+    },
+    {
+      "id": 65,
+      "start": 236.48,
+      "end": 239.36,
+      "text": " Being in the right field at the exact right moment,"
+    },
+    {
+      "id": 66,
+      "start": 239.36,
+      "end": 241.04,
+      "text": " while it is still young enough to crack."
+    },
+    {
+      "id": 67,
+      "start": 241.68,
+      "end": 245.84,
+      "text": " Having the freedom and the empty hours to just think, remember,"
+    },
+    {
+      "id": 68,
+      "start": 245.84,
+      "end": 249.36,
+      "text": " Einstein had a quiet, boring job with time to daydream,"
+    },
+    {
+      "id": 69,
+      "start": 249.84,
+      "end": 252.64,
+      "text": " a streak of obsession, and a great deal of luck."
+    },
+    {
+      "id": 70,
+      "start": 253.28,
+      "end": 255.84,
+      "text": " Move Einstein a hundred years in either direction,"
+    },
+    {
+      "id": 71,
+      "start": 255.84,
+      "end": 257.84,
+      "text": " and maybe nobody ever hears his name at all."
+    },
+    {
+      "id": 72,
+      "start": 258.88,
+      "end": 260.96,
+      "text": " So here's the quiet truth."
+    },
+    {
+      "id": 73,
+      "start": 261.92,
+      "end": 263.84,
+      "text": " We did not stop producing geniuses."
+    },
+    {
+      "id": 74,
+      "start": 264.64,
+      "end": 266.32,
+      "text": " People did not get dumber."
+    },
+    {
+      "id": 75,
+      "start": 266.32,
+      "end": 267.76,
+      "text": " Two things changed."
+    },
+    {
+      "id": 76,
+      "start": 267.76,
+      "end": 271.92,
+      "text": " The shape of genius shifted from a lone hero into a hidden crowd."
+    },
+    {
+      "id": 77,
+      "start": 272.48,
+      "end": 277.04,
+      "text": " And the conditions that once let a single person rewrite everything got rare."
+    },
+    {
+      "id": 78,
+      "start": 277.6,
+      "end": 279.36,
+      "text": " Not because we got worse,"
+    },
+    {
+      "id": 79,
+      "start": 279.36,
+      "end": 282.56,
+      "text": " but because we already know so much that no one can hold it all anymore."
+    },
+    {
+      "id": 80,
+      "start": 283.12,
+      "end": 285.44,
+      "text": " There are almost certainly people alive right now."
+    },
+    {
+      "id": 81,
+      "start": 285.44,
+      "end": 287.2,
+      "text": " Every bit as brilliant as Einstein."
+    },
+    {
+      "id": 82,
+      "start": 287.76,
+      "end": 289.52,
+      "text": " You will simply never know their names."
+    },
+    {
+      "id": 83,
+      "start": 290.16,
+      "end": 292.4,
+      "text": " They are standing in the middle of a team."
+    },
+    {
+      "id": 84,
+      "start": 292.4,
+      "end": 295.44,
+      "text": " A mile out at a frontier you cannot even see from here."
+    },
+    {
+      "id": 85,
+      "start": 296.08,
+      "end": 299.68,
+      "text": " So maybe that is the real answer to where the Einsteins went."
+    },
+    {
+      "id": 86,
+      "start": 300.56,
+      "end": 301.12,
+      "text": " Nowhere."
+    },
+    {
+      "id": 87,
+      "start": 301.84,
+      "end": 303.52,
+      "text": " They are just spread out now."
+    },
+    {
+      "id": 88,
+      "start": 303.52,
+      "end": 309.28,
+      "text": " The next leap that changes everything probably will not come from one lonely mind in a patent office."
+    },
+    {
+      "id": 89,
+      "start": 309.28,
+      "end": 312.32,
+      "text": " It will come from a thousand minds and a machine."
+    },
+    {
+      "id": 90,
+      "start": 312.32,
+      "end": 315.12,
+      "text": " Working on something most of us will never understand."
+    },
+    {
+      "id": 91,
+      "start": 315.12,
+      "end": 317.68,
+      "text": " And no statue will ever be built for it."
+    },
+    {
+      "id": 92,
+      "start": 317.68,
+      "end": 320.08,
+      "text": " The age of the lone genius is ending."
+    },
+    {
+      "id": 93,
+      "start": 320.08,
+      "end": 321.92,
+      "text": " Not because we ran out of geniuses."
+    },
+    {
+      "id": 94,
+      "start": 322.56,
+      "end": 325.52,
+      "text": " But because the universe got harder to surprise."
+    },
+    {
+      "id": 95,
+      "start": 326.08,
+      "end": 329.76,
+      "text": " And we finally got big enough problems that we need each other to solve them."
+    },
+    {
+      "id": 96,
+      "start": 330.4,
+      "end": 334.08,
+      "text": " So the next time you try to name a living Einstein and come up empty,"
+    },
+    {
+      "id": 97,
+      "start": 334.08,
+      "end": 336.4,
+      "text": " do not read it as humanity slowing down."
+    },
+    {
+      "id": 98,
+      "start": 336.96,
+      "end": 339.6,
+      "text": " You are looking at what genius actually looks like now."
+    },
+    {
+      "id": 99,
+      "start": 340.24,
+      "end": 345.84,
+      "text": " Quieter, shared, nameless, and honestly kind of more impressive."
+    },
+    {
+      "id": 100,
+      "start": 346.4,
+      "end": 349.68,
+      "text": " There was a time when one person was enough to move the whole world."
+    },
+    {
+      "id": 101,
+      "start": 349.68,
+      "end": 351.44,
+      "text": " Now it takes all of us at once."
+    },
+    {
+      "id": 102,
+      "start": 351.44,
+      "end": 353.76,
+      "text": " And that might be the most human thing we have ever done."
+    }
+  ]
+}

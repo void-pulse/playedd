@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0,
+    "scene": "A phone with a glowing blue GPS dot on a map, big black caps YOUR GPS. Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 3,
+    "scene": "The blue dot drifting far off the road with a red error arrow, big black caps WRONG BY 2 KM A DAY. Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:06",
+    "seconds": 6,
+    "scene": "A dotted line from the phone tracing back in time to doodle-Einstein daydreaming at the patent desk, big black caps WRITTEN FOR FUN. (Doodle-Einstein is a crude stick figure with a round white head, wild messy white hair sticking out, a bushy white mustache, dot eyes, thin line body.) Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:09",
+    "seconds": 9,
+    "scene": "Doodle-Einstein curiously watching a beam of light between paperwork stamps, big black caps A BORED CLERK. (Doodle-Einstein is a crude stick figure with a round white head, wild messy white hair sticking out, a bushy white mustache, dot eyes, thin line body.) Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:12",
+    "seconds": 12,
+    "scene": "A big glowing red question mark over a row of empty portrait frames, big black caps WHERE ARE THEY NOW? Composed tall to fill a vertical 9:16 frame."
+  }
+]
