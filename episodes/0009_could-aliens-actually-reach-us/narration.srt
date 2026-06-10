@@ -1,0 +1,455 @@
+1
+00:00:00,000 --> 00:00:01,840
+Somewhere out there.
+
+2
+00:00:01,840 --> 00:00:05,320
+The odds say there is probably alien life.
+
+3
+00:00:05,320 --> 00:00:06,560
+Maybe a little.
+
+4
+00:00:06,560 --> 00:00:08,200
+Maybe oceans of it.
+
+5
+00:00:08,200 --> 00:00:12,160
+Which raises a question almost nobody actually stops to ask.
+
+6
+00:00:12,160 --> 00:00:16,200
+Even if they are real, could they ever actually get here?
+
+7
+00:00:16,200 --> 00:00:17,680
+Could anything?
+
+8
+00:00:17,680 --> 00:00:21,560
+Stan looks up at the stars half expecting an easy yes.
+
+9
+00:00:21,560 --> 00:00:24,200
+But the true answer hides one of the most staggering facts
+
+10
+00:00:24,200 --> 00:00:26,440
+about the universe you will ever sit with.
+
+11
+00:00:26,440 --> 00:00:29,560
+And once you see it, you will never look at that night sky
+
+12
+00:00:29,560 --> 00:00:31,320
+the same way again.
+
+13
+00:00:31,320 --> 00:00:33,800
+Start with the closest possible neighbor.
+
+14
+00:00:33,800 --> 00:00:36,680
+The nearest star to us other than our own sun
+
+15
+00:00:36,680 --> 00:00:39,000
+is called Proxima Centauri.
+
+16
+00:00:39,000 --> 00:00:41,400
+It is about four light years away.
+
+17
+00:00:41,400 --> 00:00:42,720
+Four.
+
+18
+00:00:42,720 --> 00:00:45,960
+That sounds almost walkable, cosmically speaking.
+
+19
+00:00:45,960 --> 00:00:49,760
+But a light year is the distance light travels in a year.
+
+20
+00:00:49,760 --> 00:00:54,200
+And light is the fastest thing that exists around 186,000
+
+21
+00:00:54,200 --> 00:00:56,360
+miles every single second.
+
+22
+00:00:56,360 --> 00:00:59,120
+The light landing in your eye from that star tonight
+
+23
+00:00:59,120 --> 00:01:01,560
+left it more than four years ago.
+
+24
+00:01:01,560 --> 00:01:05,360
+So four is hiding something enormous.
+
+25
+00:01:05,360 --> 00:01:08,840
+Because here's the catch that changes everything.
+
+26
+00:01:08,840 --> 00:01:11,000
+We cannot travel at the speed of light.
+
+27
+00:01:11,000 --> 00:01:12,960
+Nothing with mass can.
+
+28
+00:01:12,960 --> 00:01:15,200
+Pushing any object up to light speed
+
+29
+00:01:15,200 --> 00:01:17,400
+would take an infinite amount of energy.
+
+30
+00:01:17,400 --> 00:01:19,480
+The universe simply forbids it.
+
+31
+00:01:19,480 --> 00:01:24,040
+So the real question becomes how fast can we actually go?
+
+32
+00:01:24,040 --> 00:01:25,720
+And the answer is humbling.
+
+33
+00:01:25,720 --> 00:01:27,760
+Our fastest spacecraft.
+
+34
+00:01:27,800 --> 00:01:30,160
+If you aimed it straight at that nearest star
+
+35
+00:01:30,160 --> 00:01:32,200
+would not take hundreds of years.
+
+36
+00:01:32,200 --> 00:01:34,360
+It would take tens of thousands.
+
+37
+00:01:34,360 --> 00:01:36,760
+Voyager, our most famous probe,
+
+38
+00:01:36,760 --> 00:01:40,120
+would need roughly 77,000 years to get there.
+
+39
+00:01:40,120 --> 00:01:42,160
+Let that land with one number.
+
+40
+00:01:42,160 --> 00:01:44,160
+Voyager has been flying away from Earth
+
+41
+00:01:44,160 --> 00:01:45,960
+for almost 50 years now.
+
+42
+00:01:45,960 --> 00:01:48,440
+Faster than any of us will ever move.
+
+43
+00:01:48,440 --> 00:01:51,520
+And in all that time, it has traveled about one light day
+
+44
+00:01:51,520 --> 00:01:55,160
+from home, one day at the speed of light.
+
+45
+00:01:55,160 --> 00:01:58,880
+The nearest star is over 1,500 light days away.
+
+46
+00:01:58,880 --> 00:02:00,720
+We have been going for half a century
+
+47
+00:02:00,720 --> 00:02:02,840
+and we are barely off the porch.
+
+48
+00:02:02,840 --> 00:02:06,720
+So now flip it around and put yourself in the aliens' shoes.
+
+49
+00:02:06,720 --> 00:02:10,040
+For them to cross that same impossible gulf and reach us,
+
+50
+00:02:10,040 --> 00:02:12,200
+they would need technology that to us
+
+51
+00:02:12,200 --> 00:02:13,920
+would look like pure magic.
+
+52
+00:02:13,920 --> 00:02:16,200
+They would either have to travel at a massive fraction
+
+53
+00:02:16,200 --> 00:02:18,960
+of light speed, which takes amounts of energy
+
+54
+00:02:18,960 --> 00:02:20,960
+that are almost beyond imagining,
+
+55
+00:02:20,960 --> 00:02:24,200
+or they would have to break the rules of space itself.
+
+56
+00:02:24,240 --> 00:02:27,640
+Physicists actually have one idea for that, the warp drive.
+
+57
+00:02:27,640 --> 00:02:29,920
+The trick is you do not move through space,
+
+58
+00:02:29,920 --> 00:02:31,800
+you move space around your ship,
+
+59
+00:02:31,800 --> 00:02:34,320
+like a surfer riding a wave.
+
+60
+00:02:34,320 --> 00:02:37,000
+And the math genuinely works.
+
+61
+00:02:37,000 --> 00:02:39,600
+The only problem is it requires a kind of matter
+
+62
+00:02:39,600 --> 00:02:42,400
+with negative energy that, as far as we know,
+
+63
+00:02:42,400 --> 00:02:45,200
+has never been found and may not exist at all.
+
+64
+00:02:45,200 --> 00:02:48,560
+Even our single best real attempt, tiny probes,
+
+65
+00:02:48,560 --> 00:02:51,240
+pushed by lasers to a fifth of light speed,
+
+66
+00:02:51,240 --> 00:02:54,360
+would still take 20 years to reach the nearest star.
+
+67
+00:02:54,360 --> 00:02:57,120
+And that project quietly stalled.
+
+68
+00:02:57,120 --> 00:02:59,760
+This is not a new puzzle, by the way.
+
+69
+00:02:59,760 --> 00:03:03,920
+Back in 1950, a brilliant physicist named Enrico Fermi
+
+70
+00:03:03,920 --> 00:03:07,320
+was just chatting over lunch about the chances of alien life
+
+71
+00:03:07,320 --> 00:03:08,760
+and he asked a simple question
+
+72
+00:03:08,760 --> 00:03:11,360
+that has haunted science ever since.
+
+73
+00:03:11,360 --> 00:03:12,600
+Where is everybody?
+
+74
+00:03:13,800 --> 00:03:17,280
+Think about it, the galaxy is unbelievably huge
+
+75
+00:03:17,280 --> 00:03:20,520
+and unbelievably old billions of years.
+
+76
+00:03:20,520 --> 00:03:23,840
+If intelligent life is common and crossing space
+
+77
+00:03:23,840 --> 00:03:26,960
+were doable, then somebody somewhere
+
+78
+00:03:26,960 --> 00:03:29,760
+in all that time should have shown up.
+
+79
+00:03:29,760 --> 00:03:33,920
+And yet, silence, they call it the Fermi paradox
+
+80
+00:03:33,920 --> 00:03:35,520
+and one of the simplest answers to it
+
+81
+00:03:35,520 --> 00:03:37,280
+is also the most humbling.
+
+82
+00:03:37,280 --> 00:03:40,040
+Maybe nobody shows up because nobody can.
+
+83
+00:03:40,040 --> 00:03:43,400
+Here is the quiet, strange truth this points to.
+
+84
+00:03:43,400 --> 00:03:46,280
+The universe might be absolutely teeming with life
+
+85
+00:03:46,280 --> 00:03:49,080
+and it could still be true that none of them ever meet,
+
+86
+00:03:49,120 --> 00:03:50,960
+not because they are not there,
+
+87
+00:03:50,960 --> 00:03:53,240
+but because every civilization is stranded
+
+88
+00:03:53,240 --> 00:03:56,000
+on its own little island of a solar system.
+
+89
+00:03:56,000 --> 00:03:59,240
+Separated by gulfs so vast that even light,
+
+90
+00:03:59,240 --> 00:04:02,080
+the fastest thing in existence takes years
+
+91
+00:04:02,080 --> 00:04:05,560
+and centuries and thousands of years to cross.
+
+92
+00:04:05,560 --> 00:04:08,680
+We might be surrounded by neighbors we can never visit.
+
+93
+00:04:08,680 --> 00:04:12,000
+And it cuts both ways, which is the part we forget.
+
+94
+00:04:12,000 --> 00:04:13,800
+We are not reaching them either.
+
+95
+00:04:13,800 --> 00:04:17,000
+For all our rockets and telescopes and ambition,
+
+96
+00:04:17,000 --> 00:04:20,240
+we have exactly one probe a single light day out
+
+97
+00:04:20,240 --> 00:04:22,440
+after 50 years of trying.
+
+98
+00:04:22,440 --> 00:04:25,120
+The aliens may very well be real.
+
+99
+00:04:25,120 --> 00:04:29,040
+They just cannot get to us and we cannot get to them.
+
+100
+00:04:29,040 --> 00:04:30,880
+The silence in the sky might not mean
+
+101
+00:04:30,880 --> 00:04:32,840
+the universe is empty at all.
+
+102
+00:04:32,840 --> 00:04:35,120
+It might just mean it is so full
+
+103
+00:04:35,120 --> 00:04:39,640
+and so impossibly spread out that everyone is alone together.
+
+104
+00:04:39,640 --> 00:04:41,480
+So the next time you look up and wonder
+
+105
+00:04:41,480 --> 00:04:45,040
+if anyone is out there, the honest answer is probably.
+
+106
+00:04:45,040 --> 00:04:48,040
+Somewhere they simply cannot reach you
+
+107
+00:04:48,040 --> 00:04:51,200
+and you cannot reach them not because the universe is empty
+
+108
+00:04:51,200 --> 00:04:53,760
+but because it is so unimaginably vast
+
+109
+00:04:53,760 --> 00:04:56,160
+that even light strains to cross it.
+
+110
+00:04:56,160 --> 00:04:59,240
+We are not alone, we are just very, very far apart.
+
+111
+00:05:00,440 --> 00:05:03,280
+And a universe that big, that full
+
+112
+00:05:03,280 --> 00:05:06,720
+and that far flung is not a sad thought.
+
+113
+00:05:06,720 --> 00:05:08,400
+It might be the most astonishing thing
+
+114
+00:05:08,400 --> 00:05:09,720
+about being here at all.

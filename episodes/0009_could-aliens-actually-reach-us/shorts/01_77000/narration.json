@@ -1,0 +1,53 @@
+{
+  "text": " The nearest star to Earth is four light years away. Sounds close, right? Here's the catch. Our fastest spacecraft, aimed straight at it, wouldn't take hundreds of years to get there. It would take 77,000 years. And that's just the first problem with ever meeting an alien.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.74,
+      "text": " The nearest star to Earth is four light years away."
+    },
+    {
+      "id": 1,
+      "start": 2.74,
+      "end": 4.14,
+      "text": " Sounds close, right?"
+    },
+    {
+      "id": 2,
+      "start": 4.14,
+      "end": 5.2,
+      "text": " Here's the catch."
+    },
+    {
+      "id": 3,
+      "start": 5.2,
+      "end": 7.38,
+      "text": " Our fastest spacecraft, aimed straight at it,"
+    },
+    {
+      "id": 4,
+      "start": 7.38,
+      "end": 9.34,
+      "text": " wouldn't take hundreds of years to get there."
+    },
+    {
+      "id": 5,
+      "start": 9.34,
+      "end": 11.98,
+      "text": " It would take 77,000 years."
+    },
+    {
+      "id": 6,
+      "start": 11.98,
+      "end": 13.3,
+      "text": " And that's just the first problem"
+    },
+    {
+      "id": 7,
+      "start": 13.3,
+      "end": 14.74,
+      "text": " with ever meeting an alien."
+    }
+  ]
+}

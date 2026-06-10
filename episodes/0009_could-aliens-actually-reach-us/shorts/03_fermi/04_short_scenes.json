@@ -1,0 +1,32 @@
+[
+  {
+    "index": 1,
+    "timestamp": "0:00",
+    "seconds": 0,
+    "scene": "A doodle physicist at a lunch table with sandwiches, a name card reading ENRICO FERMI, hand-lettered 1950. Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 2,
+    "timestamp": "0:03",
+    "seconds": 3,
+    "scene": "Fermi mid-bite with a lightbulb popping over his head, colleagues chatting. Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 3,
+    "timestamp": "0:06",
+    "seconds": 6,
+    "scene": "A vast empty starfield with huge hand-lettered caps WHERE IS EVERYBODY? Flat dark navy sky with simple white star dots. Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 4,
+    "timestamp": "0:09",
+    "seconds": 9,
+    "scene": "A doorbell on a cartoon Earth covered in cobwebs, untouched, big black caps NOBODY SHOWED UP. Flat dark navy sky with simple white star dots. Composed tall to fill a vertical 9:16 frame."
+  },
+  {
+    "index": 5,
+    "timestamp": "0:12",
+    "seconds": 12,
+    "scene": "A glowing scroll of answers with the bottom one glowing red, big black caps THE HUMBLING ANSWER. Flat dark navy sky with simple white star dots. Composed tall to fill a vertical 9:16 frame."
+  }
+]

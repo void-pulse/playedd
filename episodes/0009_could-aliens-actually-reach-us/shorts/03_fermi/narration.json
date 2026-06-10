@@ -1,0 +1,41 @@
+{
+  "text": " In 1950, the physicist Enrico Fermi was having lunch, chatting about aliens when he asked one question that has haunted science ever since. Where is everybody? The galaxy is huge and billions of years old. If life is common, somebody should have shown up by now. The simplest answer is also the most humbling.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.84,
+      "text": " In 1950, the physicist Enrico Fermi was having lunch, chatting about aliens when he asked"
+    },
+    {
+      "id": 1,
+      "start": 4.84,
+      "end": 7.76,
+      "text": " one question that has haunted science ever since."
+    },
+    {
+      "id": 2,
+      "start": 7.76,
+      "end": 9.24,
+      "text": " Where is everybody?"
+    },
+    {
+      "id": 3,
+      "start": 9.24,
+      "end": 12.2,
+      "text": " The galaxy is huge and billions of years old."
+    },
+    {
+      "id": 4,
+      "start": 12.2,
+      "end": 15.32,
+      "text": " If life is common, somebody should have shown up by now."
+    },
+    {
+      "id": 5,
+      "start": 15.32,
+      "end": 17.24,
+      "text": " The simplest answer is also the most humbling."
+    }
+  ]
+}

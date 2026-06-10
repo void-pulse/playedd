@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:04,560
+Voyager has been flying away from Earth for almost 50 years, faster than any human has
+
+2
+00:00:04,560 --> 00:00:06,040
+ever traveled.
+
+3
+00:00:06,040 --> 00:00:10,640
+In all that time, it's made it about one light day from home, one day at the speed of
+
+4
+00:00:10,640 --> 00:00:17,200
+light, the nearest star, over 1500 light days away, 50 years in, and we're barely off
+
+5
+00:00:17,200 --> 00:00:18,200
+the porch.
+
+6
+00:00:18,200 --> 00:00:19,440
+So what would it actually take?

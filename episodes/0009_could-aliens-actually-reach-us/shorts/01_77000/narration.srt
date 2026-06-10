@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:02,740
+The nearest star to Earth is four light years away.
+
+2
+00:00:02,740 --> 00:00:04,140
+Sounds close, right?
+
+3
+00:00:04,140 --> 00:00:05,200
+Here's the catch.
+
+4
+00:00:05,200 --> 00:00:07,380
+Our fastest spacecraft, aimed straight at it,
+
+5
+00:00:07,380 --> 00:00:09,340
+wouldn't take hundreds of years to get there.
+
+6
+00:00:09,340 --> 00:00:11,980
+It would take 77,000 years.
+
+7
+00:00:11,980 --> 00:00:13,300
+And that's just the first problem
+
+8
+00:00:13,300 --> 00:00:14,740
+with ever meeting an alien.

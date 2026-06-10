@@ -1,0 +1,41 @@
+{
+  "text": " Voyager has been flying away from Earth for almost 50 years, faster than any human has ever traveled. In all that time, it's made it about one light day from home, one day at the speed of light, the nearest star, over 1500 light days away, 50 years in, and we're barely off the porch. So what would it actually take?",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.56,
+      "text": " Voyager has been flying away from Earth for almost 50 years, faster than any human has"
+    },
+    {
+      "id": 1,
+      "start": 4.56,
+      "end": 6.04,
+      "text": " ever traveled."
+    },
+    {
+      "id": 2,
+      "start": 6.04,
+      "end": 10.64,
+      "text": " In all that time, it's made it about one light day from home, one day at the speed of"
+    },
+    {
+      "id": 3,
+      "start": 10.64,
+      "end": 17.2,
+      "text": " light, the nearest star, over 1500 light days away, 50 years in, and we're barely off"
+    },
+    {
+      "id": 4,
+      "start": 17.2,
+      "end": 18.2,
+      "text": " the porch."
+    },
+    {
+      "id": 5,
+      "start": 18.2,
+      "end": 19.44,
+      "text": " So what would it actually take?"
+    }
+  ]
+}
