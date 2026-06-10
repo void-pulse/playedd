@@ -83,13 +83,15 @@ def validate(spec: dict) -> list[str]:
     return problems
 
 
-def drip_times(main_at: str | None, n_shorts: int, start_days: float,
+def drip_times(main_at: str | None, n_shorts: int, start_hours: float,
                every_days: float) -> tuple[str | None, list[str | None]]:
+    """STRATEGY.md cadence: short #1 launch-day (+start_hours after the main),
+    the rest every every_days after."""
     if not main_at:
         return None, [None] * n_shorts
     t0 = datetime.fromisoformat(main_at.replace("Z", "+00:00")).astimezone(timezone.utc)
-    shorts = [(t0 + timedelta(days=start_days + every_days * i)).strftime("%Y-%m-%dT%H:%M:%SZ")
-              for i in range(n_shorts)]
+    shorts = [(t0 + timedelta(hours=start_hours) + timedelta(days=every_days * i))
+              .strftime("%Y-%m-%dT%H:%M:%SZ") for i in range(n_shorts)]
     return t0.strftime("%Y-%m-%dT%H:%M:%SZ"), shorts
 
 
@@ -133,8 +135,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="validate spec + files; no API calls")
     ap.add_argument("--main-at", default=None,
                     help="ISO8601 UTC publishAt for the main video (e.g. 2026-06-12T15:00:00Z)")
-    ap.add_argument("--shorts-start-days", type=float, default=2.0,
-                    help="first short publishes N days after the main")
+    ap.add_argument("--shorts-start-hours", type=float, default=2.0,
+                    help="first short publishes N hours after the main (launch-day)")
     ap.add_argument("--shorts-every-days", type=float, default=2.0,
                     help="gap between shorts after the first")
     ap.add_argument("--skip-shorts", action="store_true")
@@ -149,7 +151,7 @@ def main():
         sys.exit(1)
     shorts = [] if args.skip_shorts else spec.get("shorts", [])
     main_at, short_times = drip_times(args.main_at, len(shorts),
-                                      args.shorts_start_days, args.shorts_every_days)
+                                      args.shorts_start_hours, args.shorts_every_days)
     state = load_state()
 
     print(f"episode: {episode.name}  (main + {len(shorts)} shorts)  spec OK")
