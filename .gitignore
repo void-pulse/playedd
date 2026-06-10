@@ -38,3 +38,7 @@ Thumbs.db
 !episodes/_template/audio/.gitkeep
 !episodes/_template/images/.gitkeep
 test/
+
+# youtube uploader runtime (oauth token + upload ledger)
+youtube/uploader/token.json
+youtube/uploader/state.json
