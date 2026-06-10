@@ -26,6 +26,8 @@ import sys
 import tempfile
 from pathlib import Path
 
+import math
+
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -90,9 +92,9 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
                 r, g, b, a = px[xx, yy]
                 if r > 232 and g > 230 and b > 222:
                     px[xx, yy] = (r, g, b, 0)
-        side = int(W * 0.52)
+        side = int(W * 0.62)                       # bigger logo (was 0.52)
         logo = logo.resize((side, side), Image.LANCZOS)
-        card.paste(logo, (cx - side // 2, int(H * 0.02)), logo)
+        card.paste(logo, (cx - side // 2, int(H * 0.11)), logo)   # a little lower (was 0.02)
 
     # challenge like-bait line up near the logo ("HEAD: body" -> red head + black body)
     if challenge:
@@ -119,18 +121,29 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
         f = fit(line, int(W * 0.82), start=140)
         y += centered(line, y, f, INK) + 34
 
-    # arrow pointing DOWN to the video-link row on a Short. The link ("> video title") sits at
-    # the bottom, left-OF-CENTER (not the far corner) just under the channel handle, so aim there.
-    p1 = (int(W * 0.55), int(H * 0.68))
-    p2 = (int(W * 0.27), int(H * 0.80))
-    ax, ay = p2[0] - p1[0], p2[1] - p1[1]
-    L = (ax * ax + ay * ay) ** 0.5
-    ux, uy = ax / L, ay / L
-    head = 132
+    # thick CURVED arrow pointing DOWN to the video-link row on a Short. The link ("> video title")
+    # sits at the bottom, left-OF-CENTER (just under the channel handle), so the curve sweeps from
+    # under the heading down and to the left, ending with the arrowhead aimed at that row.
+    p0 = (int(W * 0.62), int(H * 0.69))   # tail, center-right under the heading
+    pc = (int(W * 0.64), int(H * 0.82))   # control point bows the curve out to the right + down
+    p2 = (int(W * 0.27), int(H * 0.84))   # head, lower-left at the link row
+    width = 54
+    N = 56
+    pts = [(
+        (1 - t) ** 2 * p0[0] + 2 * (1 - t) * t * pc[0] + t * t * p2[0],
+        (1 - t) ** 2 * p0[1] + 2 * (1 - t) * t * pc[1] + t * t * p2[1],
+    ) for t in (i / N for i in range(N + 1))]
+    d.line(pts, fill=INK, width=width, joint="curve")
+    r = width / 2                          # round the stroke so the curve reads smooth and thick
+    for (x, y) in pts:
+        d.ellipse([x - r, y - r, x + r, y + r], fill=INK)
+    tx, ty = p2[0] - pc[0], p2[1] - pc[1]  # arrowhead oriented along the curve's final tangent
+    tl = math.hypot(tx, ty) or 1.0
+    ux, uy = tx / tl, ty / tl
+    head = width * 2.7
     bx, by = p2[0] - ux * head, p2[1] - uy * head
-    d.line([p1, (bx, by)], fill=INK, width=50)
     perpx, perpy = -uy, ux
-    hw2 = head * 0.62
+    hw2 = head * 0.66
     d.polygon([p2, (bx + perpx * hw2, by + perpy * hw2), (bx - perpx * hw2, by - perpy * hw2)], fill=INK)
 
     card.save(out_png)
