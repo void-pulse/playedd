@@ -1,0 +1,2 @@
+[DAILY SHORT — 08_deadstars]
+The carbon in your cells. The oxygen you breathe. The iron in your blood. <break time="0.3s"/> Almost none of it was made on Earth. Every element heavier than hydrogen was forged deep inside a star, billions of years before the sun even existed. <break time="0.3s"/> When those stars ran out of fuel, they exploded, scattering that dust across space. And some of it became you. <break time="0.3s"/> You are made of dead stars. Follow, there's one of these every day.
