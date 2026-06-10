@@ -30,7 +30,7 @@ The proven shape for this channel, going forward. Not a one-off.
 - **Beat structure (keep this spine):** cold-open hook -> setup -> the turn -> human layer -> payoff -> wonder button (see brand/STORY.md). The button lands the idea, then cuts to the silent logo. No spoken sign-off.
 
 ### Hook-first rule (non-negotiable)
-The first 2 seconds decide the video. Open inside the mystery, on the single most arresting line you have. No "in this video," no throat-clearing, no slow build. Every line after that must earn the next one: if a sentence doesn't open a loop or pay one off, cut it. Write the cold open last, after you know your strongest fact, and lead with it.
+The first 2 seconds decide the video. Open inside the mystery, on the single most arresting line you have. No "in this video," no throat-clearing, no slow build. Every line after that must earn the next one: if a sentence doesn't open a loop or pay one off, cut it. Write the cold open last, after you know your strongest fact, and lead with it. **Never give the answer away in the cold open.** Pose the question and tease that the answer is surprising or bigger than expected, then reveal it across the video. An open loop keeps them watching; answering it up front closes the loop and they leave.
 
 ### End stamp / outro card
 The main video ends on a silent **like-and-subscribe outro card** in the Playedd doodle style, held ~5-10s after narration. Logan adds the actual subscribe button and channel logo himself via YouTube's end screen, so the card MUST LEAVE THE CENTER AND TOP-RIGHT CLEAR: center is reserved for the subscribe/logo end-screen element, top-right for YouTube's recommended-video card. Put the doodle like/subscribe prompts in the left and lower-left area only. The old "YOU'RE BEING PLAYED" CTA is retired. Shorts: a brief like/subscribe doodle is fine (no end-screen reservation needed).
@@ -49,20 +49,21 @@ Stills are the default. Animation is a tool we reach for **only when a beat genu
 ### Title formula
 A bold, counterintuitive claim with CAPS on the key words, kept consistent for branding. The title promises the "wait, what?" that the video pays off.
 
-### Description template (every episode)
-1. **Hook question** — a line or two that restate the counterintuitive promise.
-2. **"What you'll learn"** — 3-5 bullets of the concrete payoffs.
-3. **Credibility line** — a one-liner signaling real research and honest sourcing (e.g. "every claim sourced below, including the parts the internet usually gets wrong").
-4. **Comment-bait question** — invite a reply to feed engagement.
-5. **SOURCES block** — the real citations (also the demonetization defense).
-6. **Hashtags** — a short, relevant set.
+### Description template (every episode) — SHORT + TEASER style
+Keep it short and sweet. The hook TEASES, it never spoils. The payoff lives in the video, not the description.
+1. **Teaser opener** — 1-2 lines that pose the question and promise it's stranger than expected. Do NOT summarize or reveal the answer.
+2. **"What you'll learn"** — 3-4 short, punchy bullets that TEASE the beats without giving away the reveal.
+3. **Comment-bait question** — one line inviting a reply.
+4. **SOURCES block** — the real citations (credibility + demonetization defense; sits at the bottom, below the fold).
+5. **Synthetic-media disclosure** — "This video uses AI-assisted narration and illustrations."
+6. **Hashtags** — a short, relevant set (~5).
 
 ## Rule 1 — Add the human layer (the moat)
 Every script must contain at least one of: a non-obvious connection, a genuine "here's why this matters" beat, or a correction of a common myth. Mark it `[HUMAN LAYER]` in the script. It costs two sentences and it's the whole ballgame.
 
 ## Rule 2 — Vary the surface
 - Titles: rotate at least 4 title structures. Not every title is "The TRUTH about X."
-- Thumbnails: one bold idea per thumbnail (see IMAGE_STYLE.md); style stays consistent; composition and color accents vary by vein.
+- Thumbnails: one bold idea per thumbnail (see IMAGE_STYLE.md); style stays consistent; composition and color accents vary by vein. **Produce 3 DISTINCT thumbnail options per video for A/B testing** (different hook/visual/caps text, not minor variants), so the test is meaningful.
 - Cold opens: never reuse the exact opening pattern back to back.
 - Length: target 6-9 min (see Episode format standard below). Vary within that band; don't template the exact runtime.
 
