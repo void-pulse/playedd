@@ -36,7 +36,7 @@ Use a simple stickman / childish cartoon style, colored in flat:
 - Simple flat backgrounds and settings only: a flat color, a simple ground or horizon line, and a few crude shapes (sun, clouds, hills, walls, floor). Never detailed or textured.
 - Flat color palette: green, brown, gray, red, yellow, orange, blue, and simple flats as needed.
 - Use red arrows or red question marks to point things out when helpful.
-- Handwritten text only when it helps; short, correctly spelled, easy to read, in big bold black caps.
+- Handwritten text only when it helps; short, correctly spelled, easy to read, in big bold caps that CONTRAST the background: black caps on light/pale scenes, but WHITE caps (with a thin dark outline) on dark, night, or deep-colored scenes. Never dark text on a dark background — readability first.
 - Build everything from basic shapes: circles, rectangles, arrows, boxes, signs, screens, stickmen, question marks.
 - ONE bold idea per frame: a single clear subject or moment, drawn big in a simple colored setting. Color and a simple background are good, but NO second competing subject and NO busy clutter.
 
