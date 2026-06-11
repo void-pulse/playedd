@@ -2,6 +2,17 @@
 
 Fuel for the standalone daily wonder-shorts lane. ONE surprising, sourceable fact per short, no payoff to protect, highly shareable. The lane pulls from here. **DEDUP:** never repeat a topic already built (✅ = built; also scan `shorts_daily/*/`). **VERIFY** every number/claim at build time (⚠️ = known myth-risk, state carefully or skip). Keep neutral-wonder. Each short must be genuinely DISTINCT (different fact + visual + hook) — that's what keeps high volume safe from the "repetitious content" rule.
 
+## How to make each short CATCHY (non-negotiable — volume only works if each one grips)
+A flat "did you know" read dies in the feed. Every short must earn the scroll-stop:
+1. **HOOK in the first 1–2 seconds.** Open on the MOST arresting version of the fact as a bold claim or a "wait, what?" — NEVER "Did you know" or a slow wind-up. The first spoken line *is* the hook ("Sharks are older than trees." / "You've never actually seen the present." / "This honey is 3,000 years old and still edible."). It has to stop a thumb mid-swipe.
+2. **TENSION.** One beat that makes them feel the gap — "that sounds impossible, but…" — so they need the answer.
+3. **ESCALATE.** One fact isn't enough. Pile a second jaw-dropper on top ("older than trees, dinosaurs, AND Saturn's rings"). Build, don't list.
+4. **KICKER.** Land the most mind-bending implication last, the line they'll want to repeat to a friend.
+5. **FOLLOW.** "Follow, there's one of these every day."
+- **Frame 1 = the hook as BIG caps** (a bold claim or simple question), instantly readable, one bold doodle.
+- **Energy = "you won't believe this," not "fun fact."** Punchy, conversational, fast. Cut every word that isn't pulling weight. If the first line isn't a scroll-stopper, rewrite it before building.
+- A boring topic with a killer hook beats a great topic read flat. The hook is the product.
+
 ## Deep Time — how old / how recent
 - ✅ Sharks are older than trees (and Saturn's rings)
 - ✅ Cleopatra lived closer to the Moon landing than to the pyramids
