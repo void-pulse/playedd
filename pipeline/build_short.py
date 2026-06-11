@@ -59,10 +59,12 @@ def hex_rgb(h: str):
 LOGO_ASSET = ROOT / "brand" / "assets" / "avatar_800.png"
 
 
-def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str = "FOR FULL,BREAKDOWN"):
+def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str = "FOR FULL,BREAKDOWN",
+                  badge: str = ""):
     """Drive-to-full-video end card for the teaser Short: a big Playedd logo up top, an up-arrow,
-    'FOR FULL BREAKDOWN', and an optional bottom challenge line (e.g. a per-episode like-bait).
-    bg_hex kept for signature compatibility; the card is always white."""
+    'FOR FULL BREAKDOWN', an optional bottom challenge line, and an optional small streak badge
+    (e.g. 'DAILY WONDER #63') for the standalone daily shorts. bg_hex kept for signature
+    compatibility; the card is always white."""
     INK = (34, 34, 34)
     RED = (201, 48, 32)
     card = Image.new("RGB", (W, H), (255, 255, 255))
@@ -115,11 +117,15 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
             for ln in lines:
                 yc += centered(ln, yc, fb, INK) + 14
 
-    # heading (e.g. FOR FULL BREAKDOWN / FOLLOW FOR DAILY WONDER) above the arrow
+    # heading (e.g. BECOME A STAN / FOR FULL BREAKDOWN) above the arrow
     y = int(H * 0.52)
     for line in [x.strip() for x in heading.split(",") if x.strip()]:
         f = fit(line, int(W * 0.82), start=140)
         y += centered(line, y, f, INK) + 34
+
+    # small streak/series badge (e.g. "DAILY WONDER #63") between the heading and the arrow
+    if badge:
+        centered(badge, int(H * 0.675), fit(badge, int(W * 0.7), start=64, lo=40), RED)
 
     # thick CURVED arrow with a CLEAN sharp tip, aimed at the video-link row ~15% in from the
     # left edge with a gentle (not steep) angle. The rounded stroke stops at the arrowhead's neck
@@ -159,6 +165,7 @@ def main():
     ap.add_argument("--bg", default="#1A1A1A", help="solid background color")
     ap.add_argument("--cta-line", default="", help="optional bottom challenge line on the CTA card, e.g. 'LAZY CHALLENGE: like this video'")
     ap.add_argument("--cta-heading", default="FOR FULL,BREAKDOWN", help="comma-split CTA heading lines")
+    ap.add_argument("--badge", default="", help="small streak/series badge on the CTA card, e.g. 'DAILY WONDER #63'")
     ap.add_argument("--cuts", nargs="*", type=float, default=None,
                     help="optional explicit image start times (len == #images)")
     ap.add_argument("--cta-sec", type=float, default=CTA_SEC,
@@ -196,7 +203,7 @@ def main():
 
     tmpdir = Path(tempfile.mkdtemp())
     cta = tmpdir / "cta.png"
-    make_cta_card(args.bg, cta, args.cta_line, args.cta_heading)
+    make_cta_card(args.bg, cta, args.cta_line, args.cta_heading, args.badge)
 
     listf = tmpdir / "list.txt"
     with open(listf, "w") as f:
