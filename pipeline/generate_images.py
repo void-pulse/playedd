@@ -144,13 +144,15 @@ def main():
     out_dir.mkdir(exist_ok=True)
     style_block = load_style_block()
     if args.portrait:
-        # swap the canonical horizontal framing for native vertical 9:16, fill edge to edge
+        # swap horizontal framing for native vertical 9:16 with PHONE-SAFE margins (notch + Shorts UI).
+        # Match the whole Composition line whatever its tail, so this never silently no-ops.
         style_block = re.sub(
-            r"Composition: horizontal 16:9 wide YouTube frame\. Clean, centered, readable\. "
-            r"Do not crop important objects\. Leave breathing room\.",
-            "Composition: VERTICAL 9:16 tall mobile frame (a Short). Compose the subject TALL and "
-            "BIG so it fills the whole vertical frame top to bottom and edge to edge — no empty "
-            "bands, no margins, no dead white space. Clean and readable.",
+            r"Composition: horizontal 16:9 wide YouTube frame\.[^\n]*",
+            "Composition: VERTICAL 9:16 tall mobile phone frame (a Short). Fill the frame with the "
+            "flat colored setting, but keep the ONE bold idea — the key subject AND all caps text — "
+            "inside a CENTERED SAFE ZONE: put nothing important in the top ~15% (the phone notch and "
+            "the video title cover it) or the bottom ~12%, and keep all text well clear of the left "
+            "and right edges so it never runs off-screen. Big, centered, readable caps in the middle.",
             style_block,
         )
 

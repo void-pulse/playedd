@@ -61,6 +61,7 @@ So the style is constant and only the SCENE line changes per timestamp. Consiste
 ## Output spec
 - **Main episode frames: 16:9 (landscape).** Configured in the script.
 - **Shorts: native 9:16 (vertical), generated with the `--portrait` flag.** Don't crop landscape frames into vertical; generate vertical natively (ep4's short was reworked this way).
+- **Shorts PHONE-SAFE ZONE (Logan note 2026-06-10):** on a phone the top ~15% (notch / Dynamic Island + the video title) and the bottom ~12% + right edge (Shorts buttons) cover the frame. Keep the key subject and ALL caps text in the CENTERED safe area — never at the very top and never edge-to-edge wide, or text gets cut off / runs off-screen. `--portrait` injects this; scene descriptions should also place text centered (avoid "fill top to bottom edge to edge" phrasing for shorts).
 - Filenames: named by timestamp, zero-padded so they sort in order (e.g. `0007_0m07s.png`). This is what makes CapCut assembly trivial, drop them in filename order and they're already synced.
 
 ## Color & design direction (UPDATED — colored/scene look, LOCKED IN)
