@@ -39,9 +39,13 @@ Autonomous Playedd BUILD — build only. Work in the repo (/Users/curtisholmes/P
    first. Aim narration ~8 min (~1,350–1,450 words; the locked 0.92x read runs long — trim if over
    ~9 min).
 
-4. SCHEDULE via youtube/uploader/upload.py --episode <ep> --main-at <next open Tue/Sat 18:00Z>
-   --shorts-start-hours 2 --shorts-every-days 2; attach captions (narration.srt) + the chosen
-   thumbnail. Next open slot = the next Tue/Sat after the latest scheduled main in state.json.
+4. UPLOAD PRIVATE — do NOT auto-publish. (CRITICAL: videos auto-published via the YouTube API /
+   a scheduled publishAt get ~no reach — they never enter the Shorts feed. Publishing is done
+   MANUALLY by Logan in Studio, which IS what triggers feed distribution. Proven: a short stuck
+   at 5 views on API auto-publish jumped to 540+ when published in Studio.) So: upload the main +
+   teaser shorts PRIVATE with NO publishAt, attach captions (narration.srt) + the chosen thumbnail,
+   and record a planned_date for each in state.json (long-form on the next open Tue/Sat ~18:00Z;
+   shorts staggered after) so the daily noon publish-reminder surfaces them. NEVER set a publishAt.
 
 5. Leave one-time reminders (with the real video IDs) for Studio-only steps: related-video links on
    the teaser shorts once the main is public; end screen (Playedd logo DIRECTLY ABOVE the outro
