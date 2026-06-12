@@ -67,23 +67,16 @@ def main():
         try:
             r = ya.reports().query(
                 ids="channel==MINE", startDate=start, endDate=end,
-                metrics="views,impressions,impressionsClickThroughRate,averageViewPercentage",
+                metrics="views,averageViewPercentage,averageViewDuration,subscribersGained,likes",
                 filters=f"video=={vid}").execute()
             rows = r.get("rows", [])
-            if rows:
-                views, impr, ctr, avp = rows[0]
-            else:
-                views = impr = ctr = avp = None
+            views, avp, avd, subs, likes = rows[0] if rows else (0, 0, 0, 0, 0)
         except Exception as e:
-            print(f"  {title[:48]:48}  analytics error: {str(e)[:80]}")
+            print(f"  {title[:46]:46}  analytics error: {str(e)[:70]}")
             continue
-        t = (title or "")[:48]
-        if impr is None:
-            print(f"  {t:48}  no data yet")
-        else:
-            print(f"  {t:48}  impr={int(impr):>6}  views={int(views):>5}  "
-                  f"CTR={ctr:>5.1f}%  avgView={avp:>5.1f}%")
-        print(f"  {'':48}  -> {verdict(impr, views, ctr)}\n")
+        t = (title or "")[:46]
+        print(f"  {t:46}  views={int(views):>5}  avgView={avp:>5.1f}%  "
+              f"avgSec={avd:>4.1f}  subs+={int(subs):>3}  likes={int(likes):>3}")
 
 
 if __name__ == "__main__":
