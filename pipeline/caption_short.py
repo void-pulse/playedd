@@ -16,8 +16,10 @@ If --audio is omitted, the audio is pulled straight from the input video.
 If --out is omitted, the input is captioned in place (atomic replace).
 """
 import argparse
+import difflib
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -63,6 +65,46 @@ def whisper_words(audio: Path, model: str, workdir: Path):
     return words
 
 
+def script_tokens(script_path: Path):
+    """Words of the real script (drop the [LABEL] line, SSML <break> tags, em dashes)."""
+    txt = script_path.read_text(encoding="utf-8")
+    txt = re.sub(r"^\[.*?\]", " ", txt)          # [DAILY SHORT — slug] header
+    txt = re.sub(r"<[^>]+>", " ", txt)            # <break .../> SSML
+    txt = txt.replace("—", " ").replace("–", " ")
+    return [t for t in txt.split() if any(c.isalnum() for c in t)]
+
+
+def align_to_script(wwords, tokens):
+    """Keep whisper's word TIMINGS but replace the recognized text with the true
+    script words (fixes mis-hearings like 'crosswalk' -> 'call psychoity')."""
+    def norm(s):
+        return re.sub(r"[^a-z0-9']", "", s.lower())
+    a = [norm(w[0]) for w in wwords]
+    b = [norm(t) for t in tokens]
+    out = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(a=a, b=b, autojunk=False).get_opcodes():
+        if tag == "equal":
+            for k in range(i2 - i1):
+                _, s, e = wwords[i1 + k]
+                out.append((tokens[j1 + k], s, e))
+        elif tag in ("replace", "insert"):
+            m = j2 - j1
+            if m == 0:
+                continue
+            if tag == "replace":
+                t0, t1 = wwords[i1][1], wwords[i2 - 1][2]
+            else:  # insert: borrow the gap between neighbours
+                t0 = wwords[i1 - 1][2] if i1 > 0 else (wwords[0][1] if wwords else 0.0)
+                t1 = wwords[i1][1] if i1 < len(wwords) else (wwords[-1][2] if wwords else t0 + 0.4)
+            if t1 <= t0:
+                t1 = t0 + 0.35 * m
+            step = (t1 - t0) / m
+            for k in range(m):
+                out.append((tokens[j1 + k], t0 + k * step, t0 + (k + 1) * step))
+        # tag == "delete": whisper heard extra words; drop them
+    return out
+
+
 def chunk(words, per=2, max_dur=1.1):
     """Group words into <=`per`-word, <=max_dur chunks for punchy on-beat captions."""
     out, cur = [], []
@@ -74,7 +116,10 @@ def chunk(words, per=2, max_dur=1.1):
     if cur:
         out.append(cur)
     def clean(s):
-        return s.upper().replace(".", "").replace(",", "").replace(";", "").replace(":", "").strip()
+        s = s.upper()
+        for ch in '.,;:"“”«»':
+            s = s.replace(ch, "")
+        return s.strip()
     return [(clean(" ".join(t[0] for t in g)), g[0][1], g[-1][2]) for g in out]
 
 
@@ -89,13 +134,20 @@ def fit_font(d, text):
 
 
 def render_chunk_png(text, path):
+    """Draw each word with a clear gap so 2-word chunks never visually merge."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     f = fit_font(d, text)
+    words = text.split()
+    gap = int(f.size * 0.34)
+    widths = [d.textbbox((0, 0), w, font=f, stroke_width=STROKE)[2] for w in words]
+    total = sum(widths) + gap * (len(words) - 1)
     bb = d.textbbox((0, 0), text, font=f, stroke_width=STROKE)
-    x = (W - (bb[2] - bb[0])) // 2 - bb[0]
+    x = (W - total) // 2
     y = CY - (bb[3] - bb[1]) // 2 - bb[1]
-    d.text((x, y), text, font=f, fill=WHITE, stroke_width=STROKE, stroke_fill=INK)
+    for w, wd in zip(words, widths):
+        d.text((x, y), w, font=f, fill=WHITE, stroke_width=STROKE, stroke_fill=INK)
+        x += wd + gap
     img.save(path)
 
 
@@ -106,6 +158,10 @@ def main():
     ap.add_argument("--out", default=None, help="output mp4 (defaults to in-place)")
     ap.add_argument("--model", default="base", help="whisper model")
     ap.add_argument("--per", type=int, default=2, help="max words per caption chunk")
+    ap.add_argument("--end", type=float, default=None,
+                    help="stop captioning at this time (s) so words don't overlap the CTA end card")
+    ap.add_argument("--script", default=None,
+                    help="path to the script; locks caption TEXT to it (whisper only supplies timing)")
     args = ap.parse_args()
 
     video = Path(args.video)
@@ -120,7 +176,11 @@ def main():
         words = whisper_words(audio, args.model, tdp)
         if not words:
             raise SystemExit("whisper returned no words — nothing to caption")
+        if args.script:
+            words = align_to_script(words, script_tokens(Path(args.script)))
         chunks = chunk(words, per=args.per)
+        if args.end is not None:
+            chunks = [(t, s, min(e, args.end)) for (t, s, e) in chunks if s < args.end]
 
         pngs = []
         for i, (text, s, e) in enumerate(chunks):
@@ -136,7 +196,8 @@ def main():
         fc, last = [], "0:v"
         for idx, (_, s, e) in enumerate(pngs, start=1):
             nxt = f"v{idx}"
-            fc.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{s:.3f},{e:.3f})'[{nxt}]")
+            # half-open [s,e) so adjacent captions never both render on a boundary frame
+            fc.append(f"[{last}][{idx}:v]overlay=0:0:enable='gte(t,{s:.3f})*lt(t,{e:.3f})'[{nxt}]")
             last = nxt
         filter_complex = ";".join(fc)
         tmp_out = tdp / "out.mp4"

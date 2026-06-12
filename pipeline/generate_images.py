@@ -126,6 +126,8 @@ def main():
     ap.add_argument("--only", type=int, default=None)
     ap.add_argument("--portrait", action="store_true",
                     help="native 9:16 vertical for Shorts (overrides the style block's framing)")
+    ap.add_argument("--no-text", action="store_true", dest="no_text",
+                    help="text-free illustrations (CapCut-style burned captions carry the words instead)")
     args = ap.parse_args()
 
     if not os.getenv("FAL_KEY"):
@@ -146,15 +148,23 @@ def main():
     if args.portrait:
         # swap horizontal framing for native vertical 9:16 with PHONE-SAFE margins (notch + Shorts UI).
         # Match the whole Composition line whatever its tail, so this never silently no-ops.
-        style_block = re.sub(
-            r"Composition: horizontal 16:9 wide YouTube frame\.[^\n]*",
-            "Composition: VERTICAL 9:16 tall mobile phone frame (a Short). Fill the frame with the "
-            "flat colored setting, but keep the ONE bold idea — the key subject AND all caps text — "
-            "inside a CENTERED SAFE ZONE: put nothing important in the top ~15% (the phone notch and "
-            "the video title cover it) or the bottom ~12%, and keep all text well clear of the left "
-            "and right edges so it never runs off-screen. Big, centered, readable caps in the middle.",
-            style_block,
-        )
+        if args.no_text:
+            vertical = ("Composition: VERTICAL 9:16 tall mobile phone frame (a Short). A clean, bold "
+                        "doodle ILLUSTRATION that fills the frame with the flat colored setting and ONE "
+                        "clear visual idea, centered. ABSOLUTELY NO words, NO letters, NO captions, NO "
+                        "labels, NO signs with text anywhere in the image — tell the story with the "
+                        "drawing alone (objects, arrows, faces, symbols). Keep the key subject inside a "
+                        "centered safe zone, clear of the top ~15% and bottom ~12% and the side edges.")
+        else:
+            vertical = ("Composition: VERTICAL 9:16 tall mobile phone frame (a Short). Fill the frame with the "
+                        "flat colored setting, but keep the ONE bold idea — the key subject AND all caps text — "
+                        "inside a CENTERED SAFE ZONE: put nothing important in the top ~15% (the phone notch and "
+                        "the video title cover it) or the bottom ~12%, and keep all text well clear of the left "
+                        "and right edges so it never runs off-screen. Big, centered, readable caps in the middle.")
+        style_block = re.sub(r"Composition: horizontal 16:9 wide YouTube frame\.[^\n]*", vertical, style_block)
+        if args.no_text:
+            style_block += ("\n\nIMPORTANT: This is a text-free illustration. Do NOT render any words, letters, "
+                            "numbers as text, captions, labels, or written signs. Visuals only.")
 
     print(f"Model: {args.model} | {len(scenes)} images | concurrency {args.concurrency}")
     ok = skip = err = 0
