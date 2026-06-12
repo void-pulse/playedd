@@ -22,10 +22,12 @@ ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(ROOT / ".env")
 
 # .upload for videos.insert; the broader scope for thumbnails.set, captions.insert,
-# and updating publishAt on existing videos.
+# and updating publishAt on existing videos; yt-analytics.readonly for impressions /
+# CTR / retention so we can diagnose reach (distribution block vs. weak retention).
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload",
           "https://www.googleapis.com/auth/youtube",
-          "https://www.googleapis.com/auth/youtube.force-ssl"]
+          "https://www.googleapis.com/auth/youtube.force-ssl",
+          "https://www.googleapis.com/auth/yt-analytics.readonly"]
 TOKEN_PATH = Path(__file__).resolve().parent / "token.json"
 
 
