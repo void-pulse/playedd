@@ -8,13 +8,16 @@ Must cover BOTH formats — daily shorts AND the long-form deep dives. The banne
 (rendered into brand/assets/banner_playedd_v3_2560x1440.png — red tagline under the PLAYEDD lockup, inside the safe strip. Ties to the "DAILY WONDER #N" streak on the cards.)
 
 ## About / channel description (Customization → Basic info → Description)
-> Ever get hit with a fact so weird your brain just stops? That's the whole channel.
+(Logan's version — kept his voice; only the 3rd paragraph edited to flag both formats + cadence.)
+> Welcome to Playedd
 >
-> Playedd is wonder, explained — about the world you thought you understood. Why time speeds up as you age. Why nobody smiled in old photos. Why everything you own is designed to die.
+> Playedd answers the questions you never thought to ask. Why does time speed up as you get older? Why can't you remember being a baby? Why is everything you own designed to break? Every video takes something ordinary — time, memory, money, the everyday objects around you — and reveals the strange, hidden reason behind it. The hidden why.
 >
-> Two ways in: a short mind-bender every day, and a full deep-dive episode every week when one fact deserves the whole story.
+> Simple doodles, real research, and a satisfying "wait, what?" in every one. If you fall down Wikipedia holes, love mind-blowing facts and did-you-know moments, and like feeling slightly smarter than the system, you're in the right place.
 >
-> Subscribe and become a **Stan** — you'll never run out of things that make you go "wait… that's actually true?" 👇
+> A short wonder every day, and a full deep-dive every week — on psychology, science, history, human behavior, and the hidden design of everyday life. Subscribe, become a Stan, and you'll never look at the ordinary the same way again.
+>
+> Every claim is sourced in the description. Videos use AI-assisted narration and illustrations.
 
 ## Channel trailer (~25s, auto-plays for non-subscribers) — script
 Build as a Short-style vertical via the pipeline (same voice/style), pin as channel trailer.
