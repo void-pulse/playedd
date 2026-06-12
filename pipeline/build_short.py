@@ -133,7 +133,7 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
     p0 = (int(W * 0.43), int(H * 0.78))   # tail (short arrow), under the heading
     pc = (int(W * 0.32), int(H * 0.855))  # control bows the curve DOWN toward the bottom-left
     p2 = (int(W * 0.21), int(H * 0.93))   # head tip: low near the bottom, ~20% from the left edge
-    width = 54
+    width = 16
     N = 64
     pts = [(
         (1 - t) ** 2 * p0[0] + 2 * (1 - t) * t * pc[0] + t * t * p2[0],
@@ -142,7 +142,7 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
     ax, ay = pts[-1][0] - pts[-7][0], pts[-1][1] - pts[-7][1]   # smooth tip tangent (avoids a kink)
     al = math.hypot(ax, ay) or 1.0
     ux, uy = ax / al, ay / al
-    head_len, half_w = 122, 82
+    head_len, half_w = 64, 36
     neck = (p2[0] - ux * head_len, p2[1] - uy * head_len)
     stroke = [p for p in pts if math.hypot(p[0] - p2[0], p[1] - p2[1]) > head_len] + [neck]
     d.line(stroke, fill=RED, width=width, joint="curve")
