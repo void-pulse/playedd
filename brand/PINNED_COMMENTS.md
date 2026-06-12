@@ -15,3 +15,12 @@ Generic (any standalone wonder short):
 
 **More trees than stars** (BRYTMPNgklk)
 > ~3 trillion trees on Earth vs ~100–400 billion stars in our galaxy — Earth wins by a mile. 🌳 Become a Stan 👇 a new wonder every day — drop a "wait, that's true?" fact below and I might make it a short.
+
+**Milk at back of store** (9XV5nkeD850)
+> Bread and eggs are spread to the far corners for the same reason. 🥛 Become a Stan 👇 a new wonder every day — drop a "wait, that's true?" fact below and I might make it a short.
+
+**Bigger shopping carts** (2wu031hTAmk)
+> Bigger plates make you eat more too — same trick on your brain. 🛒 Become a Stan 👇 a new wonder every day — drop a "wait, that's true?" fact below and I might make it a short.
+
+**Phone isn't listening** (ySNhvQFXhjQ)
+> It's called behavioral profiling — and it's completely legal. 📱 Become a Stan 👇 a new wonder every day — drop a "wait, that's true?" fact below and I might make it a short.
