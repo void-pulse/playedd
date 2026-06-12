@@ -25,5 +25,8 @@ Some shorts: pose the wild question, stop on "…the answer's stranger than you 
 ## Milestone / "Wall of Wonderers" (future, episodic + manual)
 Once there's an engaged comment base: feature subscriber comments/questions inside episodes (a recurring segment). Subscribing + commenting becomes a never-expiring lottery ticket. Keep wording to "featuring fans," never "sub to win" (YouTube ToS).
 
+## The shorts ↔ episodes loop
+Two lanes that feed each other. Most daily shorts are standalone ("Become a Stan" card + streak). But when a short's topic maps to an existing/queued EPISODE, it becomes a **teaser**: "FOR FULL BREAKDOWN" card, no streak badge, related-video link + episode-linking pinned comment set at publish. Shorts = the wide top-of-funnel hook; episodes = the depth that earns the subscribe and the watch-time. The lane routes the CTA automatically (see playedd-daily-wonder-shorts-lane). Channel positioning reflects both: "Daily mind-benders. Weekly deep dives." (see brand/CHANNEL_PAGE.md).
+
 ## Honest priority
 The **comment-loop + daily-series streak** convert the traffic we already get and compound. The milestone gimmick is a one-time spike on top. Watch Studio analytics: if per-short views hold as volume rises, push higher; if they drop, that's the ceiling.
