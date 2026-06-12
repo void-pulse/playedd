@@ -130,9 +130,9 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
     # thick CURVED arrow with a CLEAN sharp tip, aimed at the video-link row ~15% in from the
     # left edge with a gentle (not steep) angle. The rounded stroke stops at the arrowhead's neck
     # so the round joints never blunt the tip.
-    p0 = (int(W * 0.43), int(H * 0.78))   # tail (short arrow), under the heading
-    pc = (int(W * 0.32), int(H * 0.855))  # control bows the curve DOWN toward the bottom-left
-    p2 = (int(W * 0.21), int(H * 0.93))   # head tip: low near the bottom, ~20% from the left edge
+    p0 = (int(W * 0.45), int(H * 0.77))   # tail (short arrow), under the heading
+    pc = (int(W * 0.38), int(H * 0.825))  # gentle curve toward the channel-name row
+    p2 = (int(W * 0.30), int(H * 0.875))  # head tip: at the right tip of the @name / subscribe spot
     width = 16
     N = 64
     pts = [(
