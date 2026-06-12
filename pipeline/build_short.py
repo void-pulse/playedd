@@ -94,9 +94,9 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
                 r, g, b, a = px[xx, yy]
                 if r > 232 and g > 230 and b > 222:
                     px[xx, yy] = (r, g, b, 0)
-        side = int(W * 0.70)                       # even bigger logo
+        side = int(W * 0.66)                       # big logo (room for the badge below it)
         logo = logo.resize((side, side), Image.LANCZOS)
-        card.paste(logo, (cx - side // 2, int(H * 0.10)), logo)
+        card.paste(logo, (cx - side // 2, int(H * 0.09)), logo)
 
     # challenge like-bait line up near the logo ("HEAD: body" -> red head + black body)
     if challenge:
@@ -117,15 +117,15 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
             for ln in lines:
                 yc += centered(ln, yc, fb, INK) + 14
 
-    # heading (e.g. BECOME A STAN / FOR FULL BREAKDOWN) above the arrow
-    y = int(H * 0.52)
-    for line in [x.strip() for x in heading.split(",") if x.strip()]:
-        f = fit(line, int(W * 0.82), start=140)
-        y += centered(line, y, f, INK) + 34
-
-    # small streak/series badge (e.g. "DAILY WONDER #63") between the heading and the arrow
+    # streak/series badge (e.g. "DAILY WONDER #63") ABOVE the heading, in brand red
     if badge:
-        centered(badge, int(H * 0.675), fit(badge, int(W * 0.7), start=64, lo=40), RED)
+        centered(badge, int(H * 0.485), fit(badge, int(W * 0.74), start=74, lo=46), RED)
+
+    # heading (e.g. BECOME A STAN / FOR FULL BREAKDOWN) below the badge, above the arrow
+    y = int(H * 0.555)
+    for line in [x.strip() for x in heading.split(",") if x.strip()]:
+        f = fit(line, int(W * 0.82), start=132)
+        y += centered(line, y, f, INK) + 30
 
     # thick CURVED arrow with a CLEAN sharp tip, aimed at the video-link row ~15% in from the
     # left edge with a gentle (not steep) angle. The rounded stroke stops at the arrowhead's neck
@@ -145,14 +145,14 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
     head_len, half_w = 122, 82
     neck = (p2[0] - ux * head_len, p2[1] - uy * head_len)
     stroke = [p for p in pts if math.hypot(p[0] - p2[0], p[1] - p2[1]) > head_len] + [neck]
-    d.line(stroke, fill=INK, width=width, joint="curve")
+    d.line(stroke, fill=RED, width=width, joint="curve")
     r = width / 2                          # round the stroke so the curve reads smooth and thick
     for (x, y) in stroke:
-        d.ellipse([x - r, y - r, x + r, y + r], fill=INK)
+        d.ellipse([x - r, y - r, x + r, y + r], fill=RED)
     perpx, perpy = -uy, ux                 # clean sharp arrowhead from the neck to the tip
     d.polygon([p2,
                (neck[0] + perpx * half_w, neck[1] + perpy * half_w),
-               (neck[0] - perpx * half_w, neck[1] - perpy * half_w)], fill=INK)
+               (neck[0] - perpx * half_w, neck[1] - perpy * half_w)], fill=RED)
 
     card.save(out_png)
 
