@@ -1,0 +1,2 @@
+[DAILY SHORT — 04_phone_ads]
+You talk about something, then see an ad for it, and you swear your phone is listening. It probably is not. The truth is actually worse. Your apps already know where you go, what you search, who you spend time with, and what people like you tend to buy. They can guess what you want before you ever say it out loud. It is not eavesdropping. It is a prediction that is just scary good.
