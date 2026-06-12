@@ -177,7 +177,20 @@ def main():
         if not words:
             raise SystemExit("whisper returned no words — nothing to caption")
         if args.script:
-            words = align_to_script(words, script_tokens(Path(args.script)))
+            toks = script_tokens(Path(args.script))
+            # AUDIO QC: if what the voice actually said diverges hard from the script,
+            # the TTS likely glitched/looped (e.g. ElevenLabs hallucinating). Flag loudly.
+            def nrm(s):
+                return re.sub(r"[^a-z0-9']", "", s.lower())
+            ratio = difflib.SequenceMatcher(a=[nrm(w[0]) for w in words],
+                                            b=[nrm(t) for t in toks], autojunk=False).ratio()
+            if ratio < 0.78:
+                sys.stderr.write(
+                    f"\n*** AUDIO QC FAIL: voice matches script only {ratio:.0%} — the narration "
+                    f"likely glitched (TTS hallucination/loop). Regenerate the audio before shipping. ***\n\n")
+                if not os.getenv("CAPTION_FORCE"):
+                    raise SystemExit(2)
+            words = align_to_script(words, toks)
         chunks = chunk(words, per=args.per)
         if args.end is not None:
             chunks = [(t, s, min(e, args.end)) for (t, s, e) in chunks if s < args.end]
