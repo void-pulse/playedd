@@ -36,7 +36,7 @@ FACE_DIAM = 250         # target on-banner face diameter (smaller than v2 to fit
 WORD_SIZE = 150         # PLAYEDD marker size
 GAP = 100               # space between face and wordmark
 GROUP_CY = 648          # logo group vertical center (nudged up from CY for the tagline)
-TAGLINE = "DAILY MIND-BENDERS · WEEKLY DEEP DIVES"
+TAGLINE = "DAILY WONDERS · WEEKLY DEEP DIVES"
 TAG_CY = 858            # tagline vertical center
 
 

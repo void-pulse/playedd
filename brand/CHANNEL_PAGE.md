@@ -4,9 +4,8 @@ The end card is the punch; THIS is where the pitch lives. Greets everyone who ta
 
 ## Banner tagline (overlaid on the channel art)
 Must cover BOTH formats — daily shorts AND the long-form deep dives. The banner is the channel's whole flag, not just the shorts lane.
-**Daily mind-benders. Weekly deep dives.**
-(alt: "A new wonder every day — the full story every week." / "Short answers daily. Deep dives weekly.")
-Keep it inside YouTube's banner safe area (the center strip shows on every device).
+**Daily wonders · Weekly deep dives**
+(rendered into brand/assets/banner_playedd_v3_2560x1440.png — red tagline under the PLAYEDD lockup, inside the safe strip. Ties to the "DAILY WONDER #N" streak on the cards.)
 
 ## About / channel description (Customization → Basic info → Description)
 > Ever get hit with a fact so weird your brain just stops? That's the whole channel.
