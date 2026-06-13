@@ -1,0 +1,2 @@
+[DAILY SHORT — 05_weekend_speed]
+Why does the weekend fly by, but the work week drags forever? It is not bad luck. Your brain does not measure time with a clock. It measures how often you check one. On the weekend you are relaxed and absorbed, barely looking at the time, so the hours just vanish. At work, you check the clock constantly, and every glance makes it crawl. The more you watch the clock, the slower it moves.
