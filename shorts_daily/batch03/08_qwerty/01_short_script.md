@@ -1,0 +1,2 @@
+[DAILY SHORT — 08_qwerty]
+Why is your keyboard not in alphabetical order? Blame a machine from the eighteen hundreds. Early typewriters had little metal arms, and if you hit two nearby letters too fast, they jammed together. So the layout was scrambled on purpose, to pull the common letters apart and stop the keys from clashing. The typewriter is long gone. The jam-proof mess it left behind is still right under your fingers.
