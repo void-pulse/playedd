@@ -219,10 +219,24 @@ def main():
     # silently drops / mis-times still frames (observed: it dropped the last vignette frame).
     previd = tmpdir / "video.mp4"
     frames = list(zip(imgs, durs)) + [(cta, round(cta_sec + tail, 3))]
+    # Each doodle gets a slow Ken-Burns move (alternating zoom in/out + a gentle sway) so the
+    # short feels alive instead of static. The CTA end card stays still so the circle/text are crisp.
+    n_img = len(imgs)
+    cover = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}"
     vin, vparts = [], []
     for k, (img, du) in enumerate(frames):
         vin += ["-loop", "1", "-t", f"{du}", "-i", str(img)]
-        vparts.append(f"[{k}:v]{scale_body}[v{k}]")
+        if portrait and k < n_img:
+            fr = max(1, int(round(du * FPS)))
+            z = "min(1.0+0.0012*on,1.12)" if k % 2 == 0 else "max(1.12-0.0012*on,1.0)"
+            # zoompan lasts `d` frames PER input frame; trim to fr so it only consumes ONE
+            # frame of the looped input (otherwise it generates fr*du*FPS frames and hangs).
+            zp = (f"zoompan=z='{z}':d={fr}:s={W}x{H}:fps={FPS}:"
+                  f"x='iw/2-(iw/zoom/2)+12*sin(on/26)':y='ih/2-(ih/zoom/2)',"
+                  f"trim=end_frame={fr},setpts=PTS-STARTPTS")
+            vparts.append(f"[{k}:v]{cover},{zp},setsar=1,format=yuv420p[v{k}]")
+        else:
+            vparts.append(f"[{k}:v]{scale_body}[v{k}]")   # CTA card (and any non-portrait): static
     vparts.append("".join(f"[v{k}]" for k in range(len(frames))) + f"concat=n={len(frames)}:v=1[v]")
     vr = subprocess.run(["ffmpeg", "-y", *vin, "-filter_complex", ";".join(vparts), "-map", "[v]",
         "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", str(FPS),
