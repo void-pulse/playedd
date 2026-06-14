@@ -127,10 +127,10 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
         f = fit(line, int(W * 0.82), start=132)
         y += centered(line, y, f, INK) + 30
 
-    # Big hand-drawn red circle around the @name / Subscribe row (bottom-left of the Shorts UI),
-    # scribbled with several overlapping wobbly passes for an emphatic marker look.
-    cxe, cye = int(W * 0.31), int(H * 0.865)   # center over the name/subscribe spot
-    rx, ry = int(W * 0.255), int(H * 0.085)
+    # Big hand-drawn red circle around the @name / Subscribe (very bottom-left of the Shorts UI).
+    # Centered low on the @name so the handle sits in the middle; it runs off the bottom/left edge.
+    cxe, cye = int(W * 0.20), int(H * 0.93)    # center sits ON the @name row
+    rx, ry = int(W * 0.28), int(H * 0.10)
     width = 14
     for p in range(4):                          # several overlapping loops
         steps = 90
