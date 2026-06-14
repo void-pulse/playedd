@@ -127,32 +127,24 @@ def make_cta_card(bg_hex: str, out_png: Path, challenge: str = "", heading: str 
         f = fit(line, int(W * 0.82), start=132)
         y += centered(line, y, f, INK) + 30
 
-    # thick CURVED arrow with a CLEAN sharp tip, aimed at the video-link row ~15% in from the
-    # left edge with a gentle (not steep) angle. The rounded stroke stops at the arrowhead's neck
-    # so the round joints never blunt the tip.
-    p0 = (int(W * 0.45), int(H * 0.77))   # tail (short arrow), under the heading
-    pc = (int(W * 0.38), int(H * 0.825))  # gentle curve toward the channel-name row
-    p2 = (int(W * 0.30), int(H * 0.875))  # head tip: at the right tip of the @name / subscribe spot
-    width = 16
-    N = 64
-    pts = [(
-        (1 - t) ** 2 * p0[0] + 2 * (1 - t) * t * pc[0] + t * t * p2[0],
-        (1 - t) ** 2 * p0[1] + 2 * (1 - t) * t * pc[1] + t * t * p2[1],
-    ) for t in (i / N for i in range(N + 1))]
-    ax, ay = pts[-1][0] - pts[-7][0], pts[-1][1] - pts[-7][1]   # smooth tip tangent (avoids a kink)
-    al = math.hypot(ax, ay) or 1.0
-    ux, uy = ax / al, ay / al
-    head_len, half_w = 64, 36
-    neck = (p2[0] - ux * head_len, p2[1] - uy * head_len)
-    stroke = [p for p in pts if math.hypot(p[0] - p2[0], p[1] - p2[1]) > head_len] + [neck]
-    d.line(stroke, fill=RED, width=width, joint="curve")
-    r = width / 2                          # round the stroke so the curve reads smooth and thick
-    for (x, y) in stroke:
-        d.ellipse([x - r, y - r, x + r, y + r], fill=RED)
-    perpx, perpy = -uy, ux                 # clean sharp arrowhead from the neck to the tip
-    d.polygon([p2,
-               (neck[0] + perpx * half_w, neck[1] + perpy * half_w),
-               (neck[0] - perpx * half_w, neck[1] - perpy * half_w)], fill=RED)
+    # Big hand-drawn red circle around the @name / Subscribe row (bottom-left of the Shorts UI),
+    # scribbled with several overlapping wobbly passes for an emphatic marker look.
+    cxe, cye = int(W * 0.31), int(H * 0.865)   # center over the name/subscribe spot
+    rx, ry = int(W * 0.255), int(H * 0.085)
+    width = 14
+    for p in range(4):                          # several overlapping loops
+        steps = 90
+        stroke = []
+        for i in range(steps + 1):
+            a = 2 * math.pi * i / steps + p * 0.22          # rotate each pass a little
+            wob = 1.0 + 0.045 * math.sin(a * 3 + p * 1.7)   # organic wobble
+            x = cxe + rx * wob * math.cos(a) + (p - 1.5) * 7
+            y = cye + ry * wob * math.sin(a) + (p - 1.5) * 5
+            stroke.append((x, y))
+        d.line(stroke, fill=RED, width=width, joint="curve")
+        r = width / 2                            # round the stroke so the loop reads smooth
+        for (x, y) in stroke[::3]:
+            d.ellipse([x - r, y - r, x + r, y + r], fill=RED)
 
     card.save(out_png)
 
