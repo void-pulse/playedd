@@ -24,19 +24,22 @@ Goal now: subs + views + retention to get monetized, without lowering the bar. S
 This is the single source of truth for what to build next. Vein-rotated (never the same vein twice in a row). Built/scheduled so far: ep5 Time, ep6 Lazy, ep7 Procrastinate, ep8 Einstein, ep9 Aliens, ep10 Thoughts (→ Jun 23), ep11 Tired (→ Jun 27). **Queue starts at ep12.** Topics avoid overlap with the standalone wonder-shorts already made (sharks, Cleopatra, Venus, trees-vs-stars, the present, honey, Caesar's breath). Write narration to ~1,350–1,450 words (~8 min) — the locked 0.92x Jack read runs long, so the old "~1,750 words" estimate lands ~10 min; trim if the render is over ~9 min.
 
 - ~~ep11 — Why Are You Tired All the Time? [Body]~~ ✅ BUILT + scheduled Jun 27 (uVGSRNqkfMk)
-- ep12 — Why Do You Get Deja Vu? [Mind]
-- ep13 — Why Does Nobody Smile in Old Photos? [Deep Time]
-- ep14 — Why Are You You, and Not Someone Else? [Mind/existential] — big swing
-- ep15 — Why Is Every World Map Wrong? [Everyday/Engineered]
-- ep16 — Why Haven't We Been Back to the Moon? [Hidden Scale/space]
+- ep12 — Why Do You Get Deja Vu? [Mind] — ✅ SCRIPT READY (01_script.md, ~6:40, not built)
+- ep13 — Why Does Nobody Smile in Old Photos? [Deep Time] — ✅ SCRIPT READY (~6:45, not built)
+- ep14 — Why Are You You, and Not Someone Else? [Mind/existential] — big swing — ✅ SCRIPT READY (~6:30, not built)
+- ep15 — Why Is Every World Map Wrong? [Everyday/Engineered] — ✅ SCRIPT READY (~6:10, not built)
+- ep16 — Why Haven't We Been Back to the Moon? [Hidden Scale/space] — ✅ SCRIPT READY (~7:00, not built; written 2026-06-15, Artemis II already flew Apr 2026, landing now Artemis IV ~2028)
 - ep17 — Why Do You Self-Sabotage? [Body/behavior]
 - ep18 — High Heels Were Made for Men [Deep Time/history]
 - ep19 — Why Does Music Give You Chills? [Mind/body]
-- ep20 — Why Are There No More Da Vincis? [Figure]
+- ep20 — ~~Why Are There No More Da Vincis? [Figure]~~ ⚠️ NEAR-DUPLICATE of built ep8 "Why Are There No More Einsteins?" (same "no more geniuses" premise). CUT or hard-differentiate (e.g. pivot to "polymaths are extinct — knowledge got too big for one head," the specialization angle) before queuing.
 - ep21 — Are We Living in a Simulation? [Cosmic/existential]
 - ep22 — The Man Who Stayed Awake 11 Days [Wild experiment]
+- ep23 — Why Can't You Pick Something to Watch? [Mind] ★ priority — pull forward into the next open Mind slot (huge relatability, fresh hook)
+- ep24 — Why Do You Value Stuff You Built Yourself? [Mind] — the IKEA effect
+- ep25 — Why Do You Finish Books and Movies You Hate? [Mind] — sunk cost
 
-(Reorder freely; keep vein rotation. Full idea pool + hooks for each are in the sections below.)
+(Reorder freely; keep vein rotation. ★ items can jump the line. Full idea pool + hooks below.)
 
 ---
 
@@ -396,6 +399,28 @@ Use an iconic person or thing as the hook; the real episode is a relatable quest
   - Evergreen cousins already in slate: "Why Is the 40-Hour Work Week...", "What Did People Do Before Jobs?"
 - ⚠️ **Is Elon Musk a Genius?** [figure-as-anchor] — RISKY as a straight verdict on a living, polarizing figure: it's political, it ages fast, and it invites flame-war comments, all off our neutral-wonder lane. SAFER reframe that keeps the juice: **"Why Do We Call People Geniuses?"** / "What Actually Makes a Genius?" using Elon, Jobs, etc. as EXAMPLES, not a verdict, the halo effect, why wealth/confidence reads as brilliance, the different kinds of "smart" (inventor vs visionary vs marketer). Pairs with the Einstein episode.
 - ★ **Could Aliens Actually Reach Us?** [Hidden Scale / cosmic] — the distance + lightspeed + tech barrier. Covers: how far habitable worlds likely are; the brutal scale (nearest star ~4.2 light-years; even AT light speed = years; our fastest craft = tens of thousands of years); the tech level an alien civilization would need; the Fermi paradox + Drake-equation odds; and how laughably far WE are from leaving (Voyager after ~50 years isn't even a light-day out), plus when we might. Spin-off episode: "What Would Aliens Actually Look Like?" (more speculative).
+
+---
+
+## Added 2026-06-11 (Inspiration batch — "evolutionary mismatch" mold; batch skewed doom/decay, kept + REFRAMED only the neutral-wonder ones)
+THE MOLD: "your brain runs ancient survival software in a modern world" is a strong recurring shape (relatable, fascinating). RULE: reframe away from "modern life is killing/breaking you" (doom, self-help-negative — banned register) toward "huh, what a fascinating misfire." Don't run more than ~1 of these in a row.
+- ★ **Why Does a Dying Phone Battery Make You Panic?** [Mind/evo] — ancient threat-detection misfiring at a battery icon. Funny, universal, clean reframe. (queue-worthy)
+- ★ **Why Does Canceling Plans Feel So Good?** [Mind/evo] — the relief spike; social-energy budgeting. Relatable + positive spin (NOT "you're antisocial").
+- ★ **Why Does GPS Make Your Sense of Direction Worse?** [Mind/evo] — navigation atrophy / hippocampus (real science: London cabbie studies). Fascinating, not doom.
+- **Why Can't You Stop Eating Junk Food?** [Body/evo] — taste calibrated for a world where fat/salt/sugar were rare. (health-adjacent: mechanism only, NO advice/shaming.)
+- **Why Can't You Look Away From Bad News?** [Mind/evo] — negativity bias; brain treats bad news as survival info. (doomscroll, reframed neutral.)
+- **Why Does More Never Feel Like Enough?** [Mind] — hedonic treadmill (reframed from the "failure despite living better than a medieval king" title; drop the "failure" framing).
+- REJECTED (doom/decay/anxiety/self-help-negative — banned register, or repeats of the same mold): sedentary "rewiring your skeleton," modern comfort "killing survival instincts," ancestors-never-had-stress/insomnia/boredom/midlife-crisis, loneliness/touch-replaced-by-likes, dating-apps-impossible, guilt-for-resting, open offices, eye-contact loss, retirement = fear of uselessness, minimalism unsettling, privacy = abandonment, etc. (~30 variants of "modern life breaks you" — the anti-register.)
+
+## Added 2026-06-10 (Inspiration batch — filtered; the batch skewed cynical/manipulation, kept only neutral-wonder)
+- ★ **Why Can't You Pick Something to Watch?** [Mind] — decision fatigue / choice overload; the Netflix-scroll paralysis everyone knows.
+- ★ **Why Do You Finish Books and Movies You Hate?** [Mind] — sunk-cost / completion compulsion.
+- ★ **Why Do You Value Stuff You Built Yourself More?** [Mind] — the IKEA effect.
+- **Why Are You More Creative in the Shower?** [Mind/body] — DMN/relaxation (partly touched in ep10 Thoughts; could stand alone).
+- **Why Do You Trust People in Uniforms?** [Mind/social] — the authority/uniform effect.
+- **Why Does a Messy Desk Sometimes Boost Creativity?** [Mind] — (CONTESTED science; flag honestly or skip).
+- Money/design vein (occasional, ~1 in 5 only): **Why Is Milk at the Back of the Store?**, **Why Is Packaging So Hard to Open?** (light/fun design angle, not cynical).
+- REJECTED from this batch (off-brand cynical/manipulation, saturated, or makes the viewer feel exploited): airline/hotel/festival/fast-food "manipulate you to spend," luxury rude service, gyms make you self-conscious, fast-fashion drops, digital casinos, subscriptions hack your clock, malls force-walk, De Beers (already ep2). These are the old "you're being played" lane — not the wonder identity.
 
 ---
 
