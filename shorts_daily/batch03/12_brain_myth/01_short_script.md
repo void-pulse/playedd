@@ -1,0 +1,2 @@
+[DAILY SHORT — 12_brain_myth]
+You have probably heard you only use ten percent of your brain. Unlock the rest and you would be a genius, right? It is completely false. Brain scans show you use basically all of it, every single day. Even resting, almost the whole thing is buzzing. Different parts light up for different jobs, but there is no secret unused ninety percent. Here is the kicker. Your brain is two percent of your body weight, but it eats twenty percent of your energy. Evolution would never keep paying for a part you do not use. You are already using all of it.

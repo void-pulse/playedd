@@ -1,0 +1,2 @@
+[DAILY SHORT — 14_bats_blind]
+Blind as a bat. We say it like it is a fact. But bats are not blind at all. Every single bat species can see, and some see better than we do. Many can even spot ultraviolet light, which is totally invisible to you. The famous echolocation, bouncing sound to map the dark, that is a bonus, not a replacement for eyes. They use both. Big fruit bats barely echolocate at all. They mostly just look around with great big eyes. So next time someone says blind as a bat, they have it backwards. The bat can probably see more than they can.

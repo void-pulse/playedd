@@ -1,0 +1,2 @@
+[DAILY SHORT — 13_goldfish_memory]
+You have heard it a hundred times. A goldfish has a three second memory. So it is basically happy swimming in a tiny bowl, forgetting everything. Total myth. Goldfish can remember things for months. Scientists trained them to push levers, swim through little mazes, and recognize their owners. They even learn to expect food at a certain time, and show up early waiting. A three second memory could not do any of that. So that goldfish in the bowl is not blissfully forgetting. It remembers. And it knows the bowl is small.
