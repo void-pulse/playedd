@@ -1,0 +1,2 @@
+[SHORT — 08_skit]
+You have one thing due tomorrow. So naturally, you sit down to start it <break time="0.3s"/> and instead you deep clean the entire kitchen. You alphabetize the spice rack. You suddenly care deeply about a drawer you have not opened in a year. You are busy. You are productive. You are doing everything except the one thing. And the whole time, you feel awful. Here is the twist. That is not laziness. It is almost the opposite. And the real reason you do it is stranger than you think. The full breakdown is on the channel.
