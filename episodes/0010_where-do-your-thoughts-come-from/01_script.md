@@ -1,6 +1,6 @@
 # Script — Where Do Your Thoughts Come From?
 
-(Narration only. Short paragraphs, one idea each. Spoken style. Mark the human-layer beat inline with [HUMAN LAYER]. Minimize em dashes. Spine maps to brand/STORY.md. EMOTIONAL REGISTER: neutral + wonder, gently liberating; NOT free-will-doom, NOT woo. Stan = everyman. Fun history thread. TARGET ~7 min / ~1,750 words, Jack reads fast.)
+(Narration only. Short paragraphs, one idea each. Spoken style. Mark the human-layer beat inline with [HUMAN LAYER]. Minimize em dashes. Spine maps to brand/STORY.md. EMOTIONAL REGISTER: neutral + wonder, gently liberating; NOT free-will-doom, NOT woo. Stan = everyman. Fun history thread. TARGET ~8 min / ~1,400 words at Jack's locked 0.92x read (this script ~1,220 words, renders ~6:48).)
 
 **[COLD OPEN]**
 Right now, you are thinking a thought. So try something with me. Guess your next thought. Not think it, guess it, before it arrives. Go. You cannot, can you. It just shows up, on its own, fully formed, like it wandered in from another room. Stan tries it, and out of nowhere his brain serves up a random craving for a sandwich. Where did that come from? He did not decide to think it. It just appeared. You feel like the author of your thoughts. But the truth is a lot stranger, and once you see it, the voice in your head will never sound quite the same.
@@ -49,4 +49,4 @@ So the next time a thought appears out of nowhere, see it for what it really is.
 - NEUTRAL + WONDER, gently liberating landing (you're not your thoughts; you choose what to act on). NOT nihilistic, NOT "you have no free will," NOT woo. Keep concrete.
 - LIBET: present as debated, simple-movements-only, with Libet's own veto caveat. Do NOT conclude free will is disproven. Keep "you don't author your thoughts" (supported) separate from "you have no control" (overreach); the payoff reaffirms agency over your response.
 - Keep "I think therefore I am" light, not a philosophy lecture.
-- Minimize em dashes. Target ~7 min (~1,750 words).
+- Minimize em dashes. Target ~8 min / ~1,400 words at Jack's locked 0.92x read (this script ~1,220 words → ~6:48).

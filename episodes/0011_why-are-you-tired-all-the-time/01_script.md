@@ -1,6 +1,6 @@
 # ep11 — Why Are You Tired All the Time? (LOCKED narration)
 
-Register: neutral + wonder, reassuring landing. Features Stan. ~1,750 words / ~7 min. Minimize em dashes.
+Register: neutral + wonder, reassuring landing. Features Stan. ~1,400 words / ~8 min at Jack's locked 0.92x read (this script ~1,480 words, renders ~8:44). Minimize em dashes.
 
 ---
 
