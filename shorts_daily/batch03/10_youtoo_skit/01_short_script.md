@@ -1,0 +1,2 @@
+[DAILY SHORT — 10_youtoo_skit]
+Picture it. You are at the movies. The worker hands you your popcorn and says, enjoy the movie. And your mouth, way faster than your brain, says <break time="0.4s"/> you too. <break time="0.5s"/> They do not watch the movie. They work here. And now you are sweating. <break time="0.3s"/> You will replay this at 3am for the next ten years. But here is the wild part. Your brain runs these little chats on autopilot, off a script, so you answer before you even hear the words. You are not awkward. You were just on autopilot.
