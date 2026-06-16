@@ -25,6 +25,17 @@ Researched vs two competitors Logan named. Hard data pulled via YouTube API.
 ## Honest framing
 Our shorts engine is working and growing the channel. Long-form is a DIFFERENT game we haven't actually played yet — we've been posting shorts-quality long-form with no packaging. Zenn proves the niche can do millions. The gap is packaging + depth + retention, not topic.
 
+## LOCKED-IN long-form style (2026-06, "for a while" per Logan)
+The repeatable episode formula, proven on ep17 (childhood amnesia):
+1. **Packaging FIRST** — curiosity-bomb title + premium thumbnail designed before the script.
+2. **MOODY CINEMATIC art** — dark near-black backgrounds, one dramatic spotlight, high contrast, text-free doodles. Generate with `pipeline/generate_episode_images.py` (landscape 16:9). This replaces the bright flat shorts look for episodes. A visual punch every ~14-20s; several are deliberate "thumbnail moments."
+3. **Zenn structure** — impossible question (0-30s) → unsettling fact → science → paradox → philosophy → identity crisis → eerie landing. Re-hook before every slow turn; a strong identity re-hook ~halfway.
+4. **SHORT sentences** (people watch, don't read). Tight script, ~6-9 min real deep dive (not 4-5 min skims).
+5. **Land hard, then black, then outro.** No extra explanation after the final line.
+Pipeline: 01_script.md → generate_audio (tempo 0.92) → whisper SRT → 03_segments.json + 04_scenes.json (~25 scenes) → generate_episode_images.py → assemble.py → thumbnail set on upload.
+
+**The OLD bright-doodle style is NOT deleted** — it remains the SHORTS default (brand/IMAGE_STYLE.md STYLE_BLOCK + pipeline/generate_images.py) and episodes can switch back to it anytime.
+
 ## First moves
 - Re-package the 2–3 best existing long-forms (new Zenn-style titles + new thumbnails) and watch CTR/impressions move.
 - Build the NEXT long-form Zenn-style end-to-end: killer title + thumbnail designed FIRST, then a deep 8–10 min script engineered for retention.
