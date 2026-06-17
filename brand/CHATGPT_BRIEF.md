@@ -2,6 +2,9 @@
 
 You're helping me with my faceless YouTube channel, **Playedd**. Here's everything about what it is, the style, and exactly how we make it. Use this as full context; help me brainstorm topics, hooks, titles, scripts, and strategy.
 
+## IDENTITY (the north star — read first)
+Playedd = **"the hidden why behind being YOU."** Not science/curiosity — a channel about the viewer's own mind, behavior, and existence. We don't teach, we **manufacture a feeling**: every video must trigger ≥2 of 🧠 Recognition ("I do that"), 😳 Discomfort ("unsettling"), 🤯 Wonder ("never thought about that"), 🫥 Existential unease ("who am I then?"). ONE RULE: no purely-external topics — everything points back to the viewer ("dead stars" → "you're made of dead stars"). Pillars: 45% Hidden Brain, 25% Hidden Behavior, 20% Hidden Society, 10% Hidden Existence (flagship). Topic gate scorecard (2pts each): secretly about viewer? / identity crisis? / "never thought about that"? / instant visual? / supports 8-min? — 0-4 discard, 5-7 short, 8-10 flagship. Order: TOPIC → title → thumbnail → script → visuals (topic is the ceiling).
+
 ## The channel
 - **Playedd** — a "hidden why" curiosity channel: we take something ordinary and reveal the strange, true reason behind it. Niche = psychology, science, history, human behavior, the hidden design of everyday life.
 - Tagline: **"Daily wonders · Weekly deep dives."** Subscribers are called **"the Stans"** (CTA = "Become a Stan"); mascot is **Stan**, a plain crude stick figure (round white head, two dot eyes, simple line mouth, thin limbs, no hair).
