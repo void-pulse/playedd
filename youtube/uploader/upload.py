@@ -140,6 +140,9 @@ def main():
     ap.add_argument("--shorts-every-days", type=float, default=2.0,
                     help="gap between shorts after the first")
     ap.add_argument("--skip-shorts", action="store_true")
+    ap.add_argument("--schedule", action="store_true",
+                    help="ACTUALLY set publishAt (auto-publish). DEFAULT OFF = upload PRIVATE with no "
+                         "publishAt; publish manually in Studio (the reach lever — API auto-publish gets ~0 reach).")
     args = ap.parse_args()
 
     episode = ROOT / args.episode
@@ -152,6 +155,9 @@ def main():
     shorts = [] if args.skip_shorts else spec.get("shorts", [])
     main_at, short_times = drip_times(args.main_at, len(shorts),
                                       args.shorts_start_hours, args.shorts_every_days)
+    if not args.schedule:
+        # PRIVATE-BY-DEFAULT: never auto-publish. Upload private, Logan publishes natively in Studio.
+        main_at, short_times = None, [None] * len(shorts)
     state = load_state()
 
     print(f"episode: {episode.name}  (main + {len(shorts)} shorts)  spec OK")

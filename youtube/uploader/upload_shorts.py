@@ -24,6 +24,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--manifest", required=True)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--schedule", action="store_true",
+                    help="ACTUALLY use the manifest's publishAt. DEFAULT OFF = upload PRIVATE with no "
+                         "publishAt (publish natively in Studio — API auto-publish gets ~0 reach).")
     args = ap.parse_args()
     records = json.loads((ROOT / args.manifest).read_text(encoding="utf-8"))
     problems = [r["file"] for r in records if not (ROOT / r["file"]).exists()]
@@ -41,7 +44,8 @@ def main():
     from auth import get_credentials
     yt = build("youtube", "v3", credentials=get_credentials(interactive=False))
     for r in pending:
-        if not insert_video(yt, r, r["publishAt"], state):
+        pub = r.get("publishAt") if args.schedule else None   # private-by-default
+        if not insert_video(yt, r, pub, state):
             break
         time.sleep(1)
     print("\nall scheduled standalone shorts:")
