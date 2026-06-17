@@ -1,0 +1,2 @@
+[DAILY SHORT — 15_never_touch]
+Right now you think you are touching your phone. You are not. You never have. Atoms are mostly empty space, wrapped in clouds of electrons. And electrons violently repel each other. So when you press your hand on anything, the atoms never actually meet. They hover a hair apart, held by pure force. That warmth, that pressure, that solid feeling, is just energy pushing back. You have gone your whole life without ever touching a single thing.
