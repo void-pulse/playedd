@@ -66,9 +66,11 @@ def whisper_words(audio: Path, model: str, workdir: Path):
 
 
 def script_tokens(script_path: Path):
-    """Words of the real script (drop the [LABEL] line, SSML <break> tags, em dashes)."""
+    """Spoken words of the real script — drops # comment lines, ALL [LABEL] section
+    tags (episodes have many), SSML <break> tags, and em dashes."""
     txt = script_path.read_text(encoding="utf-8")
-    txt = re.sub(r"^\[.*?\]", " ", txt)          # [DAILY SHORT — slug] header
+    txt = "\n".join(l for l in txt.splitlines() if not l.lstrip().startswith("#"))
+    txt = re.sub(r"\[.*?\]", " ", txt)            # all [LABEL] tags (global, not just leading)
     txt = re.sub(r"<[^>]+>", " ", txt)            # <break .../> SSML
     txt = txt.replace("—", " ").replace("–", " ")
     return [t for t in txt.split() if any(c.isalnum() for c in t)]
